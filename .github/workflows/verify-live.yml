@@ -16,27 +16,30 @@ jobs:
     steps:
       - name: Check out the published source
         uses: actions/checkout@v4
-      - name: Compare live HTML with this GitHub commit
+      - name: Diagnose live version
         shell: bash
         run: |
           set -euo pipefail
-          EXPECTED="$(sha256sum index.html | cut -d' ' -f1)"
-          SITE_URL="https://artgallerybyenso.netlify.app/index.html?release=${GITHUB_SHA}"
-          for attempt in $(seq 1 12); do
-            echo "Checking live website, attempt ${attempt}/12"
-            if curl --fail --silent --show-error --location --max-time 20 "${SITE_URL}" -o /tmp/live-gallery.html; then
-              ACTUAL="$(sha256sum /tmp/live-gallery.html | cut -d' ' -f1)"
-              if [[ "${EXPECTED}" == "${ACTUAL}" ]]; then
-                echo "SUCCESS: Netlify is serving the exact index.html from GitHub."
-                echo "Verified commit: ${GITHUB_SHA}"
-                echo "Live URL: https://artgallerybyenso.netlify.app/"
-                exit 0
-              fi
-              echo "Live site accessible, but published HTML does not yet match GitHub."
-            else
-              echo "Live website not accessible on this attempt."
-            fi
-            sleep 10
-          done
-          echo "FAILED: Could not verify that Netlify is serving this version."
-          exit 1
+          URL="https://artgallerybyenso.netlify.app/index.html?verify=${GITHUB_SHA}"
+          echo "EXPECTED SHA256:"
+          sha256sum index.html
+          echo "EXPECTED title:"
+          grep -o '<title>[^<]*</title>' index.html | head -1
+          echo "Fetching live page"
+          curl --fail --silent --show-error --location --max-time 20 "$URL" -o /tmp/live.html
+          echo "LIVE HTTP FILE SHA256:"
+          sha256sum /tmp/live.html
+          echo "LIVE title:"
+          grep -o '<title>[^<]*</title>' /tmp/live.html | head -1 || true
+          echo "LIVE filesize:"
+          wc -c /tmp/live.html
+          echo "LIVE includes Isaac Levitan?"
+          if grep -q 'Isaac Levitan' /tmp/live.html; then echo YES; else echo NO; fi
+          echo "LIVE includes artist collection homepage?"
+          if grep -q '艺术家收藏馆' /tmp/live.html; then echo YES; else echo NO; fi
+          if cmp -s index.html /tmp/live.html; then
+            echo "SUCCESS: live Netlify file matches GitHub exactly."
+          else
+            echo "MISMATCH: live Netlify file differs from GitHub."
+            exit 1
+          fi
