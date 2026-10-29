@@ -1,0 +1,17 @@
+{
+  "name": "凝视｜私人艺术图书馆",
+  "short_name": "凝视",
+  "description": "私人艺术漫游与中文赏画笔记",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f3",
+  "theme_color": "#f8f7f3",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
