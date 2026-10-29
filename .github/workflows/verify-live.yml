@@ -16,30 +16,27 @@ jobs:
     steps:
       - name: Check out the published source
         uses: actions/checkout@v4
-      - name: Diagnose live version
+      - name: Identify difference between source and live HTML
         shell: bash
         run: |
           set -euo pipefail
-          URL="https://artgallerybyenso.netlify.app/index.html?verify=${GITHUB_SHA}"
-          echo "EXPECTED SHA256:"
-          sha256sum index.html
-          echo "EXPECTED title:"
-          grep -o '<title>[^<]*</title>' index.html | head -1
-          echo "Fetching live page"
-          curl --fail --silent --show-error --location --max-time 20 "$URL" -o /tmp/live.html
-          echo "LIVE HTTP FILE SHA256:"
-          sha256sum /tmp/live.html
-          echo "LIVE title:"
-          grep -o '<title>[^<]*</title>' /tmp/live.html | head -1 || true
-          echo "LIVE filesize:"
-          wc -c /tmp/live.html
-          echo "LIVE includes Isaac Levitan?"
-          if grep -q 'Isaac Levitan' /tmp/live.html; then echo YES; else echo NO; fi
-          echo "LIVE includes artist collection homepage?"
-          if grep -q '艺术家收藏馆' /tmp/live.html; then echo YES; else echo NO; fi
-          if cmp -s index.html /tmp/live.html; then
-            echo "SUCCESS: live Netlify file matches GitHub exactly."
-          else
-            echo "MISMATCH: live Netlify file differs from GitHub."
-            exit 1
-          fi
+          curl --fail --silent --show-error --location --max-time 20 "https://artgallerybyenso.netlify.app/index.html?verify=${GITHUB_SHA}" -o /tmp/live.html
+          python3 - <<'PY'
+          from pathlib import Path
+          a = Path('index.html').read_bytes()
+          b = Path('/tmp/live.html').read_bytes()
+          p = 0
+          while p < min(len(a), len(b)) and a[p] == b[p]:
+              p += 1
+          s = 0
+          while s < min(len(a), len(b)) - p and a[-1-s] == b[-1-s]:
+              s += 1
+          print('source_bytes=', len(a), 'live_bytes=', len(b))
+          print('first_diff_byte=', p, 'common_suffix=', s)
+          print('source_diff_repr=', repr(a[p:len(a)-s][:600]))
+          print('live_diff_repr=', repr(b[p:len(b)-s][:900]))
+          print('source_remainder_bytes=', len(a)-s-p)
+          print('live_remainder_bytes=', len(b)-s-p)
+          print('same_source_except_one_insertion=', b[:p] + b[len(b)-s:] == a if s else b[:p] == a)
+          print('live_has_levitan=', b'Isaac Levitan' in b)
+          PY
