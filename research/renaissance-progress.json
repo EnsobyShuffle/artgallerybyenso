@@ -303,7 +303,19 @@
     "observedAt": "2026-10-30 22:35:36 UTC",
     "lastObservedLiveUnits": 3,
     "pendingPublicationUnits": 9,
-    "verification": "本轮Netlify后台实见production deploys paused，上一轮Monet35发布Skipped；生产页面达·芬奇仍3件。当前源码12件，待发布9件。"
+    "verification": "本轮Netlify后台实见production deploys paused，上一轮Monet35发布Skipped；生产页面达·芬奇仍3件。当前源码12件，待发布9件。",
+    "contentCommit": "7087572ef48f016934728d0086d9d5bf01508e7b",
+    "finalCheck": {
+      "checkedAt": "2026-10-30 22:36:54 UTC",
+      "contentCommit": "7087572ef48f016934728d0086d9d5bf01508e7b",
+      "repoReadback": 12,
+      "liveLeonardoCount": 3,
+      "liveNewWorks": 0,
+      "deployEvent": "Skipped",
+      "deployId": "6ae51bd0de181527be0bd481",
+      "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae51bd0de181527be0bd481",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo"
+    }
   },
   "authoritativeSource": "GitHub main renaissance.js and research/renaissance-progress.json; older Library master is a historical snapshot, not the current publication source"
 }
