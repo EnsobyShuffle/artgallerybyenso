@@ -7,7 +7,9 @@
       "id": "monet",
       "name": "Claude Monet",
       "completeWorks": 30,
-      "target": 50
+      "target": 50,
+      "publishedWorks": 20,
+      "pendingPublicationWorks": 10
     },
     {
       "id": "renoir",
@@ -59,7 +61,7 @@
     }
   ],
   "sourceFile": "impressionism.js",
-  "nextAction": "莫奈30/50；继续补齐剩余20幅，沿用博物馆资料与逐件许可核验。",
+  "nextAction": "先核验原站部署是否已包含提交3113c037（30幅模块与10张新图片）；完成后将publishedWorks改30并继续补莫奈剩余20幅。不要重复添加本批10幅。",
   "classification": "Manet 是先驱/关联人物，后印象派和新印象派不混入本栏目。",
   "factualSources": [
     "https://www.artic.edu/artworks/14598",
@@ -96,14 +98,15 @@
   "verification": {
     "metadata": "10 official museum pages and Commons accession identities checked",
     "images": "10 local JPEGs decoded and contact sheet inspected; 8 CC0 and 2 Public Domain",
-    "deployment": "Previous 20 live; this batch pending verification",
-    "interface": "Content-only extension; regression pending"
+    "deployment": "2026-10-31 03:34 Asia/Shanghai: repeated live requests including cache-busting query still return 20 pieces; 10 new asset URLs return 404. GitHub commit 3113c03753e6137832b8bebeb4cd2dfc78421c62 exists. Netlify deployment not confirmed; do not report 30 live.",
+    "interface": "Existing live page reloaded and shows 20. New-work UI acceptance blocked until deployment. Repo catalogue audit and public artist-link workflow pass; local extension JS and 30 distinct IDs/sources validated. Existing mobile CSS breakpoints retained; mobile visual QA not performed."
   },
   "imageWorkflow": "Keep licensed self-hosted JPEGs in assets/impressionism. Official Art Institute IIIF image links failed in this environment; use verified Commons copies matched to museum accession records when needed. Each piece preserves sourceImage, imageSource, license, rightsSource and attribution. One image (16564) is CC BY-SA 4.0 credited to Maltaper; retain attribution and share-alike notice.",
   "lastBatch": {
     "artist": "monet",
     "added": 10,
     "total": 30,
-    "status": "Publication pending verification"
+    "status": "Committed; production still serves 20 works, not verified live",
+    "commit": "3113c03753e6137832b8bebeb4cd2dfc78421c62"
   }
 }
