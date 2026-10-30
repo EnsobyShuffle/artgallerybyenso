@@ -1,0 +1,83 @@
+name: Harvest verified artwork records
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  harvest:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[harvest candidates]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Harvest original artist page URLs and image metadata
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request,urllib.parse,json,re,html,time,concurrent.futures,collections
+          from html.parser import HTMLParser
+          class P(HTMLParser):
+            def __init__(self):
+              super().__init__();self.a=[];self.active=None;self.meta=[]
+            def handle_starttag(self,t,attrs):
+              d=dict(attrs)
+              if t=='a': self.active={'href':d.get('href'),'title':d.get('title'),'text':''}
+              if t=='meta':self.meta.append(d)
+            def handle_data(self,x):
+              if self.active is not None:self.active['text']+=x
+            def handle_endtag(self,t):
+              if t=='a' and self.active is not None:self.a.append(self.active);self.active=None
+          def get(url):
+            req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36','Accept-Language':'en-US,en;q=0.9'})
+            with urllib.request.urlopen(req,timeout=18) as r:return r.read().decode('utf-8','replace')
+          def preview(entry):
+            site,title,url=entry
+            try:
+              page=get(url);p=P();p.feed(page)
+              meta={x.get('property',''):html.unescape(x.get('content','')) for x in p.meta if x.get('property','').startswith('og:')}
+              img=meta.get('og:image','')
+              desc=meta.get('og:description','')
+              if not img.startswith('https://uploads') or '/images/'+site+'/' not in img:return None
+              return {'site':site,'title':html.unescape(title.strip()),'url':url,'image':img,'desc':desc,'year':re.search(r'(1[6789]\d\d|20\d\d)',url).group(0) if re.search(r'(1[6789]\d\d|20\d\d)',url) else ''}
+            except Exception as e:return {'error':site+' '+url+' '+str(e)[:80]}
+          for site in ('isaac-levitan','marcel-duchamp'):
+            url='https://www.wikiart.org/en/'+site+'/all-works/text-list'
+            raw=get(url);p=P();p.feed(raw)
+            entries=[]; seen=set()
+            for a in p.a:
+              href=a.get('href') or ''
+              if href.startswith('/en/'+site+'/') and '/all-works' not in href:
+                link=urllib.parse.urljoin(url,href)
+                if link in seen:continue
+                seen.add(link)
+                entries.append((site,a.get('text') or '',link))
+            print('ARTIST_LINKS',site,len(entries),flush=True)
+            # Use early, middle and late career, not just the first few chronological records.
+            indices=(list(range(0,min(45,len(entries)))) + list(range(45,min(75,len(entries)))) + list(range(max(0,len(entries)-40),len(entries))))
+            indices=list(dict.fromkeys(indices))
+            with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+              results=list(pool.map(preview,[entries[i] for i in indices]))
+            rec=[r for r in results if r and not r.get('error')]
+            print('ARTIST_RESULT',site,len(rec),'ERRORS',len(results)-len(rec),flush=True)
+            for x in rec[:120]:print('ARTWORK',json.dumps(x,ensure_ascii=False),flush=True)
+            for x in results:
+              if x and x.get('error'):print('WARN',x['error'][:180],flush=True)
+          for key,url in [('menne','https://matthias-menne.pixels.com/shop/framed%2Bprints'),('menne_other','https://matthias-menne.pixels.com/shop/prints'),('callaghan_kenny','https://www.thekennygallery.ie/artists/callaghangeorge/')]:
+            try:
+              raw=get(url);p=P();p.feed(raw)
+              links=[]
+              for a in p.a:
+                v=a.get('href') or ''
+                if key.startswith('menne') and '/featured/' in v:
+                  links.append({'name':' '.join(a.get('text','').split()),'url':urllib.parse.urljoin(url,v)})
+                elif key=='callaghan_kenny' and any(z in (a.get('text','')+' '+v).lower() for z in ('exhibition','catalogue','artist','work','callaghan')):
+                  links.append({'name':' '.join(a.get('text','').split()),'url':urllib.parse.urljoin(url,v)})
+              unique=list({x['url']:x for x in links}.values())
+              print('SOURCE_LINKS',key,len(unique),flush=True)
+              for x in unique[:90]:print('SOURCE_ENTRY',key,json.dumps(x,ensure_ascii=False),flush=True)
+            except Exception as e:print('ERROR',key,str(e)[:140],flush=True)
+          PY
