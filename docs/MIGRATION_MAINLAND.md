@@ -68,3 +68,16 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 ## 验证边界
 
 本轮执行的是源码和离线数据验证；未执行真实浏览器交互、国内多运营商测试、ICP备案、腾讯云上传或付款。数据恢复测试覆盖合并、冲突、重复导入、错误格式、恶意属性、写入失败回退及原数据损坏时不覆盖。不得将“准备完成”写成“已迁移上线”。
+
+
+## 并发内容检查点｜2026-10-31 03:38 Asia/Shanghai
+
+本轮比较迁移分支与最新 main，未直接把旧快照覆盖到 main 或反向重置分支：
+
+- migration/tencent-mainland 当前头：b47b527113890c25cd1d2cb97bd73869419784bd；共同基线：399df0d2601d5575da5004183fc66553679aa54a。
+- main 当前头：c9c092bc5065fcde8407647d00c62e59b557fad6，提交说明为 Monet 30 prepared / production verification pending。
+- GitHub compare 显示分支已分叉：迁移分支领先6个提交、落后1个提交。差异涉及 impressionism.js、renaissance.js、index.html、两个进度JSON及10张 Monet 图像资产。
+- 结论：迁移分支尚未吸收 main 的最新 Monet 内容；本轮不宣称数据已合并或迁移包已更新。合并时需保留迁移适配与 main 的新增画作/资产，再重跑计数、来源/图像审计、个人数据回归和 CloudBase preview/release 检查。
+- 验证边界：本轮完成 GitHub 分支/commit 比较；没有国内网络或腾讯云账号会话，未部署、未切域名、未做运营商/微信访问验收。
+
+下一步：先以当前 main 和迁移分支为双端输入，在本地重建可比较工作树；逐文件合并新增作品和页面适配后，生成新的 migration 分支提交与审计产物。不能只更新本说明而把合并记作完成。
