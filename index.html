@@ -257,6 +257,7 @@ function renderHomeArtists(){
  document.querySelectorAll('[data-collection]').forEach(a=>{if((a.dataset.collection==='impressionism')===impressionism)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
  $('collectionLabel').textContent=impressionism?'印象派 · 艺术家':'已收藏的艺术家';
  $('collectionIntro').hidden=!impressionism;
+ document.querySelector('.collection-end').hidden=impressionism;
  $('collectionIntro').textContent='从莫奈开始，逐位认识印象派。每位艺术家精选 50 幅原作，配中文介绍、独立赏析和馆藏来源；以下展示已开始收录的艺术家。';
  $('collectionArtistCount').textContent=String(ids.length).padStart(2,'0');
  $('headerArtistCount').textContent=String(ids.length).padStart(2,'0');
