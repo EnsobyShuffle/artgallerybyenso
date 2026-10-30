@@ -4,9 +4,9 @@
   "updatedAt": "2026-10-31",
   "countingRule": "独立实物为单位；正反面与局部不重复；合作作品另行标记",
   "verifiedUnits": 8,
-  "illustratedAndInterpreted": 3,
+  "illustratedAndInterpreted": 8,
   "publishedVerified": 3,
-  "liveVerification": "Browser verified collection route, Leonardo route and Ginevra image/detail. Base gallery JSON unchanged. JavaScript parsed successfully. Mobile physical-device QA pending; inherited responsive CSS retained.",
+  "liveVerification": "本轮源码语法检查通过，7个作品ID无重复；5张候选原图均在浏览器实际看过。线上当前仍显示上一版3件；GitHub提交完成，Netlify部署尚未核实。未进行本轮手机竖屏/横屏实测。",
   "artistQueue": [
     "Leonardo da Vinci",
     "Michelangelo",
@@ -30,6 +30,10 @@
   ],
   "coverageMap": [
     {
+      "section": "中世纪向文艺复兴的过渡",
+      "status": "单列衔接章节，候选艺术家与作品待馆藏核验"
+    },
+    {
       "section": "佛罗伦萨早期文艺复兴",
       "status": "pending"
     },
@@ -44,76 +48,261 @@
     {
       "section": "北方文艺复兴",
       "status": "pending"
+    },
+    {
+      "section": "风格主义衔接",
+      "status": "单列衔接章节，不将全部16世纪作品归为统一风格"
     }
   ],
   "pending": [
     {
-      "id": "leonardo-uffizi-1618",
-      "title": "Annunciation by Leonardo da Vinci",
-      "source": "https://www.uffizi.it/en/artworks/annunciation",
-      "metadataVerified": true,
-      "status": "image_rights_and_visual_review_pending",
-      "sourceImageCandidates": [
-        "https://www.datocms-assets.com/103094/1688661762-1503990074029518-568314.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
-        "https://www.datocms-assets.com/103094/1688661773-1503990086334194-568324.jpg?auto=format%2Ccompress&cs=srgb&max-w=800"
-      ],
-      "note": "约1472；木板油画；90×222cm；1890 n.1618。原委托人与最初位置不明。"
-    },
-    {
-      "id": "leonardo-uffizi-1594",
-      "title": "Adoration of the Magi by Leonardo da Vinci",
-      "source": "https://www.uffizi.it/en/artworks/leonardo-adoration-of-the-magi",
-      "metadataVerified": true,
-      "status": "image_rights_and_visual_review_pending",
-      "sourceImageCandidates": [
-        "https://www.datocms-assets.com/103094/1688660301-leonardo-dopo-restauro.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
-        "https://www.datocms-assets.com/103094/1688978554-ghirlandaio.jpg?cs=srgb&fit=crop&h=710&w=1450"
-      ],
-      "note": "约1482；木板上炭笔、水性墨及油彩；244×240cm；1890 n.1594。未完成；1481年委托。"
-    },
-    {
-      "id": "verrocchio-leonardo-uffizi-8358",
-      "title": "The Baptism of Christ by Verrocchio and Leonardo",
-      "source": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ",
-      "metadataVerified": true,
-      "status": "image_rights_and_visual_review_pending",
-      "sourceImageCandidates": [
-        "https://www.datocms-assets.com/103094/1688681077-1576848059137780-07-leonardo-e-verrocchio.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
-        "https://www.datocms-assets.com/103094/1688681087-1576848066475620-07b-leonardo.jpg?auto=format%2Ccompress&cs=srgb&max-w=800"
-      ],
-      "note": "约1470—1475；木板蛋彩及油彩；177×151cm；1890 n.8358。韦罗基奥与达·芬奇合作，不能作为达·芬奇独作。"
-    },
-    {
-      "id": "leonardo-ng1093",
-      "title": "Leonardo da Vinci | The Virgin of the Rocks | NG1093 | National Gallery, London",
-      "source": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks",
-      "metadataVerified": true,
-      "status": "image_rights_and_visual_review_pending",
-      "sourceImageCandidates": [
-        "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts/N-1093-00-000373-XL-g-PYR.tif/full/!80,50/0/default.jpg",
-        "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts-in-frame/N-1093-00-000348-FS-g-PYR.tif/full/!80,50/0/default.jpg"
-      ],
-      "note": "约1491/2—1499及1506—1508；杨木板油画；189.5×120cm；NG1093。伦敦版本，不与卢浮宫版本混淆。"
-    },
-    {
       "id": "leonardo-ng6337",
-      "title": "Leonardo da Vinci | The Burlington House Cartoon | NG6337 | National Gallery, London",
+      "title": "The Burlington House Cartoon",
       "source": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon",
       "metadataVerified": true,
-      "status": "image_rights_and_visual_review_pending",
+      "status": "metadata_and_visual_notes_complete_image_license_pending",
       "sourceImageCandidates": [
         "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts/N-6337-00-000153-FS-g-PYR.tif/full/!80,50/0/default.jpg",
         "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts-in-frame/N-6337-00-000151-FS-g-PYR.tif/full/!80,50/0/default.jpg"
       ],
-      "note": "约1506—1508；纸本炭笔及白粉笔，裱于画布；141.5×104.6cm；NG6337。大型素描，不是油画。"
+      "note": "馆方解释圣安娜向上的指示与基督的神性有关；这应与我们对线条和明暗的视觉观察分开。观看提问：仅保留面部会失去怎样的身体关系？作为近真人尺度的大稿，它的用途也不应与掌心大小的随手习作混同。",
+      "zh": "伯灵顿府素描大稿（圣母子、圣安娜与幼年施洗者约翰）",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（馆方署名）",
+      "year": "约1506—1508",
+      "medium": "纸本炭笔与白粉笔，裱于画布",
+      "dimensions": "141.5 × 104.6 cm",
+      "accession": "NG6337",
+      "provider": "The National Gallery, London",
+      "hasVisualNotes": true,
+      "reviewedImage": "https://upload.wikimedia.org/wikipedia/commons/7/77/Leonardo_-_St._Anne_cartoon.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Leonardo_-_St._Anne_cartoon.jpg",
+      "rights": "未批准发布：文件来源为Unknown source；2014年替换成高分辨率图，抽取页面只在2005年旧上传说明看到PD-art标签，当前许可栏为空。不能据旧版本标签直接认证当前文件。",
+      "context": "馆方将其视为为绘画准备的大型设计稿，可能用于向赞助人展示；这一用途是馆方的推测，不是已知的具体委托事实。馆方称它是达·芬奇仅存的大型素描。当前日期为约1506—1508；图片文件页沿用的约1499—1500不覆盖馆方更新。",
+      "observation": "第一眼看两位成年女性相近的脸，再转向她们之间向上伸出的食指。面颊和衣褶的明暗密集，脚与指向上方的手却有许多清楚的轮廓线；人物下半部的膝、布料和足部互相交叠。本站观察：同一张纸里，深浅塑造与未铺满的线条互相牵引，完整感不来自每一处都画到相同程度。",
+      "verifiedOn": "2026-10-31",
+      "verifiedAtUTC": "2026-10-30T19:23:57Z"
     }
   ],
-  "next": "先解决5件已核元数据作品的可复用图片和逐幅视觉解读，再核对卢浮宫《蒙娜丽莎》《圣安娜》《施洗者圣约翰》与米兰《最后的晚餐》。不得重建首批3件。",
+  "next": "先读取本检查点并确认原Netlify站是否已显示7件（本轮提交67e7397，品牌提交daf7ee6），未上线先诊断现有部署渠道；为NG6337补齐复制图许可，保留现成解读与馆方新年代；再核对卢浮宫《蒙娜丽莎》《圣安娜》《施洗者圣约翰》及米兰《最后的晚餐》。不要重建既有8件。",
   "sourceFiles": [
     "renaissance.js",
     "research/renaissance-progress.json"
   ],
   "galleryUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo",
   "libraryMasterId": "libfile_79feabd3bee0819190592c167d906a45",
-  "libraryMasterName": "Enso_Renaissance_Master.json"
+  "libraryMasterName": "Enso_Renaissance_Master.json",
+  "publishableIllustratedAndInterpreted": 7,
+  "storedUnits": 8,
+  "runAudit": {
+    "dateUTC": "2026-10-30",
+    "batch": "run-2",
+    "researchedExistingCandidates": 5,
+    "newPublishedTarget": 4,
+    "rejectedMismatches": [
+      "Annunciation WGA12689（卢浮宫小幅版本）",
+      "Leonardo054（卢浮宫版本局部）"
+    ],
+    "imageReviewComplete": 5,
+    "rightsApproved": 4,
+    "remainingImageRights": 1
+  },
+  "artistCoverage": [
+    {
+      "name": "Leonardo da Vinci",
+      "priority": 1,
+      "status": "research_in_progress",
+      "verifiedUnits": 8,
+      "visualNotesComplete": 8,
+      "publicationReady": 7,
+      "publishedVerified": 3,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Michelangelo",
+      "priority": 2,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Raphael",
+      "priority": 3,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Botticelli",
+      "priority": 4,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Masaccio",
+      "priority": 5,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Fra Angelico",
+      "priority": 6,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Piero della Francesca",
+      "priority": 7,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Mantegna",
+      "priority": 8,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Giovanni Bellini",
+      "priority": 9,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Giorgione",
+      "priority": 10,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Titian",
+      "priority": 11,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Veronese",
+      "priority": 12,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Tintoretto",
+      "priority": 13,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Jan van Eyck",
+      "priority": 14,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Rogier van der Weyden",
+      "priority": 15,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Bosch",
+      "priority": 16,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Dürer",
+      "priority": 17,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Hans Holbein the Younger",
+      "priority": 18,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    },
+    {
+      "name": "Pieter Bruegel the Elder",
+      "priority": 19,
+      "status": "candidate_not_researched",
+      "verifiedUnits": 0,
+      "visualNotesComplete": 0,
+      "publicationReady": 0,
+      "publishedVerified": 0,
+      "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
+    }
+  ],
+  "deployment": {
+    "status": "source_committed_live_pending",
+    "contentCommit": "67e739763d9002eb099b01df9a9d6eb5298415a4",
+    "brandCommit": "daf7ee624c456ea316a6f2407efb15f0819bffe3",
+    "lastObservedLiveUnits": 3
+  }
 }
