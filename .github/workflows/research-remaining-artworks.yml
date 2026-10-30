@@ -1,0 +1,78 @@
+name: Research 50 artwork pages and pagination
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  research:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[catalog probe]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Extract candidate art links from source pages
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request,urllib.parse,json,re,html
+          from html.parser import HTMLParser
+          U={
+          'levitan-all':'https://www.wikiart.org/en/isaac-levitan/all-works',
+          'levitan-text':'https://www.wikiart.org/en/isaac-levitan/all-works/text-list',
+          'duchamp-all':'https://www.wikiart.org/en/marcel-duchamp/all-works',
+          'duchamp-text':'https://www.wikiart.org/en/marcel-duchamp/all-works/text-list',
+          'levitan-one':'https://www.wikiart.org/en/isaac-levitan/sunny-day-1876',
+          'duchamp-one':'https://www.wikiart.org/en/marcel-duchamp/portrait-of-yvonne-duchamp-1907',
+          'menne-page2':'https://matthias-menne.pixels.com/index.html?page=2',
+          'menne-page3':'https://matthias-menne.pixels.com/index.html?page=3',
+          'menne-artworksp2':'https://matthias-menne.pixels.com/artworkgalleries/2',
+          'menne-home':'https://matthias-menne.pixels.com/',
+          'kenny-catalog':'https://www.thekennygallery.ie/gallery/index.php?category_id=155&option=com_virtuemart&page=shop.browse',
+          'kenny-2004':'https://www.thekennygallery.ie/artists/callaghangeorge/',
+          'mutualart2':'https://www.mutualart.com/Artist/George-Callaghan/89651339D993D8BB/Artworks?page=2'
+          }
+          class P(HTMLParser):
+            def __init__(self):
+              super().__init__();self.anchors=[];self.images=[];self.meta=[];self.active=None
+            def handle_starttag(self,t,aa):
+              a=dict(aa)
+              if t=='a':
+                self.active={'href':a.get('href'),'text':''}
+              if t=='img':self.images.append({k:a[k] for k in ('src','alt','title','data-src') if k in a})
+              if t=='meta': self.meta.append({k:a[k] for k in ('property','name','content') if k in a})
+            def handle_data(self,d):
+              if self.active is not None:self.active['text']+=d
+            def handle_endtag(self,t):
+              if t=='a' and self.active is not None:self.anchors.append(self.active);self.active=None
+          for key,url in U.items():
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36'})
+              with urllib.request.urlopen(req,timeout=20) as r: doc=r.read().decode('utf-8','replace')
+              p=P();p.feed(doc)
+              if key.startswith('levitan') or key.startswith('duchamp'):
+                artist='isaac-levitan' if key.startswith('levitan') else 'marcel-duchamp'
+                works=[a for a in p.anchors if a['href'] and ('/en/'+artist+'/' in a['href'] or a['href'].startswith('/en/'+artist+'/')) and 'all-works' not in a['href']]
+                print('INFO',key,'LEN',len(doc),'LINKS',len(p.anchors),'WORK_LINKS',len(works),'IMAGES',len(p.images),flush=True)
+                for a in works[:30]:print('WORK_LINK',key,json.dumps(a,ensure_ascii=False),flush=True)
+                for v in p.meta:
+                  if v.get('property','').startswith('og:'): print('OG',key,json.dumps(v,ensure_ascii=False)[:600],flush=True)
+                imgs=[v for v in p.images if 'wikiart.org/images/' in v.get('src','')]
+                for v in imgs[:14]:print('ARTIMG',key,json.dumps(v,ensure_ascii=False)[:450],flush=True)
+              elif key.startswith('menne'):
+                imgs=[v for v in p.images if '/artworkimages/' in v.get('src','')]
+                links=[v for v in p.anchors if 'featured/' in (v.get('href') or '') or 'page=' in (v.get('href') or '') or '/gallery/' in (v.get('href') or '')]
+                print('INFO',key,'LEN',len(doc),'IMG',len(imgs),'ART_LINKS',len(links),flush=True)
+                for v in imgs[:12]:print('ARTIMG',key,json.dumps(v,ensure_ascii=False)[:450],flush=True)
+                for v in links[:18]:print('WORK_LINK',key,json.dumps(v,ensure_ascii=False),flush=True)
+              else:
+                art=[v for v in p.images if 'callaghan' in str(v).lower() or 'KART' in str(v) or 'mutualart.com/Images' in str(v)]
+                print('INFO',key,'LEN',len(doc),'ART_IMG',len(art),'TOTAL_IMG',len(p.images),'TOTAL_LINKS',len(p.anchors),flush=True)
+                for v in art[:25]:print('ARTIMG',key,json.dumps(v,ensure_ascii=False)[:420],flush=True)
+                for v in p.anchors:
+                  if 'george' in str(v).lower() or 'callaghan' in str(v).lower() or 'shop.product_details' in str(v).lower(): print('WORK_LINK',key,json.dumps(v,ensure_ascii=False)[:330],flush=True)
+            except Exception as e:print('ERROR',key,repr(e),flush=True)
+          PY
