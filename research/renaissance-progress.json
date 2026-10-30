@@ -1,0 +1,119 @@
+{
+  "project": "Art Gallery by Enso",
+  "collection": "renaissance",
+  "updatedAt": "2026-10-31",
+  "countingRule": "独立实物为单位；正反面与局部不重复；合作作品另行标记",
+  "verifiedUnits": 8,
+  "illustratedAndInterpreted": 3,
+  "publishedVerified": 3,
+  "liveVerification": "Browser verified collection route, Leonardo route and Ginevra image/detail. Base gallery JSON unchanged. JavaScript parsed successfully. Mobile physical-device QA pending; inherited responsive CSS retained.",
+  "artistQueue": [
+    "Leonardo da Vinci",
+    "Michelangelo",
+    "Raphael",
+    "Botticelli",
+    "Masaccio",
+    "Fra Angelico",
+    "Piero della Francesca",
+    "Mantegna",
+    "Giovanni Bellini",
+    "Giorgione",
+    "Titian",
+    "Veronese",
+    "Tintoretto",
+    "Jan van Eyck",
+    "Rogier van der Weyden",
+    "Bosch",
+    "Dürer",
+    "Hans Holbein the Younger",
+    "Pieter Bruegel the Elder"
+  ],
+  "coverageMap": [
+    {
+      "section": "佛罗伦萨早期文艺复兴",
+      "status": "pending"
+    },
+    {
+      "section": "盛期文艺复兴",
+      "status": "Leonardo started"
+    },
+    {
+      "section": "威尼斯及后期衔接",
+      "status": "pending; distinguish Mannerism"
+    },
+    {
+      "section": "北方文艺复兴",
+      "status": "pending"
+    }
+  ],
+  "pending": [
+    {
+      "id": "leonardo-uffizi-1618",
+      "title": "Annunciation by Leonardo da Vinci",
+      "source": "https://www.uffizi.it/en/artworks/annunciation",
+      "metadataVerified": true,
+      "status": "image_rights_and_visual_review_pending",
+      "sourceImageCandidates": [
+        "https://www.datocms-assets.com/103094/1688661762-1503990074029518-568314.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
+        "https://www.datocms-assets.com/103094/1688661773-1503990086334194-568324.jpg?auto=format%2Ccompress&cs=srgb&max-w=800"
+      ],
+      "note": "约1472；木板油画；90×222cm；1890 n.1618。原委托人与最初位置不明。"
+    },
+    {
+      "id": "leonardo-uffizi-1594",
+      "title": "Adoration of the Magi by Leonardo da Vinci",
+      "source": "https://www.uffizi.it/en/artworks/leonardo-adoration-of-the-magi",
+      "metadataVerified": true,
+      "status": "image_rights_and_visual_review_pending",
+      "sourceImageCandidates": [
+        "https://www.datocms-assets.com/103094/1688660301-leonardo-dopo-restauro.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
+        "https://www.datocms-assets.com/103094/1688978554-ghirlandaio.jpg?cs=srgb&fit=crop&h=710&w=1450"
+      ],
+      "note": "约1482；木板上炭笔、水性墨及油彩；244×240cm；1890 n.1594。未完成；1481年委托。"
+    },
+    {
+      "id": "verrocchio-leonardo-uffizi-8358",
+      "title": "The Baptism of Christ by Verrocchio and Leonardo",
+      "source": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ",
+      "metadataVerified": true,
+      "status": "image_rights_and_visual_review_pending",
+      "sourceImageCandidates": [
+        "https://www.datocms-assets.com/103094/1688681077-1576848059137780-07-leonardo-e-verrocchio.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
+        "https://www.datocms-assets.com/103094/1688681087-1576848066475620-07b-leonardo.jpg?auto=format%2Ccompress&cs=srgb&max-w=800"
+      ],
+      "note": "约1470—1475；木板蛋彩及油彩；177×151cm；1890 n.8358。韦罗基奥与达·芬奇合作，不能作为达·芬奇独作。"
+    },
+    {
+      "id": "leonardo-ng1093",
+      "title": "Leonardo da Vinci | The Virgin of the Rocks | NG1093 | National Gallery, London",
+      "source": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks",
+      "metadataVerified": true,
+      "status": "image_rights_and_visual_review_pending",
+      "sourceImageCandidates": [
+        "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts/N-1093-00-000373-XL-g-PYR.tif/full/!80,50/0/default.jpg",
+        "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts-in-frame/N-1093-00-000348-FS-g-PYR.tif/full/!80,50/0/default.jpg"
+      ],
+      "note": "约1491/2—1499及1506—1508；杨木板油画；189.5×120cm；NG1093。伦敦版本，不与卢浮宫版本混淆。"
+    },
+    {
+      "id": "leonardo-ng6337",
+      "title": "Leonardo da Vinci | The Burlington House Cartoon | NG6337 | National Gallery, London",
+      "source": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon",
+      "metadataVerified": true,
+      "status": "image_rights_and_visual_review_pending",
+      "sourceImageCandidates": [
+        "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts/N-6337-00-000153-FS-g-PYR.tif/full/!80,50/0/default.jpg",
+        "https://www.nationalgallery.org.uk/server.iip?IIIF=/fronts-in-frame/N-6337-00-000151-FS-g-PYR.tif/full/!80,50/0/default.jpg"
+      ],
+      "note": "约1506—1508；纸本炭笔及白粉笔，裱于画布；141.5×104.6cm；NG6337。大型素描，不是油画。"
+    }
+  ],
+  "next": "先解决5件已核元数据作品的可复用图片和逐幅视觉解读，再核对卢浮宫《蒙娜丽莎》《圣安娜》《施洗者圣约翰》与米兰《最后的晚餐》。不得重建首批3件。",
+  "sourceFiles": [
+    "renaissance.js",
+    "research/renaissance-progress.json"
+  ],
+  "galleryUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo",
+  "libraryMasterId": "libfile_79feabd3bee0819190592c167d906a45",
+  "libraryMasterName": "Enso_Renaissance_Master.json"
+}
