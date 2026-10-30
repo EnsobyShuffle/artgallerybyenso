@@ -108,3 +108,11 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 - 本次确认的迁移工作包仍包含共享页面与研究数据文件；PR文件表列有 `index.html`、`impressionism.js`、`renaissance.js`、`modern.js`、`abstract.js`、gallery queue及多份进度JSON。当前PR还纳入10张Monet图像。先逐文件比较两端，合并时保留新增作品、来源与迁移适配，不能用旧审计快照覆盖main。
 - 当前实际推进：更新本检查点以反映最新分支差异和有效计数；未改动main、Netlify生产站、艺术内容文件或正式入口。尚未完成冲突解决、重算外链/图像许可审计与新迁移包。
 - 下一步：在迁移分支建立双端工作树，按共享文件逐项解冲突并补齐Monet/Hilma/Van Gogh/Renaissance新内容；重跑数据/资源盘点、个人数据回归及CloudBase预览/发布阻断检查。腾讯云资源和国内运营商/微信验收仍需账号及国内测试条件。
+
+
+## 并发内容检查点｜2026-10-31 07:41 Asia/Shanghai
+
+- 本轮重新比较最新 main 与迁移分支：main 为 `171ed2c52747593f6251ed5856d4a941e63bc385`，共同基线仍为 `399df0d2601d5575da5004183fc66553679aa54a`；迁移分支领先5、落后16。PR #2仍 open/draft 且 `mergeable=false`，新增主线尚未合入迁移分支。
+- PR文件清单现为22个文件、2984 additions、93 deletions；包含研究脚本与进度/作品文件、页面和新增图像。共享文件仍需逐项解冲突，不能自动接受旧迁移快照，也不能把PR的文件数当成已审核资源数。
+- 本轮实际推进：读取最新compare/PR/检查点并将本段追加到迁移说明。没有改写作品、图片、授权状态、main、Netlify生产站或域名；没有宣称内容已同步。
+- 下一步：针对两端最新共同基线，识别新增与冲突文件并建立隔离工作树；逐项合并后重跑资产/外链审计、个人数据测试、CloudBase预览包和release阻断检查。腾讯云与国内网络验收仍需真人登录和国内测试条件。
