@@ -6,7 +6,7 @@
     {
       "id": "monet",
       "name": "Claude Monet",
-      "completeWorks": 20,
+      "completeWorks": 30,
       "target": 50
     },
     {
@@ -59,7 +59,7 @@
     }
   ],
   "sourceFile": "impressionism.js",
-  "nextAction": "莫奈20/50；下一批继续补至50。大都会馆藏新网页图片标为restricted，不能笼统当作CC0；本批采用逐项核实的Commons副本。",
+  "nextAction": "莫奈30/50；继续补齐剩余20幅，沿用博物馆资料与逐件许可核验。",
   "classification": "Manet 是先驱/关联人物，后印象派和新印象派不混入本栏目。",
   "factualSources": [
     "https://www.artic.edu/artworks/14598",
@@ -81,21 +81,29 @@
     "https://www.metmuseum.org/art/collection/search/438008",
     "https://www.metmuseum.org/art/collection/search/437123",
     "https://www.metmuseum.org/art/collection/search/437127",
-    "https://www.metmuseum.org/art/collection/search/437131"
+    "https://www.metmuseum.org/art/collection/search/437131",
+    "https://www.metmuseum.org/art/collection/search/437136",
+    "https://www.metmuseum.org/art/collection/search/438003",
+    "https://www.metmuseum.org/art/collection/search/438004",
+    "https://www.metmuseum.org/art/collection/search/437110",
+    "https://www.metmuseum.org/art/collection/search/437119",
+    "https://www.metmuseum.org/art/collection/search/437122",
+    "https://www.metmuseum.org/art/collection/search/437121",
+    "https://www.metmuseum.org/art/collection/search/437137",
+    "https://www.metmuseum.org/art/collection/search/437128",
+    "https://www.metmuseum.org/art/collection/search/438005"
   ],
   "verification": {
-    "metadata": "10 new official object pages fetched; accession numbers matched to Commons images",
-    "images": "10 new local JPEGs decoded and contact sheet visually inspected; license 6 Public Domain / 3 CC0 / 1 CC-BY-SA-2.5",
-    "deployment": "2026-10-31: production impressionism.js byte-matches published source; all 10 new image downloads match local SHA-256; live homepage and Monet page show 20 works.",
-    "interface": "Live browser: artist entry, new Water Lilies 1919 detail/background/credit/license, Chinese search (蛙塘:1), city theme filter (3) verified. No layout code changed; mobile viewport and personal-note writes not re-tested this batch."
+    "metadata": "10 official museum pages and Commons accession identities checked",
+    "images": "10 local JPEGs decoded and contact sheet inspected; 8 CC0 and 2 Public Domain",
+    "deployment": "Previous 20 live; this batch pending verification",
+    "interface": "Content-only extension; regression pending"
   },
   "imageWorkflow": "Keep licensed self-hosted JPEGs in assets/impressionism. Official Art Institute IIIF image links failed in this environment; use verified Commons copies matched to museum accession records when needed. Each piece preserves sourceImage, imageSource, license, rightsSource and attribution. One image (16564) is CC BY-SA 4.0 credited to Maltaper; retain attribution and share-alike notice.",
   "lastBatch": {
     "artist": "monet",
     "added": 10,
-    "total": 20,
-    "sources": "10 Metropolitan Museum object records; 10 separately licensed Commons reproductions",
-    "status": "Published and verified",
-    "commit": "5573f1a3c4471dca0d03f2ac71da86b244a66330"
+    "total": 30,
+    "status": "Publication pending verification"
   }
 }
