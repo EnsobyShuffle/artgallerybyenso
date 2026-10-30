@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-30 21:28:56 UTC",
+  "updatedAt": "2026-10-30 22:35:36 UTC",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "impressionism",
-  "next_category": "renaissance",
-  "last_artist": "monet",
-  "next_artist": "leonardo",
+  "last_category": "renaissance",
+  "next_category": "other",
+  "last_artist": "leonardo",
+  "next_artist": "caravaggio",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -69,7 +69,11 @@
       "nextBatch": "Continue distinct original paintings toward50; exclude all35 existing canonical IDs"
     },
     "renaissance": {
-      "current": "leonardo"
+      "current": "leonardo",
+      "complete": false,
+      "verifiedWorks": 13,
+      "publicationReady": 12,
+      "nextBatch": "Next Renaissance visit: resolve NG6337 image rights, then research distinct Milan/Krakow/Munich originals; retain all12 display IDs and pending NG6337."
     },
     "other": {
       "current": "caravaggio"
@@ -97,7 +101,12 @@
     "monet-met-437106",
     "monet-met-437115",
     "monet-met-438435",
-    "monet-met-437113"
+    "monet-met-437113",
+    "leonardo-louvre-inv-779",
+    "leonardo-louvre-inv-776",
+    "leonardo-louvre-inv-778",
+    "leonardo-louvre-inv-775",
+    "leonardo-louvre-inv-777"
   ],
   "counts": {
     "thisRun": {
@@ -124,14 +133,14 @@
     },
     "repoCumulative": {
       "artists": 11,
-      "records": 354,
+      "records": 359,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
       "abstract": 55,
       "modern": 56,
       "impressionism": 35,
-      "renaissance": 7,
+      "renaissance": 12,
       "other": 201,
       "chinese-classical": 0,
       "chinese-modern-contemporary": 0
@@ -143,12 +152,12 @@
     },
     "rotationCumulative": {
       "researched": {
-        "artists": 3,
-        "works": 16
+        "artists": 4,
+        "works": 21
       },
       "committed": {
-        "artists": 3,
-        "works": 16
+        "artists": 4,
+        "works": 21
       },
       "deployment_verified": {
         "artists": 0,
@@ -160,38 +169,29 @@
       }
     }
   },
-  "sourceParentCommit": "e1587c4f34d999f24f556f09b79cb25b87d31b21",
+  "sourceParentCommit": "f1470b5d2b1576a3a061165ed4252e0c2ae93800",
   "deployment": {
     "status": "blocked_operational_credits_only",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
-    "observedAt": "2026-10-30 21:28:56 UTC",
+    "observedAt": "2026-10-30 22:35:36 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "2026-10-31本轮复核：Netlify仍明确提示production deploys paused，现行生产版5573f1a。莫奈线上仍20件，新增5件及此前待发布10件尚未上线。",
-    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
-    "finalCheck": {
-      "checkedAt": "2026-10-30 21:30:00 UTC",
-      "contentCommit": "deb9c9e32f50a02b0995a90dad38e08e20f2779b",
-      "repoReadback": 35,
-      "liveMonetCount": 20,
-      "liveNewWorks": 0,
-      "deployEvent": "本次提交后后台快照超时，未获得该提交的独立部署终态；本轮此前已实见生产部署额度暂停提示",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=impressionism&artist=monet"
-    }
+    "message": "本轮Netlify后台实见production deploys paused，上一轮Monet35发布Skipped；生产页面达·芬奇仍3件。当前源码12件，待发布9件。",
+    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。"
   },
   "validation": {
-    "syntax": "Data JavaScript syntax checked; all35 Monet IDs distinct",
-    "preservation": "First30 artwork objects unchanged; index.html and other artist modules untouched; migration branch untouched",
-    "images": "Five accession-matched CC0 museum reproductions fully viewed in browser; new image URLs remote Commons copies, not claimed self-hosted",
-    "links": "Five official Met records read via search; Commons accession/license pages retrieved; direct Met fetch429",
-    "responsive": "Existing layout unchanged; new-work mobile and detail interaction acceptance pending deployment",
-    "live": "Original Netlify Monet artist page opened, shows20works; no new5 present"
+    "syntax": "node --check passed; 12 Leonardo IDs / 359 global IDs unique; all5 new records have required metadata, source, image, rights and notes",
+    "preservation": "Original7 artwork objects retained unchanged; index.html and unrelated artists/branches untouched",
+    "images": "5 displayed image URLs actually opened and visually inspected; 2 PD-Art records, CC0 Wilfredor, CC BY-SA4 Livioandronico2013, CC BY3 Sailko; no generated images",
+    "links": "All5 current Louvre collection pages and all5 image file/license pages retrieved; current museum dates/dimensions supersede older file captions",
+    "responsive": "Existing responsive code unchanged; new-work online mobile/detail checks pending production deployment",
+    "live": "Production Leonardo artist URL opened and still displays3 records; new5 not live"
   },
   "nextActions": [
-    "Next category04 Renaissance, canonical artist leonardo; read existing7 records and pending Burlington cartoon rights issue",
-    "When Netlify production allowance resumes, deploy main and verify all pending increments including Monet35",
-    "Next impressionism visit continue Monet toward50 without duplicating35 records"
+    "Next category05 Other Art: canonical artist caravaggio; deduplicate current source before selecting verified works",
+    "When production credits resume, publish latest main and verify all pending increments; Leonardo target12 vs current live3",
+    "Next Renaissance visit retain12 display records, resolve pending NG6337 rights, continue distinct paintings without forcing50"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -229,7 +229,17 @@
     "https://www.metmuseum.org/art/collection/search/438435",
     "https://commons.wikimedia.org/wiki/File:Jean_Monet_(1867%E2%80%931913)_on_His_Hobby_Horse_MET_DT511.jpg",
     "https://www.metmuseum.org/art/collection/search/437113",
-    "https://commons.wikimedia.org/wiki/File:Cabin_of_the_Customs_Watch_MET_DT1905.jpg"
+    "https://commons.wikimedia.org/wiki/File:Cabin_of_the_Customs_Watch_MET_DT1905.jpg",
+    "https://collections.louvre.fr/ark:/53355/cl010062370",
+    "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Mona_Lisa_(La_Gioconda)_-_WGA12712.jpg",
+    "https://collections.louvre.fr/ark:/53355/cl010066107",
+    "https://commons.wikimedia.org/wiki/File:The_Virgin_and_Child_with_St._Anne_by_Leonardo_da_Vinci.jpg",
+    "https://collections.louvre.fr/ark:/53355/cl010062372",
+    "https://commons.wikimedia.org/wiki/File:La_belle_ferronnière,Leonardo_da_Vinci_-_Louvre.jpg",
+    "https://collections.louvre.fr/ark:/53355/cl010062374",
+    "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg",
+    "https://collections.louvre.fr/ark:/53355/cl010062373",
+    "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_vergine_dele_rocce,_prima_versione,_1483-1486_ca._01.JPG"
   ],
   "history": [
     {
@@ -287,6 +297,34 @@
         }
       },
       "completedAt": "2026-10-30T20:33:23Z"
+    },
+    {
+      "category": "impressionism",
+      "artist": "monet",
+      "contentCommit": "deb9c9e32f50a02b0995a90dad38e08e20f2779b",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 5
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 5
+        },
+        "committed": {
+          "artists": 1,
+          "works": 5
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "completedAt": "2026-10-30 21:28:56 UTC"
     }
   ],
   "canonical_work_ids": [
@@ -643,7 +681,11 @@
     "monet-met-437106",
     "monet-met-437115",
     "monet-met-438435",
-    "monet-met-437113"
-  ],
-  "last_content_commit": "deb9c9e32f50a02b0995a90dad38e08e20f2779b"
+    "monet-met-437113",
+    "leonardo-louvre-inv-779",
+    "leonardo-louvre-inv-776",
+    "leonardo-louvre-inv-778",
+    "leonardo-louvre-inv-775",
+    "leonardo-louvre-inv-777"
+  ]
 }

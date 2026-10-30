@@ -3,10 +3,10 @@
   "collection": "renaissance",
   "updatedAt": "2026-10-31",
   "countingRule": "独立实物为单位；正反面与局部不重复；合作作品另行标记",
-  "verifiedUnits": 8,
-  "illustratedAndInterpreted": 8,
+  "verifiedUnits": 13,
+  "illustratedAndInterpreted": 13,
   "publishedVerified": 3,
-  "liveVerification": "7个作品ID无重复，renaissance.js通过node --check；5张候选原图均实际查看。现有audit-gallery与smoke检查成功；verify-live在12次尝试后失败，线上仍为3件。新4件未记为上线。未完成新内容的线上搜索/详情/移动端测试，须在部署后继续。",
+  "liveVerification": "本轮实见Netlify生产额度暂停，达·芬奇页面仍3件；本轮5件完成来源与复制图许可核验和实际看图，新增线上数量0。新内容详情/手机验收须待部署。",
   "artistQueue": [
     "Leonardo da Vinci",
     "Michelangelo",
@@ -84,7 +84,7 @@
       "verifiedAtUTC": "2026-10-30T19:23:57Z"
     }
   ],
-  "next": "先读取本检查点并确认原Netlify站是否已显示7件（本轮提交67e7397，品牌提交daf7ee6），未上线先诊断现有部署渠道；为NG6337补齐复制图许可，保留现成解读与馆方新年代；再核对卢浮宫《蒙娜丽莎》《圣安娜》《施洗者圣约翰》及米兰《最后的晚餐》。不要重建既有8件。",
+  "next": "七类队列下一轮05其他艺术/Caravaggio。下次文艺复兴先读取12个展示ID与NG6337待许可记录；继续米兰、克拉科夫、慕尼黑原作核验，不重复卢浮宫5件。",
   "sourceFiles": [
     "renaissance.js",
     "research/renaissance-progress.json"
@@ -92,31 +92,27 @@
   "galleryUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo",
   "libraryMasterId": "libfile_79feabd3bee0819190592c167d906a45",
   "libraryMasterName": "Enso_Renaissance_Master.json",
-  "publishableIllustratedAndInterpreted": 7,
-  "storedUnits": 8,
+  "publishableIllustratedAndInterpreted": 12,
+  "storedUnits": 13,
   "runAudit": {
     "dateUTC": "2026-10-30",
-    "batch": "run-2",
-    "researchedExistingCandidates": 5,
-    "newPublishedTarget": 4,
-    "rejectedMismatches": [
-      "Annunciation WGA12689（卢浮宫小幅版本）",
-      "Leonardo054（卢浮宫版本局部）"
-    ],
+    "batch": "seven-category-rotation-04",
+    "newCandidates": 5,
+    "newResearched": 5,
+    "newSourceRecords": 5,
     "imageReviewComplete": 5,
-    "rightsApproved": 4,
-    "remainingImageRights": 1,
+    "rightsApproved": 5,
     "newPublishedVerified": 0,
-    "newSourceRecords": 4
+    "remainingImageRights": 1
   },
   "artistCoverage": [
     {
       "name": "Leonardo da Vinci",
       "priority": 1,
       "status": "research_in_progress",
-      "verifiedUnits": 8,
-      "visualNotesComplete": 8,
-      "publicationReady": 7,
+      "verifiedUnits": 13,
+      "visualNotesComplete": 13,
+      "publicationReady": 12,
       "publishedVerified": 3,
       "targetPolicy": "目标约50件，存世规模与媒材须核实；不足不补造"
     },
@@ -302,11 +298,12 @@
     }
   ],
   "deployment": {
-    "status": "source_committed_production_not_updated",
-    "contentCommit": "67e739763d9002eb099b01df9a9d6eb5298415a4",
-    "brandCommit": "daf7ee624c456ea316a6f2407efb15f0819bffe3",
+    "status": "blocked_operational_credits_only",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
+    "observedAt": "2026-10-30 22:35:36 UTC",
     "lastObservedLiveUnits": 3,
-    "verification": "2026-10-30T19:29:40Z：现有verify-live检查失败，12次均为站点可达但内容与提交不同。GitHub无Netlify部署状态，当前环境无Netlify工具或部署凭据。",
-    "checkUrl": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41115424754"
-  }
+    "pendingPublicationUnits": 9,
+    "verification": "本轮Netlify后台实见production deploys paused，上一轮Monet35发布Skipped；生产页面达·芬奇仍3件。当前源码12件，待发布9件。"
+  },
+  "authoritativeSource": "GitHub main renaissance.js and research/renaissance-progress.json; older Library master is a historical snapshot, not the current publication source"
 }

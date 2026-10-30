@@ -17,7 +17,8 @@ window.RENAISSANCE_GALLERY = {
       "bio": [
         "达·芬奇（1452—1519）出生于佛罗伦萨附近的芬奇，在韦罗基奥的工作室学习。理解他的绘画，既要看完成的作品，也要看素描中反复试探的问题。",
         "早期作品连接佛罗伦萨的工作室传统；1481年接受的《三王来朝》委托未完成，之后他前往米兰的斯福尔扎宫廷。伦敦《岩间圣母》则属于为米兰圣方济各大教堂制作的祭坛画体系。",
-        "本档案现展示7件独立作品单元：4件达·芬奇署名绘画、1件与韦罗基奥合作的绘画、2件纸本研究。正反面按同一实物合并计数。存世绘画无法据此凑足50件，作品总量与归属仍需逐项核验；本页不是完整作品全集。"
+        "从佛罗伦萨的肖像和宗教委托，到米兰斯福尔扎宫廷，再到法国王室收藏，作品的流传并不总与最初委托一致。他对柔和明暗、人物转身和手势关系的探索，使肖像与宗教群像成为观察人和自然的共同场所；许多晚期画作被长期保留和加工，具体委托仍须逐件区分。",
+        "本档案现展示12件独立作品单元：9件达·芬奇署名绘画、1件与韦罗基奥合作的绘画、2件纸本研究。正反面按同一实物合并计数。存世可确认绘画不足50件，长期收藏目标须通过分栏收录真实纸本等媒材推进，不能用局部、摹本或合作作品冒充亲笔绘画。"
       ],
       "timeline": [
         [
@@ -55,7 +56,7 @@ window.RENAISSANCE_GALLERY = {
           "过程"
         ]
       ],
-      "indexNote": "已展示7件独立作品单元，另有1件伯灵顿府素描大稿完成馆藏核对与中文解读、复制图许可待补齐。绘画、纸本与合作作品分别统计。",
+      "indexNote": "已展示12件独立作品单元；另有伯灵顿府素描大稿1件已核对并完成解读，图像许可待补齐。巴黎与伦敦《岩间圣母》是两件实物，各用独立馆藏号。此索引不是作品全集。",
       "indexSource": "https://www.nga.gov/artists/1479-leonardo-da-vinci",
       "resources": [
         [
@@ -74,6 +75,18 @@ window.RENAISSANCE_GALLERY = {
           "伦敦：《岩间圣母》",
           "第二版本、年代与祭坛画背景",
           "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks",
+          "馆方"
+        ],
+        [
+          "卢浮宫：《蒙娜丽莎》",
+          "馆方现行年代、尺寸与人物身份研究",
+          "https://collections.louvre.fr/ark:/53355/cl010062370",
+          "馆方"
+        ],
+        [
+          "卢浮宫：《圣安娜》",
+          "构图、创作过程与委托问题",
+          "https://collections.louvre.fr/ark:/53355/cl010066107",
           "馆方"
         ]
       ]
@@ -291,6 +304,166 @@ window.RENAISSANCE_GALLERY = {
         "dateUTC": "2026-10-30",
         "source": "https://upload.wikimedia.org/wikipedia/commons/4/49/Leonardo_da_Vinci_Virgin_of_the_Rocks_%28National_Gallery_London%29.jpg"
       }
+    },
+    {
+      "id": "leonardo-louvre-inv-779",
+      "artist": "leonardo",
+      "title": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa",
+      "zh": "蒙娜丽莎（丽莎·盖拉尔迪尼肖像）",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（卢浮宫馆方署名）",
+      "category": "painting",
+      "year": "1503—1519",
+      "dimensions": "79.4 × 53.4 cm",
+      "accession": "INV 779",
+      "provider": "Musée du Louvre, Paris",
+      "medium": "1503—1519｜白杨木板油画｜79.4 × 53.4 cm｜巴黎卢浮宫｜INV 779",
+      "group": "人与风景",
+      "source": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Leonardo_da_Vinci_-_Mona_Lisa_%28La_Gioconda%29_-_WGA12712.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Leonardo_da_Vinci_-_Mona_Lisa_%28La_Gioconda%29_-_WGA12712.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Mona_Lisa_(La_Gioconda)_-_WGA12712.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Mona_Lisa_(La_Gioconda)_-_WGA12712.jpg",
+      "rights": "复制图：Web Gallery of Art，经Wikimedia Commons提供；文件页明确标注PD-Art及公版二维作品忠实复制图声明。不是对卢浮宫其他摄影文件的通用授权。本站未另行调色或裁切，仅按版面缩放。",
+      "context": "馆方资料：肖像人物为丽莎·盖拉尔迪尼，可能由其丈夫弗朗切斯科·德尔·焦孔多委托。1503年的书页批注已提到达·芬奇在画她；他长期保留并继续加工此画，作品很可能于1518年由弗朗索瓦一世购得。本页采用卢浮宫当前记录的1503—1519与79.4 × 53.4 cm，不沿用复制图旧标签的较窄年代和77 × 53 cm。",
+      "observation": "第一眼先看交叠的双手，再抬眼看面部。双手和脸成为暗衣上的两处亮区；嘴角、眼眶及脸颊由细微明暗渐变连接，较少出现清晰描边。左侧曲折的道路与右侧小桥分列人物两旁，远山由褐色过渡为灰蓝。本站观察：端坐的躯干让画面稳定，背景蜿蜒路线却持续引导视线移动；微笑不等于已知的心理状态。",
+      "note": "重要性：它把肖像的可辨识面容、空气感与柔和塑形结合，适合观察晕涂法如何弱化边界。观看提问：遮住嘴部，再看眼睛与双手，人物的亲近感会怎样变化？本页复制图有可见裂纹和偏暖色调，不把数字图的色彩当作原作颜色的精确测量。",
+      "verifiedOn": "2026-10-31",
+      "verifiedAtUTC": "2026-10-30T22:34:00Z",
+      "hasVisualNotes": true,
+      "status": "verified_image_and_original_chinese_notes",
+      "visualReview": {
+        "method": "完整复制图在浏览器实际打开并查看截图",
+        "dateUTC": "2026-10-30"
+      }
+    },
+    {
+      "id": "leonardo-louvre-inv-776",
+      "artist": "leonardo",
+      "title": "La Vierge, l'Enfant Jésus et sainte Anne, dit La Sainte Anne",
+      "zh": "圣母子与圣安娜",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（卢浮宫馆方署名）",
+      "category": "painting",
+      "year": "约1503—1519",
+      "dimensions": "168 × 113 cm；后加宽至130 cm",
+      "accession": "INV 776",
+      "provider": "Musée du Louvre, Paris",
+      "medium": "约1503—1519｜白杨木板油画｜168 × 113 cm；后加宽至130 cm｜巴黎卢浮宫｜INV 776",
+      "group": "人与风景",
+      "source": "https://collections.louvre.fr/ark:/53355/cl010066107",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_Virgin_and_Child_with_St._Anne_by_Leonardo_da_Vinci.jpg/1280px-The_Virgin_and_Child_with_St._Anne_by_Leonardo_da_Vinci.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_Virgin_and_Child_with_St._Anne_by_Leonardo_da_Vinci.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Virgin_and_Child_with_St._Anne_by_Leonardo_da_Vinci.jpg",
+      "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rights": "照片：Wilfredor，Wikimedia Commons；文件作者以CC0 1.0公开。本站使用其缩略图，未另行调色或裁切；原文件及许可可由下方链接核查。",
+      "context": "馆方资料：主题为圣安娜、她的女儿玛利亚及幼年耶稣；羔羊关联基督受难。构思形成于16世纪初的佛罗伦萨，作品长期留在达·芬奇身边并继续加工。具体委托未确定；馆方提出画家自行创作的可能，不宜直接写成法国国王的订件。此画与伦敦伯灵顿府素描大稿是不同实物、不同构图。",
+      "observation": "第一眼沿三张脸从上向右下移动，再跟随玛利亚伸出的双臂走向孩子。圣安娜坐在后方，玛利亚俯身，孩子回头而双手靠近羔羊；重叠的膝部和倾斜躯干把人物连成连续动作。鲜蓝披衣占据下方大块面积，与粉红衣袖相邻；右侧深色树冠压住浅蓝山地的边缘。这些是本站观看复制图的观察。",
+      "note": "重要性：三代人物通过重叠身体和动作相连，宗教题材并非靠并排陈列来说明。观看提问：如果只跟随手臂而暂时忽略面孔，能否仍读出人物之间的联系？照片所见鲜亮色彩应连同复制条件理解，不能直接据此断言画家的最终意图。",
+      "verifiedOn": "2026-10-31",
+      "verifiedAtUTC": "2026-10-30T22:34:00Z",
+      "hasVisualNotes": true,
+      "status": "verified_image_and_original_chinese_notes",
+      "visualReview": {
+        "method": "完整复制图在浏览器实际打开并查看截图",
+        "dateUTC": "2026-10-30"
+      }
+    },
+    {
+      "id": "leonardo-louvre-inv-778",
+      "artist": "leonardo",
+      "title": "Portrait de femme, dit à tort La Belle Ferronnière",
+      "zh": "女子肖像（惯称《美丽的费隆妮叶》）",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（卢浮宫馆方署名）",
+      "category": "painting",
+      "year": "约1490—1497",
+      "dimensions": "63 × 45 cm",
+      "accession": "INV 778",
+      "provider": "Musée du Louvre, Paris",
+      "medium": "约1490—1497｜胡桃木板油画｜63 × 45 cm｜巴黎卢浮宫｜INV 778",
+      "group": "人与风景",
+      "source": "https://collections.louvre.fr/ark:/53355/cl010062372",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/La_belle_ferronni%C3%A8re%2CLeonardo_da_Vinci_-_Louvre.jpg/960px-La_belle_ferronni%C3%A8re%2CLeonardo_da_Vinci_-_Louvre.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/2b/La_belle_ferronni%C3%A8re%2CLeonardo_da_Vinci_-_Louvre.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:La_belle_ferronnière,Leonardo_da_Vinci_-_Louvre.jpg",
+      "rightsSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rights": "照片：Livioandronico2013，Wikimedia Commons，CC BY-SA 4.0。本站未改动图片内容，仅按版面缩放；复制与改编须遵守署名及相同方式共享条款。",
+      "context": "馆方资料：卢浮宫现题明确提示“La Belle Ferronnière”这一称呼并不正确，人物身份不能据名称坐实。服装与达·芬奇的米兰时期有关，原委托与早期流传仍有不确定之处；1642年枫丹白露的记载是较可靠的早期线索。本页不把她直接认作某位已获证实的宫廷女性。",
+      "observation": "第一眼看额前细带上的小饰物，再看她微转的脸与偏向一侧的眼睛。红衣、肩头束带和多层项链提供细密节奏，背景却几乎没有空间标记；前景浅色栏板形成明显横线，把人物与观看者隔开。本站观察：身体的朝向、脸部的转动和目光没有完全重合，因此小幅肖像仍有明显的方向变化。",
+      "note": "重要性：这件作品提供了与《蒙娜丽莎》不同的肖像组织方式——暗背景和栏板强调近距离的人物存在。观看提问：把栏板遮住，人物与你之间的距离会变近吗？称谓史与身份判断分开看，比把惯用标题当成人名更可靠。",
+      "verifiedOn": "2026-10-31",
+      "verifiedAtUTC": "2026-10-30T22:34:00Z",
+      "hasVisualNotes": true,
+      "status": "verified_image_and_original_chinese_notes",
+      "visualReview": {
+        "method": "完整复制图在浏览器实际打开并查看截图",
+        "dateUTC": "2026-10-30"
+      }
+    },
+    {
+      "id": "leonardo-louvre-inv-775",
+      "artist": "leonardo",
+      "title": "Saint Jean Baptiste",
+      "zh": "施洗者圣约翰",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（卢浮宫馆方署名）",
+      "category": "painting",
+      "year": "约1508—1519",
+      "dimensions": "72.9 × 56.3 cm",
+      "accession": "INV 775",
+      "provider": "Musée du Louvre, Paris",
+      "medium": "约1508—1519｜胡桃木板油画｜72.9 × 56.3 cm｜巴黎卢浮宫｜INV 775",
+      "group": "人与风景",
+      "source": "https://collections.louvre.fr/ark:/53355/cl010062374",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg/960px-Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg",
+      "rights": "复制图：C2RMF来源，经Wikimedia Commons提供的retouched版本；文件页标为PD-Art／公版忠实复制图。上游文件已经修整，本站没有再次调色或裁切。此项不表示其他馆方数字图像均可再用。",
+      "context": "馆方资料：具体创作缘起和委托人尚不清楚；卢浮宫将其列为达·芬奇晚期、持续加工的作品。1639年英王查理一世藏品清单有确定记载，后经雅巴赫收藏，于1661—1662年进入路易十四收藏。题材为施洗者约翰；不要与后来改成《酒神巴克斯》的另一幅作品混同。",
+      "observation": "第一眼看右上方竖起的食指，再沿前臂回到转动的肩和面孔。明亮皮肤从近乎无景物的暗背景中浮现，卷发与身体边缘逐渐融入阴影；脸部倾斜与手指的竖线互相牵制。本站观察：光主要集中于脸、肩臂和手，较暗部位的信息被压低。我们观看的是文件页标明经过修整的复制图，不能把所有暗部细节缺失归因于原作本身。",
+      "note": "重要性：与《岩间圣母》的复杂环境相比，这幅画把宗教人物的呈现集中在光、转身与手势。观看提问：先遮住指尖，再恢复，目光的去向会怎样改变？向上的手势是宗教观看的线索，不能据此虚构人物在说的具体一句话。",
+      "verifiedOn": "2026-10-31",
+      "verifiedAtUTC": "2026-10-30T22:34:00Z",
+      "hasVisualNotes": true,
+      "status": "verified_image_and_original_chinese_notes",
+      "visualReview": {
+        "method": "完整复制图在浏览器实际打开并查看截图",
+        "dateUTC": "2026-10-30"
+      }
+    },
+    {
+      "id": "leonardo-louvre-inv-777",
+      "artist": "leonardo",
+      "title": "La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers",
+      "zh": "岩间圣母（卢浮宫版）",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（卢浮宫馆方署名）",
+      "category": "painting",
+      "year": "约1483—1494",
+      "dimensions": "199.5 × 122 cm",
+      "accession": "INV 777",
+      "provider": "Musée du Louvre, Paris",
+      "medium": "约1483—1494｜油画，原木板后转移至画布｜199.5 × 122 cm｜巴黎卢浮宫｜INV 777",
+      "group": "人与风景",
+      "source": "https://collections.louvre.fr/ark:/53355/cl010062373",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Leonardo_da_vinci%2C_vergine_dele_rocce%2C_prima_versione%2C_1483-1486_ca._01.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/1/18/Leonardo_da_vinci%2C_vergine_dele_rocce%2C_prima_versione%2C_1483-1486_ca._01.JPG",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_vergine_dele_rocce,_prima_versione,_1483-1486_ca._01.JPG",
+      "rightsSource": "https://creativecommons.org/licenses/by/3.0/",
+      "rights": "照片：Sailko，Wikimedia Commons，CC BY 3.0；保留画框和反射，本站未裁切或调色，仅按版面缩放。作品：Leonardo da Vinci《岩间圣母》，巴黎卢浮宫。",
+      "context": "馆方资料：1483年达·芬奇与德·普雷迪斯兄弟签约，为米兰圣方济各大教堂无原罪始胎兄弟会礼拜堂的祭坛工作。这一背景与巴黎、伦敦两版相关，但两版形成及转手的完整过程仍不能定论。此件为卢浮宫INV 777，已从木板转移至画布；与伦敦NG1093分别计为两件实物，不能拿局部图另计。",
+      "observation": "第一眼看四人的手：左边幼年约翰合掌，右下幼年基督举手，天使朝左指去，圣母一手悬在前方。圣母位居上方，四个头部围出聚拢的形状；深色岩壁上开出的亮口将视线引向远山。本站观察：指向与回应在画面内部形成联系，天使的面孔又朝向画外。此照片包含画框和玻璃反射，反射人影不属于画作。",
+      "note": "重要性：自然环境、明暗和手势共同承载宗教叙事。观看提问：与本站伦敦版对照，天使的手指与朝向改变了你先看哪位人物吗？比较应基于两张完整作品图；不要把本照片的反光或不同复制图的色偏解释成画家改动。",
+      "verifiedOn": "2026-10-31",
+      "verifiedAtUTC": "2026-10-30T22:34:00Z",
+      "hasVisualNotes": true,
+      "status": "verified_image_and_original_chinese_notes",
+      "visualReview": {
+        "method": "完整复制图在浏览器实际打开并查看截图",
+        "dateUTC": "2026-10-30"
+      }
     }
   ],
   "catalog": {
@@ -301,7 +474,12 @@ window.RENAISSANCE_GALLERY = {
       "Annunciation",
       "Adoration of the Magi (San Donato in Scopeto)",
       "The Baptism of Christ",
-      "The Virgin of the Rocks"
+      "The Virgin of the Rocks",
+      "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa",
+      "La Vierge, l'Enfant Jésus et sainte Anne, dit La Sainte Anne",
+      "Portrait de femme, dit à tort La Belle Ferronnière",
+      "Saint Jean Baptiste",
+      "La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers"
     ]
   }
 };
