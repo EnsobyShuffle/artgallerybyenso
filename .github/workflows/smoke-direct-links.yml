@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
-      - name: Test six public artist links and live HTML
+      - name: Test all seven public artist links and live HTML
         shell: bash
         run: |
           set -euo pipefail
           BASE="https://artgallerybyenso.netlify.app/"
-          for ID in evans jef journaia levitan menne callaghan; do
+          for ID in evans jef journaia levitan menne callaghan duchamp; do
             URL="${BASE}?artist=${ID}"
             STATUS=$(curl -L --silent --show-error --max-time 20 -w '%{http_code}' -o /tmp/gallery-direct.html "$URL")
             test "$STATUS" = "200"
