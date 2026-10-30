@@ -1,0 +1,54 @@
+name: Discover authentic artist artwork metadata
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[catalog research]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Fetch artist galleries and inspect metadata
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from urllib.request import Request,urlopen
+          from html.parser import HTMLParser
+          from urllib.parse import urljoin
+          import re,html,json
+          urls={
+          'levitan':'https://www.wikiart.org/en/isaac-levitan/',
+          'levitanText':'https://www.wikiart.org/en/isaac-levitan/all-works/text-list',
+          'duchamp':'https://www.moma.org/artists/1634-marcel-duchamp',
+          'duchampWiki':'https://www.wikiart.org/en/marcel-duchamp/',
+          'menne':'https://matthias-menne.pixels.com/',
+          'mennePage2':'https://matthias-menne.pixels.com/index.html?tab=artworkgalleries&artworkgalleries=1&page=2',
+          'callaghan':'https://www.thekennygallery.ie/artists/callaghangeorge/',
+          'callaghanRed':'https://www.redraggallery.co.uk/artist-george-callaghan',
+          'callaghanMutual':'https://www.mutualart.com/Artist/George-Callaghan/89651339D993D8BB/Artworks'
+          }
+          class P(HTMLParser):
+            def __init__(self): super().__init__();self.img=[];self.a=[]
+            def handle_starttag(self,tag,attrs):
+              d=dict(attrs)
+              if tag=='img':self.img.append({k:v for k,v in d.items() if k in ('alt','src','data-src','data-original','data-srcset','srcset','title')})
+              if tag=='a' and d.get('href'):self.a.append({k:v for k,v in d.items() if k in ('href','title','aria-label')})
+          for key,url in urls.items():
+            try:
+              req=Request(url,headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0.0.0 Safari/537.36','Accept-Language':'en-US,en;q=0.9'})
+              with urlopen(req,timeout=25) as r:raw=r.read().decode('utf-8','replace')
+              p=P();p.feed(raw)
+              print('SITE',key,'BYTES',len(raw),'IMG',len(p.img),'LINK',len(p.a),flush=True)
+              for z in p.img[:12]:print('IMG_SAMPLE',key,json.dumps(z,ensure_ascii=False)[:350],flush=True)
+              for z in p.a[:18]:print('LINK_SAMPLE',key,json.dumps(z,ensure_ascii=False)[:220],flush=True)
+              for rg in [r'uploads\d*\.wikiart\.org[^"\s<>]*',r'images\.fineartamerica\.com[^"\s<>]*',r'images\.pixels\.com[^"\s<>]*',r'images\.saatchiart\.com[^"\s<>]*',r'moma\.org/media/[^"\s<>]*',r'mutualart\.com/Images/[^"\s<>]*']:
+                found=re.findall(rg,raw,re.I); 
+                if found: print('PATTERN',key,rg,'COUNT',len(found),'SAMPLE',found[:4],flush=True)
+            except Exception as e:print('ERROR',key,repr(e),flush=True)
+          PY
