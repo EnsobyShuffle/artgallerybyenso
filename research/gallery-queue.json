@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-30T20:31:46Z",
+  "updatedAt": "2026-10-30T20:33:23Z",
   "order": [
     {
       "number": "01",
@@ -161,7 +161,16 @@
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
     "message": "后台明确显示生产部署及Agent Runners暂停，仅剩维持现站的operational credits。Hilma、Monet新增与Leonardo四件新增均显示Skipped，现站保持旧版9位艺术家324条记录。已确认GitHub连接和main生产分支，不是缓存推测。",
-    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。"
+    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
+    "finalCheck": {
+      "checkedAt": "2026-10-30T20:33:23Z",
+      "commit": "1929bccc6325c67cd623add1f9c787fee93c7012",
+      "result": "Skipped",
+      "deployId": "6ae4fedc544fba545f16ed82",
+      "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae4fedc544fba545f16ed82",
+      "liveArtistUrl": "https://artgallerybyenso.netlify.app/?artist=vincent-van-gogh&collection=modern",
+      "liveResult": "URL still renders old 9-artist homepage; Van Gogh unavailable; live0"
+    }
   },
   "validation": {
     "syntax": "HTML inline JS and all four data extensions parsed successfully",
@@ -586,5 +595,6 @@
     "van-gogh-aic-109314",
     "van-gogh-aic-14586",
     "van-gogh-aic-64957"
-  ]
+  ],
+  "last_content_commit": "1929bccc6325c67cd623add1f9c787fee93c7012"
 }
