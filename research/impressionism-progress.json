@@ -1,0 +1,82 @@
+{
+  "updatedAt": "2026-10-31T01:30:40.945079+08:00",
+  "targetPerArtist": 50,
+  "currentArtist": "monet",
+  "artists": [
+    {
+      "id": "monet",
+      "name": "Claude Monet",
+      "completeWorks": 10,
+      "target": 50
+    },
+    {
+      "id": "renoir",
+      "name": "Pierre-Auguste Renoir",
+      "completeWorks": 0,
+      "target": 50
+    },
+    {
+      "id": "degas",
+      "name": "Edgar Degas",
+      "completeWorks": 0,
+      "target": 50
+    },
+    {
+      "id": "pissarro",
+      "name": "Camille Pissarro",
+      "completeWorks": 0,
+      "target": 50
+    },
+    {
+      "id": "sisley",
+      "name": "Alfred Sisley",
+      "completeWorks": 0,
+      "target": 50
+    },
+    {
+      "id": "morisot",
+      "name": "Berthe Morisot",
+      "completeWorks": 0,
+      "target": 50
+    },
+    {
+      "id": "cassatt",
+      "name": "Mary Cassatt",
+      "completeWorks": 0,
+      "target": 50
+    },
+    {
+      "id": "caillebotte",
+      "name": "Gustave Caillebotte",
+      "completeWorks": 0,
+      "target": 50
+    },
+    {
+      "id": "guillaumin",
+      "name": "Armand Guillaumin",
+      "completeWorks": 0,
+      "target": 50
+    }
+  ],
+  "sourceFile": "impressionism.js",
+  "nextAction": "补齐莫奈至50幅；优先扩展跨馆藏与时期；新增前按馆藏编号核重。图片在源站加载，当前需要上线后验证。",
+  "classification": "Manet 是先驱/关联人物，后印象派和新印象派不混入本栏目。",
+  "factualSources": [
+    "https://www.artic.edu/artworks/14598",
+    "https://www.artic.edu/artworks/81539",
+    "https://www.artic.edu/artworks/16571",
+    "https://www.artic.edu/artworks/14620",
+    "https://www.artic.edu/artworks/81537",
+    "https://www.artic.edu/artworks/64818",
+    "https://www.artic.edu/artworks/14624",
+    "https://www.artic.edu/artworks/16564",
+    "https://www.artic.edu/artworks/87088",
+    "https://www.artic.edu/artworks/16568"
+  ],
+  "verification": {
+    "metadata": "confirmed in official API and artwork pages",
+    "rights": "all 10 marked is_public_domain=true, museum CC0 policy verified",
+    "images": "pending browser verification",
+    "deployment": "pending"
+  }
+}
