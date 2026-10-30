@@ -26,7 +26,7 @@ jobs:
           import json,time,collections
           j=json.loads(Path('research/remaining-artists-50-candidates.json').read_text())
           xs=j['records']
-          assert len(xs)==154 and len({x['id'] for x in xs})==111
+          assert len(xs)==154 and len({x['id'] for x in xs})==154
           print('STAGED',dict(collections.Counter(x['artist'] for x in xs)),flush=True)
           def probe(x):
             msg=''
