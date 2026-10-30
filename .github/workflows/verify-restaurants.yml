@@ -1,0 +1,54 @@
+name: Verify live Shenzhen restaurants page
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'shenzhen-restaurants/**'
+      - '.github/workflows/verify-restaurants.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-live-restaurants:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch published Netlify page and verify real HTML content
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import subprocess
+          import time
+          import sys
+          from pathlib import Path
+          source = Path("shenzhen-restaurants/index.html").read_bytes()
+          url = "https://artgallerybyenso.netlify.app/shenzhen-restaurants/index.html?verify=" + os.environ["GITHUB_SHA"]
+          comment = b"\n<!-- This site is hosted on Netlify."
+          assert b"const REST" in source and b"dianping.com" in source and b"145" in source, "Source is not the restaurant index"
+
+          for attempt in range(1, 16):
+              p = subprocess.run(["curl", "--fail", "--location", "--silent", "--show-error", "--max-time", "18", "--header", "Cache-Control: no-cache", url], capture_output=True)
+              if p.returncode == 0:
+                  html = p.stdout
+                  if html == source:
+                      print("PASS: Public HTTPS URL serves exact restaurant HTML including 145 listings, Dianping links and checkbox code.")
+                      sys.exit(0)
+                  k = html.find(comment)
+                  if 0 <= k < 2048:
+                      end = html.find(b"-->", k)
+                      if end != -1 and html[:k] + html[end+3:] == source:
+                          print("PASS: Public HTTPS URL serves exact restaurant HTML with standard Netlify hosting comment.")
+                          sys.exit(0)
+                  print(f"Attempt {attempt}/15: live URL responds but source version differs; source={len(source)} live={len(html)}", flush=True)
+              else:
+                  print(f"Attempt {attempt}/15: URL did not open, curl code={p.returncode}, error={p.stderr.decode(errors='replace')[:140]}", flush=True)
+              if attempt < 15:
+                  time.sleep(8)
+          print("FAIL: Public restaurant page is not yet confirmed accessible or correct.")
+          sys.exit(1)
+          PY
