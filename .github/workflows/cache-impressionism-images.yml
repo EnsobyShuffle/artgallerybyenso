@@ -1,0 +1,84 @@
+name: Cache open Impressionist artwork images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - impressionism.js
+      - .github/workflows/cache-impressionism-images.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: impressionism-image-cache
+  cancel-in-progress: false
+
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Store verified CC0 museum images with their source records
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,datetime,json,pathlib,urllib.request,urllib.parse
+          p=pathlib.Path('impressionism.js')
+          prefix,body=p.read_text().split('window.IMPRESSIONISM_GALLERY = ',1)
+          data=json.loads(body.strip().removesuffix(';'))
+          folder=pathlib.Path('assets/impressionism')
+          folder.mkdir(parents=True,exist_ok=True)
+          candidates=[w for w in data['pieces'] if w['image'].startswith('https://www.artic.edu/iiif/2/')]
+          def cache(w):
+              assert w.get('license')=='CC0'
+              url=w['image']
+              assert urllib.parse.urlparse(url).hostname=='www.artic.edu'
+              dest=folder/(w['id']+'.jpg')
+              req=urllib.request.Request(url,headers={'User-Agent':'ArtGalleryByAnsel/1.0 (public-domain museum image cache)'})
+              with urllib.request.urlopen(req,timeout=40) as r:
+                  content=r.read(15000000)
+                  assert r.headers.get('Content-Type','').startswith('image/'), 'Not an image'
+              assert content.startswith(bytes([255,216,255])) and len(content)>10000, 'Invalid JPEG'
+              dest.write_bytes(content)
+              return w['id'],url,'/'+str(dest),len(content)
+          results=[]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
+              for result in ex.map(cache,candidates):
+                  results.append(result)
+                  print(result[0], 'cached',result[3],'bytes',flush=True)
+          byid={w['id']:w for w in data['pieces']}
+          replacements={}
+          for ident,url,local,size in results:
+              w=byid[ident]
+              w['sourceImage']=url
+              w['image']=local
+              w['originalImage']=local
+              replacements[url]=local
+          for a in data['artists'].values():
+              if a.get('cover') in replacements:a['cover']=replacements[a['cover']]
+          p.write_text(prefix+'window.IMPRESSIONISM_GALLERY = '+json.dumps(data,ensure_ascii=False,indent=2)+';\n')
+          if results:
+              q=pathlib.Path('research/impressionism-progress.json')
+              progress=json.loads(q.read_text())
+              progress['updatedAt']=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat()
+              progress['verification']['images']='All initial 10 CC0 JPEGs cached in assets/impressionism; browser QA pending'
+              progress['verification']['deployment']='Impressionism entry and text published; locally hosted image update pending'
+              progress['nextAction']='补齐莫奈至50幅；新增前按馆藏编号核重；优先保存经许可的图片到站点，避免外链失效。'
+              q.write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - name: Publish only changed image assets and collection references
+        shell: bash
+        run: |
+          git add assets/impressionism impressionism.js research/impressionism-progress.json
+          if git diff --cached --quiet; then
+            echo "No new CC0 images to cache."
+            exit 0
+          fi
+          git -c user.name="Gallery asset bot" -c user.email="gallery-assets@users.noreply.github.com" commit -m "Host verified CC0 Monet images with gallery"
+          git pull --rebase origin main
+          git push origin HEAD:main
