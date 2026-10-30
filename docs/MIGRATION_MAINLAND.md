@@ -81,3 +81,13 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 - 验证边界：本轮完成 GitHub 分支/commit 比较；没有国内网络或腾讯云账号会话，未部署、未切域名、未做运营商/微信访问验收。
 
 下一步：先以当前 main 和迁移分支为双端输入，在本地重建可比较工作树；逐文件合并新增作品和页面适配后，生成新的 migration 分支提交与审计产物。不能只更新本说明而把合并记作完成。
+
+
+## 并发内容与合并检查点｜2026-10-31 04:43 Asia/Shanghai
+
+- 已重新比较最新分支：migration/tencent-mainland 头为 `13aa70c8e99ac072165e58686544b449aeeb7fef`；当前 main 头为 `e1587c4f34d999f24f556f09b79cb25b87d31b21`（Van Gogh 内容提交记录）。共同基线仍为 `399df0d2601d5575da5004183fc66553679aa54a`；分支已分叉，migration 比 main 领先 10 个提交，落后 2 个提交。
+- main 新增/更新的并发内容包括 abstract.js、modern.js、gallery queue、Hilma af Klint 与 Vincent van Gogh 进度，以及 Monet 图像；共享修改文件包括 index.html、impressionism.js、renaissance.js 和相应进度 JSON。旧审计仍是 9 位艺术家/324 条作品，不能代表最新 main 的覆盖量。
+- 已建立 PR [#2：Merge latest gallery content into mainland migration](https://github.com/EnsobyShuffle/artgallerybyenso/pull/2)，目标仅为迁移工作分支，基于上述两端 SHA。GitHub 当前回报 `mergeable=false`，PR 未合并；不把新增内容记作已同步，也未更改 main、Netlify 生产站或正式入口。
+- 阻塞原因：文本/数据文件有重叠修改，需逐文件保留大陆迁移适配与内容更新后再合并；旧本地检查产物不是最新 Git 工作树，不能拿它覆盖远端。腾讯云控制台仍需Henry正常登录以核实真实环境、域名、备案与额度。
+
+下一步：针对 PR #2 的共享文件做三方差异核对并解决冲突，在 migration/tencent-mainland 上完成合并后重新生成艺术家/作品和外链资源审计，运行个人数据回归、预览包与 release 阻断检查；国内网络验收继续待登录与测试条件。
