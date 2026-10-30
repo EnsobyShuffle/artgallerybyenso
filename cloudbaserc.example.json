@@ -1,0 +1,12 @@
+{
+  "envId": "{{env.TCB_ENV_ID}}",
+  "region": "ap-shanghai",
+  "hosting": [
+    {
+      "name": "artgallery",
+      "framework": "static",
+      "outputDir": "build/cloudbase",
+      "deployPath": "/"
+    }
+  ]
+}

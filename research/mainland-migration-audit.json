@@ -1,0 +1,4988 @@
+{
+  "generatedAt": "2026-10-31T03:28:40.202639+08:00",
+  "source": "EnsobyShuffle/artgallerybyenso",
+  "status": "prepared_not_deployed",
+  "artistCount": 9,
+  "artworkCount": 324,
+  "artworksByArtist": {
+    "evans": 50,
+    "jef": 50,
+    "journaia": 1,
+    "levitan": 50,
+    "menne": 50,
+    "callaghan": 50,
+    "duchamp": 50,
+    "monet": 20,
+    "leonardo": 3
+  },
+  "localArtworkCount": 20,
+  "externalRuntimeReferenceCount": 616,
+  "externalRuntimeUniqueUrls": 344,
+  "externalHosts": {
+    "static.wixstatic.com": 101,
+    "images.pixels.com": 95,
+    "www.rosss.com": 88,
+    "aquarellepublishing.co.uk": 82,
+    "commons.wikimedia.org": 37,
+    "uploads4.wikiart.org": 30,
+    "uploads5.wikiart.org": 18,
+    "uploads6.wikiart.org": 16,
+    "uploads2.wikiart.org": 16,
+    "uploads7.wikiart.org": 16,
+    "uploads1.wikiart.org": 16,
+    "uploads8.wikiart.org": 12,
+    "www.moma.org": 10,
+    "www.therosegallery.co.uk": 9,
+    "media.mutualart.com": 8,
+    "uploads0.wikiart.org": 8,
+    "api.nga.gov": 7,
+    "i0.wp.com": 5,
+    "image.invaluable.com": 5,
+    "www.aquarellepublishing.co.uk": 4,
+    "uploads3.wikiart.org": 4,
+    "images.squarespace-cdn.com": 3,
+    "beyondthepage.co.uk": 2,
+    "cdn.tretyakov.ru": 2,
+    "render.pixels.com": 2,
+    "images.fineartamerica.com": 2,
+    "images.saatchiart.com": 2,
+    "lacyscottknight.blob.core.windows.net": 2,
+    "www.almanart.org": 2,
+    "cdn.sanity.io": 2,
+    "www.christies.com": 2,
+    "smarthistory.org": 2,
+    "www.cinetecamadrid.com": 2,
+    "sis.modernamuseet.se": 2,
+    "assets.philamuseum.org": 2
+  },
+  "missingLocalReferences": [],
+  "externalRuntimeReferences": [
+    {
+      "owner": "evans",
+      "field": "cover",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3067-Paul-Evans-Morning-Light_-High-Summer-signed-limited-edition-print.jpg?v=1690996989",
+      "rights": "See artwork and artist records",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "jef",
+      "field": "cover",
+      "url": "https://static.wixstatic.com/media/e57fe7_c3f3c9059d3147bcb016e303822c394a~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Blue%20Ridge%20Vista.jpg",
+      "rights": "See artwork and artist records",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "journaia",
+      "field": "cover",
+      "url": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2026/07/Wild-West-Wool-%F0%9F%A4%A0%E2%9C%8C%EF%B8%8Fdigitalartcommunity.jpg?resize=904%2C1200&ssl=1",
+      "rights": "See artwork and artist records",
+      "host": "i0.wp.com"
+    },
+    {
+      "owner": "levitan",
+      "field": "cover",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Zolotaya_Osen.jpg?width=1600",
+      "rights": "See artwork and artist records",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "menne",
+      "field": "cover",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/sunset-through-lush-wildflowers-matthias-menne.jpg",
+      "rights": "See artwork and artist records",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "callaghan",
+      "field": "cover",
+      "url": "https://image.invaluable.com/housePhotos/turnbull/85/709985/H1044-L268109904.jpg",
+      "rights": "See artwork and artist records",
+      "host": "image.invaluable.com"
+    },
+    {
+      "owner": "duchamp",
+      "field": "cover",
+      "url": "https://images.squarespace-cdn.com/content/v1/59038f2c440243a0d4b45f4c/eebdd451-c35a-4e51-8574-87d0fa0eef3c/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
+      "rights": "See artwork and artist records",
+      "host": "images.squarespace-cdn.com"
+    },
+    {
+      "owner": "leonardo",
+      "field": "cover",
+      "url": "https://api.nga.gov/iiif/8f29e3c9-a289-4d53-abf0-31a66e9e98fa/full/!800,800/0/default.jpg",
+      "rights": "See artwork and artist records",
+      "host": "api.nga.gov"
+    },
+    {
+      "owner": "evans-morning-light",
+      "field": "image",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3067-Paul-Evans-Morning-Light_-High-Summer-signed-limited-edition-print.jpg?v=1690996989",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-morning-light",
+      "field": "originalImage",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3067-Paul-Evans-Morning-Light_-High-Summer-signed-limited-edition-print.jpg?v=1690996989",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-winter-dusk",
+      "field": "image",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3207PaulEvansWinterDusk.jpg?v=1709126514",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-winter-dusk",
+      "field": "originalImage",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3207PaulEvansWinterDusk.jpg?v=1709126514",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-sunburst",
+      "field": "image",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3204-Paul-Evans-Sunburst-and-Bluebells-signed-limited-edition-print.jpg?v=1690997991",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-sunburst",
+      "field": "originalImage",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3204-Paul-Evans-Sunburst-and-Bluebells-signed-limited-edition-print.jpg?v=1690997991",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-solstice",
+      "field": "image",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3112PaulEvansWinterSolstice.jpg?v=1709126015",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-solstice",
+      "field": "originalImage",
+      "url": "https://www.therosegallery.co.uk/cdn/shop/files/PE3112PaulEvansWinterSolstice.jpg?v=1709126015",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.therosegallery.co.uk"
+    },
+    {
+      "owner": "evans-summertime",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Summertime-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-summertime",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Summertime-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-through-meadow",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Additional%20Thumbnails/2018/PE3066-crop-large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-through-meadow",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Additional%20Thumbnails/2018/PE3066-crop-large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-field-flowers",
+      "field": "image",
+      "url": "https://www.aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Field-Flowers-and-Farm.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-field-flowers",
+      "field": "originalImage",
+      "url": "https://www.aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Field-Flowers-and-Farm.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-orchard",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Artists-Orchard.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-orchard",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Artists-Orchard.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-frosted-evening",
+      "field": "image",
+      "url": "https://www.aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3073-paul-evans-frosted-evening-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-frosted-evening",
+      "field": "originalImage",
+      "url": "https://www.aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3073-paul-evans-frosted-evening-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-strawberry-moon",
+      "field": "image",
+      "url": "https://i0.wp.com/www.rathergoodart.co.uk/wp-content/uploads/2023/03/paul-evans-strawberry-moon.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "i0.wp.com"
+    },
+    {
+      "owner": "evans-strawberry-moon",
+      "field": "originalImage",
+      "url": "https://i0.wp.com/www.rathergoodart.co.uk/wp-content/uploads/2023/03/paul-evans-strawberry-moon.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "i0.wp.com"
+    },
+    {
+      "owner": "evans-golden-moon",
+      "field": "image",
+      "url": "https://beyondthepage.co.uk/media/catalog/product/cache/311febe297c8cb7ebe5f422df3ac0ac1/p/a/paul-evans-the-golden-moon-crop.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "beyondthepage.co.uk"
+    },
+    {
+      "owner": "evans-golden-moon",
+      "field": "originalImage",
+      "url": "https://beyondthepage.co.uk/media/catalog/product/cache/311febe297c8cb7ebe5f422df3ac0ac1/p/a/paul-evans-the-golden-moon-crop.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "beyondthepage.co.uk"
+    },
+    {
+      "owner": "evans-meadow-landscape",
+      "field": "image",
+      "url": "https://media.mutualart.com/Images/2024_02/10/22/222006760/gouache-AAAAA-570.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "evans-meadow-landscape",
+      "field": "originalImage",
+      "url": "https://media.mutualart.com/Images/2024_02/10/22/222006760/gouache-AAAAA-570.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "jef-blue-ridge",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_c3f3c9059d3147bcb016e303822c394a~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Blue%20Ridge%20Vista.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-blue-ridge",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_c3f3c9059d3147bcb016e303822c394a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-lake-clouds",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_5fc9a1c4c18742f2b1134250de67c293~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Lake%20of%20the%20Clouds.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-lake-clouds",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_5fc9a1c4c18742f2b1134250de67c293~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-light",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_8c0617f721b5441b8c012044bb6319b4~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Autumn%20Light.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-light",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_8c0617f721b5441b8c012044bb6319b4~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-winter-overlook",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_1486e8cdc767490eb013b27d9dc73791~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Winter%20Sunset%20at%20the%20Overlook.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-winter-overlook",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_1486e8cdc767490eb013b27d9dc73791~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-sail",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_ba985e4028454a948461d23998dede5b~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Autumn%20Sail.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-sail",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_ba985e4028454a948461d23998dede5b~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-south-beach",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_ae446dd76cc743349d7b81a654fed631~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/South%20Beach.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-south-beach",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_ae446dd76cc743349d7b81a654fed631~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-woods",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_62467433774349eab37530c00e97a39a~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Autumn%20Woods.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-woods",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_62467433774349eab37530c00e97a39a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-the-marsh",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_8f1d4a2159b943ff9df8b6290c8c9af7~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/The%20Marsh.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-the-marsh",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_8f1d4a2159b943ff9df8b6290c8c9af7~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-red-forest",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_87aaee261a084669847e495035daa0e0~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/The%20Red%20Forest.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-red-forest",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_87aaee261a084669847e495035daa0e0~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-red-house",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_ee99f0613a4546d0a9bccf0cf00da9dd~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/The%20Red%20House.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-red-house",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_ee99f0613a4546d0a9bccf0cf00da9dd~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-lemons",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_0df19435f41e4e048e50e4fcbbe04ca9~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Autumn%20Window%20with%20Lemons%20use.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-lemons",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_0df19435f41e4e048e50e4fcbbe04ca9~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-fall-drive",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_5f5aaa9b0a2a414cbceb1951979841d6~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Fall%20Drive%20Down%20M22.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-fall-drive",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_5f5aaa9b0a2a414cbceb1951979841d6~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-triple-birch",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_5b6f6d7f96f94538b05fb22873c48da3~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Triple%20Birch%20at%20St%20James%20River.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-triple-birch",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_5b6f6d7f96f94538b05fb22873c48da3~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-big-beach",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_6e5aac68496f4be2aa097a02818791b5~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/At%20The%20Big%20Beach.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-big-beach",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_6e5aac68496f4be2aa097a02818791b5~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-roofs",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_203eb70f4ef24ddc99e3c2ff9d559c65~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Autumn%20Roofs%20of%20Arcadia.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-autumn-roofs",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_203eb70f4ef24ddc99e3c2ff9d559c65~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-birch-yellow",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_73d9dba93cb04cfdbf8b2949d89369e7~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Birch%20Yellow.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-birch-yellow",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_73d9dba93cb04cfdbf8b2949d89369e7~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-caves",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_adecf222caab4b509610dda07c65daa4~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Caves%20at%20Pictured%20Rocks.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-caves",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_adecf222caab4b509610dda07c65daa4~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-mirror-bay",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_be6f1301343d4703a09190ae40884e5f~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Mirror%20Bay.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-mirror-bay",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_be6f1301343d4703a09190ae40884e5f~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-golden-hour",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_fb76aa8c86f44fe1a9b70fc8645b96ad~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/The%20Golden%20Hour%201.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-golden-hour",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_fb76aa8c86f44fe1a9b70fc8645b96ad~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-spring-marsh",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_bd04ff223e40465c81b0c474e4d6bba1~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Spring%20Marsh.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-spring-marsh",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_bd04ff223e40465c81b0c474e4d6bba1~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-black-sky",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_dc1b469f79c4465aa875b946075b4989~mv2.jpg/v1/fill/w_433%2Ch_433%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/Black%20Sky%20White%20Pines.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-black-sky",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_dc1b469f79c4465aa875b946075b4989~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "journaia-editorial-2026-07",
+      "field": "image",
+      "url": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2026/07/Wild-West-Wool-%F0%9F%A4%A0%E2%9C%8C%EF%B8%8Fdigitalartcommunity.jpg?resize=904%2C1200&ssl=1",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "i0.wp.com"
+    },
+    {
+      "owner": "journaia-editorial-2026-07",
+      "field": "originalImage",
+      "url": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2026/07/Wild-West-Wool-%F0%9F%A4%A0%E2%9C%8C%EF%B8%8Fdigitalartcommunity.jpg?resize=904%2C1200&ssl=1",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "i0.wp.com"
+    },
+    {
+      "owner": "levitan-golden-autumn",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Zolotaya_Osen.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-golden-autumn",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Zolotaya_Osen.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-eternal-peace",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_nad_vech_pok28.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-eternal-peace",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_nad_vech_pok28.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-march",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mart_levitan.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-march",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mart_levitan.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-high-water",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_High_water.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-high-water",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_High_water.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-vladimirka",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimirka_without_frame.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-vladimirka",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimirka_without_frame.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-the-lake",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_ozero28.JPG?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-the-lake",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_ozero28.JPG",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-quiet-abode",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isaak_Levitan_Tihaya_obitel_%28big%29.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-quiet-abode",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isaak_Levitan_Tihaya_obitel_%28big%29.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-evening-bells",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Evening_bells_1892.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-evening-bells",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Evening_bells_1892.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-birch-grove",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1885-1889_Birkenhain.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-birch-grove",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1885-1889_Birkenhain.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-fresh-wind",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B9_%D0%B2%D0%B5%D1%82%D0%B5%D1%80.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-fresh-wind",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B9_%D0%B2%D0%B5%D1%82%D0%B5%D1%80.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-sokolniki",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Sokolniki_Autumn_1879.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-sokolniki",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Sokolniki_Autumn_1879.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-by-pool",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%A3_%D0%BE%D0%BC%D1%83%D1%82%D0%B0.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-by-pool",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%A3_%D0%BE%D0%BC%D1%83%D1%82%D0%B0.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-after-rain",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%B4%D0%BE%D0%B6%D0%B4%D1%8F.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-after-rain",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%B4%D0%BE%D0%B6%D0%B4%D1%8F.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-golden-plyos",
+      "field": "image",
+      "url": "https://cdn.tretyakov.ru/mytretyakov/24/94e13f064477729760500ba00bef1577/thumb/c7c8e730f424ace9d04e060efb401040_x1.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "cdn.tretyakov.ru"
+    },
+    {
+      "owner": "levitan-golden-plyos",
+      "field": "originalImage",
+      "url": "https://cdn.tretyakov.ru/mytretyakov/24/94e13f064477729760500ba00bef1577/thumb/c7c8e730f424ace9d04e060efb401040_x1.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "cdn.tretyakov.ru"
+    },
+    {
+      "owner": "levitan-dusk-hay",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%A1%D1%83%D0%BC%D0%B5%D1%80%D0%BA%D0%B8._%D0%A1%D1%82%D0%BE%D0%B3%D0%B0.jpg?width=1200",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-dusk-hay",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%A1%D1%83%D0%BC%D0%B5%D1%80%D0%BA%D0%B8._%D0%A1%D1%82%D0%BE%D0%B3%D0%B0.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-dandelions",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%9E%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D1%87%D0%B8%D0%BA%D0%B8.jpg?width=1200",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-dandelions",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BD_%D0%9E%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D1%87%D0%B8%D0%BA%D0%B8.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-rain-study",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_After_the_rain_Plyos_study_1889.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-rain-study",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_After_the_rain_Plyos_study_1889.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-golden-study",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Evening_Golden_Plyos_study_1889.jpg?width=1600",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "levitan-golden-study",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levitan_Evening_Golden_Plyos_study_1889.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "menne-sunset-wildflowers",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/sunset-through-lush-wildflowers-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-sunset-wildflowers",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/sunset-through-lush-wildflowers-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-sunset-leaves",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/sunset-through-silhouetted-leaves-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-sunset-leaves",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/sunset-through-silhouetted-leaves-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-coastal",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-coastal-scene-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-coastal",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-coastal-scene-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-backlit-flower",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/backlit-silhouette-of-wildflowers-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-backlit-flower",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/backlit-silhouette-of-wildflowers-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-enchanted-forest",
+      "field": "image",
+      "url": "https://render.pixels.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/1-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "render.pixels.com"
+    },
+    {
+      "owner": "menne-enchanted-forest",
+      "field": "originalImage",
+      "url": "https://render.pixels.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/1-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "render.pixels.com"
+    },
+    {
+      "owner": "menne-window-peonies6",
+      "field": "image",
+      "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/window-peonies-6-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.fineartamerica.com"
+    },
+    {
+      "owner": "menne-window-peonies6",
+      "field": "originalImage",
+      "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/window-peonies-6-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.fineartamerica.com"
+    },
+    {
+      "owner": "menne-fading-memories",
+      "field": "image",
+      "url": "https://images.saatchiart.com/saatchi/1333673/art/8763822/7827306-FABFUJPU-7.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.saatchiart.com"
+    },
+    {
+      "owner": "menne-fading-memories",
+      "field": "originalImage",
+      "url": "https://images.saatchiart.com/saatchi/1333673/art/8763822/7827306-FABFUJPU-7.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.saatchiart.com"
+    },
+    {
+      "owner": "callaghan-antrim",
+      "field": "image",
+      "url": "https://image.invaluable.com/housePhotos/turnbull/85/709985/H1044-L268109904.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "image.invaluable.com"
+    },
+    {
+      "owner": "callaghan-antrim",
+      "field": "originalImage",
+      "url": "https://image.invaluable.com/housePhotos/turnbull/85/709985/H1044-L268109904.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "image.invaluable.com"
+    },
+    {
+      "owner": "callaghan-storm",
+      "field": "image",
+      "url": "https://lacyscottknight.blob.core.windows.net/stock/526016-0-medium.jpg?v=63819482410557",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "lacyscottknight.blob.core.windows.net"
+    },
+    {
+      "owner": "callaghan-storm",
+      "field": "originalImage",
+      "url": "https://lacyscottknight.blob.core.windows.net/stock/526016-0-medium.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "lacyscottknight.blob.core.windows.net"
+    },
+    {
+      "owner": "callaghan-harbour",
+      "field": "image",
+      "url": "https://media.mutualart.com/Images/2025_01/10/11/84474311/george-callaghan-coastal-harbour-below-t-4Z2K9.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "callaghan-harbour",
+      "field": "originalImage",
+      "url": "https://media.mutualart.com/Images/2025_01/10/11/84474311/george-callaghan-coastal-harbour-below-t-4Z2K9.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "callaghan-moonlit-steps",
+      "field": "image",
+      "url": "https://media.mutualart.com/Images/2024_08/28/06/71773596/george-callaghan-moonlit-steps-SITX3-570.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "callaghan-moonlit-steps",
+      "field": "originalImage",
+      "url": "https://media.mutualart.com/Images/2024_08/28/06/71773596/george-callaghan-moonlit-steps-SITX3-570.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "callaghan-moon-trees",
+      "field": "image",
+      "url": "https://www.rosss.com/images/auction/1031/254_2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-moon-trees",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/images/auction/1031/254_2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-mountain-village",
+      "field": "image",
+      "url": "https://media.mutualart.com/Images/2025_01/10/11/84472123/george-callaghan-mountain-village-ILEXW.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "callaghan-mountain-village",
+      "field": "originalImage",
+      "url": "https://media.mutualart.com/Images/2025_01/10/11/84472123/george-callaghan-mountain-village-ILEXW.Jpeg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "media.mutualart.com"
+    },
+    {
+      "owner": "callaghan-winding-path",
+      "field": "image",
+      "url": "https://image.invaluable.com/housePhotos/rossco/99/550799/H3293-L59938490.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "image.invaluable.com"
+    },
+    {
+      "owner": "callaghan-winding-path",
+      "field": "originalImage",
+      "url": "https://image.invaluable.com/housePhotos/rossco/99/550799/H3293-L59938490.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "image.invaluable.com"
+    },
+    {
+      "owner": "duchamp-nude-staircase",
+      "field": "image",
+      "url": "https://www.almanart.org/IMG/Image/proposees/Duchamp-marcel_nu-descendant-escalier-n2_1912_146x89_MOAPhiladelphie.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.almanart.org"
+    },
+    {
+      "owner": "duchamp-nude-staircase",
+      "field": "originalImage",
+      "url": "https://www.almanart.org/IMG/Image/proposees/Duchamp-marcel_nu-descendant-escalier-n2_1912_146x89_MOAPhiladelphie.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.almanart.org"
+    },
+    {
+      "owner": "duchamp-bicycle",
+      "field": "image",
+      "url": "https://www.moma.org/d/c/installation_images/W1siZiIsIjQ3NDQzOCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDUxMng1MTJcdTAwM2UiXV0.jpg?sha=f689b8d2197145b4",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-bicycle",
+      "field": "originalImage",
+      "url": "https://www.moma.org/d/c/installation_images/W1siZiIsIjQ3NDQzOCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDUxMng1MTJcdTAwM2UiXV0.jpg?sha=f689b8d2197145b4",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-stoppages",
+      "field": "image",
+      "url": "https://cdn.sanity.io/images/476nwnl9/production/aed66362d36b1426a0e36f0860d294e851cd4d4a-6431x4411.jpg?auto=format",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "cdn.sanity.io"
+    },
+    {
+      "owner": "duchamp-stoppages",
+      "field": "originalImage",
+      "url": "https://cdn.sanity.io/images/476nwnl9/production/aed66362d36b1426a0e36f0860d294e851cd4d4a-6431x4411.jpg?auto=format",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "cdn.sanity.io"
+    },
+    {
+      "owner": "duchamp-chocolate-grinder",
+      "field": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocolate_Grinder_No._2.jpg?width=1000",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "duchamp-chocolate-grinder",
+      "field": "originalImage",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocolate_Grinder_No._2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "commons.wikimedia.org"
+    },
+    {
+      "owner": "duchamp-shovel",
+      "field": "image",
+      "url": "https://www.christies.com/-/jssmedia/images/features/articles/2024/10/duchamp-shovel/duchamp-73198512-o_2400-dotcom-jpeg.jpg?hash=5087d9d6954e7380a9198290c38421576626fddf&mh=1324&mw=1150",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.christies.com"
+    },
+    {
+      "owner": "duchamp-shovel",
+      "field": "originalImage",
+      "url": "https://www.christies.com/-/jssmedia/images/features/articles/2024/10/duchamp-shovel/duchamp-73198512-o_2400-dotcom-jpeg.jpg?hash=5087d9d6954e7380a9198290c38421576626fddf&mh=1324&mw=1150",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.christies.com"
+    },
+    {
+      "owner": "duchamp-large-glass",
+      "field": "image",
+      "url": "https://smarthistory.org/wp-content/uploads/2016/03/LgGwhole.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "smarthistory.org"
+    },
+    {
+      "owner": "duchamp-large-glass",
+      "field": "originalImage",
+      "url": "https://smarthistory.org/wp-content/uploads/2016/03/LgGwhole.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "smarthistory.org"
+    },
+    {
+      "owner": "duchamp-fountain",
+      "field": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/59038f2c440243a0d4b45f4c/eebdd451-c35a-4e51-8574-87d0fa0eef3c/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.squarespace-cdn.com"
+    },
+    {
+      "owner": "duchamp-fountain",
+      "field": "originalImage",
+      "url": "https://images.squarespace-cdn.com/content/v1/59038f2c440243a0d4b45f4c/eebdd451-c35a-4e51-8574-87d0fa0eef3c/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.squarespace-cdn.com"
+    },
+    {
+      "owner": "duchamp-lhooq-1930",
+      "field": "image",
+      "url": "https://www.moma.org/d/assets/W1siZiIsIjIwMjYvMDQvMDcvNTI2MjY1bXhtOF82MDcxX2xob29xLnBuZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ/6071%20lhooq.png?sha=a81cdde6ed68990a",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-lhooq-1930",
+      "field": "originalImage",
+      "url": "https://www.moma.org/d/assets/W1siZiIsIjIwMjYvMDQvMDcvNTI2MjY1bXhtOF82MDcxX2xob29xLnBuZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ/6071%20lhooq.png?sha=a81cdde6ed68990a",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-fresh-widow",
+      "field": "image",
+      "url": "https://www.moma.org/media/W1siZiIsIjIxMDQ3MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDE1MzZ4MTUzNlx1MDAzZSJdXQ.jpg?sha=d410013f8ff3d669",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-fresh-widow",
+      "field": "originalImage",
+      "url": "https://www.moma.org/media/W1siZiIsIjIxMDQ3MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDE1MzZ4MTUzNlx1MDAzZSJdXQ.jpg?sha=d410013f8ff3d669",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-why-sneeze",
+      "field": "image",
+      "url": "https://www.moma.org/media/W1siZiIsIjIxMTk4MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=a4869b9ce3a61dca",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-why-sneeze",
+      "field": "originalImage",
+      "url": "https://www.moma.org/media/W1siZiIsIjIxMTk4MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=a4869b9ce3a61dca",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-anemic-cinema",
+      "field": "image",
+      "url": "https://www.cinetecamadrid.com/sites/default/files/styles/imagenes_medianas/public/activity/image/imagen_ANEMIC-CINEMA.jpg.webp?itok=jBj95RSR",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.cinetecamadrid.com"
+    },
+    {
+      "owner": "duchamp-anemic-cinema",
+      "field": "originalImage",
+      "url": "https://www.cinetecamadrid.com/sites/default/files/styles/imagenes_medianas/public/activity/image/imagen_ANEMIC-CINEMA.jpg.webp?itok=jBj95RSR",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.cinetecamadrid.com"
+    },
+    {
+      "owner": "duchamp-rotoreliefs",
+      "field": "image",
+      "url": "https://sis.modernamuseet.se/internal/media/dispatcher/19885/full",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "sis.modernamuseet.se"
+    },
+    {
+      "owner": "duchamp-rotoreliefs",
+      "field": "originalImage",
+      "url": "https://sis.modernamuseet.se/internal/media/dispatcher/19885/full",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "sis.modernamuseet.se"
+    },
+    {
+      "owner": "duchamp-box-valise",
+      "field": "image",
+      "url": "https://www.moma.org/d/assets/W1siZiIsIjIwMjYvMDQvMDcvNWZ2Y3NsNWlha182MTVfYm94X2luX2FfdmFsaXNlXzIuanBnIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkwIC1yZXNpemUgMjAwMHgyMDAwXHUwMDNlIl1d/615%20box-in-a-valise-2.jpg?sha=93c6bbaccdefafe4",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-box-valise",
+      "field": "originalImage",
+      "url": "https://www.moma.org/d/assets/W1siZiIsIjIwMjYvMDQvMDcvNWZ2Y3NsNWlha182MTVfYm94X2luX2FfdmFsaXNlXzIuanBnIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkwIC1yZXNpemUgMjAwMHgyMDAwXHUwMDNlIl1d/615%20box-in-a-valise-2.jpg?sha=93c6bbaccdefafe4",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.moma.org"
+    },
+    {
+      "owner": "duchamp-etant-donnes",
+      "field": "image",
+      "url": "https://assets.philamuseum.org/images/r7hgx2l2/production/3c5ea579b8adad894879fcca32fbd374d51ad17d-2300x1738.jpg?auto=format&fit=max",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "assets.philamuseum.org"
+    },
+    {
+      "owner": "duchamp-etant-donnes",
+      "field": "originalImage",
+      "url": "https://assets.philamuseum.org/images/r7hgx2l2/production/3c5ea579b8adad894879fcca32fbd374d51ad17d-2300x1738.jpg?auto=format&fit=max",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "assets.philamuseum.org"
+    },
+    {
+      "owner": "evans-50-sunsetlane",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Sunset-Lane-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-sunsetlane",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Sunset-Lane-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-latewinterlight",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Late-Winter-Light-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-latewinterlight",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Late-Winter-Light-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-walkingthroughthewood",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Walking-through-the-Wood-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-walkingthroughthewood",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Walking-through-the-Wood-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-wintermoon",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Winter-Moon-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-wintermoon",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Winter-Moon-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-winterwonder",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Winter-Wonder-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-winterwonder",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Winter-Wonder-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-meadowandmoon",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Meadow-and-Moon-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-meadowandmoon",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Meadow-and-Moon-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-fieldsofphacelia",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Fields-of-Phacelia-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-fieldsofphacelia",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Fields-of-Phacelia-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-aseaofbluebells",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3113-Paul-Evans-A-Sea-of-Bluebells.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-aseaofbluebells",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3113-Paul-Evans-A-Sea-of-Bluebells.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-hiddencottage",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3074-paul-evans-hidden-cottage-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-hiddencottage",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3074-paul-evans-hidden-cottage-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-wildsummermeadow",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3106-Paul-Evans-wild-summer-meadow-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-wildsummermeadow",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3106-Paul-Evans-wild-summer-meadow-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-barleymoon",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3105-Paul-Evans-The-Barley-Moon-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-barleymoon",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3105-Paul-Evans-The-Barley-Moon-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-springtime",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3205-Paul-Evans-Springtime-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-springtime",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3205-Paul-Evans-Springtime-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-atlanticcove",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Atlantic-Cove.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-atlanticcove",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Atlantic-Cove.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-sparklingsea",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Sparkling-Sea.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-sparklingsea",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Sparkling-Sea.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-coastalflowers",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Coastal-Flowers.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-coastalflowers",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Coastal-Flowers.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-smalltortoiseshell",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Small-Toroiseshell.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-smalltortoiseshell",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Small-Toroiseshell.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-scentofsummer",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Scent-of-Summer.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-scentofsummer",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Scent-of-Summer.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-poppies",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Poppies.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-poppies",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Poppies.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-reflections",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Reflections.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-reflections",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Reflections.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-februaryfieldandfarm",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3111-Paul-Evans-February-Field-and-Farm.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-februaryfieldandfarm",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3111-Paul-Evans-February-Field-and-Farm.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-birdcallandbluebells",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3072-paul-evans-birdcall-and-bluebells-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-birdcallandbluebells",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3072-paul-evans-birdcall-and-bluebells-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-springmeadow",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3110-paul-evans-spring-meadow-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-springmeadow",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3110-paul-evans-spring-meadow-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-thegoingdownofthesun",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3109-paul-evans-the-going-down-of-the-sun-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-thegoingdownofthesun",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3109-paul-evans-the-going-down-of-the-sun-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-frostedfield",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3107-Paul-Evans-frosted-field-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-frostedfield",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3107-Paul-Evans-frosted-field-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-summerhaze",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3108-Paul-Evans-summer-haze-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-summerhaze",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3108-Paul-Evans-summer-haze-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-summercolours",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3206-Paul-Evans-Summer-Colours-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-summercolours",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3206-Paul-Evans-Summer-Colours-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-autumnmeadow",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3071-Paul-Evans-Autumn-Meadow-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-autumnmeadow",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3071-Paul-Evans-Autumn-Meadow-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-glorioussummer",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3068-Paul-Evans-Glorious-Summer-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-glorioussummer",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3068-Paul-Evans-Glorious-Summer-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-wintersunrise",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3069-Paul-Evans-Winter-Sunrise-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-wintersunrise",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3069-Paul-Evans-Winter-Sunrise-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-secretbluebells",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3070-Paul-Evans-Secret-Bluebells-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-secretbluebells",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3070-Paul-Evans-Secret-Bluebells-signed-limited-edition-print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-bluebellmorning",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3065-Paul-Evans-Bluebell-Morning-Signed-Limited-Edition-Prin.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-bluebellmorning",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3065-Paul-Evans-Bluebell-Morning-Signed-Limited-Edition-Prin.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-scentofbluebells",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3203-Paul-Evans-Scent-of-Bluebells-Signed-Limited-Edition-Prin.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-scentofbluebells",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/PE3203-Paul-Evans-Scent-of-Bluebells-Signed-Limited-Edition-Prin.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-bluebellway",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Bluebell-Way-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-bluebellway",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Bluebell-Way-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-quietmeadow",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Quiet-Meadow-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-quietmeadow",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Quiet-Meadow-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-summerheat",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Summer-Heat-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-summerheat",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Summer-Heat-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-septembersunshine",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-September-Sunshine-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-septembersunshine",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-September-Sunshine-Limited-Edition-Print.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-springtimewoodland",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Springtime-Woodland.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-springtimewoodland",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Springtime-Woodland.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-lowtide",
+      "field": "image",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Low-Tide.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "evans-50-lowtide",
+      "field": "originalImage",
+      "url": "https://aquarellepublishing.co.uk/images/artists/Paul-Evans/Paul-Evans-Low-Tide.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "aquarellepublishing.co.uk"
+    },
+    {
+      "owner": "jef-50-anoccasionforflowers",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_7a686f960cf44a7f84f6a00e7d7e7adc~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-anoccasionforflowers",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_7a686f960cf44a7f84f6a00e7d7e7adc~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-canadianhaze",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_64a34513d3704053a1302d952e580c49~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-canadianhaze",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_64a34513d3704053a1302d952e580c49~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-foursailboatsonlakemichigan",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_4736510145fd464d840ee95e440caf60~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-foursailboatsonlakemichigan",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_4736510145fd464d840ee95e440caf60~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-riversedge",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_47773408e07a43fab976cc7062ac5dab~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-riversedge",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_47773408e07a43fab976cc7062ac5dab~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-theswell",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_7758718e7e534e64bf6e6ac4e4e12c30~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-theswell",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_7758718e7e534e64bf6e6ac4e4e12c30~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-beached",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_c98645d7990a4a07a1c083403c468345~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-beached",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_c98645d7990a4a07a1c083403c468345~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-throughthetrees",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_825ede7759f24de3800cd77d9ba4495f~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-throughthetrees",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_825ede7759f24de3800cd77d9ba4495f~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thegeraniumporch",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_51239eb6810343fb9ada528e22ac76c3~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thegeraniumporch",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_51239eb6810343fb9ada528e22ac76c3~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-theredmottledhouse",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_c1d1a4fc22bd4d2eb0010a2036ae0b39~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-theredmottledhouse",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_c1d1a4fc22bd4d2eb0010a2036ae0b39~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-sunsetlighthouse",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_d1ab52be812b4591bf850900db837e11~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-sunsetlighthouse",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_d1ab52be812b4591bf850900db837e11~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thelongvoyagetowardsnight",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_8fdffe191ea04a0d8a4b5983ee2dea49~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thelongvoyagetowardsnight",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_8fdffe191ea04a0d8a4b5983ee2dea49~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-downtothebay",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_20f41954f181438092aa00295af7334f~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-downtothebay",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_20f41954f181438092aa00295af7334f~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-covedunes",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_569cec58ce7b4feb94e54cfedc3b51f9~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-covedunes",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_569cec58ce7b4feb94e54cfedc3b51f9~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-firstblush",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_c63deb50c0a74db59406af7af2f65e5c~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-firstblush",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_c63deb50c0a74db59406af7af2f65e5c~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-springlight",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_5f362de3b7f04ed48048aefb686aa6fa~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-springlight",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_5f362de3b7f04ed48048aefb686aa6fa~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-arcadiabluffs",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_b48f4100fb054d90be8f34dfa2e8181a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-arcadiabluffs",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_b48f4100fb054d90be8f34dfa2e8181a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-anchorbay",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_1912edb1cf9e49da8db5704ea2e6c057~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-anchorbay",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_1912edb1cf9e49da8db5704ea2e6c057~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-aprilatarchrock",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_02c06a03f43f4ad08c0de9a43b89e5d7~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-aprilatarchrock",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_02c06a03f43f4ad08c0de9a43b89e5d7~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-climbingsleepingbeardunes",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_1a86e1a8465b4e0183811075f723993e~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-climbingsleepingbeardunes",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_1a86e1a8465b4e0183811075f723993e~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thegreenwall",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_d7764e37cdf844e080cca35a5b27ad12~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thegreenwall",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_d7764e37cdf844e080cca35a5b27ad12~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-abeautifuldayatthelake",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_6487a3edba6948a4af2e497860066a8a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-abeautifuldayatthelake",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_6487a3edba6948a4af2e497860066a8a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-riversbend",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_8a5976aec8d2462c8f00d5fc61399bc9~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-riversbend",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_8a5976aec8d2462c8f00d5fc61399bc9~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-theblackpool",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_e00c0964e304491d9ba32d78b7d472ee~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-theblackpool",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_e00c0964e304491d9ba32d78b7d472ee~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thethaw",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_a20c666e610343ebbc7edd729a8d2736~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thethaw",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_a20c666e610343ebbc7edd729a8d2736~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-threepinesinhalflight",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_cc11fd0cbeb84757b8b0f6406965c73b~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-threepinesinhalflight",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_cc11fd0cbeb84757b8b0f6406965c73b~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thehouseonwissinglane",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_7cf0e08fdfd84e55991f5453fd31ff36~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-thehouseonwissinglane",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_7cf0e08fdfd84e55991f5453fd31ff36~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-themist",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_b63da95ec863475caa2797aa009ed62a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-themist",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_b63da95ec863475caa2797aa009ed62a~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-winterlight",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_edbb4bb9147f4887acf4ffc28c41289d~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-winterlight",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_edbb4bb9147f4887acf4ffc28c41289d~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-lakemichigansunset",
+      "field": "image",
+      "url": "https://static.wixstatic.com/media/e57fe7_cc3b7cfcea30404892cda1b66f59dd09~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "jef-50-lakemichigansunset",
+      "field": "originalImage",
+      "url": "https://static.wixstatic.com/media/e57fe7_cc3b7cfcea30404892cda1b66f59dd09~mv2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "static.wixstatic.com"
+    },
+    {
+      "owner": "levitan-wiki-sunny-day-1876",
+      "field": "image",
+      "url": "https://uploads8.wikiart.org/images/isaac-levitan/sunny-day-1876.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-sunny-day-1876",
+      "field": "originalImage",
+      "url": "https://uploads8.wikiart.org/images/isaac-levitan/sunny-day-1876.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-a-path-1877",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/a-path-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-a-path-1877",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/a-path-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-at-moscow-river-1877",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/at-moscow-river-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-at-moscow-river-1877",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/at-moscow-river-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-1877",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/autumn-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-1877",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/autumn-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-road-in-a-village-1877",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/autumn-road-in-a-village-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-road-in-a-village-1877",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/autumn-road-in-a-village-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-evening-1877",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/evening-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-evening-1877",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/evening-1877.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-village-in-winter",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/village-in-winter.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-village-in-winter",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/village-in-winter.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-cloud-1878",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/cloud-1878.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-cloud-1878",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/cloud-1878.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-landscape-on-volga-boats-by-the-riverbank-1878",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/landscape-on-volga-boats-by-the-riverbank-1878.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-landscape-on-volga-boats-by-the-riverbank-1878",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/landscape-on-volga-boats-by-the-riverbank-1878.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-leaves-1879",
+      "field": "image",
+      "url": "https://uploads3.wikiart.org/images/isaac-levitan/autumn-leaves-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads3.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-leaves-1879",
+      "field": "originalImage",
+      "url": "https://uploads3.wikiart.org/images/isaac-levitan/autumn-leaves-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads3.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-before-the-thunderstorm-1879",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/before-the-thunderstorm-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-before-the-thunderstorm-1879",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/before-the-thunderstorm-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-platform-the-approaching-train-1879",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/platform-the-approaching-train-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-platform-the-approaching-train-1879",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/platform-the-approaching-train-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-the-evening-after-the-rain-1879",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/isaac-levitan/the-evening-after-the-rain-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-the-evening-after-the-rain-1879",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/isaac-levitan/the-evening-after-the-rain-1879.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-at-the-park-1880",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/at-the-park-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-at-the-park-1880",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/at-the-park-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-landscape-with-hunter-1880",
+      "field": "image",
+      "url": "https://uploads0.wikiart.org/images/isaac-levitan/autumn-landscape-with-hunter-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-autumn-landscape-with-hunter-1880",
+      "field": "originalImage",
+      "url": "https://uploads0.wikiart.org/images/isaac-levitan/autumn-landscape-with-hunter-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-oak-1880",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/oak-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-oak-1880",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/oak-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-oak-grove-autumn-1880",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/oak-grove-autumn-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-oak-grove-autumn-1880",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/oak-grove-autumn-1880.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-trail-in-the-forest",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/trail-in-the-forest.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-trail-in-the-forest",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/trail-in-the-forest.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-bird-cherry-tree",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/bird-cherry-tree.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-bird-cherry-tree",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/bird-cherry-tree.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-road-in-a-wood-1881",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/road-in-a-wood-1881.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-road-in-a-wood-1881",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/road-in-a-wood-1881.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-sheaves-and-a-village-beyond-the-river",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/sheaves-and-a-village-beyond-the-river.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-sheaves-and-a-village-beyond-the-river",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/isaac-levitan/sheaves-and-a-village-beyond-the-river.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-evening-path-1882",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/evening-path-1882.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-evening-path-1882",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/evening-path-1882.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-marsh-at-evening-1882",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/marsh-at-evening-1882.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-marsh-at-evening-1882",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/marsh-at-evening-1882.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-spring-in-the-forest-1882",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/spring-in-the-forest-1882.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-spring-in-the-forest-1882",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/spring-in-the-forest-1882.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-evening-in-the-field-1883",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/evening-in-the-field-1883.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-evening-in-the-field-1883",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/isaac-levitan/evening-in-the-field-1883.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-aspen-spinny-a-gray-day-1884",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/aspen-spinny-a-gray-day-1884.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-aspen-spinny-a-gray-day-1884",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/aspen-spinny-a-gray-day-1884.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-footbridge-savvinskaya-village-1884",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/footbridge-savvinskaya-village-1884.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-footbridge-savvinskaya-village-1884",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/footbridge-savvinskaya-village-1884.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-winter-landscape-with-mill-1884",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/isaac-levitan/winter-landscape-with-mill-1884.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-winter-landscape-with-mill-1884",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/isaac-levitan/winter-landscape-with-mill-1884.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-at-twilight-river-istra-1885",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/at-twilight-river-istra-1885.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-at-twilight-river-istra-1885",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/isaac-levitan/at-twilight-river-istra-1885.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-brisk-wind-volga-1885",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/brisk-wind-volga-1885.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-brisk-wind-volga-1885",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/isaac-levitan/brisk-wind-volga-1885.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-early-spring-the-last-snow",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/early-spring-the-last-snow.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-early-spring-the-last-snow",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/isaac-levitan/early-spring-the-last-snow.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-overgrown-pond",
+      "field": "image",
+      "url": "https://uploads8.wikiart.org/images/isaac-levitan/overgrown-pond.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "levitan-wiki-overgrown-pond",
+      "field": "originalImage",
+      "url": "https://uploads8.wikiart.org/images/isaac-levitan/overgrown-pond.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-yvonne-duchamp-1901",
+      "field": "image",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/portrait-of-yvonne-duchamp-1901.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-yvonne-duchamp-1901",
+      "field": "originalImage",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/portrait-of-yvonne-duchamp-1901.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-yvonne-in-kimono-1901",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/yvonne-in-kimono-1901.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-yvonne-in-kimono-1901",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/yvonne-in-kimono-1901.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-church-at-blainville-1902",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/marcel-duchamp/church-at-blainville-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-church-at-blainville-1902",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/marcel-duchamp/church-at-blainville-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-landscape-at-blainville-1902",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/landscape-at-blainville-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-landscape-at-blainville-1902",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/landscape-at-blainville-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-parva-domus-magna-quies-1902",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/parva-domus-magna-quies-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-parva-domus-magna-quies-1902",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/parva-domus-magna-quies-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-play-1902",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/play-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-play-1902",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/play-1902.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-jacques-villon",
+      "field": "image",
+      "url": "https://uploads3.wikiart.org/images/marcel-duchamp/portrait-of-jacques-villon.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads3.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-jacques-villon",
+      "field": "originalImage",
+      "url": "https://uploads3.wikiart.org/images/marcel-duchamp/portrait-of-jacques-villon.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads3.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-man-seated-by-a-window-1907",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/man-seated-by-a-window-1907.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-man-seated-by-a-window-1907",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/man-seated-by-a-window-1907.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-chauvel-1910",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/chauvel-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-chauvel-1910",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/chauvel-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-chess-game-1910",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/chess-game-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-chess-game-1910",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/chess-game-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-laundry-barge-1910",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/laundry-barge-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-laundry-barge-1910",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/laundry-barge-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-nude-with-black-stockings-1910",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/nude-with-black-stockings-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-nude-with-black-stockings-1910",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/nude-with-black-stockings-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-dr-dumouchel-1910",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/portrait-of-dr-dumouchel-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-dr-dumouchel-1910",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/portrait-of-dr-dumouchel-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-the-artist-s-father-1910",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/portrait-of-the-artist-s-father-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-the-artist-s-father-1910",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/portrait-of-the-artist-s-father-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-two-nudes-1910",
+      "field": "image",
+      "url": "https://uploads0.wikiart.org/images/marcel-duchamp/two-nudes-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-two-nudes-1910",
+      "field": "originalImage",
+      "url": "https://uploads0.wikiart.org/images/marcel-duchamp/two-nudes-1910.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-about-young-sister-1911",
+      "field": "image",
+      "url": "https://uploads0.wikiart.org/images/marcel-duchamp/about-young-sister-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-about-young-sister-1911",
+      "field": "originalImage",
+      "url": "https://uploads0.wikiart.org/images/marcel-duchamp/about-young-sister-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-japanese-apple-tree-1911",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/japanese-apple-tree-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-japanese-apple-tree-1911",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/japanese-apple-tree-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-landscape-study-for-paradise-1911",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/landscape-study-for-paradise-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-landscape-study-for-paradise-1911",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/landscape-study-for-paradise-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-dulcinea-1911",
+      "field": "image",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/portrait-dulcinea-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-dulcinea-1911",
+      "field": "originalImage",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/portrait-dulcinea-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-chess-players-1911",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/portrait-of-chess-players-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-portrait-of-chess-players-1911",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/portrait-of-chess-players-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-sad-young-man-in-a-train-1911",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/sad-young-man-in-a-train-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-sad-young-man-in-a-train-1911",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/sad-young-man-in-a-train-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-sonata-1911",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/sonata-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-sonata-1911",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/sonata-1911.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-bride-1912",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/bride-1912.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-bride-1912",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/bride-1912.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-king-and-queen-surrounded-by-swift-nudes-1912",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/king-and-queen-surrounded-by-swift-nudes-1912.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-king-and-queen-surrounded-by-swift-nudes-1912",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/king-and-queen-surrounded-by-swift-nudes-1912.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-transition-of-virgin-into-a-bride-1912",
+      "field": "image",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/transition-of-virgin-into-a-bride-1912.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-transition-of-virgin-into-a-bride-1912",
+      "field": "originalImage",
+      "url": "https://uploads6.wikiart.org/images/marcel-duchamp/transition-of-virgin-into-a-bride-1912.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads6.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-chocolate-grinder-no-1-1913",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/00519/images/marcel-duchamp/84262528-10157301007722054-5207618700751929344-n.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-chocolate-grinder-no-1-1913",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/00519/images/marcel-duchamp/84262528-10157301007722054-5207618700751929344-n.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-bottlerack-1914",
+      "field": "image",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/bottlerack-1914.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-bottlerack-1914",
+      "field": "originalImage",
+      "url": "https://uploads1.wikiart.org/images/marcel-duchamp/bottlerack-1914.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads1.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-network-of-stoppages-1914",
+      "field": "image",
+      "url": "https://uploads2.wikiart.org/images/marcel-duchamp/network-of-stoppages-1914.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-network-of-stoppages-1914",
+      "field": "originalImage",
+      "url": "https://uploads2.wikiart.org/images/marcel-duchamp/network-of-stoppages-1914.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads2.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-to-have-the-apprentice-in-the-sun-1914",
+      "field": "image",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/to-have-the-apprentice-in-the-sun-1914.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-to-have-the-apprentice-in-the-sun-1914",
+      "field": "originalImage",
+      "url": "https://uploads5.wikiart.org/images/marcel-duchamp/to-have-the-apprentice-in-the-sun-1914.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads5.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-nine-malice-moulds",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/nine-malice-moulds.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-nine-malice-moulds",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/images/marcel-duchamp/nine-malice-moulds.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-with-hidden-noise-1916",
+      "field": "image",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/with-hidden-noise-1916.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-with-hidden-noise-1916",
+      "field": "originalImage",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/with-hidden-noise-1916.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-hat-rack-1917",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/hat-rack-1917.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-hat-rack-1917",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/hat-rack-1917.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-to-be-looked-at-from-the-other-side-of-the-glass-with-one-eye-close-to-for-almost-an-hour-1918",
+      "field": "image",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/to-be-looked-at-from-the-other-side-of-the-glass-with-one-eye-close-to-for-almost-an-hour-1918.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-to-be-looked-at-from-the-other-side-of-the-glass-with-one-eye-close-to-for-almost-an-hour-1918",
+      "field": "originalImage",
+      "url": "https://uploads8.wikiart.org/images/marcel-duchamp/to-be-looked-at-from-the-other-side-of-the-glass-with-one-eye-close-to-for-almost-an-hour-1918.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads8.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-50-cc-of-paris-air-1919",
+      "field": "image",
+      "url": "https://uploads0.wikiart.org/images/marcel-duchamp/50-cc-of-paris-air-1919.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-50-cc-of-paris-air-1919",
+      "field": "originalImage",
+      "url": "https://uploads0.wikiart.org/images/marcel-duchamp/50-cc-of-paris-air-1919.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads0.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-monte-carlo-bond-1924",
+      "field": "image",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/monte-carlo-bond-1924.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-monte-carlo-bond-1924",
+      "field": "originalImage",
+      "url": "https://uploads7.wikiart.org/images/marcel-duchamp/monte-carlo-bond-1924.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads7.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-sixteen-miles-of-string-installation-for-the-first-papers-of-surrealism-exhibition-1942",
+      "field": "image",
+      "url": "https://uploads4.wikiart.org/00336/images/marcel-duchamp/2.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "duchamp-wiki-sixteen-miles-of-string-installation-for-the-first-papers-of-surrealism-exhibition-1942",
+      "field": "originalImage",
+      "url": "https://uploads4.wikiart.org/00336/images/marcel-duchamp/2.jpg!Large.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "uploads4.wikiart.org"
+    },
+    {
+      "owner": "menne-pixels-delicate-abstract-floral-composition-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/delicate-abstract-floral-composition-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-delicate-abstract-floral-composition-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/delicate-abstract-floral-composition-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-pathway-to-nature-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-pathway-to-nature-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-pathway-to-nature-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-pathway-to-nature-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-contemporary-abstract-landscape-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/contemporary-abstract-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-contemporary-abstract-landscape-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/contemporary-abstract-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-wildflower-landscape-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-wildflower-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-wildflower-landscape-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-wildflower-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-view-of-a-serene-landscape-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-view-of-a-serene-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-view-of-a-serene-landscape-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-view-of-a-serene-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-landscape-with-waves-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-landscape-with-waves-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-landscape-with-waves-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-landscape-with-waves-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-modern-abstract-landscape-with-water-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/modern-abstract-landscape-with-water-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-modern-abstract-landscape-with-water-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/modern-abstract-landscape-with-water-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-16-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/16-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-16-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/16-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-17-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/17-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-17-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/17-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-floral-composition-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-floral-composition-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-floral-composition-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-floral-composition-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-2-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-2-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-2-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-2-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-9-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-9-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-9-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-9-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-5-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/5-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-5-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/5-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-3-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/3-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-3-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/3-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-15-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/15-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-15-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/15-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-7-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/7-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-7-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/7-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-colorful-abstract-nature-scene-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/colorful-abstract-nature-scene-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-colorful-abstract-nature-scene-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/colorful-abstract-nature-scene-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-landscape-with-sun-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-landscape-with-sun-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-landscape-with-sun-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-landscape-with-sun-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-10-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/10-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-10-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/10-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-1-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-1-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-1-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-1-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-7-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-7-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-7-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-7-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-4-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-4-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-4-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-4-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-4-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-4-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-4-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-4-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-blooming-fantasy-2-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/blooming-fantasy-2-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-blooming-fantasy-2-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/blooming-fantasy-2-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-11-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/11-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-11-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/11-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-4-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/4-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-4-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/4-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-2-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-2-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-2-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-2-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-8-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-8-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-8-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-8-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-6-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/6-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-6-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/6-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-8-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/8-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-8-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/8-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-serene-sunset-with-silhouetted-flowers-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/serene-sunset-with-silhouetted-flowers-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-serene-sunset-with-silhouetted-flowers-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/serene-sunset-with-silhouetted-flowers-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-blooming-fantasy-5-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/blooming-fantasy-5-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-blooming-fantasy-5-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/blooming-fantasy-5-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-14-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/14-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-14-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/14-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-blooming-fantasy-3-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/blooming-fantasy-3-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-blooming-fantasy-3-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/blooming-fantasy-3-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-2-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/2-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-2-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/2-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-1-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-1-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-1-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-1-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-12-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/12-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-12-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/12-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-3-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-3-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-3-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-3-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-5-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-5-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-window-peonies-5-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/window-peonies-5-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-geometric-landscape-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-geometric-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-abstract-geometric-landscape-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/abstract-geometric-landscape-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-3-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-3-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-geranium-3-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/geranium-3-matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-9-enchanted-forest-matthias-menne",
+      "field": "image",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/9-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "menne-pixels-9-enchanted-forest-matthias-menne",
+      "field": "originalImage",
+      "url": "https://images.pixels.com/images/artworkimages/mediumlarge/3/9-enchanted-forest--matthias-menne.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "images.pixels.com"
+    },
+    {
+      "owner": "callaghan-ross-36825",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-1.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36825",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-1.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36826",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36826",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-2.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36827",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-3.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36827",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-3.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36828",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-4.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36828",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-4.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36829",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-5.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36829",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-5.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36830",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-6.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36830",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-6.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36831",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-7.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36831",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-7.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36832",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-8.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36832",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-8.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36833",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-9.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36833",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-9.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36834",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-10.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36834",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-10.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36835",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-11.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36835",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-11.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36836",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-12.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36836",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-12.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36837",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-13.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36837",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-13.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36838",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-14.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36838",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-14.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36839",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-15.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36839",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-15.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36841",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-17.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36841",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-17.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36842",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-18.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36842",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-18.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36845",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-21.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36845",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-21.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36846",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-22.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36846",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-22.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36847",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-23.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36847",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-23.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36848",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-24.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36848",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-24.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36850",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-26.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36850",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-26.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36851",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-27.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36851",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-27.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36854",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-30.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36854",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-30.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36855",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-31.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36855",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-31.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36856",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-32.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36856",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-32.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36859",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-35.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36859",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-35.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36861",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-37.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36861",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-37.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36862",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-38.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36862",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-38.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36863",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-39.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36863",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-39.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36864",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-40.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36864",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-40.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36865",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-41.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36865",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-41.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36867",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-43.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36867",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-43.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36868",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-44.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36868",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-44.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36869",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-45.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36869",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-45.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36873",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-49.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36873",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-49.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36874",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-50.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36874",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-50.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36877",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-53.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36877",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-53.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36881",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-57.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36881",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-57.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36884",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-60.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36884",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-60.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36885",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-61.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36885",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-61.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36903",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-79.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36903",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-79.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36911",
+      "field": "image",
+      "url": "https://www.rosss.com/art2/170-87.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "callaghan-ross-36911",
+      "field": "originalImage",
+      "url": "https://www.rosss.com/art2/170-87.jpg",
+      "rights": "not verified",
+      "rightsSource": "",
+      "host": "www.rosss.com"
+    },
+    {
+      "owner": "leonardo-nga-50724",
+      "field": "image",
+      "url": "https://api.nga.gov/iiif/8f29e3c9-a289-4d53-abf0-31a66e9e98fa/full/!800,800/0/default.jpg",
+      "rights": "馆方逐件页面标注图像为公版、可免费使用。来源：National Gallery of Art, Washington。",
+      "rightsSource": "https://www.nga.gov/artworks/free-images-and-open-access",
+      "host": "api.nga.gov"
+    },
+    {
+      "owner": "leonardo-nga-50724",
+      "field": "originalImage",
+      "url": "https://api.nga.gov/iiif/8f29e3c9-a289-4d53-abf0-31a66e9e98fa/full/!800,800/0/default.jpg",
+      "rights": "馆方逐件页面标注图像为公版、可免费使用。来源：National Gallery of Art, Washington。",
+      "rightsSource": "https://www.nga.gov/artworks/free-images-and-open-access",
+      "host": "api.nga.gov"
+    },
+    {
+      "owner": "leonardo-nga-75793",
+      "field": "image",
+      "url": "https://api.nga.gov/iiif/3f2a04f0-f1df-4ea1-82a9-8a46dcf94c28/full/!800,800/0/default.jpg",
+      "rights": "馆方逐件页面标注图像为公版、可免费使用。来源：National Gallery of Art, Washington。",
+      "rightsSource": "https://www.nga.gov/artworks/free-images-and-open-access",
+      "host": "api.nga.gov"
+    },
+    {
+      "owner": "leonardo-nga-75793",
+      "field": "originalImage",
+      "url": "https://api.nga.gov/iiif/3f2a04f0-f1df-4ea1-82a9-8a46dcf94c28/full/!800,800/0/default.jpg",
+      "rights": "馆方逐件页面标注图像为公版、可免费使用。来源：National Gallery of Art, Washington。",
+      "rightsSource": "https://www.nga.gov/artworks/free-images-and-open-access",
+      "host": "api.nga.gov"
+    },
+    {
+      "owner": "leonardo-nga-74163",
+      "field": "image",
+      "url": "https://api.nga.gov/iiif/49c325bf-6243-46eb-8215-f8830fd15641/full/!800,800/0/default.jpg",
+      "rights": "馆方逐件页面标注图像为公版、可免费使用。来源：National Gallery of Art, Washington。",
+      "rightsSource": "https://www.nga.gov/artworks/free-images-and-open-access",
+      "host": "api.nga.gov"
+    },
+    {
+      "owner": "leonardo-nga-74163",
+      "field": "originalImage",
+      "url": "https://api.nga.gov/iiif/49c325bf-6243-46eb-8215-f8830fd15641/full/!800,800/0/default.jpg",
+      "rights": "馆方逐件页面标注图像为公版、可免费使用。来源：National Gallery of Art, Washington。",
+      "rightsSource": "https://www.nga.gov/artworks/free-images-and-open-access",
+      "host": "api.nga.gov"
+    }
+  ],
+  "mainlandNetworkVerified": false,
+  "notes": [
+    "Source and research hyperlinks are not automatic runtime dependencies.",
+    "External references are migration work items, not proof every source is blocked.",
+    "Browser favorites and notes belong to their original origin; export before switching domain.",
+    "Image rights must be checked before copying third-party images."
+  ]
+}
