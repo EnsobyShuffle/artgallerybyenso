@@ -25,12 +25,12 @@ jobs:
           m=re.search(r'<script type="application/json" id="galleryData">(.*?)</script>', page, re.S)
           assert m, "gallery data not found"
           d=json.loads(m.group(1))
-          assert len(d['artists'])==6, "artist count wrong"
-          expected={'evans','jef','journaia','levitan','menne','callaghan'}
+          assert len(d['artists'])==7, "artist count wrong"
+          expected={'evans','jef','journaia','levitan','menne','callaghan','duchamp'}
           assert set(d['artists'])==expected, "artist missing"
           assert len(d['pieces'])==len({w['id'] for w in d['pieces']}), "duplicate work IDs"
           counts=collections.Counter(w['artist'] for w in d['pieces'])
-          assert counts['levitan']==18 and counts['menne']==7 and counts['callaghan']==7, counts
+          assert counts['levitan']==18 and counts['menne']==7 and counts['callaghan']==7 and counts['duchamp']>=14, counts
           for a in expected:
               assert a in d['catalog'], "missing catalog for "+a
               assert d['artists'][a]['resources'], "missing sources for "+a
@@ -38,7 +38,7 @@ jobs:
           print("DATA OK", sorted(counts.items()), flush=True)
           targets={a: d['artists'][a]['cover'] for a in expected}
           for w in d['pieces']:
-              if w['artist'] in ('menne','callaghan','levitan'):
+              if w['artist'] in ('menne','callaghan','levitan','duchamp'):
                   targets[w['id']]=w['image']
           def probe(item):
               key,url=item
