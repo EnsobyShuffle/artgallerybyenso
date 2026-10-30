@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-30 23:28:50 UTC",
+  "updatedAt": "2026-10-30 23:29:51 UTC",
   "order": [
     {
       "number": "01",
@@ -181,11 +181,11 @@
   "deployment": {
     "status": "blocked_operational_credits_only",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
-    "observedAt": "2026-10-30 22:35:36 UTC",
+    "observedAt": "2026-10-30 23:29:51 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "本轮原站目标入口实见旧版9艺术家首页，没有卡拉瓦乔。本轮Netlify后台AX及截图超时；生产额度暂停是上一轮已证实原因，本轮后台状态未重新确认。",
+    "message": "本轮已实见生产main@6220805：Skipped due to account credit usage exceeded；生产部署额度暂停。原站卡拉瓦乔入口仍旧版9艺术家首页，新艺术家和作品均未上线。",
     "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
     "previousFinalCheck": {
       "checkedAt": "2026-10-30 22:36:54 UTC",
@@ -197,6 +197,16 @@
       "deployId": "6ae51bd0de181527be0bd481",
       "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae51bd0de181527be0bd481",
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo"
+    },
+    "finalCheck": {
+      "checkedAt": "2026-10-30 23:29:51 UTC",
+      "contentCommit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06",
+      "repoReadbackWorks": 5,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "Skipped due to account credit usage exceeded",
+      "deployId": "6ae528433595a52052e12354",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=other&artist=caravaggio"
     }
   },
   "validation": {
@@ -750,5 +760,6 @@
     "caravaggio-ng172",
     "caravaggio-ng6504",
     "caravaggio-ng6389"
-  ]
+  ],
+  "last_content_commit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06"
 }
