@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
-      - name: Check 111 unique artwork URLs against image content
+      - name: Check 154 unique artwork URLs against image content
         shell: bash
         run: |
           python3 - <<'PY'
@@ -26,7 +26,7 @@ jobs:
           import json,time,collections
           j=json.loads(Path('research/remaining-artists-50-candidates.json').read_text())
           xs=j['records']
-          assert len(xs)==111 and len({x['id'] for x in xs})==111
+          assert len(xs)==154 and len({x['id'] for x in xs})==111
           print('STAGED',dict(collections.Counter(x['artist'] for x in xs)),flush=True)
           def probe(x):
             msg=''
@@ -53,5 +53,5 @@ jobs:
           for x in out:
             if x[2]!='OK': print('IMAGE_FAILED',json.dumps(x,ensure_ascii=False),flush=True)
           if sum(fail.values())>0:raise SystemExit(1)
-          print('SUCCESS all 111 new images accessible',flush=True)
+          print('SUCCESS all 154 new images accessible',flush=True)
           PY
