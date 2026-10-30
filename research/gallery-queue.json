@@ -169,7 +169,16 @@
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
     "message": "2026-10-31本轮复核：Netlify仍明确提示production deploys paused，现行生产版5573f1a。莫奈线上仍20件，新增5件及此前待发布10件尚未上线。",
-    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。"
+    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
+    "finalCheck": {
+      "checkedAt": "2026-10-30 21:30:00 UTC",
+      "contentCommit": "deb9c9e32f50a02b0995a90dad38e08e20f2779b",
+      "repoReadback": 35,
+      "liveMonetCount": 20,
+      "liveNewWorks": 0,
+      "deployEvent": "本次提交后后台快照超时，未获得该提交的独立部署终态；本轮此前已实见生产部署额度暂停提示",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=impressionism&artist=monet"
+    }
   },
   "validation": {
     "syntax": "Data JavaScript syntax checked; all35 Monet IDs distinct",
@@ -635,5 +644,6 @@
     "monet-met-437115",
     "monet-met-438435",
     "monet-met-437113"
-  ]
+  ],
+  "last_content_commit": "deb9c9e32f50a02b0995a90dad38e08e20f2779b"
 }
