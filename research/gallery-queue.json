@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31T04:18:00+08:00",
+  "updatedAt": "2026-10-31T04:15:27+08:00",
   "order": [
     {
       "number": "01",
@@ -130,7 +130,8 @@
     "status": "blocked_operational_credits_only",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
     "message": "Netlify后台显示团队仅有operational credits：现站继续运行，生产部署及Agent Runners暂停。后台显示最后发布为2026-10-31 02:27。连接仓库EnsobyShuffle/artgallerybyenso已确认；未修改发布配置或migration分支。",
-    "requiredAction": "用户在原Netlify团队恢复可用于生产部署的额度（自行选择升级或等待下一计费周期）；没有授权付费，未操作升级。"
+    "requiredAction": "用户在原Netlify团队恢复可用于生产部署的额度（自行选择升级或等待下一计费周期）；没有授权付费，未操作升级。",
+    "finalCheck": "2026-10-31 04:15：源码提交已确认；Netlify部署页读取超时，团队额度暂停的后台提示已在overview实见；未尝试绕过额度限制。"
   },
   "validation": {
     "syntax": "HTML inline scripts and abstract.js parsed; 5 unique new IDs",
@@ -153,5 +154,6 @@
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._5_-_Adulthood_-_1907.jpg",
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg",
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._9_-_1907.jpg"
-  ]
+  ],
+  "last_content_commit": "495a97e2fb65c109ec00626d8c89b36e3ece85ff"
 }
