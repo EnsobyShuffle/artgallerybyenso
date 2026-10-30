@@ -1,0 +1,56 @@
+name: Verify 50-piece curated artwork image links
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  curated-images:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[image qa]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Check out published source
+        uses: actions/checkout@v4
+      - name: Test only newly added curator images with ranged HTTP requests
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re, time, urllib.request, urllib.error
+          from collections import Counter
+          from concurrent.futures import ThreadPoolExecutor
+          from pathlib import Path
+          s=Path("index.html").read_text()
+          d=json.loads(re.search(r'<script type="application/json" id="galleryData">(.*?)</script>',s,re.S).group(1))
+          works=[x for x in d['pieces'] if x['id'].startswith(('evans-50-','jef-50-'))]
+          print('NEW_WORKS',len(works),flush=True)
+          assert len(works)==67, 'expected 67 new image references'
+          def check(w):
+            url=w['image']
+            for attempt in (1,2):
+              try:
+                req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36','Range':'bytes=0-1023'})
+                with urllib.request.urlopen(req,timeout=14) as r:
+                  ct=r.headers.get('content-type','')
+                  first=r.read(1024)
+                  ok=ct.lower().startswith('image/') and bool(first)
+                  return w['id'],'OK' if ok else 'NOT_IMAGE',r.status,ct
+              except Exception as e:
+                msg=str(e)[:120]
+                if ('429' in msg or '503' in msg) and attempt==1:
+                  time.sleep(2);continue
+                return w['id'],'FAILED',None,msg
+          with ThreadPoolExecutor(max_workers=5) as ex:
+            results=list(ex.map(check,works))
+          counts=Counter(x[1] for x in results)
+          print('IMAGE_QA_TOTAL',dict(counts),flush=True)
+          for row in results:
+            if row[1]!='OK':print('IMAGE_QA_FAILURE',*row,flush=True)
+          if counts['OK']<len(works):
+            raise SystemExit('One or more newly added image URLs could not be verified; review failures.')
+          print('SUCCESS: all 67 newly added image URLs returned image content.',flush=True)
+          PY
