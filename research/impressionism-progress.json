@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T01:30:40.945079+08:00",
+  "updatedAt": "2026-10-31T01:43:28.434017+08:00",
   "targetPerArtist": 50,
   "currentArtist": "monet",
   "artists": [
@@ -59,7 +59,7 @@
     }
   ],
   "sourceFile": "impressionism.js",
-  "nextAction": "补齐莫奈至50幅；优先扩展跨馆藏与时期；新增前按馆藏编号核重。图片在源站加载，当前需要上线后验证。",
+  "nextAction": "补齐莫奈至50幅；按馆藏编号核重；采用已核实许可的本地图片，逐幅标明授权与图像档案。",
   "classification": "Manet 是先驱/关联人物，后印象派和新印象派不混入本栏目。",
   "factualSources": [
     "https://www.artic.edu/artworks/14598",
@@ -75,8 +75,8 @@
   ],
   "verification": {
     "metadata": "confirmed in official API and artwork pages",
-    "rights": "all 10 marked is_public_domain=true, museum CC0 policy verified",
-    "images": "pending browser verification",
-    "deployment": "pending"
+    "rights": "Museum metadata public domain confirmed; display copies: CC0 5, Public Domain 4, CC-BY-SA-4.0 1 (Maltaper credit and license included)",
+    "images": "10 authentic licensed copies cached under assets/impressionism; identity and local decode checked; production browser QA pending",
+    "deployment": "Publishing self-hosted image correction; verify live image count before reporting completion"
   }
 }
