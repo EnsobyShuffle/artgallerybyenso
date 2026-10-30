@@ -6,7 +6,7 @@
   "verifiedUnits": 8,
   "illustratedAndInterpreted": 8,
   "publishedVerified": 3,
-  "liveVerification": "本轮源码语法检查通过，7个作品ID无重复；5张候选原图均在浏览器实际看过。线上当前仍显示上一版3件；GitHub提交完成，Netlify部署尚未核实。未进行本轮手机竖屏/横屏实测。",
+  "liveVerification": "7个作品ID无重复，renaissance.js通过node --check；5张候选原图均实际查看。现有audit-gallery与smoke检查成功；verify-live在12次尝试后失败，线上仍为3件。新4件未记为上线。未完成新内容的线上搜索/详情/移动端测试，须在部署后继续。",
   "artistQueue": [
     "Leonardo da Vinci",
     "Michelangelo",
@@ -105,7 +105,9 @@
     ],
     "imageReviewComplete": 5,
     "rightsApproved": 4,
-    "remainingImageRights": 1
+    "remainingImageRights": 1,
+    "newPublishedVerified": 0,
+    "newSourceRecords": 4
   },
   "artistCoverage": [
     {
@@ -300,9 +302,11 @@
     }
   ],
   "deployment": {
-    "status": "source_committed_live_pending",
+    "status": "source_committed_production_not_updated",
     "contentCommit": "67e739763d9002eb099b01df9a9d6eb5298415a4",
     "brandCommit": "daf7ee624c456ea316a6f2407efb15f0819bffe3",
-    "lastObservedLiveUnits": 3
+    "lastObservedLiveUnits": 3,
+    "verification": "2026-10-30T19:29:40Z：现有verify-live检查失败，12次均为站点可达但内容与提交不同。GitHub无Netlify部署状态，当前环境无Netlify工具或部署凭据。",
+    "checkUrl": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41115424754"
   }
 }
