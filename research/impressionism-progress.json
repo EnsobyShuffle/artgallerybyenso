@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-30T17:44:57.380Z",
+  "updatedAt": "2026-10-31",
   "targetPerArtist": 50,
   "currentArtist": "monet",
   "artists": [
     {
       "id": "monet",
       "name": "Claude Monet",
-      "completeWorks": 10,
+      "completeWorks": 20,
       "target": 50
     },
     {
@@ -74,11 +74,17 @@
     "https://www.artic.edu/artworks/16568"
   ],
   "verification": {
-    "metadata": "confirmed in official API and artwork pages",
-    "rights": "Museum metadata public domain confirmed; display copies: CC0 5, Public Domain 4, CC-BY-SA-4.0 1 (Maltaper credit and license included)",
-    "images": "Production browser checked: 10/10 artwork images loaded successfully from local assets; Monet hero and full-size detail image also visible.",
-    "deployment": "Live at https://artgallerybyenso.netlify.app/?collection=impressionism&artist=monet ; verified deployed commit d3f612b9e6b82cc93134ab291631856df601d602 on 2026-10-30 UTC.",
-    "interface": "Monet page shows 10 works; theme filter, per-work context/interpretation, source archive and license links verified. Original 301 works preserved. Desktop screenshot inspected; mobile layout not separately re-tested."
+    "metadata": "10 new official object pages fetched; accession numbers matched to Commons images",
+    "images": "10 new local JPEGs decoded and contact sheet visually inspected; license 6 Public Domain / 3 CC0 / 1 CC-BY-SA-2.5",
+    "deployment": "Pending this batch; previous 10 works verified live",
+    "interface": "Content extension only; live regression pending"
   },
-  "imageWorkflow": "Keep licensed self-hosted JPEGs in assets/impressionism. Official Art Institute IIIF image links failed in this environment; use verified Commons copies matched to museum accession records when needed. Each piece preserves sourceImage, imageSource, license, rightsSource and attribution. One image (16564) is CC BY-SA 4.0 credited to Maltaper; retain attribution and share-alike notice."
+  "imageWorkflow": "Keep licensed self-hosted JPEGs in assets/impressionism. Official Art Institute IIIF image links failed in this environment; use verified Commons copies matched to museum accession records when needed. Each piece preserves sourceImage, imageSource, license, rightsSource and attribution. One image (16564) is CC BY-SA 4.0 credited to Maltaper; retain attribution and share-alike notice.",
+  "lastBatch": {
+    "artist": "monet",
+    "added": 10,
+    "total": 20,
+    "sources": "10 Metropolitan Museum object records; 10 separately licensed Commons reproductions",
+    "status": "Ready for publication; live verification pending"
+  }
 }
