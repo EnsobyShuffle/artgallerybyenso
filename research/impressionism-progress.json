@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T01:43:28.434017+08:00",
+  "updatedAt": "2026-10-30T17:44:57.380Z",
   "targetPerArtist": 50,
   "currentArtist": "monet",
   "artists": [
@@ -76,7 +76,9 @@
   "verification": {
     "metadata": "confirmed in official API and artwork pages",
     "rights": "Museum metadata public domain confirmed; display copies: CC0 5, Public Domain 4, CC-BY-SA-4.0 1 (Maltaper credit and license included)",
-    "images": "10 authentic licensed copies cached under assets/impressionism; identity and local decode checked; production browser QA pending",
-    "deployment": "Publishing self-hosted image correction; verify live image count before reporting completion"
-  }
+    "images": "Production browser checked: 10/10 artwork images loaded successfully from local assets; Monet hero and full-size detail image also visible.",
+    "deployment": "Live at https://artgallerybyenso.netlify.app/?collection=impressionism&artist=monet ; verified deployed commit d3f612b9e6b82cc93134ab291631856df601d602 on 2026-10-30 UTC.",
+    "interface": "Monet page shows 10 works; theme filter, per-work context/interpretation, source archive and license links verified. Original 301 works preserved. Desktop screenshot inspected; mobile layout not separately re-tested."
+  },
+  "imageWorkflow": "Keep licensed self-hosted JPEGs in assets/impressionism. Official Art Institute IIIF image links failed in this environment; use verified Commons copies matched to museum accession records when needed. Each piece preserves sourceImage, imageSource, license, rightsSource and attribution. One image (16564) is CC BY-SA 4.0 credited to Maltaper; retain attribution and share-alike notice."
 }
