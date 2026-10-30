@@ -204,9 +204,10 @@ footer details{text-align:right;max-width:480px}footer details summary{cursor:po
 <script src="/renaissance.js"></script>
 <script src="/abstract.js"></script>
 <script src="/modern.js"></script>
+<script src="/other.js"></script>
 <script>
 const data=JSON.parse(document.getElementById('galleryData').textContent);
-for(const extension of [window.IMPRESSIONISM_GALLERY,window.RENAISSANCE_GALLERY,window.ABSTRACT_GALLERY,window.MODERN_GALLERY]) if(extension){Object.assign(data.artists,extension.artists);Object.assign(data.catalog,extension.catalog);const ids=new Set(data.pieces.map(p=>p.id));data.pieces.push(...extension.pieces.filter(p=>!ids.has(p.id)));}
+for(const extension of [window.IMPRESSIONISM_GALLERY,window.RENAISSANCE_GALLERY,window.ABSTRACT_GALLERY,window.MODERN_GALLERY,window.OTHER_GALLERY]) if(extension){Object.assign(data.artists,extension.artists);Object.assign(data.catalog,extension.catalog);const ids=new Set(data.pieces.map(p=>p.id));data.pieces.push(...extension.pieces.filter(p=>!ids.has(p.id)));}
 const GALLERY_TARGET=50;
 const $=x=>document.getElementById(x);
 const escapeHtml=x=>String(x??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
