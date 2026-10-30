@@ -29,14 +29,15 @@ jobs:
           expected={'evans','jef','journaia','levitan','menne','callaghan','duchamp'}
           assert set(d['artists'])==expected, "artist missing"
           assert len(d['pieces'])==len({w['id'] for w in d['pieces']}), "duplicate work IDs"
+          assert len(d['pieces'])==301, 'gallery expected 301 illustrated work records'
           assert d.get('collectionStandard',{}).get('targetIllustratedWorks')==50, 'missing 50-work standard'
-          for id in ('evans','jef'):
+          for id in ('evans','jef','levitan','menne','callaghan','duchamp'):
               works=[w for w in d['pieces'] if w['artist']==id]
               assert len(works)==50, id+' not 50'
               assert len(set(w['image'].split('?')[0] for w in works))==50, id+' duplicated images'
               assert all(w.get('source') and w.get('note') and w.get('observation') for w in works), id+' incomplete notes'
           counts=collections.Counter(w['artist'] for w in d['pieces'])
-          assert counts['levitan']==18 and counts['menne']==7 and counts['callaghan']==7 and counts['duchamp']>=14, counts
+          assert counts['levitan']==50 and counts['menne']==50 and counts['callaghan']==50 and counts['duchamp']==50 and counts['journaia']==1, counts
           for a in expected:
               assert a in d['catalog'], "missing catalog for "+a
               assert d['artists'][a]['resources'], "missing sources for "+a
