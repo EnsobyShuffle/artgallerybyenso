@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "project": "Art Gallery by Enso",
+  "updatedAt": "2026-10-31T04:18:00+08:00",
+  "order": [
+    {
+      "number": "01",
+      "id": "abstract",
+      "name": "抽象艺术",
+      "english": "Abstract Art"
+    },
+    {
+      "number": "02",
+      "id": "modern",
+      "name": "现代艺术",
+      "english": "Modern Art"
+    },
+    {
+      "number": "03",
+      "id": "impressionism",
+      "name": "印象派",
+      "english": "Impressionism"
+    },
+    {
+      "number": "04",
+      "id": "renaissance",
+      "name": "文艺复兴",
+      "english": "Renaissance"
+    },
+    {
+      "number": "05",
+      "id": "other",
+      "name": "其他艺术",
+      "english": "Other Art"
+    },
+    {
+      "number": "06",
+      "id": "chinese-classical",
+      "name": "中国古代艺术",
+      "english": "Chinese Classical Art"
+    },
+    {
+      "number": "07",
+      "id": "chinese-modern-contemporary",
+      "name": "中国近现代及当代艺术",
+      "english": "Chinese Modern & Contemporary Art"
+    }
+  ],
+  "last_category": "abstract",
+  "next_category": "modern",
+  "last_artist": "hilma-af-klint",
+  "next_artist": "vincent-van-gogh",
+  "artist_cursors": {
+    "abstract": {
+      "current": "hilma-af-klint",
+      "nextBatch": "Group IV remaining 2,4,6,8,10; retain completed IDs",
+      "complete": false
+    },
+    "modern": {
+      "current": "vincent-van-gogh"
+    },
+    "impressionism": {
+      "current": "monet"
+    },
+    "renaissance": {
+      "current": "leonardo"
+    },
+    "other": {
+      "current": "caravaggio"
+    },
+    "chinese-classical": {
+      "current": "gu-kaizhi"
+    },
+    "chinese-modern-contemporary": {
+      "current": "lin-fengmian"
+    }
+  },
+  "completed_work_ids": [
+    "hilma-af-klint-group-iv-1",
+    "hilma-af-klint-group-iv-3",
+    "hilma-af-klint-group-iv-5",
+    "hilma-af-klint-group-iv-7",
+    "hilma-af-klint-group-iv-9"
+  ],
+  "counts": {
+    "thisRun": {
+      "researched": {
+        "artists": 1,
+        "works": 5
+      },
+      "saved_to_repo": {
+        "artists": 1,
+        "works": 5
+      },
+      "committed": {
+        "artists": 1,
+        "works": 5
+      },
+      "deployment_verified": {
+        "artists": 0,
+        "works": 0
+      },
+      "live": {
+        "artists": 0,
+        "works": 0
+      }
+    },
+    "repoCumulative": {
+      "artists": 10,
+      "records": 343,
+      "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
+    },
+    "byCategoryRecords": {
+      "abstract": 55,
+      "modern": 50,
+      "impressionism": 30,
+      "renaissance": 7,
+      "other": 201,
+      "chinese-classical": 0,
+      "chinese-modern-contemporary": 0
+    },
+    "liveObserved": {
+      "artists": 9,
+      "records": 324,
+      "method": "线上首页各艺术家计数之和，未重新认证旧记录"
+    }
+  },
+  "sourceParentCommit": "c9c092bc5065fcde8407647d00c62e59b557fad6",
+  "deployment": {
+    "status": "blocked_operational_credits_only",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
+    "message": "Netlify后台显示团队仅有operational credits：现站继续运行，生产部署及Agent Runners暂停。后台显示最后发布为2026-10-31 02:27。连接仓库EnsobyShuffle/artgallerybyenso已确认；未修改发布配置或migration分支。",
+    "requiredAction": "用户在原Netlify团队恢复可用于生产部署的额度（自行选择升级或等待下一计费周期）；没有授权付费，未操作升级。"
+  },
+  "validation": {
+    "syntax": "HTML inline scripts and abstract.js parsed; 5 unique new IDs",
+    "preservation": "Original galleryData JSON unchanged; impressionism.js and renaissance.js untouched",
+    "images": "5 original image URLs viewed in browser",
+    "responsive": "Existing wrapping navigation and responsive rules retained; new page mobile runtime check pending production",
+    "live": "Fresh homepage still old 9-artist version, Hilma absent"
+  },
+  "nextActions": [
+    "Proceed to category02 Modern Art, Vincent van Gogh next run",
+    "Before publication retry inspect Netlify allowance banner; do not buy/upgrade automatically",
+    "After allowance resumes verify 7 categories, Hilma 5 images, search/detail/favorites/notes at mobile portrait, landscape and desktop",
+    "Retain Renaissance and Impressionism un-deployed increments"
+  ],
+  "researchSources": [
+    "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
+    "https://www.artgallery.nsw.gov.au/artboards/hilma/about-hilma-af-klint-1862-1944/",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._1_-_Childhood_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._3_-_Youth_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._5_-_Adulthood_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._9_-_1907.jpg"
+  ]
+}

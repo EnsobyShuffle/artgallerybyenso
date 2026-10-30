@@ -1,0 +1,33 @@
+{
+  "artist": "hilma-af-klint",
+  "candidates": 10,
+  "reviewed": 5,
+  "committed": 5,
+  "live": 0,
+  "remaining": [
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "workIds": [
+    "hilma-af-klint-group-iv-1",
+    "hilma-af-klint-group-iv-3",
+    "hilma-af-klint-group-iv-5",
+    "hilma-af-klint-group-iv-7",
+    "hilma-af-klint-group-iv-9"
+  ],
+  "sources": [
+    "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
+    "https://www.artgallery.nsw.gov.au/artboards/hilma/about-hilma-af-klint-1862-1944/",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._1_-_Childhood_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._3_-_Youth_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._5_-_Adulthood_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._9_-_1907.jpg"
+  ],
+  "metadataNotes": "尺寸字段冲突保留图注值并标记待主目录复核；第1、9号的机构来源为系列说明，逐件原始目录链接仍待补充。",
+  "licenseReview": "每件Commons页核验PD-Art声明，保留Albin Dahlström与基金会署名；未使用馆方展览现场照片。",
+  "nextCategory": "modern"
+}
