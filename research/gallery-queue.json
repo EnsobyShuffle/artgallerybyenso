@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-30T20:33:23Z",
+  "updatedAt": "2026-10-30 21:28:56 UTC",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "modern",
-  "next_category": "impressionism",
-  "last_artist": "vincent-van-gogh",
-  "next_artist": "monet",
+  "last_category": "impressionism",
+  "next_category": "renaissance",
+  "last_artist": "monet",
+  "next_artist": "leonardo",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -63,7 +63,10 @@
       "nextBatch": "Select next distinct paintings from authoritative open collections; exclude six AIC canonical IDs already saved. Target approximately 50 cumulatively."
     },
     "impressionism": {
-      "current": "monet"
+      "current": "monet",
+      "complete": false,
+      "verifiedWorks": 35,
+      "nextBatch": "Continue distinct original paintings toward50; exclude all35 existing canonical IDs"
     },
     "renaissance": {
       "current": "leonardo"
@@ -89,21 +92,26 @@
     "van-gogh-aic-79349",
     "van-gogh-aic-109314",
     "van-gogh-aic-14586",
-    "van-gogh-aic-64957"
+    "van-gogh-aic-64957",
+    "monet-met-437105",
+    "monet-met-437106",
+    "monet-met-437115",
+    "monet-met-438435",
+    "monet-met-437113"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 6
+        "works": 5
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 6
+        "works": 5
       },
       "committed": {
         "artists": 1,
-        "works": 6
+        "works": 5
       },
       "deployment_verified": {
         "artists": 0,
@@ -116,13 +124,13 @@
     },
     "repoCumulative": {
       "artists": 11,
-      "records": 349,
+      "records": 354,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
       "abstract": 55,
       "modern": 56,
-      "impressionism": 30,
+      "impressionism": 35,
       "renaissance": 7,
       "other": 201,
       "chinese-classical": 0,
@@ -135,12 +143,12 @@
     },
     "rotationCumulative": {
       "researched": {
-        "artists": 2,
-        "works": 11
+        "artists": 3,
+        "works": 16
       },
       "committed": {
-        "artists": 2,
-        "works": 11
+        "artists": 3,
+        "works": 16
       },
       "deployment_verified": {
         "artists": 0,
@@ -152,40 +160,29 @@
       }
     }
   },
-  "sourceParentCommit": "e152a9e1c396e6c3d596123dd1324943f29f5af5",
+  "sourceParentCommit": "e1587c4f34d999f24f556f09b79cb25b87d31b21",
   "deployment": {
     "status": "blocked_operational_credits_only",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
-    "observedAt": "2026-10-30T20:31:46Z",
+    "observedAt": "2026-10-30 21:28:56 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "后台明确显示生产部署及Agent Runners暂停，仅剩维持现站的operational credits。Hilma、Monet新增与Leonardo四件新增均显示Skipped，现站保持旧版9位艺术家324条记录。已确认GitHub连接和main生产分支，不是缓存推测。",
-    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
-    "finalCheck": {
-      "checkedAt": "2026-10-30T20:33:23Z",
-      "commit": "1929bccc6325c67cd623add1f9c787fee93c7012",
-      "result": "Skipped",
-      "deployId": "6ae4fedc544fba545f16ed82",
-      "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae4fedc544fba545f16ed82",
-      "liveArtistUrl": "https://artgallerybyenso.netlify.app/?artist=vincent-van-gogh&collection=modern",
-      "liveResult": "URL still renders old 9-artist homepage; Van Gogh unavailable; live0"
-    }
+    "message": "2026-10-31本轮复核：Netlify仍明确提示production deploys paused，现行生产版5573f1a。莫奈线上仍20件，新增5件及此前待发布10件尚未上线。",
+    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。"
   },
   "validation": {
-    "syntax": "HTML inline JS and all four data extensions parsed successfully",
-    "preservation": "Original galleryData byte-for-byte unchanged; other extensions untouched; migration branch untouched",
-    "deduplication": "6 new canonical IDs unique among 349 records",
-    "images": "6 accession-matched CC0 museum reproductions viewed successfully via Wikimedia Commons; original AIC image browser CAPTCHA, not bypassed",
-    "links": "Six official object pages/API public-domain flags and six Commons license pages retrieved",
-    "responsive": "Existing responsive CSS retained; new live mobile/desktop detail, search, favorites and notes acceptance pending deployment",
-    "live": "Fresh original homepage still 9 artists, Monet20, Leonardo3, noVanGogh; new work live0"
+    "syntax": "Data JavaScript syntax checked; all35 Monet IDs distinct",
+    "preservation": "First30 artwork objects unchanged; index.html and other artist modules untouched; migration branch untouched",
+    "images": "Five accession-matched CC0 museum reproductions fully viewed in browser; new image URLs remote Commons copies, not claimed self-hosted",
+    "links": "Five official Met records read via search; Commons accession/license pages retrieved; direct Met fetch429",
+    "responsive": "Existing layout unchanged; new-work mobile and detail interaction acceptance pending deployment",
+    "live": "Original Netlify Monet artist page opened, shows20works; no new5 present"
   },
   "nextActions": [
-    "Next run category03 Impressionism → monet; read latest main and existing 30IDs before selecting new works",
-    "Keep original Netlify target; after production allowance resumes verify modern artist6 images and all pending increments",
-    "Check new pages at desktop, phone portrait and landscape plus search/detail/favorites/private notes after publication",
-    "Next modern rotation may continue Van Gogh with new unique works"
+    "Next category04 Renaissance, canonical artist leonardo; read existing7 records and pending Burlington cartoon rights issue",
+    "When Netlify production allowance resumes, deploy main and verify all pending increments including Monet35",
+    "Next impressionism visit continue Monet toward50 without duplicating35 records"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -213,7 +210,17 @@
     "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Poet%27s_Garden_-_1933.433_-_Art_Institute_of_Chicago.jpg",
     "https://www.artic.edu/artworks/64957/grapes-lemons-pears-and-apples",
     "https://api.artic.edu/api/v1/artworks/64957",
-    "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Grapes,_Lemons,_Pears,_and_Apples_-_1949.215_-_Art_Institute_of_Chicago.jpg"
+    "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Grapes,_Lemons,_Pears,_and_Apples_-_1949.215_-_Art_Institute_of_Chicago.jpg",
+    "https://www.metmuseum.org/art/collection/search/437105",
+    "https://commons.wikimedia.org/wiki/File:The_Green_Wave_MET_DT1896.jpg",
+    "https://www.metmuseum.org/art/collection/search/437106",
+    "https://commons.wikimedia.org/wiki/File:Spring_(Fruit_Trees_in_Bloom)_MET_DT1902.jpg",
+    "https://www.metmuseum.org/art/collection/search/437115",
+    "https://commons.wikimedia.org/wiki/File:Chrysanthemums_MET_DT1887.jpg",
+    "https://www.metmuseum.org/art/collection/search/438435",
+    "https://commons.wikimedia.org/wiki/File:Jean_Monet_(1867%E2%80%931913)_on_His_Hobby_Horse_MET_DT511.jpg",
+    "https://www.metmuseum.org/art/collection/search/437113",
+    "https://commons.wikimedia.org/wiki/File:Cabin_of_the_Customs_Watch_MET_DT1905.jpg"
   ],
   "history": [
     {
@@ -243,6 +250,34 @@
         }
       },
       "completedAt": "2026-10-31T04:15:27+08:00"
+    },
+    {
+      "category": "modern",
+      "artist": "vincent-van-gogh",
+      "contentCommit": "1929bccc6325c67cd623add1f9c787fee93c7012",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 6
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 6
+        },
+        "committed": {
+          "artists": 1,
+          "works": 6
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "completedAt": "2026-10-30T20:33:23Z"
     }
   ],
   "canonical_work_ids": [
@@ -594,7 +629,11 @@
     "van-gogh-aic-79349",
     "van-gogh-aic-109314",
     "van-gogh-aic-14586",
-    "van-gogh-aic-64957"
-  ],
-  "last_content_commit": "1929bccc6325c67cd623add1f9c787fee93c7012"
+    "van-gogh-aic-64957",
+    "monet-met-437105",
+    "monet-met-437106",
+    "monet-met-437115",
+    "monet-met-438435",
+    "monet-met-437113"
+  ]
 }
