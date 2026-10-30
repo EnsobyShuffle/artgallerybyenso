@@ -91,3 +91,12 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 - 阻塞原因：文本/数据文件有重叠修改，需逐文件保留大陆迁移适配与内容更新后再合并；旧本地检查产物不是最新 Git 工作树，不能拿它覆盖远端。腾讯云控制台仍需Henry正常登录以核实真实环境、域名、备案与额度。
 
 下一步：针对 PR #2 的共享文件做三方差异核对并解决冲突，在 migration/tencent-mainland 上完成合并后重新生成艺术家/作品和外链资源审计，运行个人数据回归、预览包与 release 阻断检查；国内网络验收继续待登录与测试条件。
+
+## 并发内容跟进｜2026-10-31 05:35 Asia/Shanghai
+
+- 重新读取 PR #2 与最新 compare：migration 分支检查点头为 `5a1a8af9f99ed3ffe9a2287c6765b8d2b145a912`，main 目前推进到 `f1470b5d2b1576a3a061165ed4252e0c2ae93800`；分叉为 migration 领先12、落后3，PR 仍 open/draft 且 `mergeable=false`。未合并。
+- 最新 main 的印象派进度文件记录 Monet 共35件核验记录，其中20件已发布、15件待发布；本批新增图中仍有远程 Wikimedia Commons 地址，未全部自托管。不得把35件写成国内发布完成。
+- 最新 main 的文艺复兴进度记录8个核验作品单元、8件配有图像解读、3件线上已核验；新增件的图片许可/发布和线上展示状态并不相同，当前迁移包不可沿用旧计数。
+- PR共享文件补丁显示冲突/并发范围含 `index.html`、`impressionism.js`、`renaissance.js` 和两份进度 JSON。要保留 main 的艺术内容与逐件状态，同时保留迁移适配；完成逐文件三方合并后才可重建CloudBase包。此次 Sites 工作目录另完成 `node --check dist/app.js`、`git diff --check`，Shuffle源码当前为V5提交且工作区干净。
+
+下一步：先解决PR #2共享文件冲突；合并后按最新源重新计算作品/已发布/待发布、图片本地化与权利状态，重跑离线迁移检查。腾讯云登录、真实资源和国内运营商/微信验收仍待Henry登录及测试环境。
