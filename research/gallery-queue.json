@@ -248,6 +248,7 @@
     "live": "FAIL after commit and browser reload: original artist URL renders old9-artist324-record homepage; Van Gogh absent"
   },
   "nextActions": [
+    "Apply new minimum20 representative works standard; existing35 Monet records need representative/image/text audit, not automatic acceptance. Keep next category03.",
     "03 Impressionism → Monet: read latest main and exclude all35 existing canonical IDs",
     "Recheck original production deployment; previous credits limitation needs account-side resolution, current dashboard inaccessible",
     "Next modern rotation: continue distinct Van Gogh works beyond11"
@@ -967,5 +968,22 @@
     "van-gogh-met-436535",
     "van-gogh-met-436534"
   ],
-  "last_content_commit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a"
+  "last_content_commit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
+  "artist_delivery_standard": {
+    "effectiveDate": "2026-10-31",
+    "minimumRepresentativeWorks": 20,
+    "longTermExpansionTarget": 50,
+    "appliesTo": "Every artist, including existing pages",
+    "required": "Each counted work must be a distinct canonical object with an actually viewed, legally displayable real image, original Chinese introduction and authoritative metadata/source/license evidence.",
+    "selection": "Prioritize art-historical significance and coverage of key periods/themes/techniques using museum, scholarly catalogue and retrospective evidence; image availability alone does not establish representativeness.",
+    "priority": "Within the existing seven-category rotation, complete artists below20 first. Audit representativeness and image/text quality for artists already over20 before moving to the next artist.",
+    "exceptions": "Document verified surviving corpus limits, attribution uncertainty and image-rights gaps. Never pad with details, duplicates, workshop copies or unavailable originals. Link-only records do not count as image-complete.",
+    "reporting": [
+      "qualifiedRepresentativeWorks / 20",
+      "verifiedLiveRepresentativeWorks / 20"
+    ],
+    "auditStatus": "Representative-work acceptance not yet audited; existing verifiedWorks counts must not be relabelled as qualified20 counts.",
+    "userInstruction": "我要每个艺术家至少20幅最有代表性的作品图片和介绍"
+  },
+  "requirementsUpdatedOn": "2026-10-31"
 }
