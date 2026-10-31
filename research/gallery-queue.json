@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-30 23:29:51 UTC",
+  "updatedAt": "2026-10-31 00:34:11 UTC",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "other",
-  "next_category": "chinese-classical",
-  "last_artist": "caravaggio",
-  "next_artist": "gu-kaizhi",
+  "last_category": "chinese-classical",
+  "next_category": "chinese-modern-contemporary",
+  "last_artist": "gu-kaizhi",
+  "next_artist": "lin-fengmian",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -82,7 +82,12 @@
       "nextBatch": "Continue distinct museum-attributed originals toward50; exclude current5 canonical IDs; prioritize Rome and Naples collections"
     },
     "chinese-classical": {
-      "current": "gu-kaizhi"
+      "current": "gu-kaizhi",
+      "complete": false,
+      "verifiedWorks": 4,
+      "confirmedAutographs": 0,
+      "countingUnit": "independent surviving copies; never claimed autograph Gu Kaizhi paintings",
+      "nextBatch": "Resolve Liaoning Luoshen and BM 1930,1015,0.2 as separate copies; inspect high-resolution details; do not duplicate four canonical objects. No artificial50-autograph target."
     },
     "chinese-modern-contemporary": {
       "current": "lin-fengmian"
@@ -114,21 +119,25 @@
     "caravaggio-uffizi-4659",
     "caravaggio-ng172",
     "caravaggio-ng6504",
-    "caravaggio-ng6389"
+    "caravaggio-ng6389",
+    "gu-kaizhi-tradition-bm-1903-0408-0-1",
+    "gu-kaizhi-tradition-dpm-00146320",
+    "gu-kaizhi-tradition-dpm-00147328",
+    "gu-kaizhi-tradition-dpm-00147329"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 5
+        "works": 4
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 5
+        "works": 4
       },
       "committed": {
         "artists": 1,
-        "works": 5
+        "works": 4
       },
       "deployment_verified": {
         "artists": 0,
@@ -140,8 +149,8 @@
       }
     },
     "repoCumulative": {
-      "artists": 12,
-      "records": 364,
+      "artists": 13,
+      "records": 368,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
@@ -150,7 +159,7 @@
       "impressionism": 35,
       "renaissance": 12,
       "other": 206,
-      "chinese-classical": 0,
+      "chinese-classical": 4,
       "chinese-modern-contemporary": 0
     },
     "liveObserved": {
@@ -160,12 +169,12 @@
     },
     "rotationCumulative": {
       "researched": {
-        "artists": 5,
-        "works": 26
+        "artists": 6,
+        "works": 30
       },
       "committed": {
-        "artists": 5,
-        "works": 26
+        "artists": 6,
+        "works": 30
       },
       "deployment_verified": {
         "artists": 0,
@@ -177,28 +186,17 @@
       }
     }
   },
-  "sourceParentCommit": "dd4829cbbf2b3871414a8c6ad9cf57d8fc5ea60b",
+  "sourceParentCommit": "171ed2c52747593f6251ed5856d4a941e63bc385",
   "deployment": {
     "status": "blocked_operational_credits_only",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
-    "observedAt": "2026-10-30 23:29:51 UTC",
+    "observedAt": "2026-10-31 00:34:11 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "本轮已实见生产main@6220805：Skipped due to account credit usage exceeded；生产部署额度暂停。原站卡拉瓦乔入口仍旧版9艺术家首页，新艺术家和作品均未上线。",
+    "message": "本轮直接实见Netlify后台：团队仅有operational credits，生产部署暂停；生产版本仍为5573f1a。本轮提交后复查具体事件。",
     "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
     "previousFinalCheck": {
-      "checkedAt": "2026-10-30 22:36:54 UTC",
-      "contentCommit": "7087572ef48f016934728d0086d9d5bf01508e7b",
-      "repoReadback": 12,
-      "liveLeonardoCount": 3,
-      "liveNewWorks": 0,
-      "deployEvent": "Skipped",
-      "deployId": "6ae51bd0de181527be0bd481",
-      "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae51bd0de181527be0bd481",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo"
-    },
-    "finalCheck": {
       "checkedAt": "2026-10-30 23:29:51 UTC",
       "contentCommit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06",
       "repoReadbackWorks": 5,
@@ -210,18 +208,18 @@
     }
   },
   "validation": {
-    "syntax": "other.js node --check passed; index.html exactly2 loader edits, all other bytes preserved",
-    "dedup": "364 globally distinct IDs including5 new Caravaggio records",
-    "images": "All5 published image URLs loaded and viewed in browser; museum accession and PD-Art file statements matched",
-    "links": "5 official artwork pages, artist biography and5 Commons file pages retrieved",
-    "preservation": "Existing artist modules, embedded gallery data, favorites and notes code unchanged; migration branch untouched",
-    "responsive": "CSS and UI controls unchanged; new artist mobile/detail acceptance pending deployment",
-    "live": "Opened original Netlify Caravaggio URL; old9artist homepage, newartist0/newworks0"
+    "syntax": "PASS node --check chinese-classical.js and vm.Script for all inline index scripts; exactly3 intended index edits",
+    "dedup": "PASS 13 artists / 368 globally unique IDs; prior364 IDs preserved; canonical list equals merged dataset",
+    "images": "Four real scroll images opened and visually inspected in browser at whole-scroll overview; fine face and brushwork details explicitly pending. Four Commons PD-Art/PD-scan evidence pages retained.",
+    "links": "Three Palace Museum object pages and BM object page retrieved; exact collection/accession matched",
+    "preservation": "Existing content and localStorage behavior preserved; only module loader and Gu-specific count wording added; migration branch untouched",
+    "responsive": "Existing responsive styles unchanged; new artist/detail/mobile acceptance pending original production deployment",
+    "live": "pending final postcommit check"
   },
   "nextActions": [
-    "06 Chinese Classical Art: Gu Kaizhi; distinguish surviving copies from lost originals, canonical ID gu-kaizhi",
-    "Recheck production credits then publish latest main when permitted; do not pay or change domain",
-    "Next Other Art visit extend Caravaggio, exclude current5 IDs"
+    "07 中国近现代及当代艺术：林风眠，canonical ID lin-fengmian；先核版权与真实作品页",
+    "Netlify生产额度恢复后，部署最新main并验收所有积压批次；不采购、不切换域名",
+    "下一轮中国古代艺术继续顾恺之相关版本缺项，核看长卷局部；实物与题材分开计数"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -279,7 +277,16 @@
     "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard",
     "https://commons.wikimedia.org/wiki/File:Michelangelo_Merisi_da_Caravaggio_-_Boy_Bitten_by_a_Lizard_-_WGA04076.jpg",
     "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-salome-receives-the-head-of-john-the-baptist",
-    "https://commons.wikimedia.org/wiki/File:CaravaggioSalomeLondon.jpg"
+    "https://commons.wikimedia.org/wiki/File:CaravaggioSalomeLondon.jpg",
+    "https://www.britishmuseum.org/collection/object/A_1903-0408-0-1",
+    "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi_001.jpg",
+    "https://www.dpm.org.cn/collection/paint/231643.html",
+    "https://commons.wikimedia.org/wiki/File:顾恺之女史箴图卷（宋摹）.png",
+    "https://www.dpm.org.cn/collection/paint/228747.html",
+    "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi. Wise and Benevolent Women. Scroll. Song copy of 4 century work. Palace museum, Beizing.jpg",
+    "https://www.dpm.org.cn/collection/paint/234597.html",
+    "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi-Nymph_of_the_Luo_River_(full),_Palace_Museum,_Beijing.jpg",
+    "https://www.britishmuseum.org/collection/term/BIOG10275"
   ],
   "history": [
     {
@@ -393,6 +400,34 @@
         }
       },
       "completedAt": "2026-10-30 22:36:54 UTC"
+    },
+    {
+      "category": "other",
+      "artist": "caravaggio",
+      "contentCommit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 5
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 5
+        },
+        "committed": {
+          "artists": 1,
+          "works": 5
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "completedAt": "2026-10-30 23:29:51 UTC"
     }
   ],
   "canonical_work_ids": [
@@ -759,7 +794,11 @@
     "caravaggio-uffizi-4659",
     "caravaggio-ng172",
     "caravaggio-ng6504",
-    "caravaggio-ng6389"
+    "caravaggio-ng6389",
+    "gu-kaizhi-tradition-bm-1903-0408-0-1",
+    "gu-kaizhi-tradition-dpm-00146320",
+    "gu-kaizhi-tradition-dpm-00147328",
+    "gu-kaizhi-tradition-dpm-00147329"
   ],
-  "last_content_commit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06"
+  "last_content_commit": null
 }

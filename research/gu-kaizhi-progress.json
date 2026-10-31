@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "project": "Art Gallery by Enso",
+  "artist": "gu-kaizhi",
+  "category": "chinese-classical",
+  "updatedAt": "2026-10-31 00:34:11 UTC",
+  "sourceParentCommit": "171ed2c52747593f6251ed5856d4a941e63bc385",
+  "counts": {
+    "candidates": 6,
+    "verifiedObjects": 4,
+    "withImagesAndOriginalOverviewNotes": 4,
+    "confirmedAutographs": 0,
+    "committed": 4,
+    "deploymentVerified": 0,
+    "live": 0
+  },
+  "scope": "Gu Kaizhi reception and surviving copies, not an autograph catalogue",
+  "countingRules": [
+    "One surviving museum object per accession",
+    "Later copies visibly labeled; their physical date takes priority over traditional original attribution",
+    "Scenes, details, inscriptions, remountings and modern facsimiles not independent Gu Kaizhi works"
+  ],
+  "completed": [
+    {
+      "id": "gu-kaizhi-tradition-bm-1903-0408-0-1",
+      "accession": "1903,0408,0.1",
+      "source": "https://www.britishmuseum.org/collection/object/A_1903-0408-0-1",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi_001.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi_001.jpg",
+      "visualReview": {
+        "method": "Browser displayed complete scroll image; original Chinese notes limited to visible overall arrangement",
+        "scope": "全卷缩览；局部笔触、人物表情待精读",
+        "countingUnit": "one physical museum object; scenes and details not separate works"
+      }
+    },
+    {
+      "id": "gu-kaizhi-tradition-dpm-00146320",
+      "accession": "新00146320",
+      "source": "https://www.dpm.org.cn/collection/paint/231643.html",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:顾恺之女史箴图卷（宋摹）.png",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:顾恺之女史箴图卷（宋摹）.png",
+      "visualReview": {
+        "method": "Browser displayed complete scroll image; original Chinese notes limited to visible overall arrangement",
+        "scope": "全卷缩览；局部笔触、人物表情待精读",
+        "countingUnit": "one physical museum object; scenes and details not separate works"
+      }
+    },
+    {
+      "id": "gu-kaizhi-tradition-dpm-00147328",
+      "accession": "新00147328",
+      "source": "https://www.dpm.org.cn/collection/paint/228747.html",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi. Wise and Benevolent Women. Scroll. Song copy of 4 century work. Palace museum, Beizing.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi. Wise and Benevolent Women. Scroll. Song copy of 4 century work. Palace museum, Beizing.jpg",
+      "visualReview": {
+        "method": "Browser displayed complete scroll image; original Chinese notes limited to visible overall arrangement",
+        "scope": "全卷缩览；局部笔触、人物表情待精读",
+        "countingUnit": "one physical museum object; scenes and details not separate works"
+      }
+    },
+    {
+      "id": "gu-kaizhi-tradition-dpm-00147329",
+      "accession": "新00147329",
+      "source": "https://www.dpm.org.cn/collection/paint/234597.html",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi-Nymph_of_the_Luo_River_(full),_Palace_Museum,_Beijing.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi-Nymph_of_the_Luo_River_(full),_Palace_Museum,_Beijing.jpg",
+      "visualReview": {
+        "method": "Browser displayed complete scroll image; original Chinese notes limited to visible overall arrangement",
+        "scope": "全卷缩览；局部笔触、人物表情待精读",
+        "countingUnit": "one physical museum object; scenes and details not separate works"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "candidate": "洛神赋图辽宁本",
+      "status": "not counted",
+      "reason": "Independent original object page, accession, reusable image and visual inspection still required"
+    },
+    {
+      "candidate": "BM Nymph of the Luo River 1930,1015,0.2",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG10275",
+      "status": "not counted",
+      "reason": "Collection index has multiple dating fields; obtain full object record and rights before publication"
+    }
+  ],
+  "disagreements": [
+    "Gu birth year ca344 vs345; use approximation; BM biography345–406",
+    "BM current object date5th–7th century; Palace explanatory text and older sources call it Tang copy; preserve difference",
+    "BM page contains differing original scene totals in separate descriptions; site only states surviving9",
+    "Wise and Benevolent Women traditional Gu attribution is questioned by Palace Museum essay; earlier Han model proposed",
+    "Commons some labels repeat fourth-century author dates for later copies; museum date and attribution take precedence"
+  ],
+  "nextCategory": "chinese-modern-contemporary",
+  "nextArtist": "lin-fengmian",
+  "deploymentBlocker": "本轮直接实见Netlify后台：团队仅有operational credits，生产部署暂停；生产版本仍为5573f1a。本轮提交后复查具体事件。"
+}
