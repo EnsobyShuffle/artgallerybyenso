@@ -1,4 +1,4 @@
-/* Renaissance collection; verified 2026-10-31 (Asia/Shanghai). */
+/* Art Gallery by Enso: Renaissance; verified 2026-10-31. */
 window.RENAISSANCE_GALLERY = {
   "artists": {
     "leonardo": {
@@ -18,7 +18,7 @@ window.RENAISSANCE_GALLERY = {
         "达·芬奇（1452—1519）出生于佛罗伦萨附近的芬奇，在韦罗基奥的工作室学习。理解他的绘画，既要看完成的作品，也要看素描中反复试探的问题。",
         "早期作品连接佛罗伦萨的工作室传统；1481年接受的《三王来朝》委托未完成，之后他前往米兰的斯福尔扎宫廷。伦敦《岩间圣母》则属于为米兰圣方济各大教堂制作的祭坛画体系。",
         "从佛罗伦萨的肖像和宗教委托，到米兰斯福尔扎宫廷，再到法国王室收藏，作品的流传并不总与最初委托一致。他对柔和明暗、人物转身和手势关系的探索，使肖像与宗教群像成为观察人和自然的共同场所；许多晚期画作被长期保留和加工，具体委托仍须逐件区分。",
-        "本档案现展示12件独立作品单元：9件达·芬奇署名绘画、1件与韦罗基奥合作的绘画、2件纸本研究。正反面按同一实物合并计数。存世可确认绘画不足50件，长期收藏目标须通过分栏收录真实纸本等媒材推进，不能用局部、摹本或合作作品冒充亲笔绘画。"
+        "本档案现展示14件独立作品单元：11件达·芬奇署名绘画、1件合作绘画、2件纸本研究。正反面合并计数。20幅代表作是最低验收目标，50件为长期扩展目标；旧记录仍须逐项审核代表性与图文质量，不能把14条直接当作14幅已通过新标准。"
       ],
       "timeline": [
         [
@@ -56,7 +56,7 @@ window.RENAISSANCE_GALLERY = {
           "过程"
         ]
       ],
-      "indexNote": "已展示12件独立作品单元；另有伯灵顿府素描大稿1件已核对并完成解读，图像许可待补齐。巴黎与伦敦《岩间圣母》是两件实物，各用独立馆藏号。此索引不是作品全集。",
+      "indexNote": "14件可展示作品记录；另有NG6337素描大稿待复制图许可。本轮两件新增通过代表性图文审核，其他既有记录继续审核。优先补《最后的晚餐》等关键缺作，不用局部或摹本凑足20。",
       "indexSource": "https://www.nga.gov/artists/1479-leonardo-da-vinci",
       "resources": [
         [
@@ -464,6 +464,70 @@ window.RENAISSANCE_GALLERY = {
         "method": "完整复制图在浏览器实际打开并查看截图",
         "dateUTC": "2026-10-30"
       }
+    },
+    {
+      "id": "leonardo-mnk-xii-209",
+      "title": "Lady with an Ermine",
+      "zh": "抱银貂的女子",
+      "year": "约1490",
+      "group": "人与风景",
+      "provider": "National Museum in Kraków — Princes Czartoryski Museum",
+      "accession": "MNK XII-209",
+      "dimensions": "待馆方数字目录进一步核对（不同资料区分画面与整板）",
+      "medium": "约1490｜木板油画｜MNK XII-209｜克拉科夫恰尔托雷斯基博物馆",
+      "source": "https://mnk.pl/en/collections/lady-with-an-ermine/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Leonardo_da_Vinci_-_Lady_with_an_Ermine.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Lady_with_an_Ermine.jpg",
+      "license": "Public Domain Mark",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Lady_with_an_Ermine.jpg",
+      "rights": "使用Commons该具体文件所标公版复制图；原作Leonardo da Vinci，藏于National Museum in Kraków, Princes Czartoryski Museum。并非将馆方网站全部照片视为无条件开放。",
+      "context": "馆方将人物确认为切奇利娅·加莱拉尼，她与米兰公爵卢多维科·斯福尔扎的宫廷关系构成作品背景。馆方把银貂与公爵的称号及徽章联系起来，也讨论其与人物姓名的联系；这些是解释，不是唯一确定的寓意。当前深色背景经过19世纪改绘，不能把全部可见状态视为达·芬奇原貌。",
+      "observation": "本站观察：第一眼看女人与银貂朝向画面右方的头部。女人胸口和肩膀的方向与头部不完全一致，形成轻微转身；长而分开的手指横过动物的身体。浅亮的脸、手和皮毛在暗底上接续，黑色珠链则把颈部和胸前连起来；红褐衣袖与蓝色披覆构成较深的色块。",
+      "note": "代表性：馆方强调转身和三分之四面肖像带来的动态感。本作补足米兰宫廷肖像，与本站早期《吉内薇拉》及身份仍存疑的《美丽的费隆妮叶》形成有依据的比较。观看问题：暂时遮住银貂，人物转向画外的感觉是否仍同样强烈？",
+      "selectionEvidence": "MNK正式作品条目讨论其在15世纪肖像中的转身、光塑形和宫廷语境；不是仅按图像可得性入选。",
+      "artist": "leonardo",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（馆方署名）",
+      "verifiedOn": "2026-10-31",
+      "hasVisualNotes": true,
+      "status": "verified_image_and_original_chinese_notes",
+      "visualReview": {
+        "date": "2026-10-31",
+        "method": "Browser full-image screenshot actually viewed"
+      },
+      "representativeQualified": true
+    },
+    {
+      "id": "leonardo-bstgs-7779",
+      "title": "Madonna mit der Nelke / Madonna of the Carnation",
+      "zh": "康乃馨圣母",
+      "year": "约1475",
+      "group": "宗教与叙事",
+      "provider": "Bayerische Staatsgemäldesammlungen — Alte Pinakothek München",
+      "accession": "7779",
+      "dimensions": "62 × 48.5 cm",
+      "medium": "约1475｜杨木板油画｜62 × 48.5 cm｜7779｜慕尼黑老绘画陈列馆",
+      "source": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX",
+      "image": "https://cdn.thenetexperts.info/image/authenticated/s--FcsHIEX3--/q_80/artworks/LEONARDO-DA-VINCI-1452_MADONNA-MIT-DER-NELKE-7779_917154_CC-BY-SA_BSTGS.jpg",
+      "imageSource": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX",
+      "license": "CC BY-SA 4.0",
+      "rightsSource": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX",
+      "rights": "Leonardo da Vinci, Madonna of the Carnation, c.1475. Bayerische Staatsgemäldesammlungen – Alte Pinakothek München, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). 使用馆方Download原图，未修改；若改作须标注并依同许可分享。",
+      "context": "馆方将此画定为约1475年，属于达·芬奇仍在老师工作室活动时期的早期板画。带窗室内的圣母子延续佛罗伦萨传统；馆方同时将油画技法视为实验。原始委托本轮未获确认。尺寸采用馆方现行62 × 48.5厘米，不沿用部分旧图录47.5厘米的宽度。",
+      "observation": "本站观察：第一眼看婴儿伸向小红花的手。圣母低头，花与两人的手把视线聚在胸前；孩子的身体斜向抬起，一只脚伸向中间。蓝色衣料、红袖和金黄色褶皱层层相接，右下有细致花瓶。后方四个拱形窗口隔开浅蓝山景，暗室与远景的明亮形成对照。",
+      "note": "代表性：它补足早期独立圣母子板画，能与《天使报喜》的空间组织及晚期《圣安娜》的身体交叠比较。馆方明确指出其对传统的延续与观察自然、油画实验之间的关系。观看问题：花朵如此小，为什么仍能把两个人和你的目光连接起来？",
+      "selectionEvidence": "巴伐利亚国家绘画收藏馆正式作品条目将其列为早期工作室阶段的重要板画与油画实验；采用馆方复制图和元数据。",
+      "artist": "leonardo",
+      "titleTranslation": "本站中文译名",
+      "attribution": "Leonardo da Vinci（馆方署名）",
+      "verifiedOn": "2026-10-31",
+      "hasVisualNotes": true,
+      "status": "verified_image_and_original_chinese_notes",
+      "visualReview": {
+        "date": "2026-10-31",
+        "method": "Browser full-image screenshot actually viewed"
+      },
+      "representativeQualified": true
     }
   ],
   "catalog": {
@@ -479,7 +543,9 @@ window.RENAISSANCE_GALLERY = {
       "La Vierge, l'Enfant Jésus et sainte Anne, dit La Sainte Anne",
       "Portrait de femme, dit à tort La Belle Ferronnière",
       "Saint Jean Baptiste",
-      "La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers"
+      "La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers",
+      "Lady with an Ermine",
+      "Madonna mit der Nelke / Madonna of the Carnation"
     ]
   }
 };

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31T04:32:34Z",
+  "updatedAt": "2026-10-31T13:30:00+08:00",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "impressionism",
-  "next_category": "renaissance",
-  "last_artist": "monet",
-  "next_artist": "leonardo",
+  "last_category": "renaissance",
+  "next_category": "other",
+  "last_artist": "leonardo",
+  "next_artist": "caravaggio",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -97,9 +97,15 @@
     "renaissance": {
       "current": "leonardo",
       "complete": false,
-      "verifiedWorks": 13,
-      "publicationReady": 12,
-      "nextBatch": "Next Renaissance visit: resolve NG6337 image rights, then research distinct Milan/Krakow/Munich originals; retain all12 display IDs and pending NG6337."
+      "verifiedWorks": 15,
+      "publicationReady": 14,
+      "nextBatch": "Prioritize Last Supper, Annunciation/major existing paintings representative audit; NG6337 license pending.14 display records do not equal14 accepted representative works.",
+      "qualifiedRepresentativeWorks": 2,
+      "verifiedLiveRepresentativeWorks": 0,
+      "representativeWorkIds": [
+        "leonardo-mnk-xii-209",
+        "leonardo-bstgs-7779"
+      ]
     },
     "other": {
       "current": "caravaggio",
@@ -169,21 +175,23 @@
     "van-gogh-met-436534",
     "monet-marmottan-4014",
     "monet-nga-61379",
-    "monet-nga-52189"
+    "monet-nga-52189",
+    "leonardo-mnk-xii-209",
+    "leonardo-bstgs-7779"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 3
+        "works": 2
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 3
+        "works": 2
       },
       "committed": {
         "artists": 1,
-        "works": 3
+        "works": 2
       },
       "deployment_verified": {
         "artists": 0,
@@ -196,14 +204,14 @@
     },
     "repoCumulative": {
       "artists": 14,
-      "records": 382,
+      "records": 384,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
       "abstract": 60,
       "modern": 61,
       "impressionism": 38,
-      "renaissance": 12,
+      "renaissance": 14,
       "other": 206,
       "chinese-classical": 4,
       "chinese-modern-contemporary": 1
@@ -216,11 +224,11 @@
     "rotationCumulative": {
       "researched": {
         "artists": 7,
-        "works": 44
+        "works": 46
       },
       "committed": {
         "artists": 7,
-        "works": 44
+        "works": 46
       },
       "deployment_verified": {
         "artists": 0,
@@ -232,34 +240,15 @@
       }
     }
   },
-  "sourceParentCommit": "a5919eebc7fb3b4627873b6adb6cf3d947db4381",
+  "sourceParentCommit": "520b6f4b5f5f52063f62436ab2166419ea9efcb4",
   "deployment": {
-    "status": "netlify_assets_uploaded_production_stale",
-    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
-    "observedAt": "2026-10-31 00:38:48 UTC",
-    "productionBranch": "main",
-    "publishedCommitShort": "5573f1a",
-    "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "GitHub Netlify checks report3 assets uploaded and1 header processed. Production reloaded still Monet20 older records. Exact deploy detail AX timeout; promotion/lock status unverified.",
-    "requiredAction": "Inspect this exact deploy in existing Netlify project and its production promotion/lock/billing state. Agent could not read dashboard due DOMSnapshot timeout; do not infer current credit exhaustion or buy upgrades.",
+    "status": "production_paused_operational_credits_only",
+    "observedAt": "2026-10-31T13:30:00+08:00",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae56ee974cfe84a279f0eb6",
+    "message": "Fresh Netlify dashboard confirms operational credits only; production deploys paused. Previous3-assets event was PR#2 deploy preview, not production.",
+    "publishAttempt": "Existing Publish deploy clicked, DOM.getContentQuads timeout; subsequent state read timeout; success not established.",
+    "requiredAction": "Account owner must restore production-deploy credits under existing plan or wait for next billing cycle. No purchase performed.",
     "previousFinalCheck": {
-      "checkedAt": "2026-10-31 03:27:26 UTC",
-      "contentCommit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
-      "repoReadbackWorks": 5,
-      "repoReadbackExact": true,
-      "liveArtistCount": 0,
-      "liveNewWorks": 0,
-      "observedProductionArtistCount": 9,
-      "observedProductionRecords": 324,
-      "deployEvent": "UNVERIFIED: Netlify overview AX timeout and screenshot timeout",
-      "githubStatus": "pending; statuses=[]; no reported deployment result",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=modern&artist=vincent-van-gogh",
-      "stage": "postcommit"
-    },
-    "latestAttemptAt": "2026-10-31T04:32:34Z",
-    "latestDeployId": "6ae56ee974cfe84a279f0eb6",
-    "latestDeployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae56ee974cfe84a279f0eb6",
-    "finalCheck": {
       "checkedAt": "2026-10-31T04:32:34Z",
       "contentCommit": "d1747173f03748f9d7278a4cc361788974f3ebda",
       "repoReadbackExact": true,
@@ -364,19 +353,16 @@
     }
   },
   "validation": {
-    "syntax": "PASS: node --check final impressionism data module",
-    "dedup": "38 unique Monet IDs;3 new IDs absent from previous inventory",
-    "preservation": "All original35 objects retained;17 note fields enhanced with selection rationale; other modules and migration untouched",
-    "images": "3 new full images actually viewed;17 existing visual-reviewed records reused, not newly viewed",
-    "representativeAudit": "20 curated core works with individual rationale and sources; not an exhaustive ranking",
-    "responsive": "NOT VERIFIED: production still old",
-    "live": "Postcommit production reloaded twice, still20 older Monet records;0/3new works visible. Netlify assets-uploaded check is not live acceptance.",
-    "ci": "audit-gallery success; smoke success; verify-live still running at checkpoint"
+    "syntax": "PASS node --check",
+    "dedup": "14 unique displayed Leonardo canonical IDs; original12 preserved",
+    "images": "2 complete source images actually viewed in browser; source rights retained",
+    "live": "Original Leonardo page still3records; new2 not yet visible",
+    "responsive": "New detail/mobile acceptance pending production deployment"
   },
   "nextActions": [
-    "04 Renaissance → Leonardo: prioritize20-work standard with explicit surviving-painting limits and separate drawings",
-    "Original production: resolve deployment and verify all pending artist pages",
-    "Monet:38 records,20 curated selections; new live acceptance pending; preserve outstanding canonical gaps"
+    "05 Other Art → Caravaggio; prioritize unfinished20-work standard",
+    "Leonardo next visit: Last Supper and major paintings, audit12 existing records; no replacement with copies",
+    "Restore original Netlify production credits; preview is not production"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -459,7 +445,11 @@
     "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son",
     "https://www.nga.gov/terms-and-notices",
     "https://www.nga.gov/artworks/52189-artists-garden-vetheuil",
-    "https://www.nga.gov/exhibitions/monets-artists-garden-vetheuil"
+    "https://www.nga.gov/exhibitions/monets-artists-garden-vetheuil",
+    "https://mnk.pl/en/collections/lady-with-an-ermine/",
+    "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Lady_with_an_Ermine.jpg",
+    "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX",
+    "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX"
   ],
   "history": [
     {
@@ -1135,7 +1125,9 @@
     "van-gogh-met-436534",
     "monet-marmottan-4014",
     "monet-nga-61379",
-    "monet-nga-52189"
+    "monet-nga-52189",
+    "leonardo-mnk-xii-209",
+    "leonardo-bstgs-7779"
   ],
   "last_content_commit": "d1747173f03748f9d7278a4cc361788974f3ebda",
   "artist_delivery_standard": {
