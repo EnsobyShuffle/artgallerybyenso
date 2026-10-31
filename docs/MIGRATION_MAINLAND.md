@@ -124,3 +124,12 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 - compare列出的差异仍包含迁移配置/说明、`index.html`、个人数据页面及脚本、资源审计和CloudBase打包/测试脚本。新主线提交有继续进入，故当前迁移审计/预览包继续标为过期，未宣称可部署。
 - 本轮实际推进：将最新main SHA、分叉差异及未合并文件范围写入本迁移说明；未修改main、Netlify生产站、艺术内容、图片或域名。
 - 下一步：拉取两端最新快照并按三方差异分类，优先合并不冲突的新增内容，再逐个处理共享脚本/进度文件；重算图像外链和许可清单、个人数据测试、CloudBase preview/release门槛。腾讯云和中国大陆网络验收仍需控制台登录与国内测试条件。
+
+
+## 主线新增资料安全同步｜2026-10-31 09:36 Asia/Shanghai
+
+- 基于本轮已读取的 main 快照 `6d2696d138fe14db3ea251418db529ec93def563` 与迁移分支做反向文件比较后，只同步了迁移分支中尚不存在的11个文本文件，没有覆盖任何同名文件：`abstract.js`、`chinese-classical.js`、`chinese-modern.js`、`modern.js`、`other.js`，以及 Caravaggio、Gu Kaizhi、Hilma af Klint、Lin Fengmian、Van Gogh进度记录和 `research/gallery-queue.json`。
+- 同步后对5个JS文件做语法编译检查、6个JSON文件做解析检查，全部通过。当前migration分支新增了这些研究资料；没有改 `index.html` 和共享作品脚本，因此这批内容尚未进入线上导航/页面，也不能称为已发布。
+- 10张Monet图片等二进制资产未同步；其许可、源文件、引用关系需逐项核对。共享文件 `index.html`、`impressionism.js`、`renaissance.js`及进度文件仍需三方合并。
+- 本轮 compare仍显示迁移分支落后19、领先18；PR #2仍 open/draft 且 `mergeable=false`。逐个新增文件形成了本分支提交，最新相关提交为 `f4d53b59708834279fbb224e68451e4d7e9a5f56`。没有改 main、Netlify生产站、域名或腾讯云资源。
+- 下一步：核验新增分类脚本是否适配迁移版数据加载与个人数据保护；对新增图片和共享文件做逐件差异合并后，再重算完整资源清单及CloudBase预览/阻断检查。
