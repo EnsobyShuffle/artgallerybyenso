@@ -133,3 +133,10 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 - 10张Monet图片等二进制资产未同步；其许可、源文件、引用关系需逐项核对。共享文件 `index.html`、`impressionism.js`、`renaissance.js`及进度文件仍需三方合并。
 - 本轮 compare仍显示迁移分支落后19、领先18；PR #2仍 open/draft 且 `mergeable=false`。逐个新增文件形成了本分支提交，最新相关提交为 `f4d53b59708834279fbb224e68451e4d7e9a5f56`。没有改 main、Netlify生产站、域名或腾讯云资源。
 - 下一步：核验新增分类脚本是否适配迁移版数据加载与个人数据保护；对新增图片和共享文件做逐件差异合并后，再重算完整资源清单及CloudBase预览/阻断检查。
+
+
+## 后续主线推进检查｜2026-10-31 09:36 Asia/Shanghai
+
+- 完成上述11个文本文件同步后，再次比较发现main继续推进至 `1cb5d0be045b7d56baf5a55068b5e9d6b721d5cd`；迁移分支领先19、落后20，PR #2仍 open/draft 且不可合并。
+- 本轮同步的11个文件来自此前核实的main快照 `6d2696d`，不是新head `1cb5d0b`；新head新增的差异尚未读取/合并。此次以追加检查点记录分叉，明确不得将快照称为当前完整main。
+- 已同步研究文本/JSON通过JS语法及JSON解析检查；共享入口/作品文件、二进制图片、最新main新增内容仍待逐项核对。无线上发布或大陆网络验收。
