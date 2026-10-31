@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 03:26:40 UTC",
+  "updatedAt": "2026-10-31 03:27:26 UTC",
   "order": [
     {
       "number": "01",
@@ -224,13 +224,18 @@
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint"
     },
     "finalCheck": {
-      "checkedAt": "2026-10-31 03:26:40 UTC",
-      "contentCommit": null,
+      "checkedAt": "2026-10-31 03:27:26 UTC",
+      "contentCommit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
+      "repoReadbackWorks": 5,
+      "repoReadbackExact": true,
       "liveArtistCount": 0,
       "liveNewWorks": 0,
-      "deployEvent": "unverified: dashboard AX and screenshot timeouts",
+      "observedProductionArtistCount": 9,
+      "observedProductionRecords": 324,
+      "deployEvent": "UNVERIFIED: Netlify overview AX timeout and screenshot timeout",
+      "githubStatus": "pending; statuses=[]; no reported deployment result",
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=modern&artist=vincent-van-gogh",
-      "stage": "precommit"
+      "stage": "postcommit"
     },
     "latestAttemptAt": "2026-10-31 03:26:40 UTC"
   },
@@ -240,7 +245,7 @@
     "images": "5 full museum main-images visually viewed; all5 official pages Public Domain and Met CC0 policy verified",
     "preservation": "Only modern.js and two research checkpoints changed; index.html, unrelated content and migration branch untouched",
     "responsive": "NOT VERIFIED for new content: production remains old; no layout code changes",
-    "live": "FAIL before commit: original artist URL renders old9-artist homepage; Van Gogh absent"
+    "live": "FAIL after commit and browser reload: original artist URL renders old9-artist324-record homepage; Van Gogh absent"
   },
   "nextActions": [
     "03 Impressionism → Monet: read latest main and exclude all35 existing canonical IDs",
@@ -551,6 +556,34 @@
         }
       },
       "completedAt": "2026-10-31 02:27:26 UTC"
+    },
+    {
+      "category": "modern",
+      "artist": "vincent-van-gogh",
+      "contentCommit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 5
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 5
+        },
+        "committed": {
+          "artists": 1,
+          "works": 5
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "completedAt": "2026-10-31 03:27:26 UTC"
     }
   ],
   "canonical_work_ids": [
@@ -934,5 +967,5 @@
     "van-gogh-met-436535",
     "van-gogh-met-436534"
   ],
-  "last_content_commit": "25388d464734358e651305a59bb4f7634281519b"
+  "last_content_commit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a"
 }
