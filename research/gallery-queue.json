@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31T04:29:59Z",
+  "updatedAt": "2026-10-31T04:32:34Z",
   "order": [
     {
       "number": "01",
@@ -234,14 +234,14 @@
   },
   "sourceParentCommit": "a5919eebc7fb3b4627873b6adb6cf3d947db4381",
   "deployment": {
-    "status": "production_old_current_event_unverified",
+    "status": "netlify_assets_uploaded_production_stale",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
     "observedAt": "2026-10-31 00:38:48 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "本轮原站莫奈20件旧版；后台AX超时。本次部署事件未确认，历史额度暂停不可当作本次新证据。",
-    "requiredAction": "Current backend read timed out. Account owner can inspect existing project Deploys/Billing; earlier credit exhaustion is historical evidence, not reverified this run. No paid upgrade authorized.",
+    "message": "GitHub Netlify checks report3 assets uploaded and1 header processed. Production reloaded still Monet20 older records. Exact deploy detail AX timeout; promotion/lock status unverified.",
+    "requiredAction": "Inspect this exact deploy in existing Netlify project and its production promotion/lock/billing state. Agent could not read dashboard due DOMSnapshot timeout; do not infer current credit exhaustion or buy upgrades.",
     "previousFinalCheck": {
       "checkedAt": "2026-10-31 03:27:26 UTC",
       "contentCommit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
@@ -256,7 +256,112 @@
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=modern&artist=vincent-van-gogh",
       "stage": "postcommit"
     },
-    "latestAttemptAt": "2026-10-31T04:29:59Z"
+    "latestAttemptAt": "2026-10-31T04:32:34Z",
+    "latestDeployId": "6ae56ee974cfe84a279f0eb6",
+    "latestDeployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae56ee974cfe84a279f0eb6",
+    "finalCheck": {
+      "checkedAt": "2026-10-31T04:32:34Z",
+      "contentCommit": "d1747173f03748f9d7278a4cc361788974f3ebda",
+      "repoReadbackExact": true,
+      "repoArtistWorks": 38,
+      "newWorks": 3,
+      "liveNewWorks": 0,
+      "productionMonetRecords": 20,
+      "qualifiedRepresentativeWorks": 20,
+      "verifiedLiveRepresentativeWorks": 0,
+      "existingCoreRecordsObservedOnOldSite": 15,
+      "countsCaveat": "15 selected canonical records appear on old site, but new selection rationale and complete20-work detail/mobile acceptance are not deployed/verified.",
+      "deployEvent": "3 assets uploaded; production version still older",
+      "deployDetails": "DOMSnapshot timeout",
+      "checks": [
+        {
+          "name": "Redirect rules - artgallerybyenso",
+          "status": "completed",
+          "conclusion": "neutral",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/runs/124442373475"
+        },
+        {
+          "name": "Header rules - artgallerybyenso",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/runs/124442371982"
+        },
+        {
+          "name": "Pages changed - artgallerybyenso",
+          "status": "completed",
+          "conclusion": "neutral",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/runs/124442370466"
+        },
+        {
+          "name": "curated-images",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842859/job/124442251055"
+        },
+        {
+          "name": "audit-gallery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168852110/job/124442241167"
+        },
+        {
+          "name": "probe",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842864/job/124442215938"
+        },
+        {
+          "name": "verify-candidates",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842911/job/124442215177"
+        },
+        {
+          "name": "discover",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842822/job/124442215135"
+        },
+        {
+          "name": "discover-source-image-references",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842840/job/124442215095"
+        },
+        {
+          "name": "harvest",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842837/job/124442215083"
+        },
+        {
+          "name": "research",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842868/job/124442214965"
+        },
+        {
+          "name": "harvest",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842871/job/124442214680"
+        },
+        {
+          "name": "smoke",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842877/job/124442214055"
+        },
+        {
+          "name": "verify-live",
+          "status": "in_progress",
+          "conclusion": null,
+          "url": "https://github.com/EnsobyShuffle/artgallerybyenso/actions/runs/41168842855/job/124442213936"
+        }
+      ],
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=impressionism&artist=monet",
+      "stage": "postcommit"
+    }
   },
   "validation": {
     "syntax": "PASS: node --check final impressionism data module",
@@ -265,7 +370,8 @@
     "images": "3 new full images actually viewed;17 existing visual-reviewed records reused, not newly viewed",
     "representativeAudit": "20 curated core works with individual rationale and sources; not an exhaustive ranking",
     "responsive": "NOT VERIFIED: production still old",
-    "live": "Precommit original site Monet20, not35; dashboard AX timeout"
+    "live": "Postcommit production reloaded twice, still20 older Monet records;0/3new works visible. Netlify assets-uploaded check is not live acceptance.",
+    "ci": "audit-gallery success; smoke success; verify-live still running at checkpoint"
   },
   "nextActions": [
     "04 Renaissance → Leonardo: prioritize20-work standard with explicit surviving-painting limits and separate drawings",
@@ -610,6 +716,41 @@
         }
       },
       "completedAt": "2026-10-31 03:27:26 UTC"
+    },
+    {
+      "category": "impressionism",
+      "artist": "monet",
+      "contentCommit": "d1747173f03748f9d7278a4cc361788974f3ebda",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 3
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 3
+        },
+        "committed": {
+          "artists": 1,
+          "works": 3
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "completedAt": "2026-10-31T04:32:34Z",
+      "qualifiedRepresentativeWorks": 20,
+      "verifiedLiveRepresentativeWorks": 0,
+      "newCanonicalIds": [
+        "monet-marmottan-4014",
+        "monet-nga-61379",
+        "monet-nga-52189"
+      ]
     }
   ],
   "canonical_work_ids": [
@@ -996,7 +1137,7 @@
     "monet-nga-61379",
     "monet-nga-52189"
   ],
-  "last_content_commit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
+  "last_content_commit": "d1747173f03748f9d7278a4cc361788974f3ebda",
   "artist_delivery_standard": {
     "effectiveDate": "2026-10-31",
     "minimumRepresentativeWorks": 20,
