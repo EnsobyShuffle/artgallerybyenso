@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 00:38:48 UTC",
+  "updatedAt": "2026-10-31 01:33:35 UTC",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "chinese-classical",
-  "next_category": "chinese-modern-contemporary",
-  "last_artist": "gu-kaizhi",
-  "next_artist": "lin-fengmian",
+  "last_category": "chinese-modern-contemporary",
+  "next_category": "abstract",
+  "last_artist": "lin-fengmian",
+  "next_artist": "hilma-af-klint",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -90,7 +90,13 @@
       "nextBatch": "Resolve Liaoning Luoshen and BM 1930,1015,0.2 as separate copies; inspect high-resolution details; do not duplicate four canonical objects. No artificial50-autograph target."
     },
     "chinese-modern-contemporary": {
-      "current": "lin-fengmian"
+      "current": "lin-fengmian",
+      "complete": false,
+      "verifiedWorks": 1,
+      "candidateRecords": 4,
+      "embeddedImages": 0,
+      "externalImageWithVisualNotes": 1,
+      "nextBatch": "Obtain museum object records and usable images/permissions for four pending candidates; do not claim publisher images public domain"
     }
   },
   "completed_work_ids": [
@@ -123,21 +129,22 @@
     "gu-kaizhi-tradition-bm-1903-0408-0-1",
     "gu-kaizhi-tradition-dpm-00146320",
     "gu-kaizhi-tradition-dpm-00147328",
-    "gu-kaizhi-tradition-dpm-00147329"
+    "gu-kaizhi-tradition-dpm-00147329",
+    "lin-fengmian-hkmoa-autumn-landscape-1977-1978"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 4
+        "works": 1
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 4
+        "works": 1
       },
       "committed": {
         "artists": 1,
-        "works": 4
+        "works": 1
       },
       "deployment_verified": {
         "artists": 0,
@@ -146,11 +153,14 @@
       "live": {
         "artists": 0,
         "works": 0
-      }
+      },
+      "additionalCandidateRecords": 4,
+      "embeddedImages": 0,
+      "externalImageLinks": 1
     },
     "repoCumulative": {
-      "artists": 13,
-      "records": 368,
+      "artists": 14,
+      "records": 369,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
@@ -160,7 +170,7 @@
       "renaissance": 12,
       "other": 206,
       "chinese-classical": 4,
-      "chinese-modern-contemporary": 0
+      "chinese-modern-contemporary": 1
     },
     "liveObserved": {
       "artists": 9,
@@ -169,12 +179,12 @@
     },
     "rotationCumulative": {
       "researched": {
-        "artists": 6,
-        "works": 30
+        "artists": 7,
+        "works": 31
       },
       "committed": {
-        "artists": 6,
-        "works": 30
+        "artists": 7,
+        "works": 31
       },
       "deployment_verified": {
         "artists": 0,
@@ -186,7 +196,7 @@
       }
     }
   },
-  "sourceParentCommit": "171ed2c52747593f6251ed5856d4a941e63bc385",
+  "sourceParentCommit": "3cc11f022374cf8849171f6cf1569217414a8d82",
   "deployment": {
     "status": "blocked_operational_credits_only",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
@@ -229,19 +239,18 @@
     }
   },
   "validation": {
-    "syntax": "PASS module and inline JS; four scoped index changes including Gu-only count wording; regression confirms Monet wording unchanged",
-    "dedup": "PASS 13 artists / 368 globally unique IDs; prior364 IDs preserved; canonical list equals merged dataset",
-    "images": "Four real scroll images opened and visually inspected in browser at whole-scroll overview; fine face and brushwork details explicitly pending. Four Commons PD-Art/PD-scan evidence pages retained.",
-    "links": "Three Palace Museum object pages and BM object page retrieved; exact collection/accession matched",
-    "preservation": "Existing content and localStorage behavior preserved; only module loader and Gu-specific count wording added; migration branch untouched",
-    "responsive": "Original CSS retained. Desktop preview interaction checked; phone portrait/landscape and production acceptance NOT completed. Long-scroll overview notes only, microdetails pending.",
-    "live": "Original production URL opened: old9-artist homepage, no Gu Kaizhi; production skipped on credit exhaustion",
-    "preview": "Original project preview renders Chinese Classical category, Gu Kaizhi biography and4 cards; Chinese search returns1 Luo River record, details include image/metadata/attribution/sources/license; homepage50 wording fixed separately"
+    "syntax": "PASS module/inline scripts",
+    "dedup": "One new canonical gallery ID, four separately named pending candidates; prior368 IDs retained",
+    "images": "Autumn landscape full image visually examined via museum URL; NO image copied or embedded, per museum written-permission requirement",
+    "links": "HKMoA collection, biography, copyright fetched; CAA text accessible but legacy photos broken; NAMOC original fetch502",
+    "preservation": "Existing data/modules and storage behavior retained; migration branch untouched",
+    "responsive": "Pending preview/production checks for new external-image mode",
+    "live": "pending fresh check"
   },
   "nextActions": [
-    "07 中国近现代及当代艺术：林风眠，canonical ID lin-fengmian；先核版权与真实作品页",
-    "Netlify生产额度恢复后，部署最新main并验收所有积压批次；不采购、不切换域名",
-    "下一轮中国古代艺术继续顾恺之相关版本缺项，核看长卷局部；实物与题材分开计数"
+    "01 Abstract Art: Hilma af Klint next distinct Group IV works, exclude prior1/3/5/7/9",
+    "Restore production deployment credits without unauthorized purchase; retain Netlify project",
+    "Next Lin visit: resolve four candidate records and image permissions"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -308,7 +317,11 @@
     "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi. Wise and Benevolent Women. Scroll. Song copy of 4 century work. Palace museum, Beizing.jpg",
     "https://www.dpm.org.cn/collection/paint/234597.html",
     "https://commons.wikimedia.org/wiki/File:Gu_Kaizhi-Nymph_of_the_Luo_River_(full),_Palace_Museum,_Beijing.jpg",
-    "https://www.britishmuseum.org/collection/term/BIOG10275"
+    "https://www.britishmuseum.org/collection/term/BIOG10275",
+    "https://hk.art.museum/en/web/ma/collections/chinese-painting-and-calligraphy.html",
+    "https://hk.art.museum/en/web/ma/important-note.html",
+    "https://hk.art.museum/Archive/resources/Lin_Biography.pdf",
+    "https://www.caa.edu.cn/info/3811/11808.htm"
   ],
   "history": [
     {
@@ -450,6 +463,34 @@
         }
       },
       "completedAt": "2026-10-30 23:29:51 UTC"
+    },
+    {
+      "category": "chinese-classical",
+      "artist": "gu-kaizhi",
+      "contentCommit": "8945fedf49ee3dd25b032d1b8c9524dc470faa91",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 4
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 4
+        },
+        "committed": {
+          "artists": 1,
+          "works": 4
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "completedAt": "2026-10-31 00:38:48 UTC"
     }
   ],
   "canonical_work_ids": [
@@ -820,7 +861,8 @@
     "gu-kaizhi-tradition-bm-1903-0408-0-1",
     "gu-kaizhi-tradition-dpm-00146320",
     "gu-kaizhi-tradition-dpm-00147328",
-    "gu-kaizhi-tradition-dpm-00147329"
+    "gu-kaizhi-tradition-dpm-00147329",
+    "lin-fengmian-hkmoa-autumn-landscape-1977-1978"
   ],
-  "last_content_commit": "8945fedf49ee3dd25b032d1b8c9524dc470faa91"
+  "last_content_commit": null
 }
