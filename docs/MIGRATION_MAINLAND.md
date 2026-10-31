@@ -140,3 +140,12 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 - 完成上述11个文本文件同步后，再次比较发现main继续推进至 `1cb5d0be045b7d56baf5a55068b5e9d6b721d5cd`；迁移分支领先19、落后20，PR #2仍 open/draft 且不可合并。
 - 本轮同步的11个文件来自此前核实的main快照 `6d2696d`，不是新head `1cb5d0b`；新head新增的差异尚未读取/合并。此次以追加检查点记录分叉，明确不得将快照称为当前完整main。
 - 已同步研究文本/JSON通过JS语法及JSON解析检查；共享入口/作品文件、二进制图片、最新main新增内容仍待逐项核对。无线上发布或大陆网络验收。
+
+
+## 最新主线安全同步与差异复核｜2026-10-31 10:44 Asia/Shanghai
+
+- 读取当前main `0e34889e24d0817928d9f0d1c2eba35fb850bd48`后，对此前新增的11个文本/JSON文件逐文件比较SHA：7个一致；4个已被main继续更新的新增文件（`abstract.js`、`research/gallery-queue.json`、`research/hilma-af-klint-progress.json`、`research/lin-fengmian-progress.json`）已在迁移分支按当前main快照更新。没有覆盖共享入口、迁移逻辑或私有数据。
+- 对迁移分支这11个文本/JSON文件复核：5个JS语法编译、6个JSON解析全部通过。未运行全站构建；`index.html`及共享作品脚本仍未合并，故新增内容还不能称为页面已加载或线上发布。二进制图片本轮未同步。
+- 更新后 compare 显示迁移分支领先24、落后22；PR #2仍 open/draft、不可合并。PR与迁移分支的基础状态需再审，不能依PR表面状态称为可合并。
+- 同轮Sites复核：Shuffle项目仍公开V6，源码HEAD `782328a253c2461736ea32d97594cad69f3e756b`，未改代码；只做源仓库打开与站点状态核对。小程序后台、窄屏真机、国内网络依旧未验。
+- 下一步：确认当前main与迁移分支的真实文件差异，逐件处理 `index.html`、作品脚本和图片引用；随后重跑资产/权利审计、个人数据回归与CloudBase构建门槛。
