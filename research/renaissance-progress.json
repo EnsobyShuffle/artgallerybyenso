@@ -1,12 +1,12 @@
 {
   "project": "Art Gallery by Enso",
   "collection": "renaissance",
-  "updatedAt": "2026-10-31T13:30:00+08:00",
+  "updatedAt": "2026-10-31 05:24:56 UTC",
   "countingRule": "独立实物为单位；正反面与局部不重复；合作作品另行标记",
   "verifiedUnits": 15,
   "illustratedAndInterpreted": 15,
   "publishedVerified": 3,
-  "liveVerification": "Original Leonardo page still3records; new2 not yet visible",
+  "liveVerification": "Postcommit original page reopened:3old records,0new. Netlify dashboard production paused due operational-only credits; previous successful event was a PR preview.",
   "artistQueue": [
     "Leonardo da Vinci",
     "Michelangelo",
@@ -103,7 +103,8 @@
     "newPublishedVerified": 0,
     "remainingImageRights": 1,
     "qualifiedRepresentativeWorks": 2,
-    "oldRecordsAwaitingNewStandardAudit": 12
+    "oldRecordsAwaitingNewStandardAudit": 12,
+    "contentCommit": "277411d09759a09ec457a6fc2bfdc5609b3236ca"
   },
   "artistCoverage": [
     {
@@ -301,7 +302,7 @@
   ],
   "deployment": {
     "status": "production_paused_operational_credits_only",
-    "observedAt": "2026-10-31T13:30:00+08:00",
+    "observedAt": "2026-10-31 05:24:56 UTC",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae56ee974cfe84a279f0eb6",
     "message": "Fresh Netlify dashboard confirms operational credits only; production deploys paused. Previous3-assets event was PR#2 deploy preview, not production.",
     "publishAttempt": "Existing Publish deploy clicked, DOM.getContentQuads timeout; subsequent state read timeout; success not established.",
@@ -408,6 +409,21 @@
       ],
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=impressionism&artist=monet",
       "stage": "postcommit"
+    },
+    "finalCheck": {
+      "checkedAt": "2026-10-31 05:24:56 UTC",
+      "contentCommit": "277411d09759a09ec457a6fc2bfdc5609b3236ca",
+      "repoReadbackExact": true,
+      "repoDisplayRecords": 14,
+      "liveDisplayRecords": 3,
+      "liveNewWorks": 0,
+      "qualifiedRepresentativeWorks": 2,
+      "verifiedLiveRepresentativeWorks": 0,
+      "githubStatus": {
+        "state": "pending",
+        "statuses": []
+      },
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo"
     }
   },
   "authoritativeSource": "GitHub main renaissance.js and research/renaissance-progress.json; older Library master is a historical snapshot, not the current publication source",
