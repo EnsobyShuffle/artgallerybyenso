@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 07:27:15 UTC",
+  "updatedAt": "2026-10-31 08:31:39 UTC",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "chinese-classical",
-  "next_category": "chinese-modern-contemporary",
-  "last_artist": "gu-kaizhi",
-  "next_artist": "lin-fengmian",
+  "last_category": "chinese-modern-contemporary",
+  "next_category": "abstract",
+  "last_artist": "lin-fengmian",
+  "next_artist": "hilma-af-klint",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -142,11 +142,14 @@
     "chinese-modern-contemporary": {
       "current": "lin-fengmian",
       "complete": false,
-      "verifiedWorks": 1,
-      "candidateRecords": 4,
+      "verifiedWorks": 2,
+      "candidateRecords": 11,
       "embeddedImages": 0,
-      "externalImageWithVisualNotes": 1,
-      "nextBatch": "Obtain museum object records and usable images/permissions for four pending candidates; do not claim publisher images public domain"
+      "externalImageWithVisualNotes": 2,
+      "nextBatch": "优先解决故宫红颜将军/月夜花鸟对应可用图档，再补泰康早期油画与原4候选；11候选不计达标，两个外链解读不计20。",
+      "qualifiedRepresentativeWorks": 0,
+      "verifiedLiveRepresentativeWorks": 0,
+      "minimumContentAudit": "0/20；图像再发布许可或对应可加载图档未齐备。"
     }
   },
   "completed_work_ids": [
@@ -205,15 +208,15 @@
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 2
+        "works": 8
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 2
+        "works": 8
       },
       "committed": {
         "artists": 1,
-        "works": 2
+        "works": 8
       },
       "deployment_verified": {
         "artists": 0,
@@ -223,12 +226,13 @@
         "artists": 0,
         "works": 0
       },
-      "newCompleteTraditionStudyWorks": 1,
-      "newDetailOnlyRecords": 1
+      "newGalleryRecords": 1,
+      "newCandidateRecords": 7,
+      "newQualifiedRepresentativeWorks": 0
     },
     "repoCumulative": {
       "artists": 14,
-      "records": 389,
+      "records": 390,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
@@ -238,7 +242,7 @@
       "renaissance": 14,
       "other": 209,
       "chinese-classical": 6,
-      "chinese-modern-contemporary": 1
+      "chinese-modern-contemporary": 2
     },
     "liveObserved": {
       "artists": 9,
@@ -248,11 +252,11 @@
     "rotationCumulative": {
       "researched": {
         "artists": 7,
-        "works": 51
+        "works": 52
       },
       "committed": {
         "artists": 7,
-        "works": 51
+        "works": 52
       },
       "deployment_verified": {
         "artists": 0,
@@ -261,17 +265,18 @@
       "live": {
         "artists": 0,
         "works": 0
-      }
+      },
+      "countingNote": "累计计画廊研究记录，不含仅在pending候选；本轮8条研究含1条画廊外链解读+7候选。"
     }
   },
-  "sourceParentCommit": "fc9f72bd2354f718ec227273d99d77a22a550484",
+  "sourceParentCommit": "cc7532bff37c60d126a5c18e8c99d9e98b5d5c53",
   "deployment": {
-    "status": "not_live_backend_read_timeout_previous_credit_blocker",
-    "observedAt": "2026-10-31 06:31:06 UTC",
-    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae58ae334305362749707ec",
-    "message": "Fresh dashboard: main auto-publishing enabled and correct repository connected; production deploys paused because available billing-cycle credits exhausted. Trigger deploy disabled; production277411d skipped. Preview success is not production.",
+    "status": "production_paused_credit_exhausted",
+    "observedAt": "2026-10-31 08:31:39 UTC",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys",
+    "message": "本轮重新打开后台确认：原仓库main自动发布开启，Published5573f1a；生产发布因账期credits耗尽暂停，Trigger deploy禁用。上轮4afea4b生产Skipped，预览成功不代表上线。",
     "publishAttempt": "本轮未尝试绕过额度暂停或购买额度；提交main后核对实际生产状态。",
-    "requiredAction": "Account owner must restore production-deploy credits under existing plan or wait for next billing cycle. No purchase performed.",
+    "requiredAction": "需账户所有者恢复可用于生产部署的额度，或等待下一账期。未购买升级、未改发布分支。",
     "previousFinalCheck": {
       "checkedAt": "2026-10-31 06:31:06 UTC",
       "contentCommit": "f01a60f050aa65bd6e9e48e491bb16eae7871e73",
@@ -303,16 +308,16 @@
     }
   },
   "validation": {
-    "syntax": "PASS node --check chinese-classical-review.js",
-    "dedup": "389 unique repository record IDs; original4 Chinese classical records preserved;2 distinct museum objects added, no detail counted separately",
-    "images": "Both displayed in browser and screenshot viewed; Freer full surviving scroll incl colophons, BM detail-only explicitly labelled",
-    "live": "Postcommit reload still old9-artist homepage; Gu Kaizhi absent. Mobile/detail production acceptance not passed.",
-    "responsive": "New artist detail/mobile production acceptance pending deployment"
+    "syntax": "PASS node --check lin-batch/chinese-modern-review.js",
+    "dedup": "原林风眠记录完整保留；新增1998-134一条；6件故宫以馆藏号区分，含两件同名仕女；候选不混入展示计数。",
+    "images": "普林斯顿完整带框复制图已实际核看；Restricted故不嵌入。故宫月夜花鸟空白及开放图档查无资料；泰康图像超时，未编视觉解读。",
+    "live": "提交前原站仍为9艺术家324记录，林风眠不存在。",
+    "responsive": "新林风眠详情及移动端生产验证未通过：生产暂停；仅数据增量，未改布局或交互。"
   },
   "nextActions": [
-    "07 Chinese Modern & Contemporary → Lin Fengmian; image-rights gap first",
-    "Gu Kaizhi next cycle: Liaoning full scroll, prior4 audits, BM date and whole-image gap",
-    "Production credits blocker: preserve Netlify main source; no purchase or migration branch change"
+    "01抽象→Hilma af Klint；优先补足当前10件至20件并审查代表性",
+    "林风眠下轮优先红颜将军等关键候选图像；不得把外链/候选计入20",
+    "生产部署额度由账户所有者恢复或等待账期；保持main原渠道，不触碰migration分支"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -411,7 +416,19 @@
     "https://commons.wikimedia.org/wiki/File:洛神赋图.传顾恺之画.弗利尔美术馆藏.jpg",
     "https://www.britishmuseum.org/collection/object/A_1930-1015-0-2",
     "https://commons.wikimedia.org/wiki/File:The_Nymph_of_the_Luo_River,_a_handscroll_painting.jpg",
-    "https://artsandculture.google.com/asset/the-nymph-of-the-luo-river-a-handscroll-painting/VwHWory0b0GLpA?hl=en"
+    "https://artsandculture.google.com/asset/the-nymph-of-the-luo-river-a-handscroll-painting/VwHWory0b0GLpA?hl=en",
+    "https://artmuseum.princeton.edu/art/collections/objects/36483",
+    "https://data.artmuseum.princeton.edu/iiif/objects/36483",
+    "https://artmuseum.princeton.edu/art/our-collections/image-use-and-access",
+    "https://digitalarchive.npm.gov.tw/Collection/Detail/35076?dep=P",
+    "https://digitalarchive.npm.gov.tw/Collection/Detail/35377?dep=P",
+    "https://digitalarchive.npm.gov.tw/Collection/Detail/35435?dep=P",
+    "https://digitalarchive.npm.gov.tw/Collection/Detail/35385?dep=P",
+    "https://digitalarchive.npm.gov.tw/Collection/Detail/35647?dep=P",
+    "https://digitalarchive.npm.gov.tw/Collection/Detail/35404?dep=P",
+    "https://taikangartmuseum.com/zh/tai-kang-collection/landscape/",
+    "https://www.npm.gov.tw/NewChineseArtDownload.ashx?bid=4199",
+    "https://theme.npm.edu.tw/exh109/She/ch/page-4.html"
   ],
   "history": [
     {
@@ -1201,7 +1218,8 @@
     "caravaggio-met-437986",
     "caravaggio-kimbell-ap-1987-06",
     "gu-kaizhi-tradition-fsg-f1914-53",
-    "gu-kaizhi-tradition-bm-1930-1015-0-2"
+    "gu-kaizhi-tradition-bm-1930-1015-0-2",
+    "lin-fengmian-princeton-1998-134"
   ],
   "last_content_commit": "4afea4b5560f6a8af5f2866a89b4333c31df72ab",
   "artist_delivery_standard": {
