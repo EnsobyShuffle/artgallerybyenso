@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 01:33:35 UTC",
+  "updatedAt": "2026-10-31 01:37:06 UTC",
   "order": [
     {
       "number": "01",
@@ -198,25 +198,15 @@
   },
   "sourceParentCommit": "3cc11f022374cf8849171f6cf1569217414a8d82",
   "deployment": {
-    "status": "blocked_operational_credits_only",
+    "status": "production_not_updated_current_deploy_event_unverified",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
     "observedAt": "2026-10-31 00:38:48 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "生产main@8945fed已实见Skipped due to account credit usage exceeded；自动发布开关开启、源分支main正确。原站仍为5573f1a、9艺术家324记录。原项目自动预览可用，但不计生产上线。",
+    "message": "本轮内容提交6d2696d后实开原站，仍9艺术家324条旧记录，无林风眠。Netlify部署列表及概览多次DOM/截图超时；本轮不能确认具体部署事件。上轮00:38 UTC确证生产部署因额度耗尽Skipped，保留为历史证据，不将其冒充本轮事件。GitHub该提交status为pending且statuses为空。",
     "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
     "previousFinalCheck": {
-      "checkedAt": "2026-10-30 23:29:51 UTC",
-      "contentCommit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06",
-      "repoReadbackWorks": 5,
-      "liveArtistCount": 0,
-      "liveNewWorks": 0,
-      "deployEvent": "Skipped due to account credit usage exceeded",
-      "deployId": "6ae528433595a52052e12354",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=other&artist=caravaggio"
-    },
-    "finalCheck": {
       "checkedAt": "2026-10-31 00:38:48 UTC",
       "contentCommit": "8945fedf49ee3dd25b032d1b8c9524dc470faa91",
       "repoReadbackWorks": 4,
@@ -236,7 +226,24 @@
         "production": false
       },
       "minorFollowup": "Gu-specific homepage count corrected after preview exposed generic50 wording; syntax and targeted regression passed; will be in checkpoint commit"
-    }
+    },
+    "finalCheck": {
+      "checkedAt": "2026-10-31 01:37:06 UTC",
+      "contentCommit": "6d2696d138fe14db3ea251418db529ec93def563",
+      "repoReadbackWorks": 1,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "UNVERIFIED: Netlify dashboard timeout",
+      "githubStatus": "pending; statuses=[]",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-modern-contemporary&artist=lin-fengmian",
+      "observedProductionArtistCount": 9,
+      "observedProductionRecords": 324,
+      "preview": {
+        "verified": false,
+        "reason": "No current preview URL verified; prior Gu preview does not validate Lin change"
+      }
+    },
+    "latestAttemptAt": "2026-10-31 01:37:06 UTC"
   },
   "validation": {
     "syntax": "PASS module/inline scripts",
@@ -244,8 +251,8 @@
     "images": "Autumn landscape full image visually examined via museum URL; NO image copied or embedded, per museum written-permission requirement",
     "links": "HKMoA collection, biography, copyright fetched; CAA text accessible but legacy photos broken; NAMOC original fetch502",
     "preservation": "Existing data/modules and storage behavior retained; migration branch untouched",
-    "responsive": "Pending preview/production checks for new external-image mode",
-    "live": "pending fresh check"
+    "responsive": "NOT VERIFIED: new Lin detail/mobile runtime unavailable on old production; syntax and source checks only",
+    "live": "FAIL: original production still 9 artists, Lin absent after content commit"
   },
   "nextActions": [
     "01 Abstract Art: Hilma af Klint next distinct Group IV works, exclude prior1/3/5/7/9",
@@ -491,6 +498,37 @@
         }
       },
       "completedAt": "2026-10-31 00:38:48 UTC"
+    },
+    {
+      "category": "chinese-modern-contemporary",
+      "artist": "lin-fengmian",
+      "contentCommit": "6d2696d138fe14db3ea251418db529ec93def563",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 1
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 1
+        },
+        "committed": {
+          "artists": 1,
+          "works": 1
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        },
+        "additionalCandidateRecords": 4,
+        "embeddedImages": 0,
+        "externalImageLinks": 1
+      },
+      "completedAt": "2026-10-31 01:37:06 UTC"
     }
   ],
   "canonical_work_ids": [
@@ -864,5 +902,5 @@
     "gu-kaizhi-tradition-dpm-00147329",
     "lin-fengmian-hkmoa-autumn-landscape-1977-1978"
   ],
-  "last_content_commit": null
+  "last_content_commit": "6d2696d138fe14db3ea251418db529ec93def563"
 }
