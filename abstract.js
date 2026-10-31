@@ -16,7 +16,8 @@ window.ABSTRACT_GALLERY = {
       "bio": [
         "希尔玛·阿芙·克林特（1862—1944）出生于瑞典斯德哥尔摩，接受学院训练，曾以肖像与风景绘画谋生。她既有观察自然的经验，也持续探索不能直接看见的事物。",
         "新南威尔士美术馆指出，她的实验与精神主义、科学探究和自然世界相联系；今天被视为抽象绘画先驱，并不意味着她当时以现代主义流派的方式理解自己的实践。",
-        "本页选取1907年《十大画作》的五幅。先比较形状怎样聚合、重叠与展开，再阅读系列的生命阶段主题；不要把每个螺旋都套入未经核实的固定符号表。"
+        "本页现已收齐1907年《十大画作》的十个独立画幅。由童年、青年、成年到老年，比较圆、花形、字形与网格的变化；整套系列不另加计，亦不把局部当作新作。",
+        "馆方解释：这套巨幅画属于《为神殿所作的绘画》，把生命阶段与自然、精神探索联系起来。新南威尔士美术馆记载其预想在螺旋形神殿中共同陈列；毕尔巴鄂古根海姆另记载Cornelia Cederberg和Gusten Andersson参与协助。具体画幅分工尚未确定。"
       ],
       "timeline": [
         [
@@ -54,7 +55,7 @@ window.ABSTRACT_GALLERY = {
           "序列"
         ]
       ],
-      "indexNote": "首批5件独立画幅，来自同一系列；未把组画、局部与整幅重复计数。尺寸差异已逐条标记，全集尚未完成。",
+      "indexNote": "十件独立画幅已收齐；图像逐幅核看。若干尺寸、馆藏号及逐件原始目录仍需复核，不能据此声称全集或50件目标完成。",
       "indexSource": "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
       "resources": [
         [
@@ -106,6 +107,42 @@ window.ABSTRACT_GALLERY = {
       "series": "Group IV, The Ten Largest"
     },
     {
+      "id": "hilma-af-klint-group-iv-2",
+      "artist": "hilma-af-klint",
+      "title": "Group IV, The Ten Largest, No. 2, Childhood",
+      "zh": "《十大画作》第2号：童年",
+      "titleTranslation": "本站中文译名；英文题名据馆方展览及图像档案",
+      "year": "1907",
+      "medium": "1907｜纸本蛋彩，裱于画布｜315 × 234 cm（复制图图注值，待目录复核）",
+      "dimensionsStatus": "文件图注与结构化字段328×240cm不一致，明确保留差异",
+      "accession": "HaK103",
+      "provider": "Hilma af Klint Foundation, Sweden",
+      "group": "生命与抽象",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Hilma_af_Klint_-_The_Ten_Largest_No._2_-_Childhood_-_1907.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Hilma_af_Klint_-_The_Ten_Largest_No._2_-_Childhood_-_1907.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._2_-_Childhood_-_1907.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._2_-_Childhood_-_1907.jpg#Licensing",
+      "rights": "图像经Wikimedia Commons提供，文件页明确标注PD-Art：公版二维作品的忠实复制图。摄影署名：Albin Dahlström；原始图注保留Stiftelsen Hilma af Klints Verk署名。此为Commons的公版复制图声明，不代表基金会对所有照片的一般许可。本站仅缩放，未裁切调色。",
+      "source": "https://www.guggenheim-bilbao.eus/en/exhibition/the-ten-largest-1907",
+      "additionalSources": [
+        "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
+        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._2_-_Childhood_-_1907.jpg"
+      ],
+      "attribution": "Hilma af Klint；毕尔巴鄂馆方记载系列制作有Cornelia Cederberg及Gusten Andersson协助，逐幅分工未定",
+      "context": "本条为1907年《十大画作》第2号“童年”，按独立画幅计1件。系列背景与协作史见艺术家页面及馆方链接；具体委托记录未核实。",
+      "observation": "本站核看原图：第一眼看底部橙色与深蓝色两个大圆的交叠，再抬眼看左上方粉色大花盘。浅蓝底面上，花瓣、椭圆和细线彼此叠压；两个大圆的交界留下狭长的绿黄色区域。上半部细节密集，下半部的大色面则把画面稳住。纸面可见涂色纹理，形状并非没有手工痕迹的几何图。",
+      "note": "为何重要：这幅让生命阶段主题通过抽象形式呈现；具体符号的固定含义不作推定。观看提问：比较第1号的花链与这里的大圆：你的视线是绕行，还是先停在底边？“童年”的题名会怎样改变你对同一组形状的感受？",
+      "hasVisualNotes": true,
+      "verifiedOn": "2026-10-31",
+      "status": "image_reviewed_notes_complete_metadata_qualifications",
+      "visualReview": "2026-10-31 浏览器完整核看原始复制图",
+      "subclassification": "早期抽象／精神性抽象",
+      "series": "Group IV, The Ten Largest",
+      "dimensions": "315 × 234 cm",
+      "accessionStatus": "据复制图原始图注；待基金会目录交叉复核",
+      "sourceScope": "馆方系列说明；逐件字段据所链接复制图原始图注，独立馆藏对象页待补"
+    },
+    {
       "id": "hilma-af-klint-group-iv-3",
       "artist": "hilma-af-klint",
       "title": "Group IV, The Ten Largest, No. 3, Youth",
@@ -136,6 +173,42 @@ window.ABSTRACT_GALLERY = {
       "visualReview": "浏览器逐幅查看原始复制图；2026-10-31",
       "subclassification": "早期抽象／精神性抽象",
       "series": "Group IV, The Ten Largest"
+    },
+    {
+      "id": "hilma-af-klint-group-iv-4",
+      "artist": "hilma-af-klint",
+      "title": "Group IV, The Ten Largest, No. 4, Youth",
+      "zh": "《十大画作》第4号：青年",
+      "titleTranslation": "本站中文译名；英文题名据馆方展览及图像档案",
+      "year": "1907",
+      "medium": "1907｜纸本蛋彩，裱于画布｜315 × 234 cm（复制图图注值，待目录复核）",
+      "dimensionsStatus": "文件图注与结构化字段328×240cm不一致，明确保留差异",
+      "accession": "HaK105",
+      "provider": "Hilma af Klint Foundation, Sweden",
+      "group": "生命与抽象",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hilma_af_Klint_-_The_Ten_Largest_No._4_-_Youth_-_1907.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hilma_af_Klint_-_The_Ten_Largest_No._4_-_Youth_-_1907.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._4_-_Youth_-_1907.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._4_-_Youth_-_1907.jpg#Licensing",
+      "rights": "图像经Wikimedia Commons提供，文件页明确标注PD-Art：公版二维作品的忠实复制图。摄影署名：Albin Dahlström；原始图注保留Stiftelsen Hilma af Klints Verk署名。此为Commons的公版复制图声明，不代表基金会对所有照片的一般许可。本站仅缩放，未裁切调色。",
+      "source": "https://www.guggenheim-bilbao.eus/en/exhibition/the-ten-largest-1907",
+      "additionalSources": [
+        "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
+        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._4_-_Youth_-_1907.jpg"
+      ],
+      "attribution": "Hilma af Klint；毕尔巴鄂馆方记载系列制作有Cornelia Cederberg及Gusten Andersson协助，逐幅分工未定",
+      "context": "本条为1907年《十大画作》第4号“青年”，按独立画幅计1件。系列背景与协作史见艺术家页面及馆方链接；具体委托记录未核实。",
+      "observation": "本站核看原图：第一眼看橙色底面中部斜向展开的粉、蓝、黄色椭圆群。左上方圆形花盘较规整，右上方细螺旋却像悬在空中；底部又出现放射状花瓣与交错细线。斜向的中央形体把上下两簇连接起来，画面依靠轮廓、重叠和色彩对照组织关系，没有写实光源或透视空间。",
+      "note": "为何重要：这幅让生命阶段主题通过抽象形式呈现；具体符号的固定含义不作推定。观看提问：与第3号同看：同样的橙色背景里，这一幅是大形体的斜向推动更强，还是小螺旋的旋转更强？",
+      "hasVisualNotes": true,
+      "verifiedOn": "2026-10-31",
+      "status": "image_reviewed_notes_complete_metadata_qualifications",
+      "visualReview": "2026-10-31 浏览器完整核看原始复制图",
+      "subclassification": "早期抽象／精神性抽象",
+      "series": "Group IV, The Ten Largest",
+      "dimensions": "315 × 234 cm",
+      "accessionStatus": "据复制图原始图注；待基金会目录交叉复核",
+      "sourceScope": "馆方系列说明；逐件字段据所链接复制图原始图注，独立馆藏对象页待补"
     },
     {
       "id": "hilma-af-klint-group-iv-5",
@@ -170,6 +243,42 @@ window.ABSTRACT_GALLERY = {
       "series": "Group IV, The Ten Largest"
     },
     {
+      "id": "hilma-af-klint-group-iv-6",
+      "artist": "hilma-af-klint",
+      "title": "Group IV, The Ten Largest, No. 6, Adulthood",
+      "zh": "《十大画作》第6号：成年",
+      "titleTranslation": "本站中文译名；英文题名据馆方展览及图像档案",
+      "year": "1907",
+      "medium": "1907｜纸本蛋彩，裱于画布｜315 × 234 cm（复制图图注值，待目录复核）",
+      "dimensionsStatus": "文件图注与结构化字段328×240cm不一致，明确保留差异",
+      "accession": "HaK107",
+      "provider": "Hilma af Klint Foundation, Sweden",
+      "group": "生命与抽象",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hilma_af_Klint_-_The_Ten_Largest_No._6_-_1907.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hilma_af_Klint_-_The_Ten_Largest_No._6_-_1907.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._6_-_1907.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._6_-_1907.jpg#Licensing",
+      "rights": "图像经Wikimedia Commons提供，文件页明确标注PD-Art：公版二维作品的忠实复制图。摄影署名：Albin Dahlström；原始图注保留Stiftelsen Hilma af Klints Verk署名。此为Commons的公版复制图声明，不代表基金会对所有照片的一般许可。本站仅缩放，未裁切调色。",
+      "source": "https://www.guggenheim-bilbao.eus/en/exhibition/the-ten-largest-1907",
+      "additionalSources": [
+        "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
+        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._6_-_1907.jpg"
+      ],
+      "attribution": "Hilma af Klint；毕尔巴鄂馆方记载系列制作有Cornelia Cederberg及Gusten Andersson协助，逐幅分工未定",
+      "context": "本条为1907年《十大画作》第6号“成年”，按独立画幅计1件。系列背景与协作史见艺术家页面及馆方链接；具体委托记录未核实。",
+      "observation": "本站核看原图：第一眼看画面中央向两侧张开的黑色弧带，以及正中下垂的黑色杏仁形。紫粉底面上，上方粉色同心圆与黄蓝花形挤在一起，黑白虚线穿过其间；下方出现几个独立圆盘和成排白色字形。深色面积把上下分开，细白线又将视线引回连接处。字形可见，但本站不把它们逐字译成未经核定的寓意。",
+      "note": "为何重要：这幅让生命阶段主题通过抽象形式呈现；具体符号的固定含义不作推定。观看提问：用手遮住中央黑色部分：画面会变得更轻，还是更散？对比第5号，文字般的线条在这里更像图案还是注释？",
+      "hasVisualNotes": true,
+      "verifiedOn": "2026-10-31",
+      "status": "image_reviewed_notes_complete_metadata_qualifications",
+      "visualReview": "2026-10-31 浏览器完整核看原始复制图",
+      "subclassification": "早期抽象／精神性抽象",
+      "series": "Group IV, The Ten Largest",
+      "dimensions": "315 × 234 cm",
+      "accessionStatus": "据复制图原始图注；待基金会目录交叉复核",
+      "sourceScope": "馆方系列说明；逐件字段据所链接复制图原始图注，独立馆藏对象页待补"
+    },
+    {
       "id": "hilma-af-klint-group-iv-7",
       "artist": "hilma-af-klint",
       "title": "Group IV, The Ten Largest, No. 7, Adulthood",
@@ -202,6 +311,42 @@ window.ABSTRACT_GALLERY = {
       "series": "Group IV, The Ten Largest"
     },
     {
+      "id": "hilma-af-klint-group-iv-8",
+      "artist": "hilma-af-klint",
+      "title": "Group IV, The Ten Largest, No. 8, Adulthood",
+      "zh": "《十大画作》第8号：成年",
+      "titleTranslation": "本站中文译名；英文题名据馆方展览及图像档案",
+      "year": "1907",
+      "medium": "1907｜纸本蛋彩，裱于画布｜322 × 239 cm（复制图图注值，待目录复核）",
+      "dimensionsStatus": "文件图注与结构化字段328×240cm不一致，明确保留差异",
+      "accession": "HaK109",
+      "provider": "Hilma af Klint Foundation, Sweden",
+      "group": "生命与抽象",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hilma_af_Klint_-_The_Ten_Largest_No._8_-_Adulthood_-_1907.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hilma_af_Klint_-_The_Ten_Largest_No._8_-_Adulthood_-_1907.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._8_-_Adulthood_-_1907.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._8_-_Adulthood_-_1907.jpg#Licensing",
+      "rights": "图像经Wikimedia Commons提供，文件页明确标注PD-Art：公版二维作品的忠实复制图。摄影署名：Albin Dahlström；原始图注保留Stiftelsen Hilma af Klints Verk署名。此为Commons的公版复制图声明，不代表基金会对所有照片的一般许可。本站仅缩放，未裁切调色。",
+      "source": "https://www.guggenheim-bilbao.eus/en/exhibition/the-ten-largest-1907",
+      "additionalSources": [
+        "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
+        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._8_-_Adulthood_-_1907.jpg"
+      ],
+      "attribution": "Hilma af Klint；毕尔巴鄂馆方记载系列制作有Cornelia Cederberg及Gusten Andersson协助，逐幅分工未定",
+      "context": "本条为1907年《十大画作》第8号“成年”，按独立画幅计1件。系列背景与协作史见艺术家页面及馆方链接；具体委托记录未核实。",
+      "observation": "本站核看原图：第一眼看左上方黄、蓝、红轮廓交叠的大椭圆，再看右侧浅色圆盘。紫粉色底面上散布黄色和蓝色小圆，细红线弯成圈与钩；中下方两条黄色长曲线留下宽阔的底色空间。与第6号的黑色重心相比，这幅主要让彩色轮廓承担连接，底边的小叶瓣形与字形把视线带到画外。",
+      "note": "为何重要：这幅让生命阶段主题通过抽象形式呈现；具体符号的固定含义不作推定。观看提问：并看第6号与第8号：去掉大片黑色之后，哪条线负责把分散的圆形联系起来？",
+      "hasVisualNotes": true,
+      "verifiedOn": "2026-10-31",
+      "status": "image_reviewed_notes_complete_metadata_qualifications",
+      "visualReview": "2026-10-31 浏览器完整核看原始复制图",
+      "subclassification": "早期抽象／精神性抽象",
+      "series": "Group IV, The Ten Largest",
+      "dimensions": "322 × 239 cm",
+      "accessionStatus": "据复制图原始图注；待基金会目录交叉复核",
+      "sourceScope": "馆方系列说明；逐件字段据所链接复制图原始图注，独立馆藏对象页待补"
+    },
+    {
       "id": "hilma-af-klint-group-iv-9",
       "artist": "hilma-af-klint",
       "title": "Group IV, The Ten Largest, No. 9, Old Age",
@@ -232,15 +377,56 @@ window.ABSTRACT_GALLERY = {
       "visualReview": "浏览器逐幅查看原始复制图；2026-10-31",
       "subclassification": "早期抽象／精神性抽象",
       "series": "Group IV, The Ten Largest"
+    },
+    {
+      "id": "hilma-af-klint-group-iv-10",
+      "artist": "hilma-af-klint",
+      "title": "Group IV, The Ten Largest, No. 10, Old Age",
+      "zh": "《十大画作》第10号：老年",
+      "titleTranslation": "本站中文译名；英文题名据馆方展览及图像档案",
+      "year": "1907",
+      "medium": "1907｜纸本蛋彩，裱于画布｜逐件尺寸待权威目录复核",
+      "dimensionsStatus": "文件结构化值328×240cm未获逐件目录确认，本条不作为已核尺寸",
+      "accession": null,
+      "provider": "Hilma af Klint Foundation, Sweden",
+      "group": "生命与抽象",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Hilma_af_Klint_-_The_Ten_Largest_no._10_-_Old_Age_-_1907.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Hilma_af_Klint_-_The_Ten_Largest_no._10_-_Old_Age_-_1907.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_no._10_-_Old_Age_-_1907.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_no._10_-_Old_Age_-_1907.jpg#Licensing",
+      "rights": "Commons文件页标注PD-Art公版二维作品忠实复制图；该文件来源列为Arthur，摄影者未注明，不能套用其他画幅的摄影署名。保留Hilma af Klint Foundation藏品署名；未裁切调色。",
+      "source": "https://www.guggenheim-bilbao.eus/en/exhibition/the-ten-largest-1907",
+      "additionalSources": [
+        "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
+        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_no._10_-_Old_Age_-_1907.jpg"
+      ],
+      "attribution": "Hilma af Klint；毕尔巴鄂馆方记载系列制作有Cornelia Cederberg及Gusten Andersson协助，逐幅分工未定",
+      "context": "本条为1907年《十大画作》第10号“老年”，按独立画幅计1件。系列背景与协作史见艺术家页面及馆方链接；具体委托记录未核实。",
+      "observation": "本站核看原图：第一眼看中央被黑线分格的四色方块：上方红与蓝，下方黄与粉红，之间留出浅色十字带。浅粉底面上，左右花形和大螺旋围绕网格，下面还有横向双环与底边细小曲线。几何秩序明显增强，但手绘线条与不均匀色层仍在；它并不是完全机械对称的图表。",
+      "note": "为何重要：这幅让生命阶段主题通过抽象形式呈现；具体符号的固定含义不作推定。观看提问：把它与第2号并置：圆盘变成方格之后，观看速度是否改变？这个变化来自标题“老年”，还是形状、间距与底色本身？",
+      "hasVisualNotes": true,
+      "verifiedOn": "2026-10-31",
+      "status": "image_reviewed_notes_complete_metadata_qualifications",
+      "visualReview": "2026-10-31 浏览器完整核看原始复制图",
+      "subclassification": "早期抽象／精神性抽象",
+      "series": "Group IV, The Ten Largest",
+      "dimensions": null,
+      "accessionStatus": "未核实，不按编号顺推",
+      "sourceScope": "馆方系列说明；逐件字段据所链接复制图原始图注，独立馆藏对象页待补"
     }
   ],
   "catalog": {
     "hilma-af-klint": [
       "Group IV, The Ten Largest, No. 1, Childhood",
+      "Group IV, The Ten Largest, No. 2, Childhood",
       "Group IV, The Ten Largest, No. 3, Youth",
+      "Group IV, The Ten Largest, No. 4, Youth",
       "Group IV, The Ten Largest, No. 5, Adulthood",
+      "Group IV, The Ten Largest, No. 6, Adulthood",
       "Group IV, The Ten Largest, No. 7, Adulthood",
-      "Group IV, The Ten Largest, No. 9, Old Age"
+      "Group IV, The Ten Largest, No. 8, Adulthood",
+      "Group IV, The Ten Largest, No. 9, Old Age",
+      "Group IV, The Ten Largest, No. 10, Old Age"
     ]
   }
 };
