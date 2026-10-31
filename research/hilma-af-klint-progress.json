@@ -35,7 +35,7 @@
   "metadataNotes": "尺寸字段冲突保留图注值并标记待主目录复核；第1、9号的机构来源为系列说明，逐件原始目录链接仍待补充。",
   "licenseReview": "每件Commons页核验PD-Art声明，保留Albin Dahlström与基金会署名；未使用馆方展览现场照片。",
   "nextCategory": "modern",
-  "updatedAt": "2026-10-31 02:26:24 UTC",
+  "updatedAt": "2026-10-31 02:27:26 UTC",
   "currentBatch": [
     {
       "id": "hilma-af-klint-group-iv-2",
@@ -224,7 +224,17 @@
     "dedup": "10 unique Hilma IDs; original five unchanged; other modules untouched",
     "images": "Five whole-image browser visual checks passed; individual Commons PD-Art statements retained",
     "metadata": "No2/4/6/8 conflicting dimensions retained; No10 dimensions/accession unverified, not inferred",
-    "responsive": "No layout code changes; current production verification pending",
-    "live": "pending postcommit check"
+    "responsive": "NOT VERIFIED on new content: original production old; no layout changes in this batch",
+    "live": "FAIL: postcommit original artist URL renders old 9-artist homepage; Hilma absent"
+  },
+  "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
+  "deployment": {
+    "checkedAt": "2026-10-31 02:27:26 UTC",
+    "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
+    "repoReadbackWorks": 5,
+    "liveArtistCount": 0,
+    "liveNewWorks": 0,
+    "deployEvent": "unverified: dashboard timeouts",
+    "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint"
   }
 }

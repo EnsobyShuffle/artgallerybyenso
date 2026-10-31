@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 02:26:24 UTC",
+  "updatedAt": "2026-10-31 02:27:26 UTC",
   "order": [
     {
       "number": "01",
@@ -207,30 +207,9 @@
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "本轮内容提交6d2696d后实开原站，仍9艺术家324条旧记录，无林风眠。Netlify部署列表及概览多次DOM/截图超时；本轮不能确认具体部署事件。上轮00:38 UTC确证生产部署因额度耗尽Skipped，保留为历史证据，不将其冒充本轮事件。GitHub该提交status为pending且statuses为空。",
+    "message": "2026-10-31本轮原站实开仍9艺术家324记录。Netlify概览DOM读取及截图超时，本次具体部署事件未确认；此前额度耗尽为历史已确认阻塞，未冒充本轮新证据。",
     "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
     "previousFinalCheck": {
-      "checkedAt": "2026-10-31 00:38:48 UTC",
-      "contentCommit": "8945fedf49ee3dd25b032d1b8c9524dc470faa91",
-      "repoReadbackWorks": 4,
-      "liveArtistCount": 0,
-      "liveNewWorks": 0,
-      "deployEvent": "Skipped due to account credit usage exceeded",
-      "deployId": "6ae537b8cde00af93f06a3ee",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-classical&artist=gu-kaizhi",
-      "preview": {
-        "deployId": "6ae537baf9b516b8a260230e",
-        "url": "https://6ae537baf9b516b8a260230e--artgallerybyenso.netlify.app/?collection=chinese-classical&artist=gu-kaizhi",
-        "access": "Netlify team protected; automatically opened using existing signed-in session",
-        "artistRendered": 1,
-        "workCardsRendered": 4,
-        "detailsChecked": 1,
-        "search": "洛神 → 1 result",
-        "production": false
-      },
-      "minorFollowup": "Gu-specific homepage count corrected after preview exposed generic50 wording; syntax and targeted regression passed; will be in checkpoint commit"
-    },
-    "finalCheck": {
       "checkedAt": "2026-10-31 01:37:06 UTC",
       "contentCommit": "6d2696d138fe14db3ea251418db529ec93def563",
       "repoReadbackWorks": 1,
@@ -246,15 +225,24 @@
         "reason": "No current preview URL verified; prior Gu preview does not validate Lin change"
       }
     },
-    "latestAttemptAt": "2026-10-31 01:37:06 UTC"
+    "finalCheck": {
+      "checkedAt": "2026-10-31 02:27:26 UTC",
+      "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
+      "repoReadbackWorks": 5,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "unverified: dashboard timeouts",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint"
+    },
+    "latestAttemptAt": "2026-10-31 02:27:26 UTC"
   },
   "validation": {
     "syntax": "node --check PASS",
     "dedup": "10 unique Hilma IDs; original five unchanged; other modules untouched",
     "images": "Five whole-image browser visual checks passed; individual Commons PD-Art statements retained",
     "metadata": "No2/4/6/8 conflicting dimensions retained; No10 dimensions/accession unverified, not inferred",
-    "responsive": "No layout code changes; current production verification pending",
-    "live": "pending postcommit check"
+    "responsive": "NOT VERIFIED on new content: original production old; no layout changes in this batch",
+    "live": "FAIL: postcommit original artist URL renders old 9-artist homepage; Hilma absent"
   },
   "nextActions": [
     "02 Modern: Vincent van Gogh next distinct paintings, exclude existing six AIC IDs",
@@ -531,6 +519,34 @@
         "externalImageLinks": 1
       },
       "completedAt": "2026-10-31 01:37:06 UTC"
+    },
+    {
+      "category": "abstract",
+      "artist": "hilma-af-klint",
+      "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 5
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 5
+        },
+        "committed": {
+          "artists": 1,
+          "works": 5
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "completedAt": "2026-10-31 02:27:26 UTC"
     }
   ],
   "canonical_work_ids": [
@@ -909,5 +925,5 @@
     "hilma-af-klint-group-iv-8",
     "hilma-af-klint-group-iv-10"
   ],
-  "last_content_commit": null
+  "last_content_commit": "25388d464734358e651305a59bb4f7634281519b"
 }
