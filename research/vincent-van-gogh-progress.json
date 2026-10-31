@@ -3,16 +3,16 @@
   "project": "Art Gallery by Enso",
   "category": "modern",
   "artist": "vincent-van-gogh",
-  "updatedAt": "2026-10-30T20:33:23Z",
+  "updatedAt": "2026-10-31 03:26:40 UTC",
   "counts": {
-    "candidates": 6,
-    "verified": 6,
-    "imageViewedAndChineseNotes": 6,
-    "savedToRepo": 6,
-    "committed": 6,
+    "candidates": 11,
+    "verified": 11,
+    "imageViewedAndChineseNotes": 11,
+    "savedToRepo": 11,
+    "committed": 11,
     "deploymentVerified": 0,
     "live": 0,
-    "artistCumulative": 6,
+    "artistCumulative": 11,
     "target": 50
   },
   "canonicalIds": [
@@ -21,7 +21,12 @@
     "van-gogh-aic-79349",
     "van-gogh-aic-109314",
     "van-gogh-aic-14586",
-    "van-gogh-aic-64957"
+    "van-gogh-aic-64957",
+    "van-gogh-met-436528",
+    "van-gogh-met-436530",
+    "van-gogh-met-436533",
+    "van-gogh-met-436535",
+    "van-gogh-met-436534"
   ],
   "countingRule": "Each distinct physical painting counted once; versions kept distinct by accession; no details counted; Drinkers acknowledged as after Daumier.",
   "dataFile": "modern.js",
@@ -103,47 +108,122 @@
       ],
       "isPublicDomain": true,
       "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-met-436528",
+      "source": "https://www.metmuseum.org/art/collection/search/436528",
+      "accession": "58.187",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436528/1447063/main-image",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436528",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-met-436530",
+      "source": "https://www.metmuseum.org/art/collection/search/436530",
+      "accession": "62.24",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436530",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-met-436533",
+      "source": "https://www.metmuseum.org/art/collection/search/436533",
+      "accession": "1992.374",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436533/796180/main-image",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436533",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-met-436535",
+      "source": "https://www.metmuseum.org/art/collection/search/436535",
+      "accession": "1993.132",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/2383011/main-image",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436535",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-met-436534",
+      "source": "https://www.metmuseum.org/art/collection/search/436534",
+      "accession": "1993.400.5",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436534/1447064/main-image",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436534",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
     }
   ],
   "missing": [
-    "Specific original commissions not established for this batch; never infer from current collection credits",
-    "No full catalogue raisonné coverage yet",
-    "New page live acceptance and mobile runtime QA pending Netlify production allowance"
+    "Specific original commissions not established; collection acquisition credits are not original patronage",
+    "Target50 incomplete;11 verified paintings",
+    "New production page/detail/search/favorites/private notes and mobile portrait/landscape acceptance pending actual deployment"
   ],
   "validation": {
-    "syntax": "HTML inline JS and all four data extensions parsed successfully",
-    "preservation": "Original galleryData byte-for-byte unchanged; other extensions untouched; migration branch untouched",
-    "deduplication": "6 new canonical IDs unique among 349 records",
-    "images": "6 accession-matched CC0 museum reproductions viewed successfully via Wikimedia Commons; original AIC image browser CAPTCHA, not bypassed",
-    "links": "Six official object pages/API public-domain flags and six Commons license pages retrieved",
-    "responsive": "Existing responsive CSS retained; new live mobile/desktop detail, search, favorites and notes acceptance pending deployment",
-    "live": "Fresh original homepage still 9 artists, Monet20, Leonardo3, noVanGogh; new work live0"
+    "syntax": "node --check PASS",
+    "dedup": "11 unique Van Gogh physical-painting IDs; 5 new IDs absent from canonical inventory; original six records identical",
+    "images": "5 full museum main-images visually viewed; all5 official pages Public Domain and Met CC0 policy verified",
+    "preservation": "Only modern.js and two research checkpoints changed; index.html, unrelated content and migration branch untouched",
+    "responsive": "NOT VERIFIED for new content: production remains old; no layout code changes",
+    "live": "FAIL before commit: original artist URL renders old9-artist homepage; Van Gogh absent"
   },
   "deployment": {
-    "status": "blocked_operational_credits_only",
+    "status": "production_old_current_deploy_event_unverified",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
-    "observedAt": "2026-10-30T20:31:46Z",
+    "observedAt": "2026-10-31 00:38:48 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "后台明确显示生产部署及Agent Runners暂停，仅剩维持现站的operational credits。Hilma、Monet新增与Leonardo四件新增均显示Skipped，现站保持旧版9位艺术家324条记录。已确认GitHub连接和main生产分支，不是缓存推测。",
+    "message": "本轮生产梵高URL仍显示9位艺术家324记录旧首页，无梵高；Netlify overview AX和截图超时。本轮部署事件未确认。此前额度耗尽仅为历史已确认阻塞。",
     "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
+    "previousFinalCheck": {
+      "checkedAt": "2026-10-31 02:27:26 UTC",
+      "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
+      "repoReadbackWorks": 5,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "unverified: dashboard timeouts",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint"
+    },
     "finalCheck": {
-      "checkedAt": "2026-10-30T20:33:23Z",
-      "commit": "1929bccc6325c67cd623add1f9c787fee93c7012",
-      "result": "Skipped",
-      "deployId": "6ae4fedc544fba545f16ed82",
-      "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae4fedc544fba545f16ed82",
-      "liveArtistUrl": "https://artgallerybyenso.netlify.app/?artist=vincent-van-gogh&collection=modern",
-      "liveResult": "URL still renders old 9-artist homepage; Van Gogh unavailable; live0"
-    }
+      "checkedAt": "2026-10-31 03:26:40 UTC",
+      "contentCommit": null,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "unverified: dashboard AX and screenshot timeouts",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=modern&artist=vincent-van-gogh",
+      "stage": "precommit"
+    },
+    "latestAttemptAt": "2026-10-31 03:26:40 UTC"
   },
   "nextCheckpoint": [
-    "Next run category03 Impressionism → monet; read latest main and existing 30IDs before selecting new works",
-    "Keep original Netlify target; after production allowance resumes verify modern artist6 images and all pending increments",
-    "Check new pages at desktop, phone portrait and landscape plus search/detail/favorites/private notes after publication",
-    "Next modern rotation may continue Van Gogh with new unique works"
+    "03 Impressionism → Monet: read latest main and exclude all35 existing canonical IDs",
+    "Recheck original production deployment; previous credits limitation needs account-side resolution, current dashboard inaccessible",
+    "Next modern rotation: continue distinct Van Gogh works beyond11"
   ],
-  "sourceParentCommit": "e152a9e1c396e6c3d596123dd1324943f29f5af5",
-  "contentCommit": "1929bccc6325c67cd623add1f9c787fee93c7012"
+  "sourceParentCommit": "0e34889e24d0817928d9f0d1c2eba35fb850bd48",
+  "contentCommit": "1929bccc6325c67cd623add1f9c787fee93c7012",
+  "batches": [
+    {
+      "contentCommit": "1929bccc6325c67cd623add1f9c787fee93c7012",
+      "works": 6,
+      "completedAt": "2026-10-30T20:33:23Z"
+    }
+  ]
 }

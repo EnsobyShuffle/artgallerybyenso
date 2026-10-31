@@ -8,7 +8,7 @@ window.MODERN_GALLERY = {
       "label": "现代艺术 · 后印象派",
       "subtitle": "从巴黎的碎色到阿尔勒的色面，跟着笔触观看日常。",
       "hero": "从一笔颜色，<br><em>走进日常。</em>",
-      "heroDesc": "肖像、河岸、花园与房间：六幅芝加哥馆藏，比较1887至1890年的色彩与笔触变化。",
+      "heroDesc": "肖像、河岸、房间与花束：十一幅芝加哥及纽约馆藏，比较1887至1890年的色彩与笔触变化。",
       "quote": "先认清画中的东西，再看笔触怎样改变它们。",
       "quoteSource": "本站观看提示，并非艺术家原话",
       "cover": "https://upload.wikimedia.org/wikipedia/commons/3/37/Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg",
@@ -17,7 +17,7 @@ window.MODERN_GALLERY = {
         "文森特·梵高（1853—1890）是一位荷兰艺术家，主要在荷兰与法国创作。本站把他置于现代艺术中的后印象派脉络；这一分类不抹去他在巴黎时期与印象派、新印象派的交流。",
         "1886至1888年的巴黎生活让他接触新的色彩与笔触方法；弟弟提奥经营艺术交易并给予支持。他随后到阿尔勒，1889年进入圣雷米疗养，1890年到瓦兹河畔欧韦尔并于该年去世。本页不把生平困境当作解读所有画面的唯一钥匙。",
         "人物、居室、日常物品与自然是相互联通的主题。透过自画像的短点、水面的横笔、布面的旋动与床的轮廓，可以看见他如何将色彩组织发展为鲜明的个人语言。这种对色彩和笔触表现力的探索，是其现代艺术意义的一部分。",
-        "本批六件均据芝加哥艺术博物馆的作品档案核对，独立实物各计一件。《卧室》注明版本，《饮酒者》注明对杜米埃的转译关系；具体委托缺乏证据时保留空缺，不虚构赞助故事。"
+        "本页十一件独立绘画据芝加哥艺术博物馆与纽约大都会艺术博物馆档案核对。《卧室》《麦田与柏树》及花卉静物分别注明版本，《饮酒者》注明对杜米埃的转译关系。花卉还须留意颜料褪色：今日图像不是最初配色的透明窗口。具体委托缺乏证据时保留缺项。"
       ],
       "timeline": [
         [
@@ -59,7 +59,7 @@ window.MODERN_GALLERY = {
           "证据"
         ]
       ],
-      "indexNote": "已核实六件独立绘画，长期目标约50件，尚未完成全集。此处的中文标题为本站译名；逐幅区分馆方资料、本站观察与观看问题。",
+      "indexNote": "已核实十一件独立绘画，长期目标约50件，尚未完成全集。中文标题为本站译名；同题版本以收藏机构和馆藏号区分，逐幅标明馆方资料、本站观察与观看问题。",
       "indexSource": "https://www.artic.edu/artists/40610/vincent-van-gogh",
       "resources": [
         [
@@ -75,10 +75,16 @@ window.MODERN_GALLERY = {
           "许可"
         ],
         [
-          "六幅馆藏作品",
+          "十一幅馆藏作品",
           "逐幅原始作品链接见作品详情",
           "https://www.artic.edu/artworks/80607/self-portrait",
           "馆藏"
+        ],
+        [
+          "大都会开放图像政策",
+          "Public Domain标识与CC0数字图像",
+          "https://www.metmuseum.org/policies/image-resources",
+          "许可"
         ]
       ]
     }
@@ -90,7 +96,12 @@ window.MODERN_GALLERY = {
       "The Drinkers",
       "Fishing in Spring, the Pont de Clichy (Asnières)",
       "The Poet's Garden",
-      "Grapes, Lemons, Pears, and Apples"
+      "Grapes, Lemons, Pears, and Apples",
+      "Irises",
+      "Oleanders",
+      "Shoes",
+      "Wheat Field with Cypresses",
+      "Roses"
     ]
   },
   "pieces": [
@@ -332,6 +343,201 @@ window.MODERN_GALLERY = {
         "completed": true,
         "method": "Actual CC0 image viewed in browser; accession-matched Commons museum reproduction",
         "date": "2026-10-30"
+      }
+    },
+    {
+      "id": "van-gogh-met-436528",
+      "artist": "vincent-van-gogh",
+      "title": "Irises",
+      "zh": "鸢尾花",
+      "year": "1890",
+      "medium": "1890 · 布面油彩 · 73.7 × 92.1 cm · 纽约大都会艺术博物馆 · 58.187",
+      "group": "日常与静物",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436528/1447063/main-image",
+      "originalImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436528/1447063/main-image",
+      "source": "https://www.metmuseum.org/art/collection/search/436528",
+      "provider": "The Metropolitan Museum of Art",
+      "context": "馆方资料：1890年5月离开圣雷米疗养院前，梵高画了两幅鸢尾花和两幅玫瑰静物，分别尝试横、竖构图。本作原有紫色花与粉红背景；红色颜料褪色，改变了今天的配色。它不是盖蒂所藏花园中的《鸢尾花》。具体委托尚无本轮核实证据。",
+      "observation": "本站观察：第一眼看花束怎样横向撑开，而浅色壶身稳在下方。蓝色花瓣以折转、卷曲的厚笔触组成，尖长绿叶向右伸展；低处绿色桌面与大面积浅底由一条近乎水平的边界分开。壶左侧把手与右下垂花形成不对称的平衡。这里描述的是当前图像，不能据此还原最初颜色。",
+      "note": "观看意义：形式与颜料变化必须一起看，今天柔和的色差未必等同创作时的对比。观看问题：把它与竖幅《玫瑰》并看，横向花束怎样改变你扫视花朵的次序？",
+      "rights": "数字复制图：馆方作品页标注 Public Domain；依 The Met Open Access 政策采用 CC0。来源标识：Vincent van Gogh；作品名、年代、馆藏号及 Credit Line 见本条。CC0不要求署名，本站保留馆方来源与收藏信用信息。",
+      "rightsSource": "https://www.metmuseum.org/policies/image-resources",
+      "imageSource": "https://www.metmuseum.org/art/collection/search/436528",
+      "hasVisualNotes": true,
+      "attribution": "Vincent van Gogh；大都会艺术博物馆正式归属，本轮未见作者归属争议",
+      "titleTranslation": "本站中文译名；括号为本站版本区分",
+      "verifiedOn": "2026-10-31",
+      "status": "researched-ready-pending-deployment",
+      "accession": "58.187",
+      "dimensions": "73.7 × 92.1 cm",
+      "creditLine": "Gift of Adele R. Levy, 1958",
+      "mediumOriginal": "Oil on canvas",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436528",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "museumImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436528/1447063/main-image",
+      "visualReview": {
+        "completed": true,
+        "method": "Actual full museum main-image viewed in browser; accession matched to official object record",
+        "date": "2026-10-31"
+      }
+    },
+    {
+      "id": "van-gogh-met-436530",
+      "artist": "vincent-van-gogh",
+      "title": "Oleanders",
+      "zh": "夹竹桃",
+      "year": "1888",
+      "medium": "1888 · 布面油彩 · 60.3 × 73.7 cm · 纽约大都会艺术博物馆 · 62.24",
+      "group": "日常与静物",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image",
+      "originalImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image",
+      "source": "https://www.metmuseum.org/art/collection/search/436530",
+      "provider": "The Metropolitan Museum of Art",
+      "context": "馆方资料：作于1888年8月阿尔勒。夹竹桃在馆方解释中带有蓬勃、肯定生命的意味；花插在梵高反复使用的彩釉陶壶中，旁边是左拉的《生活的欢乐》（La joie de vivre）。这是一种有出处的题材解释，不应把每一片叶子都赋予固定象征。具体委托未证实。",
+      "observation": "本站观察：先看左下黄色书本与上方粉白花簇。深绿色叶片细长尖锐，横斜穿过花束，花瓣则用较短、圆转的笔触堆起。壶腹深蓝，底部偏浅；淡紫灰桌面上的斜笔与近黄绿背景相接，让书、壶、花在不同色区中各占位置。",
+      "note": "观看意义：普通静物把阅读与自然并置，颜色与物件的关系比简单辨认花名更丰富。观看问题：用手遮住黄色书本后，花束会不会显得更居中、更静止？",
+      "rights": "数字复制图：馆方作品页标注 Public Domain；依 The Met Open Access 政策采用 CC0。来源标识：Vincent van Gogh；作品名、年代、馆藏号及 Credit Line 见本条。CC0不要求署名，本站保留馆方来源与收藏信用信息。",
+      "rightsSource": "https://www.metmuseum.org/policies/image-resources",
+      "imageSource": "https://www.metmuseum.org/art/collection/search/436530",
+      "hasVisualNotes": true,
+      "attribution": "Vincent van Gogh；大都会艺术博物馆正式归属，本轮未见作者归属争议",
+      "titleTranslation": "本站中文译名；括号为本站版本区分",
+      "verifiedOn": "2026-10-31",
+      "status": "researched-ready-pending-deployment",
+      "accession": "62.24",
+      "dimensions": "60.3 × 73.7 cm",
+      "creditLine": "Gift of Mr. and Mrs. John L. Loeb, 1962",
+      "mediumOriginal": "Oil on canvas",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436530",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "museumImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image",
+      "visualReview": {
+        "completed": true,
+        "method": "Actual full museum main-image viewed in browser; accession matched to official object record",
+        "date": "2026-10-31"
+      }
+    },
+    {
+      "id": "van-gogh-met-436533",
+      "artist": "vincent-van-gogh",
+      "title": "Shoes",
+      "zh": "鞋（阿尔勒）",
+      "year": "1888",
+      "medium": "1888 · 布面油彩 · 45.7 × 55.2 cm · 纽约大都会艺术博物馆 · 1992.374",
+      "group": "日常与静物",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436533/796180/main-image",
+      "originalImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436533/796180/main-image",
+      "source": "https://www.metmuseum.org/art/collection/search/436533",
+      "provider": "The Metropolitan Museum of Art",
+      "context": "馆方资料：这是1888年阿尔勒时期的作品，背景对应黄房子的红色地砖，与巴黎时期同题画作不同。鞋的主人未确定：馆方提及当地农民帕蒂昂斯·埃斯卡利耶或画家自己的可能性，均不能当作确证。本轮未查得具体委托。",
+      "observation": "本站观察：第一眼看两只鞋深暗的开口与松散的鞋带。左鞋略向上退，右鞋靠前；土黄、棕色与灰白碎笔写出皮革的起伏，深色轮廓沿鞋底反复转折。地砖接缝斜穿画面，右侧密集蓝黑短线与明亮地面相碰，拉开物与背景。",
+      "note": "观看意义：日常用品可以承担肖像般的观看强度，却不要求我们替它虚构一位主人。观看问题：鞋带的曲线与地砖的直线，哪一种更能引导你在两只鞋之间来回观看？",
+      "rights": "数字复制图：馆方作品页标注 Public Domain；依 The Met Open Access 政策采用 CC0。来源标识：Vincent van Gogh；作品名、年代、馆藏号及 Credit Line 见本条。CC0不要求署名，本站保留馆方来源与收藏信用信息。",
+      "rightsSource": "https://www.metmuseum.org/policies/image-resources",
+      "imageSource": "https://www.metmuseum.org/art/collection/search/436533",
+      "hasVisualNotes": true,
+      "attribution": "Vincent van Gogh；大都会艺术博物馆正式归属，本轮未见作者归属争议",
+      "titleTranslation": "本站中文译名；括号为本站版本区分",
+      "verifiedOn": "2026-10-31",
+      "status": "researched-ready-pending-deployment",
+      "accession": "1992.374",
+      "dimensions": "45.7 × 55.2 cm",
+      "creditLine": "Purchase, The Annenberg Foundation Gift, 1992",
+      "mediumOriginal": "Oil on canvas",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436533",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "museumImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436533/796180/main-image",
+      "visualReview": {
+        "completed": true,
+        "method": "Actual full museum main-image viewed in browser; accession matched to official object record",
+        "date": "2026-10-31"
+      }
+    },
+    {
+      "id": "van-gogh-met-436535",
+      "artist": "vincent-van-gogh",
+      "title": "Wheat Field with Cypresses",
+      "zh": "麦田与柏树（大都会版）",
+      "year": "1889",
+      "medium": "1889 · 布面油彩 · 73.2 × 93.4 cm · 纽约大都会艺术博物馆 · 1993.132",
+      "group": "人与风景",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/2383011/main-image",
+      "originalImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/2383011/main-image",
+      "source": "https://www.metmuseum.org/art/collection/search/436535",
+      "provider": "The Metropolitan Museum of Art",
+      "context": "馆方资料：本幅是1889年6月末在圣雷米户外作画的版本；梵高随后作相关素描，并在9月画了两幅画室版本，分别在伦敦及私人收藏。不能把后两幅的创作时间或尺寸移到本作。具体委托未证实。",
+      "observation": "本站观察：先看右侧向上伸出的深色柏树，与底部横向铺开的金黄麦田。云用大段白色卷曲厚笔组成，远山蓝色轮廓起伏；左侧浅绿树冠以细碎弯笔展开。麦田斜短笔与天空的长弧线节奏不同，前景少量红点嵌在绿色之中。",
+      "note": "观看意义：同一片风景中，直立的树、横展的田和回旋的云形成不同方向的力，是比较梵高笔触如何组织空间的清楚实例。观看问题：先遮住柏树，再放开，画面重心和天空的运动感怎样变化？",
+      "rights": "数字复制图：馆方作品页标注 Public Domain；依 The Met Open Access 政策采用 CC0。来源标识：Vincent van Gogh；作品名、年代、馆藏号及 Credit Line 见本条。CC0不要求署名，本站保留馆方来源与收藏信用信息。",
+      "rightsSource": "https://www.metmuseum.org/policies/image-resources",
+      "imageSource": "https://www.metmuseum.org/art/collection/search/436535",
+      "hasVisualNotes": true,
+      "attribution": "Vincent van Gogh；大都会艺术博物馆正式归属，本轮未见作者归属争议",
+      "titleTranslation": "本站中文译名；括号为本站版本区分",
+      "verifiedOn": "2026-10-31",
+      "status": "researched-ready-pending-deployment",
+      "accession": "1993.132",
+      "dimensions": "73.2 × 93.4 cm",
+      "creditLine": "Purchase, The Annenberg Foundation Gift, 1993",
+      "mediumOriginal": "Oil on canvas",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436535",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "museumImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/2383011/main-image",
+      "visualReview": {
+        "completed": true,
+        "method": "Actual full museum main-image viewed in browser; accession matched to official object record",
+        "date": "2026-10-31"
+      }
+    },
+    {
+      "id": "van-gogh-met-436534",
+      "artist": "vincent-van-gogh",
+      "title": "Roses",
+      "zh": "玫瑰（大都会竖幅）",
+      "year": "1890",
+      "medium": "1890 · 布面油彩 · 93 × 74 cm · 纽约大都会艺术博物馆 · 1993.400.5",
+      "group": "日常与静物",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436534/1447064/main-image",
+      "originalImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436534/1447064/main-image",
+      "source": "https://www.metmuseum.org/art/collection/search/436534",
+      "provider": "The Metropolitan Museum of Art",
+      "context": "馆方资料：1890年5月圣雷米花卉静物组中的竖幅玫瑰；华盛顿另藏横幅版本。花朵原有粉色，现因颜料变化而显得更白。本作曾于1939年被纳粹从格奥尔格·西蒙·希尔施兰德处没收，1950年归还其继承人。收藏史与原始创作委托应分开，后者本轮未证实。",
+      "observation": "本站观察：第一眼看浅色花团与深绿叶片之间密集的小空隙。花束上方较疏，中央和下方较满；一圈圈弯笔让花瓣起伏，深色茎叶穿插其间。绿色花瓶与浅绿背景接近，却靠深蓝轮廓分离；桌上零散花叶把高大的花束与低处横线联系起来。",
+      "note": "观看意义：它适合与《鸢尾花》比较相近题材的不同构图，也提醒我们把视觉现状与材料历史分开。观看问题：如果不把这些花直接叫作“白玫瑰”，你会怎样描述画面中暖白、冷白和浅绿的差别？",
+      "rights": "数字复制图：馆方作品页标注 Public Domain；依 The Met Open Access 政策采用 CC0。来源标识：Vincent van Gogh；作品名、年代、馆藏号及 Credit Line 见本条。CC0不要求署名，本站保留馆方来源与收藏信用信息。",
+      "rightsSource": "https://www.metmuseum.org/policies/image-resources",
+      "imageSource": "https://www.metmuseum.org/art/collection/search/436534",
+      "hasVisualNotes": true,
+      "attribution": "Vincent van Gogh；大都会艺术博物馆正式归属，本轮未见作者归属争议",
+      "titleTranslation": "本站中文译名；括号为本站版本区分",
+      "verifiedOn": "2026-10-31",
+      "status": "researched-ready-pending-deployment",
+      "accession": "1993.400.5",
+      "dimensions": "93 × 74 cm",
+      "creditLine": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+      "mediumOriginal": "Oil on canvas",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "rightsEvidence": [
+        "https://www.metmuseum.org/art/collection/search/436534",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "museumImage": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436534/1447064/main-image",
+      "visualReview": {
+        "completed": true,
+        "method": "Actual full museum main-image viewed in browser; accession matched to official object record",
+        "date": "2026-10-31"
       }
     }
   ]

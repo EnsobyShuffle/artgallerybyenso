@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 02:27:26 UTC",
+  "updatedAt": "2026-10-31 03:26:40 UTC",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "abstract",
-  "next_category": "modern",
-  "last_artist": "hilma-af-klint",
-  "next_artist": "vincent-van-gogh",
+  "last_category": "modern",
+  "next_category": "impressionism",
+  "last_artist": "vincent-van-gogh",
+  "next_artist": "monet",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -60,8 +60,8 @@
     "modern": {
       "current": "vincent-van-gogh",
       "complete": false,
-      "verifiedWorks": 6,
-      "nextBatch": "Select next distinct paintings from authoritative open collections; exclude six AIC canonical IDs already saved. Target approximately 50 cumulatively."
+      "verifiedWorks": 11,
+      "nextBatch": "Next modern visit: select distinct originals excluding six AIC and five Met IDs; target approximately50 cumulatively."
     },
     "impressionism": {
       "current": "monet",
@@ -136,7 +136,12 @@
     "hilma-af-klint-group-iv-4",
     "hilma-af-klint-group-iv-6",
     "hilma-af-klint-group-iv-8",
-    "hilma-af-klint-group-iv-10"
+    "hilma-af-klint-group-iv-10",
+    "van-gogh-met-436528",
+    "van-gogh-met-436530",
+    "van-gogh-met-436533",
+    "van-gogh-met-436535",
+    "van-gogh-met-436534"
   ],
   "counts": {
     "thisRun": {
@@ -163,12 +168,12 @@
     },
     "repoCumulative": {
       "artists": 14,
-      "records": 374,
+      "records": 379,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
       "abstract": 60,
-      "modern": 56,
+      "modern": 61,
       "impressionism": 35,
       "renaissance": 12,
       "other": 206,
@@ -183,11 +188,11 @@
     "rotationCumulative": {
       "researched": {
         "artists": 7,
-        "works": 36
+        "works": 41
       },
       "committed": {
         "artists": 7,
-        "works": 36
+        "works": 41
       },
       "deployment_verified": {
         "artists": 0,
@@ -199,33 +204,17 @@
       }
     }
   },
-  "sourceParentCommit": "1cb5d0be045b7d56baf5a55068b5e9d6b721d5cd",
+  "sourceParentCommit": "0e34889e24d0817928d9f0d1c2eba35fb850bd48",
   "deployment": {
-    "status": "production_not_updated_current_deploy_event_unverified",
+    "status": "production_old_current_deploy_event_unverified",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
     "observedAt": "2026-10-31 00:38:48 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "2026-10-31本轮原站实开仍9艺术家324记录。Netlify概览DOM读取及截图超时，本次具体部署事件未确认；此前额度耗尽为历史已确认阻塞，未冒充本轮新证据。",
+    "message": "本轮生产梵高URL仍显示9位艺术家324记录旧首页，无梵高；Netlify overview AX和截图超时。本轮部署事件未确认。此前额度耗尽仅为历史已确认阻塞。",
     "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
     "previousFinalCheck": {
-      "checkedAt": "2026-10-31 01:37:06 UTC",
-      "contentCommit": "6d2696d138fe14db3ea251418db529ec93def563",
-      "repoReadbackWorks": 1,
-      "liveArtistCount": 0,
-      "liveNewWorks": 0,
-      "deployEvent": "UNVERIFIED: Netlify dashboard timeout",
-      "githubStatus": "pending; statuses=[]",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-modern-contemporary&artist=lin-fengmian",
-      "observedProductionArtistCount": 9,
-      "observedProductionRecords": 324,
-      "preview": {
-        "verified": false,
-        "reason": "No current preview URL verified; prior Gu preview does not validate Lin change"
-      }
-    },
-    "finalCheck": {
       "checkedAt": "2026-10-31 02:27:26 UTC",
       "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
       "repoReadbackWorks": 5,
@@ -234,20 +223,29 @@
       "deployEvent": "unverified: dashboard timeouts",
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint"
     },
-    "latestAttemptAt": "2026-10-31 02:27:26 UTC"
+    "finalCheck": {
+      "checkedAt": "2026-10-31 03:26:40 UTC",
+      "contentCommit": null,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "unverified: dashboard AX and screenshot timeouts",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=modern&artist=vincent-van-gogh",
+      "stage": "precommit"
+    },
+    "latestAttemptAt": "2026-10-31 03:26:40 UTC"
   },
   "validation": {
     "syntax": "node --check PASS",
-    "dedup": "10 unique Hilma IDs; original five unchanged; other modules untouched",
-    "images": "Five whole-image browser visual checks passed; individual Commons PD-Art statements retained",
-    "metadata": "No2/4/6/8 conflicting dimensions retained; No10 dimensions/accession unverified, not inferred",
-    "responsive": "NOT VERIFIED on new content: original production old; no layout changes in this batch",
-    "live": "FAIL: postcommit original artist URL renders old 9-artist homepage; Hilma absent"
+    "dedup": "11 unique Van Gogh physical-painting IDs; 5 new IDs absent from canonical inventory; original six records identical",
+    "images": "5 full museum main-images visually viewed; all5 official pages Public Domain and Met CC0 policy verified",
+    "preservation": "Only modern.js and two research checkpoints changed; index.html, unrelated content and migration branch untouched",
+    "responsive": "NOT VERIFIED for new content: production remains old; no layout code changes",
+    "live": "FAIL before commit: original artist URL renders old9-artist homepage; Van Gogh absent"
   },
   "nextActions": [
-    "02 Modern: Vincent van Gogh next distinct paintings, exclude existing six AIC IDs",
-    "Recheck original Netlify production; no unauthorized paid upgrade",
-    "Next abstract visit: new series beyond ten-largest"
+    "03 Impressionism → Monet: read latest main and exclude all35 existing canonical IDs",
+    "Recheck original production deployment; previous credits limitation needs account-side resolution, current dashboard inaccessible",
+    "Next modern rotation: continue distinct Van Gogh works beyond11"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -318,7 +316,13 @@
     "https://hk.art.museum/en/web/ma/collections/chinese-painting-and-calligraphy.html",
     "https://hk.art.museum/en/web/ma/important-note.html",
     "https://hk.art.museum/Archive/resources/Lin_Biography.pdf",
-    "https://www.caa.edu.cn/info/3811/11808.htm"
+    "https://www.caa.edu.cn/info/3811/11808.htm",
+    "https://www.metmuseum.org/art/collection/search/436528",
+    "https://www.metmuseum.org/art/collection/search/436530",
+    "https://www.metmuseum.org/art/collection/search/436533",
+    "https://www.metmuseum.org/art/collection/search/436535",
+    "https://www.metmuseum.org/art/collection/search/436534",
+    "https://www.metmuseum.org/policies/image-resources"
   ],
   "history": [
     {
@@ -923,7 +927,12 @@
     "hilma-af-klint-group-iv-4",
     "hilma-af-klint-group-iv-6",
     "hilma-af-klint-group-iv-8",
-    "hilma-af-klint-group-iv-10"
+    "hilma-af-klint-group-iv-10",
+    "van-gogh-met-436528",
+    "van-gogh-met-436530",
+    "van-gogh-met-436533",
+    "van-gogh-met-436535",
+    "van-gogh-met-436534"
   ],
   "last_content_commit": "25388d464734358e651305a59bb4f7634281519b"
 }
