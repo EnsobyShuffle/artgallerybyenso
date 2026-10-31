@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "project": "Art Gallery by Enso",
+  "category": "modern",
+  "artist": "vincent-van-gogh",
+  "updatedAt": "2026-10-30T20:33:23Z",
+  "counts": {
+    "candidates": 6,
+    "verified": 6,
+    "imageViewedAndChineseNotes": 6,
+    "savedToRepo": 6,
+    "committed": 6,
+    "deploymentVerified": 0,
+    "live": 0,
+    "artistCumulative": 6,
+    "target": 50
+  },
+  "canonicalIds": [
+    "van-gogh-aic-80607",
+    "van-gogh-aic-28560",
+    "van-gogh-aic-79349",
+    "van-gogh-aic-109314",
+    "van-gogh-aic-14586",
+    "van-gogh-aic-64957"
+  ],
+  "countingRule": "Each distinct physical painting counted once; versions kept distinct by accession; no details counted; Drinkers acknowledged as after Daumier.",
+  "dataFile": "modern.js",
+  "sources": [
+    {
+      "id": "van-gogh-aic-80607",
+      "source": "https://www.artic.edu/artworks/80607/self-portrait",
+      "accession": "1954.326",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg",
+      "rightsEvidence": [
+        "https://www.artic.edu/open-access/open-access-images",
+        "https://api.artic.edu/api/v1/artworks/80607",
+        "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-aic-28560",
+      "source": "https://www.artic.edu/artworks/28560/the-bedroom",
+      "accession": "1926.417",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Vincent_van_Gogh_-_The_Bedroom_-_1926.417_-_Art_Institute_of_Chicago.jpg",
+      "rightsEvidence": [
+        "https://www.artic.edu/open-access/open-access-images",
+        "https://api.artic.edu/api/v1/artworks/28560",
+        "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Bedroom_-_1926.417_-_Art_Institute_of_Chicago.jpg"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-aic-79349",
+      "source": "https://www.artic.edu/artworks/79349/the-drinkers",
+      "accession": "1953.178",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg",
+      "rightsEvidence": [
+        "https://www.artic.edu/open-access/open-access-images",
+        "https://api.artic.edu/api/v1/artworks/79349",
+        "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-aic-109314",
+      "source": "https://www.artic.edu/artworks/109314/fishing-in-spring-the-pont-de-clichy-asnieres",
+      "accession": "1965.1169",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Vincent_van_Gogh_-_Fishing_in_Spring%2C_the_Pont_de_Clichy_%28Asni%C3%A8res%29_-_1965.1169_-_Art_Institute_of_Chicago.jpg",
+      "rightsEvidence": [
+        "https://www.artic.edu/open-access/open-access-images",
+        "https://api.artic.edu/api/v1/artworks/109314",
+        "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Fishing_in_Spring,_the_Pont_de_Clichy_(Asni%C3%A8res)_-_1965.1169_-_Art_Institute_of_Chicago.jpg"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-aic-14586",
+      "source": "https://www.artic.edu/artworks/14586/the-poet-s-garden",
+      "accession": "1933.433",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Vincent_van_Gogh_-_The_Poet%27s_Garden_-_1933.433_-_Art_Institute_of_Chicago.jpg",
+      "rightsEvidence": [
+        "https://www.artic.edu/open-access/open-access-images",
+        "https://api.artic.edu/api/v1/artworks/14586",
+        "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Poet%27s_Garden_-_1933.433_-_Art_Institute_of_Chicago.jpg"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    },
+    {
+      "id": "van-gogh-aic-64957",
+      "source": "https://www.artic.edu/artworks/64957/grapes-lemons-pears-and-apples",
+      "accession": "1949.215",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Vincent_van_Gogh_-_Grapes%2C_Lemons%2C_Pears%2C_and_Apples_-_1949.215_-_Art_Institute_of_Chicago.jpg",
+      "rightsEvidence": [
+        "https://www.artic.edu/open-access/open-access-images",
+        "https://api.artic.edu/api/v1/artworks/64957",
+        "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Grapes,_Lemons,_Pears,_and_Apples_-_1949.215_-_Art_Institute_of_Chicago.jpg"
+      ],
+      "isPublicDomain": true,
+      "visualReviewed": true
+    }
+  ],
+  "missing": [
+    "Specific original commissions not established for this batch; never infer from current collection credits",
+    "No full catalogue raisonné coverage yet",
+    "New page live acceptance and mobile runtime QA pending Netlify production allowance"
+  ],
+  "validation": {
+    "syntax": "HTML inline JS and all four data extensions parsed successfully",
+    "preservation": "Original galleryData byte-for-byte unchanged; other extensions untouched; migration branch untouched",
+    "deduplication": "6 new canonical IDs unique among 349 records",
+    "images": "6 accession-matched CC0 museum reproductions viewed successfully via Wikimedia Commons; original AIC image browser CAPTCHA, not bypassed",
+    "links": "Six official object pages/API public-domain flags and six Commons license pages retrieved",
+    "responsive": "Existing responsive CSS retained; new live mobile/desktop detail, search, favorites and notes acceptance pending deployment",
+    "live": "Fresh original homepage still 9 artists, Monet20, Leonardo3, noVanGogh; new work live0"
+  },
+  "deployment": {
+    "status": "blocked_operational_credits_only",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
+    "observedAt": "2026-10-30T20:31:46Z",
+    "productionBranch": "main",
+    "publishedCommitShort": "5573f1a",
+    "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
+    "message": "后台明确显示生产部署及Agent Runners暂停，仅剩维持现站的operational credits。Hilma、Monet新增与Leonardo四件新增均显示Skipped，现站保持旧版9位艺术家324条记录。已确认GitHub连接和main生产分支，不是缓存推测。",
+    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
+    "finalCheck": {
+      "checkedAt": "2026-10-30T20:33:23Z",
+      "commit": "1929bccc6325c67cd623add1f9c787fee93c7012",
+      "result": "Skipped",
+      "deployId": "6ae4fedc544fba545f16ed82",
+      "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae4fedc544fba545f16ed82",
+      "liveArtistUrl": "https://artgallerybyenso.netlify.app/?artist=vincent-van-gogh&collection=modern",
+      "liveResult": "URL still renders old 9-artist homepage; Van Gogh unavailable; live0"
+    }
+  },
+  "nextCheckpoint": [
+    "Next run category03 Impressionism → monet; read latest main and existing 30IDs before selecting new works",
+    "Keep original Netlify target; after production allowance resumes verify modern artist6 images and all pending increments",
+    "Check new pages at desktop, phone portrait and landscape plus search/detail/favorites/private notes after publication",
+    "Next modern rotation may continue Van Gogh with new unique works"
+  ],
+  "sourceParentCommit": "e152a9e1c396e6c3d596123dd1324943f29f5af5",
+  "contentCommit": "1929bccc6325c67cd623add1f9c787fee93c7012"
+}
