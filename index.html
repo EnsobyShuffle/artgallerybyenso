@@ -274,7 +274,7 @@ function renderHomeArtists(){
  $('headerArtistCount').textContent=String(ids.length).padStart(2,'0');
  $('homeArtists').innerHTML=ids.map((id,i)=>{
   const a=data.artists[id];const pieces=data.pieces.filter(p=>p.artist===id).length;
-  const count=a.collection==='renaissance'?`${pieces} 件作品单元 · 绘画与素描分列`:id==='journaia'?'1 条带图研究线索 · 持续考证':(pieces>=GALLERY_TARGET?`${pieces} 幅精选作品 · 中文赏析`:`${pieces} 幅带图作品 · 持续扩充至 ${GALLERY_TARGET} 幅`);
+  const count=id==='gu-kaizhi'?`${pieces} 件传世摹本 · 非确认亲笔`:a.collection==='renaissance'?`${pieces} 件作品单元 · 绘画与素描分列`:id==='journaia'?'1 条带图研究线索 · 持续考证':(pieces>=GALLERY_TARGET?`${pieces} 幅精选作品 · 中文赏析`:`${pieces} 幅带图作品 · 持续扩充至 ${GALLERY_TARGET} 幅`);
   return `<button class="collection-card" data-artist="${escapeHtml(id)}" type="button" aria-label="打开 ${escapeHtml(a.nameZh)} ${escapeHtml(a.name)} 的艺术家档案">
    <div class="collection-cover"><span class="collection-n">${String(i+1).padStart(2,'0')}</span><img src="${escapeHtml(a.cover)}" alt="${escapeHtml(a.nameZh)} 的作品封面" loading="lazy" onerror="this.parentElement.classList.add('cover-error')"><div class="collection-placeholder"><span class="symbol">◌</span><small>${escapeHtml(a.name)}</small><small>点击进入艺术家档案</small></div></div>
    <div class="collection-copy"><div class="name-line"><h2>${escapeHtml(a.name)}</h2><span class="arrow" aria-hidden="true">↗</span></div><span class="name-zh">${escapeHtml(a.nameZh)}</span><p class="short-intro">${escapeHtml(a.subtitle)}</p><span class="works-count">${count}</span></div>

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 00:34:11 UTC",
+  "updatedAt": "2026-10-31 00:38:48 UTC",
   "order": [
     {
       "number": "01",
@@ -190,11 +190,11 @@
   "deployment": {
     "status": "blocked_operational_credits_only",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
-    "observedAt": "2026-10-31 00:34:11 UTC",
+    "observedAt": "2026-10-31 00:38:48 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "本轮直接实见Netlify后台：团队仅有operational credits，生产部署暂停；生产版本仍为5573f1a。本轮提交后复查具体事件。",
+    "message": "生产main@8945fed已实见Skipped due to account credit usage exceeded；自动发布开关开启、源分支main正确。原站仍为5573f1a、9艺术家324记录。原项目自动预览可用，但不计生产上线。",
     "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
     "previousFinalCheck": {
       "checkedAt": "2026-10-30 23:29:51 UTC",
@@ -205,16 +205,38 @@
       "deployEvent": "Skipped due to account credit usage exceeded",
       "deployId": "6ae528433595a52052e12354",
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=other&artist=caravaggio"
+    },
+    "finalCheck": {
+      "checkedAt": "2026-10-31 00:38:48 UTC",
+      "contentCommit": "8945fedf49ee3dd25b032d1b8c9524dc470faa91",
+      "repoReadbackWorks": 4,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "Skipped due to account credit usage exceeded",
+      "deployId": "6ae537b8cde00af93f06a3ee",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-classical&artist=gu-kaizhi",
+      "preview": {
+        "deployId": "6ae537baf9b516b8a260230e",
+        "url": "https://6ae537baf9b516b8a260230e--artgallerybyenso.netlify.app/?collection=chinese-classical&artist=gu-kaizhi",
+        "access": "Netlify team protected; automatically opened using existing signed-in session",
+        "artistRendered": 1,
+        "workCardsRendered": 4,
+        "detailsChecked": 1,
+        "search": "洛神 → 1 result",
+        "production": false
+      },
+      "minorFollowup": "Gu-specific homepage count corrected after preview exposed generic50 wording; syntax and targeted regression passed; will be in checkpoint commit"
     }
   },
   "validation": {
-    "syntax": "PASS node --check chinese-classical.js and vm.Script for all inline index scripts; exactly3 intended index edits",
+    "syntax": "PASS module and inline JS; four scoped index changes including Gu-only count wording; regression confirms Monet wording unchanged",
     "dedup": "PASS 13 artists / 368 globally unique IDs; prior364 IDs preserved; canonical list equals merged dataset",
     "images": "Four real scroll images opened and visually inspected in browser at whole-scroll overview; fine face and brushwork details explicitly pending. Four Commons PD-Art/PD-scan evidence pages retained.",
     "links": "Three Palace Museum object pages and BM object page retrieved; exact collection/accession matched",
     "preservation": "Existing content and localStorage behavior preserved; only module loader and Gu-specific count wording added; migration branch untouched",
-    "responsive": "Existing responsive styles unchanged; new artist/detail/mobile acceptance pending original production deployment",
-    "live": "pending final postcommit check"
+    "responsive": "Original CSS retained. Desktop preview interaction checked; phone portrait/landscape and production acceptance NOT completed. Long-scroll overview notes only, microdetails pending.",
+    "live": "Original production URL opened: old9-artist homepage, no Gu Kaizhi; production skipped on credit exhaustion",
+    "preview": "Original project preview renders Chinese Classical category, Gu Kaizhi biography and4 cards; Chinese search returns1 Luo River record, details include image/metadata/attribution/sources/license; homepage50 wording fixed separately"
   },
   "nextActions": [
     "07 中国近现代及当代艺术：林风眠，canonical ID lin-fengmian；先核版权与真实作品页",
@@ -800,5 +822,5 @@
     "gu-kaizhi-tradition-dpm-00147328",
     "gu-kaizhi-tradition-dpm-00147329"
   ],
-  "last_content_commit": null
+  "last_content_commit": "8945fedf49ee3dd25b032d1b8c9524dc470faa91"
 }

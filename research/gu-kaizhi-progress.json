@@ -3,7 +3,7 @@
   "project": "Art Gallery by Enso",
   "artist": "gu-kaizhi",
   "category": "chinese-classical",
-  "updatedAt": "2026-10-31 00:34:11 UTC",
+  "updatedAt": "2026-10-31 00:38:48 UTC",
   "sourceParentCommit": "171ed2c52747593f6251ed5856d4a941e63bc385",
   "counts": {
     "candidates": 6,
@@ -92,5 +92,16 @@
   ],
   "nextCategory": "chinese-modern-contemporary",
   "nextArtist": "lin-fengmian",
-  "deploymentBlocker": "本轮直接实见Netlify后台：团队仅有operational credits，生产部署暂停；生产版本仍为5573f1a。本轮提交后复查具体事件。"
+  "deploymentBlocker": "生产main@8945fed已实见Skipped due to account credit usage exceeded；自动发布开关开启、源分支main正确。原站仍为5573f1a、9艺术家324记录。原项目自动预览可用，但不计生产上线。",
+  "contentCommit": "8945fedf49ee3dd25b032d1b8c9524dc470faa91",
+  "validation": {
+    "syntax": "PASS module and inline JS; four scoped index changes including Gu-only count wording; regression confirms Monet wording unchanged",
+    "dedup": "PASS 13 artists / 368 globally unique IDs; prior364 IDs preserved; canonical list equals merged dataset",
+    "images": "Four real scroll images opened and visually inspected in browser at whole-scroll overview; fine face and brushwork details explicitly pending. Four Commons PD-Art/PD-scan evidence pages retained.",
+    "links": "Three Palace Museum object pages and BM object page retrieved; exact collection/accession matched",
+    "preservation": "Existing content and localStorage behavior preserved; only module loader and Gu-specific count wording added; migration branch untouched",
+    "responsive": "Original CSS retained. Desktop preview interaction checked; phone portrait/landscape and production acceptance NOT completed. Long-scroll overview notes only, microdetails pending.",
+    "live": "Original production URL opened: old9-artist homepage, no Gu Kaizhi; production skipped on credit exhaustion",
+    "preview": "Original project preview renders Chinese Classical category, Gu Kaizhi biography and4 cards; Chinese search returns1 Luo River record, details include image/metadata/attribution/sources/license; homepage50 wording fixed separately"
+  }
 }
