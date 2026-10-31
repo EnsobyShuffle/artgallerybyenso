@@ -14,7 +14,7 @@ window.IMPRESSIONISM_GALLERY = {
       "cover": "/assets/impressionism/monet-artic-16568.jpg",
       "coverTitle": "Water Lilies · 睡莲（1906）",
       "bio": [
-        "克洛德·莫奈（Claude Monet，1840—1926）是法国印象派的重要艺术家。这份档案从三十五幅馆藏原作展开：早年的海岸生活、塞纳河畔的人物、现代车站、意大利与诺曼底的风景，以及后来反复描绘的麦垛与水园。",
+        "克洛德·莫奈（Claude Monet，1840—1926）是法国印象派的重要艺术家。这份档案从三十八幅馆藏原作展开：早年的海岸生活、塞纳河畔的人物、现代车站、意大利与诺曼底的风景，以及后来反复描绘的麦垛与水园。",
         "他的兴趣不仅在于画出“这里有什么”，也在于观察同一景物在光、空气与时间中怎样显现。1877年的圣拉扎尔车站系列，把工业建筑和蒸汽纳入绘画；后来麦垛与塞纳河系列，则更集中地探索同一题材的变化。",
         "莫奈的画面常给人瞬间捕捉的感觉，但不能把这种感觉等同于真实工序。馆方研究显示，麦垛既在户外推进，也在画室调整；《圣阿德雷斯的海滩》《普尔维尔的悬崖漫步》和《睡莲》都留下了修改构图的证据。",
         "1893年起营造的吉维尼水园，逐渐成为他持续研究的题材。把1900年的《睡莲池》与1906年的《睡莲》放在一起：从桥、岸和植被界定的花园，走到几乎只剩水面、倒影与浮叶的空间，可以亲眼感受他的观看方式如何变化。",
@@ -90,7 +90,29 @@ window.IMPRESSIONISM_GALLERY = {
         ]
       ],
       "indexSource": "https://www.artic.edu/collection?q=Claude%20Monet",
-      "indexNote": "当前收录35幅不同馆藏原作，目标为50幅。每件都有独立馆藏来源；同题系列按原作身份区分。此处不是莫奈全集。"
+      "indexNote": "收录38件独立馆藏原作；核心选读20件，覆盖1865年森林、海岸与户外人物、1870年代都市、麦垛/白杨/教堂/伦敦系列，以及水园与晚期睡莲。入选理由见各件解读；这是可继续修订的选读，不是权威排名或全集。新版上线验收尚未通过。",
+      "representativeWorkIds": [
+        "monet-artic-14598",
+        "monet-artic-81539",
+        "monet-artic-16571",
+        "monet-artic-14620",
+        "monet-artic-81537",
+        "monet-artic-64818",
+        "monet-artic-14624",
+        "monet-artic-16564",
+        "monet-artic-16568",
+        "monet-met-437133",
+        "monet-met-437135",
+        "monet-met-437124",
+        "monet-met-438008",
+        "monet-met-437131",
+        "monet-met-437121",
+        "monet-met-437128",
+        "monet-met-437127",
+        "monet-marmottan-4014",
+        "monet-nga-61379",
+        "monet-nga-52189"
+      ]
     }
   },
   "pieces": [
@@ -113,7 +135,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1867 · 布面油画 · 75.8 × 102.5 cm · 芝加哥艺术博物馆",
       "context": "1867年夏天，莫奈在法国北部的圣阿德雷斯停留。馆方指出，这里正从渔村转为海滨度假地：画中既有渔民与船，也有衣着时髦的游客。作品从户外开始，随后在画室修改；技术研究发现，部分游艇和游客曾被画上，后来又被覆盖。",
       "observation": "这片海滩没有被处理成一张明亮的度假明信片。灰蓝天空、淡色海水和暗色船身把画面的情绪压得很平，沙滩上的小人物因而更值得停留。岸上船只与远处帆船在不同距离重复，使视线从近岸的生活走向开放的海面。红、黄色的小笔触提示了游客的存在，也让劳动与休闲在同一片海岸相遇。",
-      "note": "先找出沙滩上的两组人物，再比较他们与渔船的关系。如果遮住人物，只留下海与船，这幅画还会给你同样的时代感吗？",
+      "note": "先找出沙滩上的两组人物，再比较他们与渔船的关系。如果遮住人物，只留下海与船，这幅画还会给你同样的时代感吗？ 代表作入选理由：早期海岸：劳动、旅游与海景并置，适合和同年圣阿德雷斯花园对照。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；CC0。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -121,7 +143,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Claude_Monet_-_The_Beach_at_Sainte-Adresse_-_1933.439_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Beach_at_Sainte-Adresse_-_1933.439_-_Art_Institute_of_Chicago.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Beach_at_Sainte-Adresse_-_1933.439_-_Art_Institute_of_Chicago.jpg",
+      "representativeSelection": {
+        "reason": "早期海岸：劳动、旅游与海景并置，适合和同年圣阿德雷斯花园对照。",
+        "evidence": [
+          "https://www.artic.edu/artworks/14598"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-81539",
@@ -142,7 +172,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1868 · 布面油画 · 81.5 × 100.7 cm · 芝加哥艺术博物馆",
       "context": "画中坐在树下的是卡米耶·东雪，后来成为莫奈的妻子。她从塞纳河中的小岛望向格洛通村。馆方提到，两人曾短暂住在这一带；底层画迹提示，早期构图中的卡米耶可能抱着婴儿，这一点仍是根据画迹作出的推断。",
       "observation": "人物坐在阴影里，面对的却是明亮的河面和对岸。她的侧背姿态让我们跟着她看，而不是只看她。树枝为上方提供遮蔽，船只靠住近岸，远处村庄则被压成一条浅色带。深色前景与亮色倒影形成一种有距离的亲密：我们仿佛也坐到了树下，与她共享片刻安静。",
-      "note": "沿着她的视线向河对岸移动，再低头看水中的倒影。比较实体房屋与倒影的边缘：哪一边更清楚，哪一边更容易散开？",
+      "note": "沿着她的视线向河对岸移动，再低头看水中的倒影。比较实体房屋与倒影的边缘：哪一边更清楚，哪一边更容易散开？ 代表作入选理由：早期塞纳河人物风景：侧背人物、近岸阴影与对岸反光构成观看路线。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；Public Domain。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "Public Domain",
       "rightsSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_On_the_Bank_of_the_Seine,_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg",
@@ -150,7 +180,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Claude_Monet_-_On_the_Bank_of_the_Seine%2C_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_On_the_Bank_of_the_Seine,_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_On_the_Bank_of_the_Seine,_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg",
+      "representativeSelection": {
+        "reason": "早期塞纳河人物风景：侧背人物、近岸阴影与对岸反光构成观看路线。",
+        "evidence": [
+          "https://www.artic.edu/artworks/81539"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-16571",
@@ -171,7 +209,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1877 · 布面油画 · 60.3 × 80.2 cm · 芝加哥艺术博物馆",
       "context": "1877年，莫奈围绕圣拉扎尔车站创作了一组作品。车站把巴黎与诺曼底以及近郊相连。馆方将这一题材放在印象派对现代工业生活的关注之中，并指出蒸汽、玻璃屋顶与自然光的变化，已经预示他后来围绕同一主题反复作画的方式。",
       "observation": "首先进入眼睛的未必是火车，而是火车制造的空气。深色车身和建筑骨架给画面提供重量，乳白、蓝灰的蒸汽又不断模糊它们的边界。人物被缩成细小的暗笔触，与巨大的烟团形成尺度差。这里的“瞬间”来自坚硬结构与飘散气体的交错：城市机器也能成为研究光线的风景。",
-      "note": "先看铁轨和棚架怎样把视线引向车站深处，再看蒸汽在哪些位置截断这些线。试着分辨：哪些白色来自蒸汽，哪些来自天空和透入的日光？",
+      "note": "先看铁轨和棚架怎样把视线引向车站深处，再看蒸汽在哪些位置截断这些线。试着分辨：哪些白色来自蒸汽，哪些来自天空和透入的日光？ 代表作入选理由：现代都市题材：铁路、钢架和蒸汽把工业景观带入印象派的空气研究。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；Public Domain。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "Public Domain",
       "rightsSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Arrival_of_the_Normandy_Train,_Gare_Saint-Lazare_-_Google_Art_Project.jpg",
@@ -179,7 +217,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Arrival_of_the_Normandy_Train,_Gare_Saint-Lazare_-_Google_Art_Project.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Arrival_of_the_Normandy_Train,_Gare_Saint-Lazare_-_Google_Art_Project.jpg",
+      "representativeSelection": {
+        "reason": "现代都市题材：铁路、钢架和蒸汽把工业景观带入印象派的空气研究。",
+        "evidence": [
+          "https://www.artic.edu/artworks/16571"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-14620",
@@ -200,7 +246,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1882 · 布面油画 · 66.5 × 82.3 cm · 芝加哥艺术博物馆",
       "context": "1882年，莫奈在诺曼底的普尔维尔作画。馆方认为，两位年轻女子可能是奥舍代家的玛尔特与布朗什，并未把身份认定为绝对事实。技术检查还发现，他缩小了右侧岩石的范围，以调整海与天空在画面中的比例。",
       "observation": "两位女子没有像肖像画那样脱离环境。草坡、衣裙和海面都由轻快、方向多变的笔触织成，风似乎穿过了这些不同的物体。崖顶的绿色与海上的蓝色形成大块对比，人物与伞则为辽阔景色提供尺度。画面让人感到的不是某个固定姿势，而是身体正处在流动的空气里。",
-      "note": "把注意力依次放在草尖、裙摆和海浪上，比较三处笔触的方向与节奏。再想想：如果把人物画得非常精细，风景的整体感会怎样变化？",
+      "note": "把注意力依次放在草尖、裙摆和海浪上，比较三处笔触的方向与节奏。再想想：如果把人物画得非常精细，风景的整体感会怎样变化？ 代表作入选理由：诺曼底海岸的户外人物：衣裙、草坡和海面用相近笔触组织风的感受。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；Public Domain。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "Public Domain",
       "rightsSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Cliff_Walk_at_Pourville_-_Google_Art_Project.jpg",
@@ -208,7 +254,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_-_Cliff_Walk_at_Pourville_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Cliff_Walk_at_Pourville_-_Google_Art_Project.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Cliff_Walk_at_Pourville_-_Google_Art_Project.jpg",
+      "representativeSelection": {
+        "reason": "诺曼底海岸的户外人物：衣裙、草坡和海面用相近笔触组织风的感受。",
+        "evidence": [
+          "https://www.artic.edu/artworks/14620"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-81537",
@@ -229,7 +283,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1884 · 布面油画 · 65 × 80.8 cm · 芝加哥艺术博物馆",
       "context": "1884年初，莫奈前往意大利里维埃拉的博尔迪盖拉，原定数周的行程延长到近三个月。馆方根据他的书信指出，强烈的地中海阳光和繁茂植被既吸引他，也增加了选景与表现的困难。本作从高处穿过松树望向城镇与海。",
       "observation": "近处的树并没有礼貌地让开风景，而是把树干和枝叶交织成一道屏障。城镇与蓝色海面只能从空隙中显露，观看因此像一次寻找。黄绿植被与更冷的远景相互衬托，阳光的强度通过颜色的邻接被感到。空间仍然很深，但密集的树枝又把我们拉回画布表面。",
-      "note": "先只看树干，沿它们弯曲、交叉的线条移动；然后再从缝隙里寻找海。你会发现，“被挡住”也可以使远景更诱人。",
+      "note": "先只看树干，沿它们弯曲、交叉的线条移动；然后再从缝隙里寻找海。你会发现，“被挡住”也可以使远景更诱人。 代表作入选理由：地中海旅行：密集植被与远处城镇、海面形成不同于北方海岸的空间。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；Public Domain。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "Public Domain",
       "rightsSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Bordighera_-_Art_Institute_of_Chicago_1922.426.jpg",
@@ -237,7 +291,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Monet_-_Bordighera_-_Art_Institute_of_Chicago_1922.426.jpg",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Bordighera_-_Art_Institute_of_Chicago_1922.426.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Bordighera_-_Art_Institute_of_Chicago_1922.426.jpg",
+      "representativeSelection": {
+        "reason": "地中海旅行：密集植被与远处城镇、海面形成不同于北方海岸的空间。",
+        "evidence": [
+          "https://www.artic.edu/artworks/81537"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-64818",
@@ -258,7 +320,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1890–91 · 布面油画 · 60 × 100.5 cm · 芝加哥艺术博物馆",
       "context": "这幅作品属于莫奈1890—1891年的麦垛系列，题材来自吉维尼住处附近。馆方说明，他既在田野里同时使用多架画架，也在画室继续调整色彩关系。相同题材并不意味着同一原作的复制：本站将本件与《麦垛：秋日将尽》按两个独立馆藏编号分别记录。",
       "observation": "两座麦垛的轮廓很稳定，地面上拉长的阴影却把一天中的时间带进画面。近处较大的垛与远处较小的垛形成重复与变化，天空、田野和远山则压成舒展的横向层次。深色阴影不是颜色的缺席；它与受光部分的冷暖差异，正是画面保持呼吸的地方。",
-      "note": "从麦垛底部顺着投影看出去，再与《麦垛：秋日将尽》比较。先不读标题，只凭影子的方向、边缘与颜色，你会怎样描述两幅画的时间感？",
+      "note": "从麦垛底部顺着投影看出去，再与《麦垛：秋日将尽》比较。先不读标题，只凭影子的方向、边缘与颜色，你会怎样描述两幅画的时间感？ 代表作入选理由：麦垛系列的夏末版本：稳定母题帮助比较光色和投影。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；CC0。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -266,7 +328,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/6/68/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Summer)_-_1985.1103_-_Art_Institute_of_Chicago.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Summer)_-_1985.1103_-_Art_Institute_of_Chicago.jpg",
+      "representativeSelection": {
+        "reason": "麦垛系列的夏末版本：稳定母题帮助比较光色和投影。",
+        "evidence": [
+          "https://www.artic.edu/artworks/64818"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-14624",
@@ -287,7 +357,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1890–91 · 布面油画 · 65.8 × 101 cm · 芝加哥艺术博物馆",
       "context": "作品同属1890—1891年的麦垛系列。1891年，莫奈曾在巴黎杜朗—吕埃尔画廊集中展出其中十五幅。馆方指出，在这一秋日构图中，麦垛顶部越过远处地平线，伸入天空；这种安排使麦垛成为观看光与季节变化的稳定参照。",
       "observation": "右侧近垛与左侧远垛让视线在两个体积之间停顿。粉、紫、黄绿与偏蓝的色调没有被压缩成简单的明暗，而是在田野与垛身上相互回应。锥形顶部穿过地平线，给横向展开的景色一个明确节拍。物体的形状看似朴素，画面真正复杂的部分却是空气和颜色的过渡。",
-      "note": "分别遮住天空与地面，看麦垛的颜色是否显得不同。然后将它与《麦垛：夏末》并看：你读到的季节感，来自物体本身，还是周围颜色的关系？",
+      "note": "分别遮住天空与地面，看麦垛的颜色是否显得不同。然后将它与《麦垛：夏末》并看：你读到的季节感，来自物体本身，还是周围颜色的关系？ 代表作入选理由：与夏末麦垛成对比较：重复题材中的季节、色温和笔触差异不可被一个通用标题代替。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；CC0。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -295,7 +365,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Day%2C_Autumn%29_-_1933.444_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Day,_Autumn)_-_1933.444_-_Art_Institute_of_Chicago.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Day,_Autumn)_-_1933.444_-_Art_Institute_of_Chicago.jpg",
+      "representativeSelection": {
+        "reason": "与夏末麦垛成对比较：重复题材中的季节、色温和笔触差异不可被一个通用标题代替。",
+        "evidence": [
+          "https://www.artic.edu/artworks/14624"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-16564",
@@ -316,7 +394,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1897 · 布面油画 · 89.9 × 92.7 cm · 芝加哥艺术博物馆",
       "context": "为了这一塞纳河题材，莫奈曾连续数月黎明前出发，乘小舟到同一地点，随光线变化同时推进多幅画。馆方的技术研究指出，本作曾有更明确的地平线，后来被融合的笔触模糊；近方形画布也是他的特别选择。",
       "observation": "先别急着把每片颜色都认成树或云。左右轻微变化的蓝紫与绿，在接近方形的画面里互相漂移；倒影削弱了“上面是天空、下面是水”的习惯判断。岸线越不明确，空气就越像是画面的主体。这份柔和并不等于随意：观看的不确定感本身由边缘、明度和反射关系精心组织。",
-      "note": "尝试指出水与岸的边界，再退后一点看它是否仍然明确。把本作与1906年的《睡莲》比较：两幅画分别用雾和倒影，怎样改变了你判断空间的方式？",
+      "note": "尝试指出水与岸的边界，再退后一点看它是否仍然明确。把本作与1906年的《睡莲》比较：两幅画分别用雾和倒影，怎样改变了你判断空间的方式？ 代表作入选理由：塞纳河雾景：岸与倒影的边界消退，连接风景辨识与色面观看。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; digital reproduction uploaded by Maltaper, Wikimedia Commons；CC-BY-SA-4.0。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。 本图像衍生文件继续按 CC BY-SA 4.0 提供。",
       "license": "CC-BY-SA-4.0",
       "rightsSource": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -324,7 +402,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Monet_-_Branch_of_the_Seine_near_Giverny_%28Mist%29%2C_from_the_series_%E2%80%9CMornings_on_the_Seine%E2%80%9D%2C_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Branch_of_the_Seine_near_Giverny_(Mist),_from_the_series_%E2%80%9CMornings_on_the_Seine%E2%80%9D,_1897.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Branch_of_the_Seine_near_Giverny_(Mist),_from_the_series_%E2%80%9CMornings_on_the_Seine%E2%80%9D,_1897.jpg",
+      "representativeSelection": {
+        "reason": "塞纳河雾景：岸与倒影的边界消退，连接风景辨识与色面观看。",
+        "evidence": [
+          "https://www.artic.edu/artworks/16564"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-artic-87088",
@@ -374,7 +460,7 @@ window.IMPRESSIONISM_GALLERY = {
       "medium": "1906 · 布面油画 · 89.9 × 94.1 cm · 芝加哥艺术博物馆",
       "context": "这幅1906年的《睡莲》处在莫奈水园创作的一个转折阶段。馆方指出，他不再依照陆地、天空、水面的传统层次组织风景，而集中描绘水面；技术检查也发现作画过程中存在多处修改，因此不能把它简单理解为一次即兴的户外速写。",
       "observation": "花与浮叶散在蓝绿、紫灰的水面上，左下和右上两组睡莲之间留下可供目光穿行的间隙。天空没有直接出现，却通过倒影进入池水。水面既像向下延伸的深处，又像铺在眼前的平面：我们一会儿看见池塘，一会儿又意识到色块与笔触。这种摇摆，是观看本作很有意思的部分。",
-      "note": "先找最亮的花点，再暂时忽略花，只看水里较暗的区域。分辨哪些是倒影、哪些是水的颜色并不总有唯一答案；可以把自己的判断写下来。",
+      "note": "先找最亮的花点，再暂时忽略花，只看水里较暗的区域。分辨哪些是倒影、哪些是水的颜色并不总有唯一答案；可以把自己的判断写下来。 代表作入选理由：1906年睡莲：桥岸退出视野，水面、浮叶与倒影承担空间关系。",
       "rights": "原作：Claude Monet，芝加哥艺术博物馆。图像：Claude Monet; Art Institute of Chicago / Wikimedia Commons；CC0。本站仅缩小与压缩图像，未裁切或改变画作内容。中文题名为本站译名，英文名与年代、尺寸沿用馆方记录；解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -382,7 +468,15 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/6/65/Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg"
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg",
+      "representativeSelection": {
+        "reason": "1906年睡莲：桥岸退出视野，水面、浮叶与倒影承担空间关系。",
+        "evidence": [
+          "https://www.artic.edu/artworks/16568"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437112",
@@ -435,14 +529,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "67.241",
       "context": "莫奈1867年夏天在勒阿弗尔附近的圣阿德雷斯与家人相聚。画中戴巴拿马帽的坐者是他的父亲，其他亲属也担任模特。作品后来参加1879年的第四届印象派展览；馆方将其俯视视点与分层构图联系到他对日本版画的兴趣。",
       "observation": "花坛、露台、海面和天空像几条色带叠在一起，旗杆又把这些横线贯穿。坐着的人与栏杆旁站立的人形成两组不同距离，船只把尺度进一步缩小。前景红花呼应旗上的暖色，海的蓝色则把热闹稳定下来。画面既让人感到海风，也让人察觉经过安排的平面秩序。",
-      "note": "把两根旗杆想象为被移除，画面还会如此挺拔吗？与同年《圣阿德雷斯的海滩》比较休闲生活的两种气氛。",
+      "note": "把两根旗杆想象为被移除，画面还会如此挺拔吗？与同年《圣阿德雷斯的海滩》比较休闲生活的两种气氛。 代表作入选理由：早期花园及现代休闲生活：旗杆纵线与露台、海面横带形成鲜明结构。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：The Metropolitan Museum of Art / Wikimedia Commons；Public Domain。本站仅等比例缩小及压缩，未裁切。中文题名为本站译名；视觉解读为本站原创。",
       "license": "Public Domain",
       "rightsSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "早期花园及现代休闲生活：旗杆纵线与露台、海面横带形成鲜明结构。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/437133"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437108",
@@ -495,14 +597,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "29.100.112",
       "context": "1869年夏天，莫奈与雷诺阿在巴黎附近塞纳河上的蛙塘游憩地并肩作画。这里兼有划船和游泳活动。馆方指出，本作与斯德哥尔摩国立博物馆所藏雷诺阿的一幅构图接近，为比较两人的早期探索提供了具体对象。",
       "observation": "中央圆形平台和右侧建筑让水面上的人群有了立足点，前景小船则把观者带到近岸。水中的反光由横向短笔触拼成，浅亮与深暗交替，既显示倒影又保留波动。人物近乎剪影，没有压过水面的节奏。稳定的平台与破碎的反射并置，使休闲场景带着不断变化的时间感。",
-      "note": "先辨认倒影来自哪里，再观察哪些反光已经无法对应具体物体。水面的笔触比岸上人物更松散吗？",
+      "note": "先辨认倒影来自哪里，再观察哪些反光已经无法对应具体物体。水面的笔触比岸上人物更松散吗？ 代表作入选理由：1869年蛙塘：近郊休闲、水面碎光与横向短笔构成印象派早期实践的重要例子。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：Wikimedia Commons；Public Domain。本站仅等比例缩小及压缩，未裁切。中文题名为本站译名；视觉解读为本站原创。",
       "license": "Public Domain",
       "rightsSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_La_Grenouill%C3%A9re.jpg",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_La_Grenouill%C3%A9re.jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/6/67/Claude_Monet_La_Grenouill%C3%A9re.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "1869年蛙塘：近郊休闲、水面碎光与横向短笔构成印象派早期实践的重要例子。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/437135"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437124",
@@ -525,14 +635,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "30.95.250",
       "context": "莫奈在1892—1893年反复描绘鲁昂大教堂，随后回吉维尼画室调整作品；本件署年1894，因此不应把署年等同于最初现场作画年份。1895年他展出二十幅教堂画，本件以《门廊：阳光》为题参展。",
       "observation": "教堂几乎填满狭长画布，顶端与侧边的裁切让建筑无法作为完整轮廓被轻松掌握。暖黄色受光石面与蓝紫色凹处相互渗透，门洞仍很深，细节却被密集笔触包裹。视线在雕刻、阴影和颜料之间来回切换：坚硬石头仿佛也在空气中发生变化。",
-      "note": "选择一个门洞，比较内部暗色与周围亮面。你能分清哪些边界属于雕刻，哪些主要由光影形成吗？",
+      "note": "选择一个门洞，比较内部暗色与周围亮面。你能分清哪些边界属于雕刻，哪些主要由光影形成吗？ 代表作入选理由：教堂系列：以稳定建筑比较光的变化，暖石面与冷色凹处共同组织门廊。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：Postdlf / Wikimedia Commons；Public Domain。本站仅等比例缩小及压缩，未裁切。中文题名为本站译名；视觉解读为本站原创。",
       "license": "Public Domain",
       "rightsSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Rouen_Cathedral_-_The_Portal_(Sunlight).jpg",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Rouen_Cathedral_-_The_Portal_(Sunlight).jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/3/39/Claude_Monet_-_Rouen_Cathedral_-_The_Portal_%28Sunlight%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "教堂系列：以稳定建筑比较光的变化，暖石面与冷色凹处共同组织门廊。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/437124"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437118",
@@ -585,14 +703,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "1998.325.2",
       "context": "这幅1919年的横幅《睡莲》属于莫奈晚年水园创作。馆方说明，他与另外三幅相关作品一起为市场而作，随后由伯恩海姆兄弟购入。它与本站1906年的芝加哥藏本是两件不同原作，本件馆藏号为1998.325.2。",
       "observation": "宽阔水面上，浮叶和花点从边缘聚入，中央留出一片较松动的灰紫色区域。黄绿叶片与粉色花朵并非整齐铺陈，而像一串串停顿，让视线在横幅中缓慢游移。垂直倒影和横向浮叶互相交错，既提示水下深度，也显露颜料表面的节奏。没有岸线之后，观看缺少固定站位，却获得了更自由的移动。",
-      "note": "与1906年《睡莲》比较：横幅比例如何改变你的观看速度？先只追随粉色花点，再只追随深色倒影。",
+      "note": "与1906年《睡莲》比较：横幅比例如何改变你的观看速度？先只追随粉色花点，再只追随深色倒影。 代表作入选理由：晚期睡莲：宽幅构图让水面和色彩关系超越单一花朵的描绘。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：shooting_brooklyn / Wikipedia Loves Art / Wikimedia Commons；CC-BY-SA-2.5。本站仅等比例缩小及压缩，未裁切。中文题名为本站译名；视觉解读为本站原创。本图像衍生文件继续以 CC BY-SA 2.5 提供。",
       "license": "CC-BY-SA-2.5",
       "rightsSource": "https://creativecommons.org/licenses/by-sa/2.5/",
       "imageSource": "https://commons.wikimedia.org/wiki/File:WLA_metmuseum_Water_Lilies_by_Claude_Monet.jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/9/9e/WLA_metmuseum_Water_Lilies_by_Claude_Monet.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "晚期睡莲：宽幅构图让水面和色彩关系超越单一花朵的描绘。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/438008"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437123",
@@ -645,14 +771,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "29.100.113",
       "context": "莫奈1893年购入吉维尼住宅附近带池塘的土地，并逐步建成水园。1899年他开始一组木桥题材，那个夏天完成的作品中包括本件。馆方特别指出，这一组里较少见的竖幅形式，使睡莲与池中倒影获得了更多空间。",
       "observation": "蓝绿色桥拱横跨画面，但竖长画布让桥下的水面比桥本身更占分量。睡莲形成一层层横向小岛，倒影则往下拉伸；水平与垂直方向在池中交织。四周植被几乎封住天空，明亮感由叶片、花点和水面共同产生。桥是可辨认的入口，却没有把观看的终点限定在建筑上。",
-      "note": "与1900年《睡莲池》并看：同样一座桥，竖幅与较横向的构图分别把你的注意力放在哪里？",
+      "note": "与1900年《睡莲池》并看：同样一座桥，竖幅与较横向的构图分别把你的注意力放在哪里？ 代表作入选理由：1899年水园桥：与无桥的睡莲比较，展示花园空间转向水面研究的过程。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：The Metropolitan Museum of Art / Wikimedia Commons；CC0。本站仅等比例缩小及压缩，未裁切。中文题名为本站译名；视觉解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Bridge_over_a_Pond_of_Water_Lilies_MET_DT1854.jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/Bridge_over_a_Pond_of_Water_Lilies_MET_DT1854.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "1899年水园桥：与无桥的睡莲比较，展示花园空间转向水面研究的过程。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/437127"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437131",
@@ -675,14 +809,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "64.210",
       "context": "这棵橡树因画家卡尔·博德默而得名，他曾在1850年沙龙展出相关画作。莫奈1865年在枫丹白露停留期间也选择了它。馆方根据地面的秋叶判断，本件接近他十月离开前的阶段，并认为它可能与大型《草地上的午餐》的风景研究有关。",
       "observation": "粗大的树干占据右侧，横伸枝条撑开树冠；左侧较细的树木让森林仍向深处延展。地面的赭色落叶和绿色植被被斑驳日光串联，树荫并非均匀的黑色，而有蓝绿与棕色层次。比起后来水园中渐渐消散的边界，这里树木仍有清晰的重量，显示年轻莫奈从具体地貌出发观察光。",
-      "note": "先循主干向上，再沿枝条横向移动。对照《蒙索公园》，两幅画分别如何用树冠围住一片亮处？",
+      "note": "先循主干向上，再沿枝条横向移动。对照《蒙索公园》，两幅画分别如何用树冠围住一片亮处？ 代表作入选理由：早期枫丹白露森林：保留从林地自然观察到后来水面研究的生涯起点。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：The Metropolitan Museum of Art / Wikimedia Commons；CC0。本站仅等比例缩小及压缩，未裁切。中文题名为本站译名；视觉解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
       "imageSource": "https://commons.wikimedia.org/wiki/File:The_Bodmer_Oak,_Fontainebleau_Forest_MET_DT1560.jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Bodmer_Oak%2C_Fontainebleau_Forest_MET_DT1560.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "早期枫丹白露森林：保留从林地自然观察到后来水面研究的生涯起点。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/437131"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437136",
@@ -885,14 +1027,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "29.100.110",
       "context": "1891年夏秋，莫奈沿埃普特河绘制杨树系列。树木一度面临出售砍伐，他支付费用争取保留到作画结束。馆方说明，本件在特制小舟上绘制，舟上可放置多幅画布；这一系列中的十五幅于1892年在巴黎展出。",
       "observation": "四根细长树干几乎贯穿方形画面，把天空分成节拍不同的竖条。低处的河岸和倒影横向连接它们，背后另一排树梢又形成起伏的弧线。树干在近处有明确轮廓，枝叶则化成松散色点；柔软的蓝紫天空与暖色叶片互相映衬。树林仍有纵深，却同时像一幅由线条和色带编织的平面图案。",
-      "note": "沿四根树干逐一向下追踪倒影。哪里连续、哪里断开？这些间隔是否比树叶的细节更能决定节奏？",
+      "note": "沿四根树干逐一向下追踪倒影。哪里连续、哪里断开？这些间隔是否比树叶的细节更能决定节奏？ 代表作入选理由：白杨系列：树干排列、岸线和倒影形成连贯节奏，与麦垛系列互补。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：The Metropolitan Museum of Art / Wikimedia Commons；CC0。本站仅等比例缩小与压缩，未裁切；中文题名为本站译名，视觉解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
       "imageSource": "https://commons.wikimedia.org/wiki/File:The_Four_Trees_MET_DT832.jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/8/87/The_Four_Trees_MET_DT832.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "白杨系列：树干排列、岸线和倒影形成连贯节奏，与麦垛系列互补。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/437121"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-437137",
@@ -945,14 +1095,22 @@ window.IMPRESSIONISM_GALLERY = {
       "accessionNumber": "56.135.6",
       "context": "莫奈在1899—1901年间多次描绘伦敦泰晤士河，从圣托马斯医院隔河观看国会大厦，之后继续整理伦敦系列。本件馆方定年1903—1904，并于1904年展出。因此，这个日期包含后期完成过程，不能简单当作一次现场写生的时间。",
       "observation": "建筑压成深蓝色剪影，塔楼在雾中仍可辨认，细小窗格和石材细节却几乎退去。右侧暖色光团与灰蓝空气交融，在水面留下断续的色痕。近处小船既提示距离，也让庞大的建筑有了可比较的尺度。厚雾没有遮掉全部结构，而是把观看重点从建筑细节转向轮廓、色温和水上的光。",
-      "note": "和《鲁昂大教堂》比较：一幅靠密集纹理，一幅靠剪影，它们分别怎样使建筑变成观察空气的工具？",
+      "note": "和《鲁昂大教堂》比较：一幅靠密集纹理，一幅靠剪影，它们分别怎样使建筑变成观察空气的工具？ 代表作入选理由：伦敦议会大厦系列：建筑成为雾与光的剪影，扩展法国乡野之外的城市母题。",
       "rights": "原作：Claude Monet，大都会艺术博物馆。图像：The Metropolitan Museum of Art / Wikimedia Commons；CC0。本站仅等比例缩小与压缩，未裁切；中文题名为本站译名，视觉解读为本站原创。",
       "license": "CC0",
       "rightsSource": "https://creativecommons.org/publicdomain/zero/1.0/",
       "imageSource": "https://commons.wikimedia.org/wiki/File:The_Houses_of_Parliament_(Effect_of_Fog)_MET_DT1893.jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/a/a9/The_Houses_of_Parliament_%28Effect_of_Fog%29_MET_DT1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "checkedAt": "2026-10-31",
-      "hasVisualNotes": true
+      "hasVisualNotes": true,
+      "representativeSelection": {
+        "reason": "伦敦议会大厦系列：建筑成为雾与光的剪影，扩展法国乡野之外的城市母题。",
+        "evidence": [
+          "https://www.metmuseum.org/art/collection/search/437128"
+        ],
+        "auditedOn": "2026-10-31",
+        "visualReviewBasis": "Reused existing hasVisualNotes=true record; not a new image viewing in this run"
+      }
     },
     {
       "id": "monet-met-438005",
@@ -1153,6 +1311,134 @@ window.IMPRESSIONISM_GALLERY = {
       "checkedAt": "2026-10-31",
       "hasVisualNotes": true,
       "status": "verified-content-pending-production"
+    },
+    {
+      "artist": "monet",
+      "mediumOriginal": "oil on canvas",
+      "attribution": "Claude Monet；馆方正式归属",
+      "titleTranslation": "本站中文译名",
+      "checkedAt": "2026-10-31",
+      "verifiedOn": "2026-10-31",
+      "hasVisualNotes": true,
+      "status": "researched-ready-pending-deployment",
+      "visualReview": {
+        "completed": true,
+        "date": "2026-10-31",
+        "method": "Full image actually viewed in browser"
+      },
+      "id": "monet-marmottan-4014",
+      "title": "Impression, soleil levant",
+      "zh": "印象·日出",
+      "year": "1872",
+      "date": "1872",
+      "dimensions": "50 × 65 cm（采用现行馆方目录；Commons记48 × 63 cm，保留差异）",
+      "accession": "4014",
+      "collection": "巴黎马尔莫丹莫奈博物馆",
+      "source": "https://www.marmottan.fr/notice/4014/",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1280px-Monet_-_Impression%2C_Sunrise.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+      "license": "Public Domain Mark",
+      "rights": "本条使用Commons所标公版复制文件，不使用馆方另有摄影版权的复制图。原作Claude Monet；藏于Musée Marmottan Monet；文件Monet - Impression, Sunrise.jpg，Commons标注Public Domain Mark。尺寸以现行馆方目录为准。",
+      "group": "海岸与水",
+      "context": "馆方资料：1872年约11月，莫奈从勒阿弗尔酒店窗口描绘清晨港口。作品参加1874年首次印象派展览，标题与路易·勒鲁瓦评论中“印象派”一词的形成直接相关。现行馆方目录记无框50×65厘米；复制文件页记48×63厘米，差异尚未解决。本轮未查得原始委托证据。",
+      "observation": "本站观察：第一眼看偏右的橙红太阳及其下方断续倒影。最近的小船用深蓝绿构成，后方船影逐渐淡去；水面短横笔与烟囱、桅杆的细竖线相接。灰绿雾气中，上部暖色云带并未形成清楚的地平线，太阳靠色差而非大面积明暗独立出来。",
+      "note": "为何具有代表性：它既是印象派命名史的关键原作，也让港口劳动、工业痕迹与瞬时空气同时进入风景。观看问题：遮住太阳与倒影，只看船和远岸，还能感到同样的清晨方向吗？",
+      "selectionEvidence": "馆方明确将本作定位为印象派群体的象征，详述1874展览与名称由来。",
+      "originalImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1280px-Monet_-_Impression%2C_Sunrise.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "provider": "Musée Marmottan Monet / Wikimedia Commons",
+      "medium": "1872 · 布面油彩 · 50 × 65 cm（采用现行馆方目录；Commons记48 × 63 cm，保留差异） · 巴黎马尔莫丹莫奈博物馆 · 4014",
+      "rightsEvidence": [
+        "https://www.marmottan.fr/notice/4014/",
+        "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg"
+      ]
+    },
+    {
+      "artist": "monet",
+      "mediumOriginal": "oil on canvas",
+      "attribution": "Claude Monet；馆方正式归属",
+      "titleTranslation": "本站中文译名",
+      "checkedAt": "2026-10-31",
+      "verifiedOn": "2026-10-31",
+      "hasVisualNotes": true,
+      "status": "researched-ready-pending-deployment",
+      "visualReview": {
+        "completed": true,
+        "date": "2026-10-31",
+        "method": "Full image actually viewed in browser"
+      },
+      "id": "monet-nga-61379",
+      "title": "Woman with a Parasol - Madame Monet and Her Son",
+      "zh": "撑阳伞的女人——莫奈夫人与儿子",
+      "year": "1875",
+      "date": "1875",
+      "dimensions": "100 × 81 cm",
+      "accession": "1983.1.29",
+      "collection": "美国国家美术馆，华盛顿",
+      "creditLine": "Collection of Mr. and Mrs. Paul Mellon",
+      "source": "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son",
+      "image": "https://api.nga.gov/iiif/99758d9d-c10b-4d02-a198-7e49afb1f3a6/full/%21800%2C800/0/default.jpg",
+      "group": "人与风景",
+      "context": "馆方资料：人物为妻子卡米耶和儿子让，作于1875年。馆方将本作描述为一次户外作画完成，以人物、草地和天空的不同笔触记录色与光。它不是奥赛收藏的1886年单人人物习作；本条按馆藏号单独识别。具体委托未证实。",
+      "observation": "本站观察：先看绿色伞面与浅色衣裙夹出的竖向人物。视点很低，草坡遮去左后方男孩的下身；女人裙摆向左斜展，面纱向右飘动。蓝灰和黄色进入白裙的阴影，草地上的长暗影斜伸向前方；天空的白色碎笔与裙褶之间形成连续的明亮节奏。",
+      "note": "为何具有代表性：人物没有从环境中隔离出来，衣裙、草地和云共享光色变化，补足本页阿尔让特伊时期户外人物画的重要环节。观看问题：只观察所谓“白裙”，你能找出几种并非白色的色调？",
+      "selectionEvidence": "NGA以本作讨论一次户外作画与色光；馆方展览史列1995年芝加哥莫奈回顾展第42号。",
+      "license": "CC0",
+      "imageSource": "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son",
+      "rightsSource": "https://www.nga.gov/terms-and-notices",
+      "rights": "馆方作品页明确标为公版数字图像，依NGA开放政策CC0使用。Courtesy National Gallery of Art, Washington；收藏信用信息见本条。",
+      "originalImage": "https://api.nga.gov/iiif/99758d9d-c10b-4d02-a198-7e49afb1f3a6/full/%21800%2C800/0/default.jpg",
+      "provider": "National Gallery of Art, Washington",
+      "medium": "1875 · 布面油彩 · 100 × 81 cm · 美国国家美术馆，华盛顿 · 1983.1.29",
+      "rightsEvidence": [
+        "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son",
+        "https://www.nga.gov/terms-and-notices"
+      ]
+    },
+    {
+      "artist": "monet",
+      "mediumOriginal": "oil on canvas",
+      "attribution": "Claude Monet；馆方正式归属",
+      "titleTranslation": "本站中文译名",
+      "checkedAt": "2026-10-31",
+      "verifiedOn": "2026-10-31",
+      "hasVisualNotes": true,
+      "status": "researched-ready-pending-deployment",
+      "visualReview": {
+        "completed": true,
+        "date": "2026-10-31",
+        "method": "Full image actually viewed in browser"
+      },
+      "id": "monet-nga-52189",
+      "title": "The Artist's Garden at Vétheuil",
+      "zh": "韦特伊的艺术家花园（华盛顿版）",
+      "year": "1881",
+      "date": "1881（画面题记80为误记，按馆方定年）",
+      "dimensions": "151.5 × 121 cm",
+      "accession": "1970.17.45",
+      "collection": "美国国家美术馆，华盛顿",
+      "creditLine": "Ailsa Mellon Bruce Collection",
+      "source": "https://www.nga.gov/artworks/52189-artists-garden-vetheuil",
+      "image": "https://api.nga.gov/iiif/9fc88734-2f9a-4da8-8d46-2b570b201223/full/%21800%2C800/0/default.jpg",
+      "group": "树林与花野",
+      "context": "馆方资料：莫奈在韦特伊租居时布置了花园。本作为1881年四幅相近花园画之一，馆方2018年专题展将它与诺顿·西蒙藏本对照；研究指出前景后来重画，题记1880不能直接作为作画年份。现采用1881年，不与另馆较小版本混为一幅。具体委托未证实。",
+      "observation": "本站观察：先沿中央浅色小路向台阶看去。两侧高大的向日葵几乎围住小孩，近处蓝白花盆沿道路边缘重复；黄绿花叶与蓝紫阴影细碎相接。房屋横挡上方，烟囱穿入蓝天；近处道路明亮、台阶逐级变暗，使视线在色斑与纵深之间来回移动。",
+      "note": "为何具有代表性：这是吉维尼之前的花园实践，并能用版本比较和技术研究校正“印象派都是瞬间完成”的概括。观看问题：道路本来引向远处，台阶和横向房屋又怎样把你的目光带回画面表面？",
+      "selectionEvidence": "NGA2018年同题版本专题展；2010—2011巴黎大皇宫莫奈回顾展第152号；官网引Wildenstein目录第685号。",
+      "additionalSources": [
+        "https://www.nga.gov/exhibitions/monets-artists-garden-vetheuil"
+      ],
+      "license": "CC0",
+      "imageSource": "https://www.nga.gov/artworks/52189-artists-garden-vetheuil",
+      "rightsSource": "https://www.nga.gov/terms-and-notices",
+      "rights": "馆方作品页明确标为公版数字图像，依NGA开放政策CC0使用。Courtesy National Gallery of Art, Washington；收藏信用信息见本条。",
+      "originalImage": "https://api.nga.gov/iiif/9fc88734-2f9a-4da8-8d46-2b570b201223/full/%21800%2C800/0/default.jpg",
+      "provider": "National Gallery of Art, Washington",
+      "medium": "1881（画面题记80为误记，按馆方定年） · 布面油彩 · 151.5 × 121 cm · 美国国家美术馆，华盛顿 · 1970.17.45",
+      "rightsEvidence": [
+        "https://www.nga.gov/artworks/52189-artists-garden-vetheuil",
+        "https://www.nga.gov/terms-and-notices"
+      ]
     }
   ],
   "catalog": {
@@ -1191,7 +1477,10 @@ window.IMPRESSIONISM_GALLERY = {
       "Spring (Fruit Trees in Bloom)",
       "Chrysanthemums",
       "Jean Monet (1867–1914) on His Horse Tricycle",
-      "Cabin of the Customs Watch"
+      "Cabin of the Customs Watch",
+      "Impression, soleil levant",
+      "Woman with a Parasol - Madame Monet and Her Son",
+      "The Artist's Garden at Vétheuil"
     ]
   }
 };

@@ -1,15 +1,17 @@
 {
-  "updatedAt": "2026-10-30 21:28:56 UTC",
+  "updatedAt": "2026-10-31T04:29:59Z",
   "targetPerArtist": 50,
   "currentArtist": "monet",
   "artists": [
     {
       "id": "monet",
       "name": "Claude Monet",
-      "completeWorks": 35,
+      "completeWorks": 38,
       "target": 50,
       "publishedWorks": 20,
-      "pendingPublicationWorks": 15
+      "pendingPublicationWorks": 18,
+      "qualifiedRepresentativeWorks": 20,
+      "verifiedLiveRepresentativeWorks": 0
     },
     {
       "id": "renoir",
@@ -61,7 +63,7 @@
     }
   ],
   "sourceFile": "impressionism.js",
-  "nextAction": "Next global category Renaissance→leonardo. When Impressionism returns, continue Monet from35 verified records. Published count20 remains until production verified.",
+  "nextAction": "04 Renaissance → Leonardo: prioritize20-work standard with explicit surviving-painting limits and separate drawings; Original production: resolve deployment and verify all pending artist pages; Monet:38 records,20 curated selections; new live acceptance pending; preserve outstanding canonical gaps",
   "classification": "Manet 是先驱/关联人物，后印象派和新印象派不混入本栏目。",
   "factualSources": [
     "https://www.artic.edu/artworks/14598",
@@ -98,28 +100,101 @@
     "https://www.metmuseum.org/art/collection/search/437106",
     "https://www.metmuseum.org/art/collection/search/437115",
     "https://www.metmuseum.org/art/collection/search/438435",
-    "https://www.metmuseum.org/art/collection/search/437113"
+    "https://www.metmuseum.org/art/collection/search/437113",
+    "https://www.marmottan.fr/notice/4014/",
+    "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son",
+    "https://www.nga.gov/artworks/52189-artists-garden-vetheuil"
   ],
   "verification": {
-    "syntax": "Data JavaScript syntax checked; all35 Monet IDs distinct",
-    "preservation": "First30 artwork objects unchanged; index.html and other artist modules untouched; migration branch untouched",
-    "images": "Five accession-matched CC0 museum reproductions fully viewed in browser; new image URLs remote Commons copies, not claimed self-hosted",
-    "links": "Five official Met records read via search; Commons accession/license pages retrieved; direct Met fetch429",
-    "responsive": "Existing layout unchanged; new-work mobile and detail interaction acceptance pending deployment",
-    "live": "Original Netlify Monet artist page opened, shows20works; no new5 present"
+    "syntax": "PASS: node --check final impressionism data module",
+    "dedup": "38 unique Monet IDs;3 new IDs absent from previous inventory",
+    "preservation": "All original35 objects retained;17 note fields enhanced with selection rationale; other modules and migration untouched",
+    "images": "3 new full images actually viewed;17 existing visual-reviewed records reused, not newly viewed",
+    "representativeAudit": "20 curated core works with individual rationale and sources; not an exhaustive ranking",
+    "responsive": "NOT VERIFIED: production still old",
+    "live": "Precommit original site Monet20, not35; dashboard AX timeout"
   },
-  "imageWorkflow": "Keep licensed self-hosted JPEGs in assets/impressionism. Official Art Institute IIIF image links failed in this environment; use verified Commons copies matched to museum accession records when needed. Each piece preserves sourceImage, imageSource, license, rightsSource and attribution. One image (16564) is CC BY-SA 4.0 credited to Maltaper; retain attribution and share-alike notice. 本批5件使用馆方捐赠至Commons的CC0远程副本，浏览器已完整核看；尚未转为自托管文件，不能算本地静态图片。",
+  "imageWorkflow": "Keep licensed self-hosted JPEGs in assets/impressionism. Official Art Institute IIIF image links failed in this environment; use verified Commons copies matched to museum accession records when needed. Each piece preserves sourceImage, imageSource, license, rightsSource and attribution. One image (16564) is CC BY-SA 4.0 credited to Maltaper; retain attribution and share-alike notice. 本批5件使用馆方捐赠至Commons的CC0远程副本，浏览器已完整核看；尚未转为自托管文件，不能算本地静态图片。 2026-10-31本批3件：1件Commons公版复制图、2件NGA CC0原图，均已完整看图；保留独立来源和权利证据，不声称自托管。",
   "lastBatch": {
     "artist": "monet",
-    "added": 5,
-    "total": 35,
-    "status": "Content ready; production blocked by Netlify operational-only credits",
+    "added": 3,
+    "total": 38,
+    "status": "Content ready; current production remains20 older records; deployment event unverified",
     "canonicalIds": [
-      "monet-met-437105",
-      "monet-met-437106",
-      "monet-met-437115",
-      "monet-met-438435",
-      "monet-met-437113"
+      "monet-marmottan-4014",
+      "monet-nga-61379",
+      "monet-nga-52189"
+    ],
+    "qualifiedRepresentativeWorks": 20,
+    "verifiedLiveRepresentativeWorks": 0
+  },
+  "minimumRepresentativeWorks": 20,
+  "representativeAudit": {
+    "ids": [
+      "monet-artic-14598",
+      "monet-artic-81539",
+      "monet-artic-16571",
+      "monet-artic-14620",
+      "monet-artic-81537",
+      "monet-artic-64818",
+      "monet-artic-14624",
+      "monet-artic-16564",
+      "monet-artic-16568",
+      "monet-met-437133",
+      "monet-met-437135",
+      "monet-met-437124",
+      "monet-met-438008",
+      "monet-met-437131",
+      "monet-met-437121",
+      "monet-met-437128",
+      "monet-met-437127",
+      "monet-marmottan-4014",
+      "monet-nga-61379",
+      "monet-nga-52189"
+    ],
+    "method": "Reviewed metadata/rights/context/observation/question fields for17 existing image-reviewed records;3 new full images viewed. Curated breadth, not claim of an objective top20.",
+    "qualifiedContentCount": 20,
+    "liveAcceptanceCount": 0,
+    "outstandingCoverage": [
+      "The Magpie",
+      "Poppies (1873 Orsay version)",
+      "Women in the Garden",
+      "Venice",
+      "Orangerie large decorations (count physical panels consistently)"
     ]
+  },
+  "validation": {
+    "syntax": "PASS: node --check final impressionism data module",
+    "dedup": "38 unique Monet IDs;3 new IDs absent from previous inventory",
+    "preservation": "All original35 objects retained;17 note fields enhanced with selection rationale; other modules and migration untouched",
+    "images": "3 new full images actually viewed;17 existing visual-reviewed records reused, not newly viewed",
+    "representativeAudit": "20 curated core works with individual rationale and sources; not an exhaustive ranking",
+    "responsive": "NOT VERIFIED: production still old",
+    "live": "Precommit original site Monet20, not35; dashboard AX timeout"
+  },
+  "deployment": {
+    "status": "production_old_current_event_unverified",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
+    "observedAt": "2026-10-31 00:38:48 UTC",
+    "productionBranch": "main",
+    "publishedCommitShort": "5573f1a",
+    "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
+    "message": "本轮原站莫奈20件旧版；后台AX超时。本次部署事件未确认，历史额度暂停不可当作本次新证据。",
+    "requiredAction": "Current backend read timed out. Account owner can inspect existing project Deploys/Billing; earlier credit exhaustion is historical evidence, not reverified this run. No paid upgrade authorized.",
+    "previousFinalCheck": {
+      "checkedAt": "2026-10-31 03:27:26 UTC",
+      "contentCommit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
+      "repoReadbackWorks": 5,
+      "repoReadbackExact": true,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "observedProductionArtistCount": 9,
+      "observedProductionRecords": 324,
+      "deployEvent": "UNVERIFIED: Netlify overview AX timeout and screenshot timeout",
+      "githubStatus": "pending; statuses=[]; no reported deployment result",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=modern&artist=vincent-van-gogh",
+      "stage": "postcommit"
+    },
+    "latestAttemptAt": "2026-10-31T04:29:59Z"
   }
 }

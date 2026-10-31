@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 03:27:26 UTC",
+  "updatedAt": "2026-10-31T04:29:59Z",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "modern",
-  "next_category": "impressionism",
-  "last_artist": "vincent-van-gogh",
-  "next_artist": "monet",
+  "last_category": "impressionism",
+  "next_category": "renaissance",
+  "last_artist": "monet",
+  "next_artist": "leonardo",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -66,8 +66,33 @@
     "impressionism": {
       "current": "monet",
       "complete": false,
-      "verifiedWorks": 35,
-      "nextBatch": "Continue distinct original paintings toward50; exclude all35 existing canonical IDs"
+      "verifiedWorks": 38,
+      "nextBatch": "Review outstanding key motifs (Magpie,1873 Poppies,Women in Garden,Venice,Orangerie ensemble) and production; if moving to Renoir retain Monet38 canonical records",
+      "qualifiedRepresentativeWorks": 20,
+      "verifiedLiveRepresentativeWorks": 0,
+      "representativeWorkIds": [
+        "monet-artic-14598",
+        "monet-artic-81539",
+        "monet-artic-16571",
+        "monet-artic-14620",
+        "monet-artic-81537",
+        "monet-artic-64818",
+        "monet-artic-14624",
+        "monet-artic-16564",
+        "monet-artic-16568",
+        "monet-met-437133",
+        "monet-met-437135",
+        "monet-met-437124",
+        "monet-met-438008",
+        "monet-met-437131",
+        "monet-met-437121",
+        "monet-met-437128",
+        "monet-met-437127",
+        "monet-marmottan-4014",
+        "monet-nga-61379",
+        "monet-nga-52189"
+      ],
+      "minimumContentAudit": "20 curated records accepted:17 existing image-reviewed entries,3 newly image-reviewed entries; full live acceptance pending"
     },
     "renaissance": {
       "current": "leonardo",
@@ -141,21 +166,24 @@
     "van-gogh-met-436530",
     "van-gogh-met-436533",
     "van-gogh-met-436535",
-    "van-gogh-met-436534"
+    "van-gogh-met-436534",
+    "monet-marmottan-4014",
+    "monet-nga-61379",
+    "monet-nga-52189"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 5
+        "works": 3
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 5
+        "works": 3
       },
       "committed": {
         "artists": 1,
-        "works": 5
+        "works": 3
       },
       "deployment_verified": {
         "artists": 0,
@@ -168,13 +196,13 @@
     },
     "repoCumulative": {
       "artists": 14,
-      "records": 379,
+      "records": 382,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
       "abstract": 60,
       "modern": 61,
-      "impressionism": 35,
+      "impressionism": 38,
       "renaissance": 12,
       "other": 206,
       "chinese-classical": 4,
@@ -188,11 +216,11 @@
     "rotationCumulative": {
       "researched": {
         "artists": 7,
-        "works": 41
+        "works": 44
       },
       "committed": {
         "artists": 7,
-        "works": 41
+        "works": 44
       },
       "deployment_verified": {
         "artists": 0,
@@ -204,26 +232,17 @@
       }
     }
   },
-  "sourceParentCommit": "0e34889e24d0817928d9f0d1c2eba35fb850bd48",
+  "sourceParentCommit": "a5919eebc7fb3b4627873b6adb6cf3d947db4381",
   "deployment": {
-    "status": "production_old_current_deploy_event_unverified",
+    "status": "production_old_current_event_unverified",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
     "observedAt": "2026-10-31 00:38:48 UTC",
     "productionBranch": "main",
     "publishedCommitShort": "5573f1a",
     "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
-    "message": "本轮生产梵高URL仍显示9位艺术家324记录旧首页，无梵高；Netlify overview AX和截图超时。本轮部署事件未确认。此前额度耗尽仅为历史已确认阻塞。",
-    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
+    "message": "本轮原站莫奈20件旧版；后台AX超时。本次部署事件未确认，历史额度暂停不可当作本次新证据。",
+    "requiredAction": "Current backend read timed out. Account owner can inspect existing project Deploys/Billing; earlier credit exhaustion is historical evidence, not reverified this run. No paid upgrade authorized.",
     "previousFinalCheck": {
-      "checkedAt": "2026-10-31 02:27:26 UTC",
-      "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
-      "repoReadbackWorks": 5,
-      "liveArtistCount": 0,
-      "liveNewWorks": 0,
-      "deployEvent": "unverified: dashboard timeouts",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint"
-    },
-    "finalCheck": {
       "checkedAt": "2026-10-31 03:27:26 UTC",
       "contentCommit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
       "repoReadbackWorks": 5,
@@ -237,21 +256,21 @@
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=modern&artist=vincent-van-gogh",
       "stage": "postcommit"
     },
-    "latestAttemptAt": "2026-10-31 03:26:40 UTC"
+    "latestAttemptAt": "2026-10-31T04:29:59Z"
   },
   "validation": {
-    "syntax": "node --check PASS",
-    "dedup": "11 unique Van Gogh physical-painting IDs; 5 new IDs absent from canonical inventory; original six records identical",
-    "images": "5 full museum main-images visually viewed; all5 official pages Public Domain and Met CC0 policy verified",
-    "preservation": "Only modern.js and two research checkpoints changed; index.html, unrelated content and migration branch untouched",
-    "responsive": "NOT VERIFIED for new content: production remains old; no layout code changes",
-    "live": "FAIL after commit and browser reload: original artist URL renders old9-artist324-record homepage; Van Gogh absent"
+    "syntax": "PASS: node --check final impressionism data module",
+    "dedup": "38 unique Monet IDs;3 new IDs absent from previous inventory",
+    "preservation": "All original35 objects retained;17 note fields enhanced with selection rationale; other modules and migration untouched",
+    "images": "3 new full images actually viewed;17 existing visual-reviewed records reused, not newly viewed",
+    "representativeAudit": "20 curated core works with individual rationale and sources; not an exhaustive ranking",
+    "responsive": "NOT VERIFIED: production still old",
+    "live": "Precommit original site Monet20, not35; dashboard AX timeout"
   },
   "nextActions": [
-    "Apply new minimum20 representative works standard; existing35 Monet records need representative/image/text audit, not automatic acceptance. Keep next category03.",
-    "03 Impressionism → Monet: read latest main and exclude all35 existing canonical IDs",
-    "Recheck original production deployment; previous credits limitation needs account-side resolution, current dashboard inaccessible",
-    "Next modern rotation: continue distinct Van Gogh works beyond11"
+    "04 Renaissance → Leonardo: prioritize20-work standard with explicit surviving-painting limits and separate drawings",
+    "Original production: resolve deployment and verify all pending artist pages",
+    "Monet:38 records,20 curated selections; new live acceptance pending; preserve outstanding canonical gaps"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -328,7 +347,13 @@
     "https://www.metmuseum.org/art/collection/search/436533",
     "https://www.metmuseum.org/art/collection/search/436535",
     "https://www.metmuseum.org/art/collection/search/436534",
-    "https://www.metmuseum.org/policies/image-resources"
+    "https://www.metmuseum.org/policies/image-resources",
+    "https://www.marmottan.fr/notice/4014/",
+    "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+    "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son",
+    "https://www.nga.gov/terms-and-notices",
+    "https://www.nga.gov/artworks/52189-artists-garden-vetheuil",
+    "https://www.nga.gov/exhibitions/monets-artists-garden-vetheuil"
   ],
   "history": [
     {
@@ -966,7 +991,10 @@
     "van-gogh-met-436530",
     "van-gogh-met-436533",
     "van-gogh-met-436535",
-    "van-gogh-met-436534"
+    "van-gogh-met-436534",
+    "monet-marmottan-4014",
+    "monet-nga-61379",
+    "monet-nga-52189"
   ],
   "last_content_commit": "1b2eac5a0e974e458a70d5c737c8d8b99683658a",
   "artist_delivery_standard": {
@@ -982,7 +1010,7 @@
       "qualifiedRepresentativeWorks / 20",
       "verifiedLiveRepresentativeWorks / 20"
     ],
-    "auditStatus": "Representative-work acceptance not yet audited; existing verifiedWorks counts must not be relabelled as qualified20 counts.",
+    "auditStatus": "Monet20 curated records audited this run; other artists remain unaudited against new standard. Existing verifiedWorks never automatically count as qualified representative works.",
     "userInstruction": "我要每个艺术家至少20幅最有代表性的作品图片和介绍"
   },
   "requirementsUpdatedOn": "2026-10-31"
