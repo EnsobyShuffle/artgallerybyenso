@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 01:37:06 UTC",
+  "updatedAt": "2026-10-31 02:26:24 UTC",
   "order": [
     {
       "number": "01",
@@ -46,15 +46,16 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "chinese-modern-contemporary",
-  "next_category": "abstract",
-  "last_artist": "lin-fengmian",
-  "next_artist": "hilma-af-klint",
+  "last_category": "abstract",
+  "next_category": "modern",
+  "last_artist": "hilma-af-klint",
+  "next_artist": "vincent-van-gogh",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
-      "nextBatch": "Group IV remaining 2,4,6,8,10; retain completed IDs",
-      "complete": false
+      "complete": false,
+      "verifiedWorks": 10,
+      "nextBatch": "The Ten Largest complete; next research distinct Swan/Dove/Altarpieces, not details or duplicates"
     },
     "modern": {
       "current": "vincent-van-gogh",
@@ -130,21 +131,26 @@
     "gu-kaizhi-tradition-dpm-00146320",
     "gu-kaizhi-tradition-dpm-00147328",
     "gu-kaizhi-tradition-dpm-00147329",
-    "lin-fengmian-hkmoa-autumn-landscape-1977-1978"
+    "lin-fengmian-hkmoa-autumn-landscape-1977-1978",
+    "hilma-af-klint-group-iv-2",
+    "hilma-af-klint-group-iv-4",
+    "hilma-af-klint-group-iv-6",
+    "hilma-af-klint-group-iv-8",
+    "hilma-af-klint-group-iv-10"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 1
+        "works": 5
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 1
+        "works": 5
       },
       "committed": {
         "artists": 1,
-        "works": 1
+        "works": 5
       },
       "deployment_verified": {
         "artists": 0,
@@ -153,18 +159,15 @@
       "live": {
         "artists": 0,
         "works": 0
-      },
-      "additionalCandidateRecords": 4,
-      "embeddedImages": 0,
-      "externalImageLinks": 1
+      }
     },
     "repoCumulative": {
       "artists": 14,
-      "records": 369,
+      "records": 374,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
-      "abstract": 55,
+      "abstract": 60,
       "modern": 56,
       "impressionism": 35,
       "renaissance": 12,
@@ -180,11 +183,11 @@
     "rotationCumulative": {
       "researched": {
         "artists": 7,
-        "works": 31
+        "works": 36
       },
       "committed": {
         "artists": 7,
-        "works": 31
+        "works": 36
       },
       "deployment_verified": {
         "artists": 0,
@@ -196,7 +199,7 @@
       }
     }
   },
-  "sourceParentCommit": "3cc11f022374cf8849171f6cf1569217414a8d82",
+  "sourceParentCommit": "1cb5d0be045b7d56baf5a55068b5e9d6b721d5cd",
   "deployment": {
     "status": "production_not_updated_current_deploy_event_unverified",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
@@ -246,18 +249,17 @@
     "latestAttemptAt": "2026-10-31 01:37:06 UTC"
   },
   "validation": {
-    "syntax": "PASS module/inline scripts",
-    "dedup": "One new canonical gallery ID, four separately named pending candidates; prior368 IDs retained",
-    "images": "Autumn landscape full image visually examined via museum URL; NO image copied or embedded, per museum written-permission requirement",
-    "links": "HKMoA collection, biography, copyright fetched; CAA text accessible but legacy photos broken; NAMOC original fetch502",
-    "preservation": "Existing data/modules and storage behavior retained; migration branch untouched",
-    "responsive": "NOT VERIFIED: new Lin detail/mobile runtime unavailable on old production; syntax and source checks only",
-    "live": "FAIL: original production still 9 artists, Lin absent after content commit"
+    "syntax": "node --check PASS",
+    "dedup": "10 unique Hilma IDs; original five unchanged; other modules untouched",
+    "images": "Five whole-image browser visual checks passed; individual Commons PD-Art statements retained",
+    "metadata": "No2/4/6/8 conflicting dimensions retained; No10 dimensions/accession unverified, not inferred",
+    "responsive": "No layout code changes; current production verification pending",
+    "live": "pending postcommit check"
   },
   "nextActions": [
-    "01 Abstract Art: Hilma af Klint next distinct Group IV works, exclude prior1/3/5/7/9",
-    "Restore production deployment credits without unauthorized purchase; retain Netlify project",
-    "Next Lin visit: resolve four candidate records and image permissions"
+    "02 Modern: Vincent van Gogh next distinct paintings, exclude existing six AIC IDs",
+    "Recheck original Netlify production; no unauthorized paid upgrade",
+    "Next abstract visit: new series beyond ten-largest"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -900,7 +902,12 @@
     "gu-kaizhi-tradition-dpm-00146320",
     "gu-kaizhi-tradition-dpm-00147328",
     "gu-kaizhi-tradition-dpm-00147329",
-    "lin-fengmian-hkmoa-autumn-landscape-1977-1978"
+    "lin-fengmian-hkmoa-autumn-landscape-1977-1978",
+    "hilma-af-klint-group-iv-2",
+    "hilma-af-klint-group-iv-4",
+    "hilma-af-klint-group-iv-6",
+    "hilma-af-klint-group-iv-8",
+    "hilma-af-klint-group-iv-10"
   ],
-  "last_content_commit": "6d2696d138fe14db3ea251418db529ec93def563"
+  "last_content_commit": null
 }
