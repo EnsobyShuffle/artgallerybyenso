@@ -40,18 +40,8 @@
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._5_-_Adulthood_-_1907.jpg",
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg",
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._9_-_1907.jpg",
-    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._2_-_Childhood_-_1907.jpg",
-    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._4_-_Youth_-_1907.jpg",
-    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._6_-_1907.jpg",
-    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._8_-_Adulthood_-_1907.jpg",
-    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_no._10_-_Old_Age_-_1907.jpg",
-    "https://www.guggenheim-bilbao.eus/en/exhibition/the-ten-largest-1907",
     "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
-    "https://www.guggenheim-bilbao.eus/en/exhibition/the-swan-1915",
-    "https://www.guggenheim-bilbao.eus/en/exhibition/altarpieces-and-closing-painting-1915",
     "https://www.glenstone.org/artworks/tree-of-knowledge",
-    "https://www.guggenheim-bilbao.eus/en/exhibition/tree-of-knowledge-1913",
-    "https://www.guggenheim-bilbao.eus/en/exhibition/primordial-chaos-1906-07",
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_1915_-_The_Swan_-_No_1_-_Group_IX-SUW_-_The_SUW-UW_Series.jpg",
     "https://commons.wikimedia.org/wiki/File:Group_IX_SUW,_The_Swan_No._9_by_Hilma_af_Klint_(13939).jpg",
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Group_IX_SUW,_The_Swan_No._10_(13932).jpg",
@@ -63,12 +53,13 @@
     "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1906-07,_Primordial_Chaos_-_No_16.jpg",
     "https://commons.wikimedia.org/wiki/File:Tree_of_Knowledge_No._1,_Hilma_af_Klint,_1913-1915,_Glenstone_2023.jpg",
     "https://www.glenstone.org/press/glenstone-to-open-iconoclasts-charting-breakthroughs-in-art-through-widely-recognized-and-recently-acquired-works-from-the-museum-s-collection",
-    "https://commons.wikimedia.org/wiki/File:Tree_of_Knowledge_No._2,_Hilma_af_Klint,_1913-1915,_Glenstone_2023.jpg"
+    "https://commons.wikimedia.org/wiki/File:Tree_of_Knowledge_No._2,_Hilma_af_Klint,_1913-1915,_Glenstone_2023.jpg",
+    "https://www.modernamuseet.se/en/malmo/exhibitions/hilma-af-klint/in-depth/"
   ],
   "metadataNotes": "旧10件尺寸按NSW目录校核；祭坛1改用馆方1915而非文件名1907；天鹅1保留1914—1915范围；天鹅17宽度两馆差异显式保留；Glenstone同题版本分开ID。",
   "licenseReview": "新增10件完整复制图均已浏览器核看；6项PD-Art、4项CC BY-SA4.0，逐件保留文件页和署名。",
   "nextCategory": "modern",
-  "updatedAt": "2026-10-31 09:39:52 UTC",
+  "updatedAt": "2026-10-31 09:48:12 UTC",
   "currentBatch": [
     {
       "id": "hilma-af-klint-group-ix-suw-1",
@@ -94,7 +85,7 @@
         "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_1915_-_The_Swan_-_No_1_-_Group_IX-SUW_-_The_SUW-UW_Series.jpg"
       ],
       "attribution": "Hilma af Klint；馆方展览目录归属；未列为工作室或追随者作品",
-      "context": "馆方背景：《天鹅》属于《为神殿所作的绘画》，从动物形象逐渐转为几何，再在末幅重返具象。馆方将黑白关系联系到对立与统一的精神性探索；本站不为每个色块指定未经核实的固定寓意。逐件媒材与尺寸据2021年馆方借展清单。",
+      "context": "馆方背景：《天鹅》属于《为神殿所作的绘画》，从动物形象逐渐转为几何，再在末幅重返具象。馆方将黑白关系联系到对立与统一的精神性探索；本站不为每个色块指定未经核实的固定寓意。逐件媒材与尺寸据2021年馆方借展清单。 年代核验：馆方系列生涯资料为1914开始、1915完成；NSW逐件清单未列年份，复制图标1915。保守保留1914—1915范围，待逐件主目录。",
       "observation": "第一眼看两只鸟在黑白分界线上相触的喙。白鸟倒悬于黑底，黑鸟展开在白底；左侧翼尖也在边界相接。羽毛以曲折短笔和灰白层次刻画，蓝色与黄色的小块打破黑白关系。本站观察：身体方向相反，却通过两个接点形成连续的回转路线。",
       "note": "为何重要：这是系列从可辨认动物走向几何形体的起点，保留羽毛、喙与翼的细节，可与第17号比较“对立”如何在没有鸟形后继续成立。 观看提问：只看黑白分界与两个接点，画面显得在分离还是连接？",
       "selectionBasis": "这是系列从可辨认动物走向几何形体的起点，保留羽毛、喙与翼的细节，可与第17号比较“对立”如何在没有鸟形后继续成立。",
@@ -123,7 +114,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Group_IX_SUW%2C_The_Swan_No._9_by_Hilma_af_Klint_%2813939%29.jpg/960px-Group_IX_SUW%2C_The_Swan_No._9_by_Hilma_af_Klint_%2813939%29.jpg",
       "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Group_IX_SUW%2C_The_Swan_No._9_by_Hilma_af_Klint_%2813939%29.jpg",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Group_IX_SUW,_The_Swan_No._9_by_Hilma_af_Klint_(13939).jpg",
-      "rightsSource": "https://commons.wikimedia.org/wiki/File:Group_IX_SUW,_The_Swan_No._9_by_Hilma_af_Klint_(13939).jpg#Licensing",
+      "rightsSource": "https://creativecommons.org/licenses/by-sa/4.0/",
       "rights": "摄影：Rhododendrites（2019），CC BY-SA 4.0；https://creativecommons.org/licenses/by-sa/4.0/ 。原作Hilma af Klint；藏品Hilma af Klint Foundation。本站仅等比显示Commons缩略图，未裁切、调色；再利用照片须署名并遵守相同方式共享条款。",
       "source": "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
       "additionalSources": [
@@ -159,7 +150,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Hilma_af_Klint_-_Group_IX_SUW%2C_The_Swan_No._10_%2813932%29.jpg/960px-Hilma_af_Klint_-_Group_IX_SUW%2C_The_Swan_No._10_%2813932%29.jpg",
       "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hilma_af_Klint_-_Group_IX_SUW%2C_The_Swan_No._10_%2813932%29.jpg",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Group_IX_SUW,_The_Swan_No._10_(13932).jpg",
-      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Group_IX_SUW,_The_Swan_No._10_(13932).jpg#Licensing",
+      "rightsSource": "https://creativecommons.org/licenses/by-sa/4.0/",
       "rights": "摄影：Rhododendrites（2019），CC BY-SA 4.0；https://creativecommons.org/licenses/by-sa/4.0/ 。原作Hilma af Klint；藏品Hilma af Klint Foundation。本站仅等比显示Commons缩略图，未裁切、调色；再利用照片须署名并遵守相同方式共享条款。",
       "source": "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
       "additionalSources": [
@@ -195,7 +186,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Hilma_Af_Klint_-_The_Swan%2C_No._12%2C_Group_IX_SUW%2C_1915_%2813926%29.jpg/960px-Hilma_Af_Klint_-_The_Swan%2C_No._12%2C_Group_IX_SUW%2C_1915_%2813926%29.jpg",
       "originalImage": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Hilma_Af_Klint_-_The_Swan%2C_No._12%2C_Group_IX_SUW%2C_1915_%2813926%29.jpg",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_Af_Klint_-_The_Swan,_No._12,_Group_IX_SUW,_1915_(13926).jpg",
-      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_Af_Klint_-_The_Swan,_No._12,_Group_IX_SUW,_1915_(13926).jpg#Licensing",
+      "rightsSource": "https://creativecommons.org/licenses/by-sa/4.0/",
       "rights": "摄影：Rhododendrites（2019），CC BY-SA 4.0；https://creativecommons.org/licenses/by-sa/4.0/ 。原作Hilma af Klint；藏品Hilma af Klint Foundation。本站仅等比显示Commons缩略图，未裁切、调色；再利用照片须署名并遵守相同方式共享条款。",
       "source": "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
       "additionalSources": [
@@ -240,7 +231,7 @@
         "https://www.kunstsammlung.de/en/press/hilma-af-klint-and-wassily-kandinsky"
       ],
       "attribution": "Hilma af Klint；馆方展览目录归属；未列为工作室或追随者作品",
-      "context": "馆方背景：《天鹅》属于《为神殿所作的绘画》，从动物形象逐渐转为几何，再在末幅重返具象。馆方将黑白关系联系到对立与统一的精神性探索；本站不为每个色块指定未经核实的固定寓意。逐件媒材与尺寸据2021年馆方借展清单。",
+      "context": "馆方背景：《天鹅》属于《为神殿所作的绘画》，从动物形象逐渐转为几何，再在末幅重返具象。馆方将黑白关系联系到对立与统一的精神性探索；本站不为每个色块指定未经核实的固定寓意。逐件媒材与尺寸据2021年馆方借展清单。 尺寸核验：两个馆方目录宽度差1cm；显示NSW值并明确保留NRW异文，不声称消除差异。",
       "observation": "第一眼看橙红底面中央被垂直切开的圆。左侧是白色外环包着黑色半圆，右侧则从蓝、黄缩向粉色半圆；中心分界让这些不同层次紧贴在一起。底色与圆环内都留有刷痕，轮廓不是印刷般均匀。本站观察：它有同心圆的秩序，却没有左右同色、同层数的对称。",
       "note": "为何重要：此幅被2021年新南威尔士回顾展与2024年北莱茵—威斯特法伦州艺术收藏馆双人展选用，是本页从可见天鹅到纯色形关系的关键终点之一。 观看提问：没有标题，你会先看到一个完整圆，还是两套互相抵住的半圆？",
       "selectionBasis": "此幅被2021年新南威尔士回顾展与2024年北莱茵—威斯特法伦州艺术收藏馆双人展选用，是本页从可见天鹅到纯色形关系的关键终点之一。",
@@ -277,7 +268,7 @@
         "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_1907_-_Altarpiece_-_No_1_-_Group_X_-_Altarpieces.jpg"
       ],
       "attribution": "Hilma af Klint；馆方展览目录归属；未列为工作室或追随者作品",
-      "context": "馆方记录：1915年的三幅《祭坛画》处于《为神殿所作的绘画》终段；艺术家后来设想让它们在螺旋形神殿的高处展示。没有证据把本幅称为实际教堂委托。金属箔是原作媒材，屏幕图像无法完整重现反光效果。",
+      "context": "馆方记录：1915年的三幅《祭坛画》处于《为神殿所作的绘画》终段；艺术家后来设想让它们在螺旋形神殿的高处展示。没有证据把本幅称为实际教堂委托。金属箔是原作媒材，屏幕图像无法完整重现反光效果。 年代核验：Commons文件名及摘要误作1907；依据NSW2021借展清单与Kunstsammlung NRW2024图注统一作1915。保留原URL，不沿用错误年份。",
       "observation": "第一眼看黑底上方的金色圆面，再顺着下方三角形的层层横带向上。彩色竖块排在各层里，中央金色椭圆逐渐变小；大圆外围有绿色环带、放射状彩色尖瓣和浅紫边缘。本站观察：三角形制造向远处收束的方向，圆面却平展地迎向观看者；金属色与暗底的反差很强。",
       "note": "为何重要：作为《为神殿所作的绘画》结尾三幅祭坛画之一，它把此前散布的颜色、圆和方向关系凝缩到庄严的竖幅结构；2021及2024年重要展览均将它列入。 观看提问：先从底边向上看，再从金色圆面向下看，哪一种路线更像攀升？",
       "selectionBasis": "作为《为神殿所作的绘画》结尾三幅祭坛画之一，它把此前散布的颜色、圆和方向关系凝缩到庄严的竖幅结构；2021及2024年重要展览均将它列入。",
@@ -306,7 +297,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Hilma_af_Klint_-_Altarpiece_No._2_%2813916%29.jpg/960px-Hilma_af_Klint_-_Altarpiece_No._2_%2813916%29.jpg",
       "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Hilma_af_Klint_-_Altarpiece_No._2_%2813916%29.jpg",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Altarpiece_No._2_(13916).jpg",
-      "rightsSource": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Altarpiece_No._2_(13916).jpg#Licensing",
+      "rightsSource": "https://creativecommons.org/licenses/by-sa/4.0/",
       "rights": "摄影：Rhododendrites（2019），CC BY-SA 4.0；https://creativecommons.org/licenses/by-sa/4.0/ 。原作Hilma af Klint；藏品Hilma af Klint Foundation。本站仅等比显示Commons缩略图，未裁切、调色；再利用照片须署名并遵守相同方式共享条款。",
       "source": "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
       "additionalSources": [
@@ -439,22 +430,32 @@
   ],
   "nextBatch": "20件图文已逐项复核；下次抽象轮次先验正式上线并补《祭坛画3》《鸽子》、晚期水彩的生涯覆盖，再决定推进Kandinsky。不得把图文20直接当作已上线。",
   "validation": {
-    "syntax": "PASS node --check hilma-batch/abstract.js",
+    "syntax": "PASS node --check abstract.js；PASS node --check 提取的index内联脚本（仅更新20最低/50扩展提示）",
     "dedup": "20个Hilma canonical IDs；原10个ID及用户收藏/笔记键保留；仅abstract.js和本艺术家研究/总队列更新。",
     "images": "新增10件完整复制图均已浏览器核看；6项PD-Art、4项CC BY-SA4.0，逐件保留文件页和署名。",
     "metadata": "旧10件尺寸按NSW目录校核；祭坛1改用馆方1915而非文件名1907；天鹅1保留1914—1915范围；天鹅17宽度两馆差异显式保留；Glenstone同题版本分开ID。",
-    "live": "生产发布仍受账期额度暂停；待本轮提交后再核对。",
-    "responsive": "本轮尚未完成手机屏幕实测，不计通过。"
+    "live": "FAIL：bea2720生产Skipped，明确原因account credit usage exceeded；原站刷新仍9位艺术家、无Hilma。",
+    "responsive": "电脑页截图保留原有留白/作品布局；未完成手机实测；不记手机通过。",
+    "preview": "PASS部分：20条列表、搜索、详情来源与CC BY-SA链接；7/10新增缩略图页面加载已确认，其余3幅站内图像检查因浏览器超时未完成，10幅源图均已核看。",
+    "followup": "将画廊通用计数说明同步为20幅最低、50幅扩展；未改变收藏/笔记逻辑。"
   },
-  "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
+  "contentCommit": "bea2720ffdc6fe230173506ed1dce17bf91a4ac6",
   "deployment": {
-    "checkedAt": "2026-10-31 02:27:26 UTC",
-    "contentCommit": "25388d464734358e651305a59bb4f7634281519b",
-    "repoReadbackWorks": 5,
-    "liveArtistCount": 0,
+    "checkedAt": "2026-10-31 09:48:12 UTC",
+    "contentCommit": "bea2720ffdc6fe230173506ed1dce17bf91a4ac6",
+    "repoReadbackExact": true,
+    "repoDisplayRecords": 20,
+    "liveDisplayRecords": 0,
     "liveNewWorks": 0,
-    "deployEvent": "unverified: dashboard timeouts",
-    "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint"
+    "qualifiedRepresentativeWorks": 20,
+    "verifiedLiveRepresentativeWorks": 0,
+    "productionResult": "Skipped due to account credit usage exceeded",
+    "productionDeployId": "6ae5b78427c51a49a4d48954",
+    "previewDeployId": "6ae5b786804528edd96eb836",
+    "previewUrl": "https://6ae5b786804528edd96eb836--artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint",
+    "previewAccess": "Netlify private preview；需已有Netlify权限，不公开替代主站",
+    "artistUrl": "https://artgallerybyenso.netlify.app/?collection=abstract&artist=hilma-af-klint",
+    "previewChecks": "20条列表、直达艺术家页、搜索及祭坛2详情的解读/元数据/许可均可见。5幅天鹅与2幅知识之树缩略图naturalWidth>0；其余3幅源图已看，站内加载检查因浏览器超时未完成。手机未实测。"
   },
   "previousBatch": [
     {

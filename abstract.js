@@ -17,7 +17,7 @@ window.ABSTRACT_GALLERY = {
         "希尔玛·阿芙·克林特（1862—1944）出生于瑞典斯德哥尔摩，接受学院训练，曾以肖像与风景绘画谋生。她既有观察自然的经验，也持续探索不能直接看见的事物。",
         "新南威尔士美术馆指出，她的实验与精神主义、科学探究和自然世界相联系；今天被视为抽象绘画先驱，并不意味着她当时以现代主义流派的方式理解自己的实践。",
         "本页收录20件独立作品：《十大》10幅、《原初混沌》1幅、格伦斯通藏《知识之树》2幅、《天鹅》5幅及《祭坛画》2幅。选择参照馆方回顾展与目录，覆盖1906—1915年《为神殿所作的绘画》的起点、生命阶段、图解式纸本与几何收束；不是其完整生涯全集。",
-        "馆方解释：这套巨幅画属于《为神殿所作的绘画》，把生命阶段与自然、精神探索联系起来。新南威尔士美术馆记载其预想在螺旋形神殿中共同陈列；毕尔巴鄂古根海姆另记载Cornelia Cederberg和Gusten Andersson参与协助。具体画幅分工尚未确定。",
+        "馆方解释：《十大》这套巨幅画属于《为神殿所作的绘画》，把生命阶段与自然、精神探索联系起来。新南威尔士美术馆记载其预想在螺旋形神殿中共同陈列；毕尔巴鄂古根海姆另记载Cornelia Cederberg和Gusten Andersson参与协助。具体画幅分工尚未确定。",
         "1912年重返这一绘画计划之后，她更主动地决定色彩与构图。1914—1915年的《天鹅》让可辨认的鸟逐步转成圆、色带与三角形；1915年的《祭坛画》则位于计划的终段。这里把精神性作为历史语境，不把信仰陈述当作已验证事实。",
         "观看时可以先比较第1号与第17号《天鹅》，再并置两幅《祭坛画》。保留画面真实的手工痕迹，区别几何秩序与机械绘图；晚期水彩、自然观察与其他重要系列仍是后续补充方向。"
       ],
@@ -752,7 +752,8 @@ window.ABSTRACT_GALLERY = {
       "source": "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
       "additionalSources": [
         "https://www.guggenheim-bilbao.eus/en/exhibition/altarpieces-and-closing-painting-1915",
-        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_1907_-_Altarpiece_-_No_1_-_Group_X_-_Altarpieces.jpg"
+        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_1907_-_Altarpiece_-_No_1_-_Group_X_-_Altarpieces.jpg",
+        "https://www.modernamuseet.se/en/malmo/exhibitions/hilma-af-klint/in-depth/"
       ],
       "attribution": "Hilma af Klint；馆方展览目录归属；未列为工作室或追随者作品",
       "context": "馆方记录：1915年的三幅《祭坛画》处于《为神殿所作的绘画》终段；艺术家后来设想让它们在螺旋形神殿的高处展示。没有证据把本幅称为实际教堂委托。金属箔是原作媒材，屏幕图像无法完整重现反光效果。 年代核验：Commons文件名及摘要误作1907；依据NSW2021借展清单与Kunstsammlung NRW2024图注统一作1915。保留原URL，不沿用错误年份。",
@@ -789,7 +790,8 @@ window.ABSTRACT_GALLERY = {
       "source": "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
       "additionalSources": [
         "https://www.guggenheim-bilbao.eus/en/exhibition/altarpieces-and-closing-painting-1915",
-        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Altarpiece_No._2_(13916).jpg"
+        "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Altarpiece_No._2_(13916).jpg",
+        "https://www.modernamuseet.se/en/malmo/exhibitions/hilma-af-klint/in-depth/"
       ],
       "attribution": "Hilma af Klint；馆方展览目录归属；未列为工作室或追随者作品",
       "context": "馆方记录：1915年的三幅《祭坛画》处于《为神殿所作的绘画》终段；艺术家后来设想让它们在螺旋形神殿的高处展示。没有证据把本幅称为实际教堂委托。金属箔是原作媒材，屏幕图像无法完整重现反光效果。",
