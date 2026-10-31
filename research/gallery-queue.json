@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 08:37:37 UTC",
+  "updatedAt": "2026-10-31 09:39:52 UTC",
   "order": [
     {
       "number": "01",
@@ -46,22 +46,47 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "chinese-modern-contemporary",
-  "next_category": "abstract",
-  "last_artist": "lin-fengmian",
-  "next_artist": "hilma-af-klint",
+  "last_category": "abstract",
+  "next_category": "modern",
+  "last_artist": "hilma-af-klint",
+  "next_artist": "vincent-van-gogh",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
       "complete": false,
-      "verifiedWorks": 10,
-      "nextBatch": "The Ten Largest complete; next research distinct Swan/Dove/Altarpieces, not details or duplicates"
+      "verifiedWorks": 20,
+      "nextBatch": "20件图文已逐项复核；下次抽象轮次先验正式上线并补《祭坛画3》《鸽子》、晚期水彩的生涯覆盖，再决定推进Kandinsky。不得把图文20直接当作已上线。",
+      "qualifiedRepresentativeWorks": 20,
+      "verifiedLiveRepresentativeWorks": 0,
+      "representativeWorkIds": [
+        "hilma-af-klint-group-iv-1",
+        "hilma-af-klint-group-iv-2",
+        "hilma-af-klint-group-iv-3",
+        "hilma-af-klint-group-iv-4",
+        "hilma-af-klint-group-iv-5",
+        "hilma-af-klint-group-iv-6",
+        "hilma-af-klint-group-iv-7",
+        "hilma-af-klint-group-iv-8",
+        "hilma-af-klint-group-iv-9",
+        "hilma-af-klint-group-iv-10",
+        "hilma-af-klint-group-ix-suw-1",
+        "hilma-af-klint-group-ix-suw-9",
+        "hilma-af-klint-group-ix-suw-10",
+        "hilma-af-klint-group-ix-suw-12",
+        "hilma-af-klint-group-ix-suw-17",
+        "hilma-af-klint-group-x-1",
+        "hilma-af-klint-group-x-2",
+        "hilma-af-klint-group-i-16",
+        "hilma-af-klint-glenstone-tree-of-knowledge-1",
+        "hilma-af-klint-glenstone-tree-of-knowledge-2"
+      ],
+      "minimumContentAudit": "10既有《十大》图像核看记录与原创解读复审，补正馆方尺寸；新增10件逐幅看图及原创解读，均有可展示复制图许可。20件代表1906—1915核心实验，晚期生涯覆盖仍待扩展。"
     },
     "modern": {
       "current": "vincent-van-gogh",
       "complete": false,
       "verifiedWorks": 11,
-      "nextBatch": "Next modern visit: select distinct originals excluding six AIC and five Met IDs; target approximately50 cumulatively."
+      "nextBatch": "优先审查现有11件代表性，补齐至少20件；关键缺作优先，不以图片易得或固定5件为上限。"
     },
     "impressionism": {
       "current": "monet",
@@ -202,21 +227,31 @@
     "caravaggio-met-435844",
     "caravaggio-met-437986",
     "caravaggio-kimbell-ap-1987-06",
-    "gu-kaizhi-tradition-fsg-f1914-53"
+    "gu-kaizhi-tradition-fsg-f1914-53",
+    "hilma-af-klint-group-ix-suw-1",
+    "hilma-af-klint-group-ix-suw-9",
+    "hilma-af-klint-group-ix-suw-10",
+    "hilma-af-klint-group-ix-suw-12",
+    "hilma-af-klint-group-ix-suw-17",
+    "hilma-af-klint-group-x-1",
+    "hilma-af-klint-group-x-2",
+    "hilma-af-klint-group-i-16",
+    "hilma-af-klint-glenstone-tree-of-knowledge-1",
+    "hilma-af-klint-glenstone-tree-of-knowledge-2"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 8
+        "works": 10
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 8
+        "works": 10
       },
       "committed": {
         "artists": 1,
-        "works": 8
+        "works": 10
       },
       "deployment_verified": {
         "artists": 0,
@@ -226,17 +261,18 @@
         "artists": 0,
         "works": 0
       },
-      "newGalleryRecords": 1,
-      "newCandidateRecords": 7,
-      "newQualifiedRepresentativeWorks": 0
+      "newGalleryRecords": 10,
+      "existingRecordsAudited": 10,
+      "newQualifiedRepresentativeWorks": 10,
+      "newlyAuditedExistingRepresentativeWorks": 10
     },
     "repoCumulative": {
       "artists": 14,
-      "records": 390,
+      "records": 400,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
-      "abstract": 60,
+      "abstract": 70,
       "modern": 61,
       "impressionism": 38,
       "renaissance": 14,
@@ -252,11 +288,11 @@
     "rotationCumulative": {
       "researched": {
         "artists": 7,
-        "works": 52
+        "works": 62
       },
       "committed": {
         "artists": 7,
-        "works": 52
+        "works": 62
       },
       "deployment_verified": {
         "artists": 0,
@@ -266,33 +302,18 @@
         "artists": 0,
         "works": 0
       },
-      "countingNote": "累计计画廊研究记录，不含仅在pending候选；本轮8条研究含1条画廊外链解读+7候选。"
+      "countingNote": "累计只计画廊新增记录；本轮新增10件，旧10件元数据与代表性复核不重复计新增。"
     }
   },
-  "sourceParentCommit": "cc7532bff37c60d126a5c18e8c99d9e98b5d5c53",
+  "sourceParentCommit": "a2aa974d53d3cd5a6b35e15f7d9436b4b4f9eb00",
   "deployment": {
-    "status": "production_skipped_credit_exhausted",
-    "observedAt": "2026-10-31 08:31:39 UTC",
+    "status": "production_paused_credit_exhausted",
+    "observedAt": "2026-10-31 09:39:52 UTC",
     "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys",
-    "message": "本轮重新打开后台确认：原仓库main自动发布开启，Published5573f1a；生产发布因账期credits耗尽暂停，Trigger deploy禁用。上轮4afea4b生产Skipped，预览成功不代表上线。",
+    "message": "本轮刷新Netlify后台：原仓库main连接正确、Auto publishing on，Published仍5573f1a。团队本账期可用于生产部署的credits耗尽；Trigger deploy禁用，最新a2aa974生产Skipped。不是资源缓存或分支错误。",
     "publishAttempt": "本轮未尝试绕过额度暂停或购买额度；提交main后核对实际生产状态。",
     "requiredAction": "需账户所有者恢复可用于生产部署的额度，或等待下一账期。未购买升级、未改发布分支。",
     "previousFinalCheck": {
-      "checkedAt": "2026-10-31 06:31:06 UTC",
-      "contentCommit": "f01a60f050aa65bd6e9e48e491bb16eae7871e73",
-      "repoReadbackExact": true,
-      "repoDisplayRecords": 8,
-      "liveDisplayRecords": 0,
-      "liveNewWorks": 0,
-      "qualifiedRepresentativeWorks": 8,
-      "verifiedLiveRepresentativeWorks": 0,
-      "productionResult": "Skipped due to account credit usage exceeded",
-      "previewDeployId": "6ae58ae5f8e47fb27c5ddca4",
-      "productionDeployId": "6ae58ae334305362749707ec",
-      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=other&artist=caravaggio"
-    },
-    "publishedCommit": "5573f1a3c4471dca0d03f2ac71da86b244a66330",
-    "finalCheck": {
       "checkedAt": "2026-10-31 08:37:37 UTC",
       "contentCommit": "e0c7f818a740c1ce1b52da764c4609ad1ee36712",
       "repoReadbackExact": true,
@@ -306,21 +327,21 @@
       "previewDeployId": "6ae5a815fa9855d756542297",
       "previewChecks": "林风眠页2外链记录；搜索泊舟只出现1条；详情元数据、原创观察、来源和许可可见；未验证移动端",
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-modern-contemporary&artist=lin-fengmian"
-    }
+    },
+    "publishedCommit": "5573f1a3c4471dca0d03f2ac71da86b244a66330"
   },
   "validation": {
-    "syntax": "PASS node --check lin-batch/chinese-modern-review.js",
-    "dedup": "原林风眠记录完整保留；新增1998-134一条；6件故宫以馆藏号区分，含两件同名仕女；候选不混入展示计数。",
-    "images": "普林斯顿完整带框复制图已实际核看；Restricted故不嵌入。故宫月夜花鸟空白及开放图档查无资料；泰康图像超时，未编视觉解读。",
-    "live": "FAIL：提交e0c7f81后生产部署Skipped due to account credit usage exceeded；原站刷新仍9艺术家，无林风眠。",
-    "responsive": "未完成手机布局验证；原站新页面未上线。",
-    "preview": "PASS：当前预览显示2外链记录、搜索与详情；作品原图在馆方可加载。预览不计上线。",
-    "followup": "发现新作品group未出现在既有固定主题筛选项；本轮改用既有主题“海岸与水”，不修改公共交互代码。"
+    "syntax": "PASS node --check hilma-batch/abstract.js",
+    "dedup": "20个Hilma canonical IDs；原10个ID及用户收藏/笔记键保留；仅abstract.js和本艺术家研究/总队列更新。",
+    "images": "新增10件完整复制图均已浏览器核看；6项PD-Art、4项CC BY-SA4.0，逐件保留文件页和署名。",
+    "metadata": "旧10件尺寸按NSW目录校核；祭坛1改用馆方1915而非文件名1907；天鹅1保留1914—1915范围；天鹅17宽度两馆差异显式保留；Glenstone同题版本分开ID。",
+    "live": "生产发布仍受账期额度暂停；待本轮提交后再核对。",
+    "responsive": "本轮尚未完成手机屏幕实测，不计通过。"
   },
   "nextActions": [
-    "01抽象→Hilma af Klint；优先补足当前10件至20件并审查代表性",
-    "林风眠下轮优先红颜将军等关键候选图像；不得把外链/候选计入20",
-    "生产部署额度由账户所有者恢复或等待账期；保持main原渠道，不触碰migration分支"
+    "02现代→Vincent van Gogh：核查现有11件并补20最低目标的关键缺作",
+    "Hilma：正式上线验收仍0；继续补祭坛3、鸽子、晚期水彩以完善生涯覆盖",
+    "生产发布需账户恢复额度或等待账期；不得采购升级、改域名或触碰migration分支"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -431,7 +452,25 @@
     "https://digitalarchive.npm.gov.tw/Collection/Detail/35404?dep=P",
     "https://taikangartmuseum.com/zh/tai-kang-collection/landscape/",
     "https://www.npm.gov.tw/NewChineseArtDownload.ashx?bid=4199",
-    "https://theme.npm.edu.tw/exh109/She/ch/page-4.html"
+    "https://theme.npm.edu.tw/exh109/She/ch/page-4.html",
+    "https://media.artgallery.nsw.gov.au/downloads/files/PCOL_Hilma_af_Klint_The_Secret_Paintings_2021_03_16.pdf",
+    "https://www.guggenheim-bilbao.eus/en/exhibition/the-swan-1915",
+    "https://www.guggenheim-bilbao.eus/en/exhibition/altarpieces-and-closing-painting-1915",
+    "https://www.glenstone.org/artworks/tree-of-knowledge",
+    "https://www.guggenheim-bilbao.eus/en/exhibition/tree-of-knowledge-1913",
+    "https://www.guggenheim-bilbao.eus/en/exhibition/primordial-chaos-1906-07",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_1915_-_The_Swan_-_No_1_-_Group_IX-SUW_-_The_SUW-UW_Series.jpg",
+    "https://commons.wikimedia.org/wiki/File:Group_IX_SUW,_The_Swan_No._9_by_Hilma_af_Klint_(13939).jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Group_IX_SUW,_The_Swan_No._10_(13932).jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_Af_Klint_-_The_Swan,_No._12,_Group_IX_SUW,_1915_(13926).jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg",
+    "https://www.kunstsammlung.de/en/press/hilma-af-klint-and-wassily-kandinsky",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_1907_-_Altarpiece_-_No_1_-_Group_X_-_Altarpieces.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_Altarpiece_No._2_(13916).jpg",
+    "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1906-07,_Primordial_Chaos_-_No_16.jpg",
+    "https://commons.wikimedia.org/wiki/File:Tree_of_Knowledge_No._1,_Hilma_af_Klint,_1913-1915,_Glenstone_2023.jpg",
+    "https://www.glenstone.org/press/glenstone-to-open-iconoclasts-charting-breakthroughs-in-art-through-widely-recognized-and-recently-acquired-works-from-the-museum-s-collection",
+    "https://commons.wikimedia.org/wiki/File:Tree_of_Knowledge_No._2,_Hilma_af_Klint,_1913-1915,_Glenstone_2023.jpg"
   ],
   "history": [
     {
@@ -876,6 +915,52 @@
         "lin-fengmian-taikang-landscape-1940s"
       ],
       "caveat": "1条实际看图原创解读仍仅外链；7馆藏候选无已获取合格图像。0/20，不满足最低交付，保留缺口。"
+    },
+    {
+      "category": "abstract",
+      "artist": "hilma-af-klint",
+      "completedAt": "2026-10-31 09:39:52 UTC",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 10
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 10
+        },
+        "committed": {
+          "artists": 1,
+          "works": 10
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        },
+        "newGalleryRecords": 10,
+        "existingRecordsAudited": 10,
+        "newQualifiedRepresentativeWorks": 10,
+        "newlyAuditedExistingRepresentativeWorks": 10
+      },
+      "qualifiedRepresentativeWorks": 20,
+      "verifiedLiveRepresentativeWorks": 0,
+      "newCanonicalIds": [
+        "hilma-af-klint-group-ix-suw-1",
+        "hilma-af-klint-group-ix-suw-9",
+        "hilma-af-klint-group-ix-suw-10",
+        "hilma-af-klint-group-ix-suw-12",
+        "hilma-af-klint-group-ix-suw-17",
+        "hilma-af-klint-group-x-1",
+        "hilma-af-klint-group-x-2",
+        "hilma-af-klint-group-i-16",
+        "hilma-af-klint-glenstone-tree-of-knowledge-1",
+        "hilma-af-klint-glenstone-tree-of-knowledge-2"
+      ],
+      "caveat": "20图文不等于生产上线；晚期生涯与祭坛3等关键缺作待扩展。"
     }
   ],
   "canonical_work_ids": [
@@ -1268,7 +1353,17 @@
     "caravaggio-kimbell-ap-1987-06",
     "gu-kaizhi-tradition-fsg-f1914-53",
     "gu-kaizhi-tradition-bm-1930-1015-0-2",
-    "lin-fengmian-princeton-1998-134"
+    "lin-fengmian-princeton-1998-134",
+    "hilma-af-klint-group-ix-suw-1",
+    "hilma-af-klint-group-ix-suw-9",
+    "hilma-af-klint-group-ix-suw-10",
+    "hilma-af-klint-group-ix-suw-12",
+    "hilma-af-klint-group-ix-suw-17",
+    "hilma-af-klint-group-x-1",
+    "hilma-af-klint-group-x-2",
+    "hilma-af-klint-group-i-16",
+    "hilma-af-klint-glenstone-tree-of-knowledge-1",
+    "hilma-af-klint-glenstone-tree-of-knowledge-2"
   ],
   "last_content_commit": "e0c7f818a740c1ce1b52da764c4609ad1ee36712",
   "artist_delivery_standard": {
@@ -1284,7 +1379,7 @@
       "qualifiedRepresentativeWorks / 20",
       "verifiedLiveRepresentativeWorks / 20"
     ],
-    "auditStatus": "Monet20; Leonardo2; Caravaggio8 representative records accepted so far. Other historic counts not automatically accepted; no artist promoted solely on record count. Gu Kaizhi: no authenticated autograph; new Freer copy is a separately counted tradition-study unit; BM detail record excluded from minimum20.",
+    "auditStatus": "Hilma20（核心实验1906—1915；生涯覆盖待补、上线未过）；Monet20；Leonardo2；Caravaggio8。其他旧条目须逐项审查，不按历史记录数自动验收；顾恺之亲笔目标有存世规模例外。",
     "userInstruction": "我要每个艺术家至少20幅最有代表性的作品图片和介绍"
   },
   "requirementsUpdatedOn": "2026-10-31"
