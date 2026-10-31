@@ -1,0 +1,92 @@
+{
+  "project": "Art Gallery by Enso",
+  "artist": "caravaggio",
+  "category": "other",
+  "subcategory": "Baroque",
+  "updatedAt": "2026-10-30 23:29:51 UTC",
+  "verifiedWorks": 5,
+  "displayReady": 5,
+  "publishedVerified": 0,
+  "workIds": [
+    "caravaggio-uffizi-5312",
+    "caravaggio-uffizi-4659",
+    "caravaggio-ng172",
+    "caravaggio-ng6504",
+    "caravaggio-ng6389"
+  ],
+  "countingRule": "Distinct physical paintings, no details/copies counted as originals; London versions explicitly identified",
+  "sources": [
+    {
+      "id": "caravaggio-uffizi-5312",
+      "source": "https://www.uffizi.it/en/artworks/caravaggio-bacchus",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Bacchus-Caravaggio_(1598).jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Bacchus-Caravaggio_(1598).jpg"
+    },
+    {
+      "id": "caravaggio-uffizi-4659",
+      "source": "https://www.uffizi.it/en/artworks/sacrifice-of-isaac",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Michelangelo_Merisi_da_Caravaggio_-_The_Sacrifice_of_Isaac_-_WGA04137.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Michelangelo_Merisi_da_Caravaggio_-_The_Sacrifice_of_Isaac_-_WGA04137.jpg"
+    },
+    {
+      "id": "caravaggio-ng172",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Supper_at_Emmaus-Caravaggio_(1601).jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Supper_at_Emmaus-Caravaggio_(1601).jpg"
+    },
+    {
+      "id": "caravaggio-ng6504",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Michelangelo_Merisi_da_Caravaggio_-_Boy_Bitten_by_a_Lizard_-_WGA04076.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:Michelangelo_Merisi_da_Caravaggio_-_Boy_Bitten_by_a_Lizard_-_WGA04076.jpg"
+    },
+    {
+      "id": "caravaggio-ng6389",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-salome-receives-the-head-of-john-the-baptist",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:CaravaggioSalomeLondon.jpg",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:CaravaggioSalomeLondon.jpg"
+    }
+  ],
+  "next": "Next queue category06 gu-kaizhi; next Other Art batch extend Caravaggio originals",
+  "validation": {
+    "syntax": "other.js node --check passed; index.html exactly2 loader edits, all other bytes preserved",
+    "dedup": "364 globally distinct IDs including5 new Caravaggio records",
+    "images": "All5 published image URLs loaded and viewed in browser; museum accession and PD-Art file statements matched",
+    "links": "5 official artwork pages, artist biography and5 Commons file pages retrieved",
+    "preservation": "Existing artist modules, embedded gallery data, favorites and notes code unchanged; migration branch untouched",
+    "responsive": "CSS and UI controls unchanged; new artist mobile/detail acceptance pending deployment",
+    "live": "Opened original Netlify Caravaggio URL; old9artist homepage, newartist0/newworks0"
+  },
+  "deployment": {
+    "status": "blocked_operational_credits_only",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/overview",
+    "observedAt": "2026-10-30 23:29:51 UTC",
+    "productionBranch": "main",
+    "publishedCommitShort": "5573f1a",
+    "publishedDeployId": "6ae4e180f0cd42b5cd95a490",
+    "message": "本轮已实见生产main@6220805：Skipped due to account credit usage exceeded；生产部署额度暂停。原站卡拉瓦乔入口仍旧版9艺术家首页，新艺术家和作品均未上线。",
+    "requiredAction": "账号所有者恢复可用于生产部署的额度，或等待下一计费周期；本任务没有付费采购授权，未升级、未绕过限制。",
+    "previousFinalCheck": {
+      "checkedAt": "2026-10-30 22:36:54 UTC",
+      "contentCommit": "7087572ef48f016934728d0086d9d5bf01508e7b",
+      "repoReadback": 12,
+      "liveLeonardoCount": 3,
+      "liveNewWorks": 0,
+      "deployEvent": "Skipped",
+      "deployId": "6ae51bd0de181527be0bd481",
+      "deployUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae51bd0de181527be0bd481",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo"
+    },
+    "finalCheck": {
+      "checkedAt": "2026-10-30 23:29:51 UTC",
+      "contentCommit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06",
+      "repoReadbackWorks": 5,
+      "liveArtistCount": 0,
+      "liveNewWorks": 0,
+      "deployEvent": "Skipped due to account credit usage exceeded",
+      "deployId": "6ae528433595a52052e12354",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=other&artist=caravaggio"
+    }
+  },
+  "contentCommit": "62208053bd1a7bab47fdbdbba53f4541e0f2ec06"
+}
