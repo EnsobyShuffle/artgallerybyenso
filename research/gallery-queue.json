@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 06:31:06 UTC",
+  "updatedAt": "2026-10-31 07:25:18 UTC",
   "order": [
     {
       "number": "01",
@@ -46,10 +46,10 @@
       "english": "Chinese Modern & Contemporary Art"
     }
   ],
-  "last_category": "other",
-  "next_category": "chinese-classical",
-  "last_artist": "caravaggio",
-  "next_artist": "gu-kaizhi",
+  "last_category": "chinese-classical",
+  "next_category": "chinese-modern-contemporary",
+  "last_artist": "gu-kaizhi",
+  "next_artist": "lin-fengmian",
   "artist_cursors": {
     "abstract": {
       "current": "hilma-af-klint",
@@ -129,10 +129,15 @@
     "chinese-classical": {
       "current": "gu-kaizhi",
       "complete": false,
-      "verifiedWorks": 4,
+      "verifiedWorks": 6,
       "confirmedAutographs": 0,
       "countingUnit": "independent surviving copies; never claimed autograph Gu Kaizhi paintings",
-      "nextBatch": "Resolve Liaoning Luoshen and BM 1930,1015,0.2 as separate copies; inspect high-resolution details; do not duplicate four canonical objects. No artificial50-autograph target."
+      "nextBatch": "辽宁本完整图像与馆藏元数据优先；复核原4件代表性及局部精读；伦敦1930,1015,0.2补全卷图并追踪断代，弗利尔F1914.53不得重复。",
+      "qualifiedRepresentativeWorks": 0,
+      "qualifiedTraditionStudyWorks": 1,
+      "verifiedLiveRepresentativeWorks": 0,
+      "minimumContentAudit": "顾恺之亲笔0/20；本轮弗利尔宋摹本作为独立传摹研究单元合格1件，不改称顾恺之作品。旧4件新标准复核尚未完成；伦敦新增本只有局部不计达标。",
+      "corpusException": "目前无已确认亲笔；20幅亲笔目标不可用后世摹本填充。继续保存真实传摹档案，不拆长卷。"
     },
     "chinese-modern-contemporary": {
       "current": "lin-fengmian",
@@ -193,21 +198,22 @@
     "leonardo-bstgs-7779",
     "caravaggio-met-435844",
     "caravaggio-met-437986",
-    "caravaggio-kimbell-ap-1987-06"
+    "caravaggio-kimbell-ap-1987-06",
+    "gu-kaizhi-tradition-fsg-f1914-53"
   ],
   "counts": {
     "thisRun": {
       "researched": {
         "artists": 1,
-        "works": 3
+        "works": 2
       },
       "saved_to_repo": {
         "artists": 1,
-        "works": 3
+        "works": 2
       },
       "committed": {
         "artists": 1,
-        "works": 3
+        "works": 2
       },
       "deployment_verified": {
         "artists": 0,
@@ -216,11 +222,13 @@
       "live": {
         "artists": 0,
         "works": 0
-      }
+      },
+      "newCompleteTraditionStudyWorks": 1,
+      "newDetailOnlyRecords": 1
     },
     "repoCumulative": {
       "artists": 14,
-      "records": 387,
+      "records": 389,
       "warning": "包括旧版1条身份待核图像线索；记录数不等于全部完成核验的独立原作数"
     },
     "byCategoryRecords": {
@@ -229,7 +237,7 @@
       "impressionism": 38,
       "renaissance": 14,
       "other": 209,
-      "chinese-classical": 4,
+      "chinese-classical": 6,
       "chinese-modern-contemporary": 1
     },
     "liveObserved": {
@@ -240,11 +248,11 @@
     "rotationCumulative": {
       "researched": {
         "artists": 7,
-        "works": 49
+        "works": 51
       },
       "committed": {
         "artists": 7,
-        "works": 49
+        "works": 51
       },
       "deployment_verified": {
         "artists": 0,
@@ -256,7 +264,7 @@
       }
     }
   },
-  "sourceParentCommit": "974087feb90caad14f067dab2e1db7446789fb5f",
+  "sourceParentCommit": "fc9f72bd2354f718ec227273d99d77a22a550484",
   "deployment": {
     "status": "production_paused_operational_credits_only",
     "observedAt": "2026-10-31 06:31:06 UTC",
@@ -296,16 +304,16 @@
     }
   },
   "validation": {
-    "syntax": "PASS node --check other-review.js",
-    "dedup": "8 unique Caravaggio canonical IDs; all previous5 preserved; new IDs absent from pre-run global384 IDs",
-    "images": "3 new complete image URLs actually rendered and screenshot-inspected;2 CC0 Met files,1 specified Commons PD-Art file. Existing5 previous visual evidence retained.",
-    "live": "Postcommit original URL still old9-artist homepage; no Caravaggio artist/detail present. Production deploy for f01a60f explicitly skipped due to exhausted credits.",
-    "responsive": "Production unavailable for new artist; mobile/detail acceptance not passed"
+    "syntax": "PASS node --check chinese-classical-review.js",
+    "dedup": "389 unique repository record IDs; original4 Chinese classical records preserved;2 distinct museum objects added, no detail counted separately",
+    "images": "Both displayed in browser and screenshot viewed; Freer full surviving scroll incl colophons, BM detail-only explicitly labelled",
+    "live": "Original artist URL resolves to old9-artist homepage; Gu Kaizhi not present",
+    "responsive": "New artist detail/mobile production acceptance pending deployment"
   },
   "nextActions": [
-    "06 Chinese Classical Art → Gu Kaizhi; enforce20 illustrated representative works with copy/autograph distinctions",
-    "Caravaggio next cycle: prioritize12 missing works and large church commissions, do not advance to Rembrandt yet",
-    "Account owner restore production-deploy credits or wait for next billing cycle; keep original site and main publishing"
+    "07 Chinese Modern & Contemporary → Lin Fengmian; image-rights gap first",
+    "Gu Kaizhi next cycle: Liaoning full scroll, prior4 audits, BM date and whole-image gap",
+    "Production credits blocker: preserve Netlify main source; no purchase or migration branch change"
   ],
   "researchSources": [
     "https://www.artgallery.nsw.gov.au/artboards/hilma/the-ten-largest/",
@@ -399,7 +407,12 @@
     "https://commons.wikimedia.org/wiki/File:The_Denial_of_Saint_Peter_MET_DT4190.jpg",
     "https://kimbellart.org/collection/ap-198706",
     "https://commons.wikimedia.org/wiki/File:Caravaggio_-_The_Cardsharps_(1596-97)_Kimbell_Art_Museum.jpg",
-    "https://artsandculture.google.com/asset/the-cardsharps-0098/nAFtN9HI0FxbaQ"
+    "https://artsandculture.google.com/asset/the-cardsharps-0098/nAFtN9HI0FxbaQ",
+    "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1914.53/",
+    "https://commons.wikimedia.org/wiki/File:洛神赋图.传顾恺之画.弗利尔美术馆藏.jpg",
+    "https://www.britishmuseum.org/collection/object/A_1930-1015-0-2",
+    "https://commons.wikimedia.org/wiki/File:The_Nymph_of_the_Luo_River,_a_handscroll_painting.jpg",
+    "https://artsandculture.google.com/asset/the-nymph-of-the-luo-river-a-handscroll-painting/VwHWory0b0GLpA?hl=en"
   ],
   "history": [
     {
@@ -1149,7 +1162,9 @@
     "leonardo-bstgs-7779",
     "caravaggio-met-435844",
     "caravaggio-met-437986",
-    "caravaggio-kimbell-ap-1987-06"
+    "caravaggio-kimbell-ap-1987-06",
+    "gu-kaizhi-tradition-fsg-f1914-53",
+    "gu-kaizhi-tradition-bm-1930-1015-0-2"
   ],
   "last_content_commit": "f01a60f050aa65bd6e9e48e491bb16eae7871e73",
   "artist_delivery_standard": {
@@ -1165,7 +1180,7 @@
       "qualifiedRepresentativeWorks / 20",
       "verifiedLiveRepresentativeWorks / 20"
     ],
-    "auditStatus": "Monet20; Leonardo2; Caravaggio8 representative records accepted so far. Other historic counts not automatically accepted; no artist promoted solely on record count.",
+    "auditStatus": "Monet20; Leonardo2; Caravaggio8 representative records accepted so far. Other historic counts not automatically accepted; no artist promoted solely on record count. Gu Kaizhi: no authenticated autograph; new Freer copy is a separately counted tradition-study unit; BM detail record excluded from minimum20.",
     "userInstruction": "我要每个艺术家至少20幅最有代表性的作品图片和介绍"
   },
   "requirementsUpdatedOn": "2026-10-31"

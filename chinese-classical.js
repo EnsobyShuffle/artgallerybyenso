@@ -1,4 +1,4 @@
-/* Art Gallery by Enso — Gu Kaizhi tradition; four later physical copies, no autograph claim. */
+/* Art Gallery by Enso — later copies, not authenticated Gu Kaizhi autographs. */
 window.CHINESE_CLASSICAL_GALLERY = {
   "artists": {
     "gu-kaizhi": {
@@ -18,7 +18,7 @@ window.CHINESE_CLASSICAL_GALLERY = {
       "bio": [
         "顾恺之字长康，出身晋陵无锡，活跃于东晋。他的生年记载有差异：大英博物馆人物条目采用345—406，相关资料亦用约344年出生；故宫介绍较谨慎地称公元四世纪画家。本站以约数保留差异。",
         "他以人物画与画论著称，南京的晋代宫廷是其活动语境之一。故宫介绍记录他义熙初任散骑常侍，并强调其关于形象与精神关系的论述。具体传世摹本的委托人，不能从他的官职或宫廷关系倒推。",
-        "理解顾恺之，需要把艺术史影响与现存作品的作者身份分开。本站目前没有确认其亲笔真迹；本页四件分别是后世传摹或传统归属的独立藏品。其中《列女仁智图》的原本时代也有学术争议。50件亲笔画不适合作为此人的硬性收录目标。",
+        "理解顾恺之，需要把艺术史影响与现存作品的作者身份分开。目前收录6件相关传摹藏品，其中伦敦《洛神赋图》只展示局部且断代有争议；没有确认的顾恺之亲笔。20幅最低标准不能通过拆分长卷、复制局部或把后世摹本写成真迹达到。弗利尔残卷补入重要宋摹本比较，辽宁版本仍待完整图像及元数据核验。",
         "观看时先识别画心、引首、题跋、印章，再沿手卷从右向左展开。图像可讨论叙事和线条，但不能把宋人的笔迹直接当作东晋画家的作画动作；训诫题材应放在当时政治与性别秩序中理解。"
       ],
       "timeline": [
@@ -62,7 +62,7 @@ window.CHINESE_CLASSICAL_GALLERY = {
           "研究边界"
         ]
       ],
-      "indexNote": "累计4件独立藏品，均为传摹／传统归属版本，确认亲笔数0。局部、题跋、同卷故事不另计；只对实际可见的全卷组织作本站观察。",
+      "indexNote": "累计6件相关传摹藏品，确认顾恺之亲笔0件。完整图文代表作新标准仍未全部复核；本轮弗利尔本完成传摹研究单元，伦敦本仅局部展示，不计20幅达标数。题跋、局部、同卷故事不另计作品。",
       "indexSource": "https://www.britishmuseum.org/collection/object/A_1903-0408-0-1",
       "resources": [
         [
@@ -238,6 +238,94 @@ window.CHINESE_CLASSICAL_GALLERY = {
         "scope": "全卷缩览；局部笔触、人物表情待精读",
         "countingUnit": "one physical museum object; scenes and details not separate works"
       }
+    },
+    {
+      "artist": "gu-kaizhi",
+      "group": "人与风景",
+      "category": "chinese-classical",
+      "subcategory": "人物叙事／顾恺之相关传摹版本",
+      "titleTranslation": "中文传统题名；英文版本说明为本站补充",
+      "verifiedOn": "2026-10-31",
+      "hasVisualNotes": true,
+      "status": "researched-ready-deployment-pending",
+      "id": "gu-kaizhi-tradition-fsg-f1914-53",
+      "zh": "洛神图（弗利尔南宋摹本，残卷）",
+      "title": "Nymph of the Luo River — Freer F1914.53",
+      "year": "约1150—1250（南宋）",
+      "dimensions": "画心24.2 × 310.9厘米",
+      "accession": "F1914.53",
+      "material": "绢本水墨设色；残卷",
+      "provider": "史密森学会国立亚洲艺术博物馆，弗利尔藏品，华盛顿",
+      "attribution": "南宋佚名；原构图传统联系顾恺之，不是东晋亲笔。后附董其昌题跋与画心分开。",
+      "source": "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1914.53/",
+      "context": "馆方资料：题材来自曹植于222年写作的《洛神赋》，讲述诗中人与洛水女神的相遇与分离，不是历史事件实录。此件现存不足原长的一半，馆方将它与北京、辽宁所藏版本并列为重要宋摹本。1914年弗利尔从福开森处购得；这一近代收藏史不能反推宋代委托人，原委托尚未确认。",
+      "observation": "第一眼看画心中醒目的楼船，再把视线移向相隔较远的人物群。本站实际核看全卷缩览：浅褐底上树石、人群和大片空处交替，船上斜出的构件形成清楚轮廓；浅淡设色没有把背景填满。左端密集书法属于后附题跋，不能读成画内景物。当前缩览不支持人物表情或微细笔触判断，这部分仍待高分辨率精读。",
+      "note": "代表性依据：馆方的重要宋摹本定位及《中国绘画杰作》等展览记录，使此件成为研究早期人物画如何经宋人传递的关键版本；其意义在传摹史，不在证明顾恺之亲笔。观看问题：把后附文字遮住，船、树石与空白能否独立提示故事的停顿和延续？残卷只计一件，不把船与各段人物拆开计数。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/洛神赋图.传顾恺之画.弗利尔美术馆藏.jpg/3840px-洛神赋图.传顾恺之画.弗利尔美术馆藏.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/5e/洛神赋图.传顾恺之画.弗利尔美术馆藏.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:洛神赋图.传顾恺之画.弗利尔美术馆藏.jpg",
+      "rights": "使用Commons具体文件的PD-Art／PD-old-100及Public Domain Mark声明，非CC0。馆方原图页面另标Usage Conditions Apply，未据此宣称馆方通用开放授权。署名：南宋佚名，传统联系顾恺之；Freer Gallery of Art, Gift of Charles Lang Freer, F1914.53；Commons文件上传者Kcx36。原文件约69MB，页面用缩览图。",
+      "visualReview": {
+        "method": "2026-10-31浏览器实际显示3840像素全幅复制图并核看截图",
+        "scope": "残卷及题跋全幅缩览；不伪称已检查微观笔触",
+        "countingUnit": "one physical surviving copy"
+      },
+      "representativeAudit": {
+        "qualifiedAsAutograph": false,
+        "qualifiedAsTraditionStudy": true,
+        "liveVerified": false
+      },
+      "medium": "约1150—1250（南宋）｜绢本水墨设色；残卷｜画心24.2 × 310.9厘米｜史密森学会国立亚洲艺术博物馆，弗利尔藏品，华盛顿｜F1914.53｜南宋佚名；原构图传统联系顾恺之，不是东晋亲笔。后附董其昌题跋与画心分开。",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:洛神赋图.传顾恺之画.弗利尔美术馆藏.jpg",
+      "selectionEvidence": [
+        "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1914.53/",
+        "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1914.53/"
+      ]
+    },
+    {
+      "artist": "gu-kaizhi",
+      "group": "人与风景",
+      "category": "chinese-classical",
+      "subcategory": "人物叙事／顾恺之相关传摹版本",
+      "titleTranslation": "中文传统题名；英文版本说明为本站补充",
+      "verifiedOn": "2026-10-31",
+      "hasVisualNotes": true,
+      "status": "researched-ready-deployment-pending",
+      "id": "gu-kaizhi-tradition-bm-1930-1015-0-2",
+      "zh": "洛神赋图（伦敦本，断代有争议；展示局部）",
+      "title": "Nymph of the Luo River — British Museum 1930,1015,0.2",
+      "year": "断代有争议：馆方索引列明代及11—12世纪；旧馆方介绍另讨论金代或明末清初",
+      "dimensions": "画心53.7 × 832.8厘米；全卷54.7 × 1190.3厘米（馆方供稿页）",
+      "accession": "1930,1015,0.2",
+      "material": "绢本绘画；水墨设色手卷",
+      "provider": "大英博物馆，伦敦",
+      "attribution": "佚名，After Gu Kaizhi；非顾恺之亲笔，非已确定宋摹本。",
+      "source": "https://www.britishmuseum.org/collection/object/A_1930-1015-0-2",
+      "authorityMirror": "https://artsandculture.google.com/asset/the-nymph-of-the-luo-river-a-handscroll-painting/VwHWory0b0GLpA?hl=en",
+      "context": "馆方供稿说明：本卷以曹植《洛神赋》为题，卷首有缺失，通常用于断代的题签、题跋和收藏印并不齐备。供稿页的简要年代栏写宋代，但正文同时提出金代与明末清初摹本两种判断；现行馆方人物索引又列明代及11—12世纪。因此本站保留争议，不选一个方便的年代定案。1930年经山中商会购藏，具体原委托未知。",
+      "observation": "第一眼看水面中央弯曲穿行的龙形队列，再看右侧岸边人群。实际可见的这张局部图中，曲线波纹横贯水面，远处浅山与近处较深树石形成层次；上方一块有边框的文字嵌在景物之间。本站观察仅限此局部，不能据它描述未显示的全卷，也不据复制图判断丝绢真实色泽。",
+      "note": "入选研究依据：它提供同一诗赋题材在不同年代反复传摹的比较对象，也提示馆藏断代如何随研究变化。观看问题：当文字进入景物内部，而非只置于卷后时，读图的节奏有什么不同？当前仅有可展示局部，本条不计入20幅完整代表作达标数；局部没有另建作品ID。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/The_Nymph_of_the_Luo_River%2C_a_handscroll_painting.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/The_Nymph_of_the_Luo_River%2C_a_handscroll_painting.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Nymph_of_the_Luo_River,_a_handscroll_painting.jpg",
+      "rights": "使用Commons该文件明确的PD-scan／PD-old-100公版声明。原供稿页同时列Photo © Trustees of the British Museum；保留来源区别，不宣称所有馆方照片可自由复制。署名：佚名（顾恺之传摹传统），British Museum，1930,1015,0.2；Commons上传者Stevenliuyi。",
+      "visualReview": {
+        "method": "2026-10-31实际核看4000×2051文件的浏览器截图",
+        "scope": "原卷局部，非整卷",
+        "countingUnit": "one physical museum object; detail not an additional work"
+      },
+      "representativeAudit": {
+        "qualifiedAsAutograph": false,
+        "qualifiedAsTraditionStudy": false,
+        "reason": "Only a detail image; date disputed; keep research record outside minimum20 count",
+        "liveVerified": false
+      },
+      "medium": "断代有争议：馆方索引列明代及11—12世纪；旧馆方介绍另讨论金代或明末清初｜绢本绘画；水墨设色手卷｜画心53.7 × 832.8厘米；全卷54.7 × 1190.3厘米（馆方供稿页）｜大英博物馆，伦敦｜1930,1015,0.2｜佚名，After Gu Kaizhi；非顾恺之亲笔，非已确定宋摹本。",
+      "rightsSource": "https://commons.wikimedia.org/wiki/File:The_Nymph_of_the_Luo_River,_a_handscroll_painting.jpg",
+      "selectionEvidence": [
+        "https://www.britishmuseum.org/collection/object/A_1930-1015-0-2",
+        "https://artsandculture.google.com/asset/the-nymph-of-the-luo-river-a-handscroll-painting/VwHWory0b0GLpA?hl=en"
+      ]
     }
   ],
   "catalog": {
@@ -245,7 +333,9 @@ window.CHINESE_CLASSICAL_GALLERY = {
       "Admonitions of the Instructress to the Court Ladies — British Museum version",
       "Nüshi zhen tu — Song copy, Palace Museum",
       "Wise and Benevolent Women — Southern Song copy",
-      "Nymph of the Luo River — Song copy, Palace Museum"
+      "Nymph of the Luo River — Song copy, Palace Museum",
+      "Nymph of the Luo River — Freer F1914.53",
+      "Nymph of the Luo River — British Museum 1930,1015,0.2"
     ]
   }
 };
