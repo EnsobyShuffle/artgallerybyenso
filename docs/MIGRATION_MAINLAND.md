@@ -149,3 +149,12 @@ tcb hosting deploy ./build/cloudbase --verify --safe -e "$TCB_ENV_ID"
 - 更新后 compare 显示迁移分支领先24、落后22；PR #2仍 open/draft、不可合并。PR与迁移分支的基础状态需再审，不能依PR表面状态称为可合并。
 - 同轮Sites复核：Shuffle项目仍公开V6，源码HEAD `782328a253c2461736ea32d97594cad69f3e756b`，未改代码；只做源仓库打开与站点状态核对。小程序后台、窄屏真机、国内网络依旧未验。
 - 下一步：确认当前main与迁移分支的真实文件差异，逐件处理 `index.html`、作品脚本和图片引用；随后重跑资产/权利审计、个人数据回归与CloudBase构建门槛。
+
+
+## 并发内容检查点｜2026-10-31 12:38 Asia/Shanghai
+
+- 重新比较共同祖先为 `399df0d2601d5575da5004183fc66553679aa54a`；migration/tencent-mainland 比 main 领先25、落后27。分支已显著分叉，上一小时记录的25/25已过时。
+- PR #2 changed-files 当前共27项：共享入口/脚本（index.html、abstract.js、chinese-classical.js、chinese-modern.js、impressionism.js、modern.js、other.js、renaissance.js）、多份进度与queue JSON，以及10张 Monet 图像。GitHub compare 本轮列出的提交差异和PR文件清单并非完全相同口径；需以逐文件两端SHA和三方内容核对决定实际合并，不能把PR文件列表当成全部差异或合并成功。
+- 当前只完成只读核对并刷新检查点；没有合并PR、覆盖main、修改线上Netlify或生成新的生产包。迁移侧需保留CloudBase准备和收藏/笔记备份逻辑；main侧需保留新增作品、图片与准确进度。
+- 下一工作包：以共同基线重建两端工作树，逐个共享文件比较并按模块拆分合并，先处理index与脚本，再重算内容/图片审计、运行个人数据回归和CloudBase预览阻断检查。
+- 腾讯云资源、备案、国内移动/联通/电信及微信内访问仍未核实；旧站继续保留为回退。
