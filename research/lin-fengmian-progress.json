@@ -2,7 +2,7 @@
   "project": "Art Gallery by Enso",
   "category": "chinese-modern-contemporary",
   "artist": "lin-fengmian",
-  "updatedAt": "2026-10-31 01:33:35 UTC",
+  "updatedAt": "2026-10-31 01:37:06 UTC",
   "completed": [
     {
       "id": "lin-fengmian-hkmoa-autumn-landscape-1977-1978",
@@ -111,7 +111,24 @@
     "images": "Autumn landscape full image visually examined via museum URL; NO image copied or embedded, per museum written-permission requirement",
     "links": "HKMoA collection, biography, copyright fetched; CAA text accessible but legacy photos broken; NAMOC original fetch502",
     "preservation": "Existing data/modules and storage behavior retained; migration branch untouched",
-    "responsive": "Pending preview/production checks for new external-image mode",
-    "live": "pending fresh check"
+    "responsive": "NOT VERIFIED: new Lin detail/mobile runtime unavailable on old production; syntax and source checks only",
+    "live": "FAIL: original production still 9 artists, Lin absent after content commit"
+  },
+  "contentCommit": "6d2696d138fe14db3ea251418db529ec93def563",
+  "deployment": {
+    "checkedAt": "2026-10-31 01:37:06 UTC",
+    "contentCommit": "6d2696d138fe14db3ea251418db529ec93def563",
+    "repoReadbackWorks": 1,
+    "liveArtistCount": 0,
+    "liveNewWorks": 0,
+    "deployEvent": "UNVERIFIED: Netlify dashboard timeout",
+    "githubStatus": "pending; statuses=[]",
+    "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-modern-contemporary&artist=lin-fengmian",
+    "observedProductionArtistCount": 9,
+    "observedProductionRecords": 324,
+    "preview": {
+      "verified": false,
+      "reason": "No current preview URL verified; prior Gu preview does not validate Lin change"
+    }
   }
 }
