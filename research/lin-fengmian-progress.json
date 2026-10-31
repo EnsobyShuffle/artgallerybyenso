@@ -2,7 +2,7 @@
   "project": "Art Gallery by Enso",
   "category": "chinese-modern-contemporary",
   "artist": "lin-fengmian",
-  "updatedAt": "2026-10-31 08:31:39 UTC",
+  "updatedAt": "2026-10-31 08:37:37 UTC",
   "completed": [
     {
       "id": "lin-fengmian-hkmoa-autumn-landscape-1977-1978",
@@ -45,7 +45,7 @@
       "provider": "普林斯顿大学艺术博物馆",
       "category": "chinese-modern-contemporary",
       "subcategory": "中国现代彩墨／水岸与舟船",
-      "group": "水岸与舟船",
+      "group": "海岸与水",
       "source": "https://artmuseum.princeton.edu/art/collections/objects/36483",
       "image": null,
       "originalImage": null,
@@ -281,16 +281,26 @@
     "syntax": "PASS node --check lin-batch/chinese-modern-review.js",
     "dedup": "原林风眠记录完整保留；新增1998-134一条；6件故宫以馆藏号区分，含两件同名仕女；候选不混入展示计数。",
     "images": "普林斯顿完整带框复制图已实际核看；Restricted故不嵌入。故宫月夜花鸟空白及开放图档查无资料；泰康图像超时，未编视觉解读。",
-    "live": "提交前原站仍为9艺术家324记录，林风眠不存在。",
-    "responsive": "新林风眠详情及移动端生产验证未通过：生产暂停；仅数据增量，未改布局或交互。"
+    "live": "FAIL：提交e0c7f81后生产部署Skipped due to account credit usage exceeded；原站刷新仍9艺术家，无林风眠。",
+    "responsive": "未完成手机布局验证；原站新页面未上线。",
+    "preview": "PASS：当前预览显示2外链记录、搜索与详情；作品原图在馆方可加载。预览不计上线。",
+    "followup": "发现新作品group未出现在既有固定主题筛选项；本轮改用既有主题“海岸与水”，不修改公共交互代码。"
   },
-  "contentCommit": "6d2696d138fe14db3ea251418db529ec93def563",
+  "contentCommit": "e0c7f818a740c1ce1b52da764c4609ad1ee36712",
   "deployment": {
-    "checkedAt": "2026-10-31 08:31:39 UTC",
-    "status": "production_paused_credit_exhausted",
-    "message": "本轮重新打开后台确认：原仓库main自动发布开启，Published5573f1a；生产发布因账期credits耗尽暂停，Trigger deploy禁用。上轮4afea4b生产Skipped，预览成功不代表上线。",
-    "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-modern-contemporary&artist=lin-fengmian",
-    "liveNewWorks": 0
+    "checkedAt": "2026-10-31 08:37:37 UTC",
+    "contentCommit": "e0c7f818a740c1ce1b52da764c4609ad1ee36712",
+    "repoReadbackExact": true,
+    "repoDisplayRecords": 2,
+    "liveDisplayRecords": 0,
+    "liveNewWorks": 0,
+    "qualifiedRepresentativeWorks": 0,
+    "verifiedLiveRepresentativeWorks": 0,
+    "productionResult": "Skipped due to account credit usage exceeded",
+    "productionDeployId": "6ae5a8110adfe1f5654499e8",
+    "previewDeployId": "6ae5a815fa9855d756542297",
+    "previewChecks": "林风眠页2外链记录；搜索泊舟只出现1条；详情元数据、原创观察、来源和许可可见；未验证移动端",
+    "artistUrl": "https://artgallerybyenso.netlify.app/?collection=chinese-modern-contemporary&artist=lin-fengmian"
   },
   "selectionPriorities": [
     "红颜将军：展览与学术专文证据最强，优先解决图像",

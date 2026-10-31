@@ -139,7 +139,7 @@ window.CHINESE_MODERN_GALLERY = {
       "provider": "普林斯顿大学艺术博物馆",
       "category": "chinese-modern-contemporary",
       "subcategory": "中国现代彩墨／水岸与舟船",
-      "group": "水岸与舟船",
+      "group": "海岸与水",
       "source": "https://artmuseum.princeton.edu/art/collections/objects/36483",
       "image": null,
       "originalImage": null,
