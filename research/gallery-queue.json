@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Art Gallery by Enso",
-  "updatedAt": "2026-10-31 06:29:32 UTC",
+  "updatedAt": "2026-10-31 06:31:06 UTC",
   "order": [
     {
       "number": "01",
@@ -259,8 +259,8 @@
   "sourceParentCommit": "974087feb90caad14f067dab2e1db7446789fb5f",
   "deployment": {
     "status": "production_paused_operational_credits_only",
-    "observedAt": "2026-10-31 06:29:32 UTC",
-    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys",
+    "observedAt": "2026-10-31 06:31:06 UTC",
+    "evidenceUrl": "https://app.netlify.com/projects/artgallerybyenso/deploys/6ae58ae334305362749707ec",
     "message": "Fresh dashboard: main auto-publishing enabled and correct repository connected; production deploys paused because available billing-cycle credits exhausted. Trigger deploy disabled; production277411d skipped. Preview success is not production.",
     "publishAttempt": "本轮未尝试绕过额度暂停或购买额度；提交main后核对实际生产状态。",
     "requiredAction": "Account owner must restore production-deploy credits under existing plan or wait for next billing cycle. No purchase performed.",
@@ -279,13 +279,27 @@
       },
       "artistUrl": "https://artgallerybyenso.netlify.app/?collection=renaissance&artist=leonardo"
     },
-    "publishedCommit": "5573f1a3c4471dca0d03f2ac71da86b244a66330"
+    "publishedCommit": "5573f1a3c4471dca0d03f2ac71da86b244a66330",
+    "finalCheck": {
+      "checkedAt": "2026-10-31 06:31:06 UTC",
+      "contentCommit": "f01a60f050aa65bd6e9e48e491bb16eae7871e73",
+      "repoReadbackExact": true,
+      "repoDisplayRecords": 8,
+      "liveDisplayRecords": 0,
+      "liveNewWorks": 0,
+      "qualifiedRepresentativeWorks": 8,
+      "verifiedLiveRepresentativeWorks": 0,
+      "productionResult": "Skipped due to account credit usage exceeded",
+      "previewDeployId": "6ae58ae5f8e47fb27c5ddca4",
+      "productionDeployId": "6ae58ae334305362749707ec",
+      "artistUrl": "https://artgallerybyenso.netlify.app/?collection=other&artist=caravaggio"
+    }
   },
   "validation": {
     "syntax": "PASS node --check other-review.js",
     "dedup": "8 unique Caravaggio canonical IDs; all previous5 preserved; new IDs absent from pre-run global384 IDs",
     "images": "3 new complete image URLs actually rendered and screenshot-inspected;2 CC0 Met files,1 specified Commons PD-Art file. Existing5 previous visual evidence retained.",
-    "live": "Precommit original site lacks Caravaggio; postcommit check pending",
+    "live": "Postcommit original URL still old9-artist homepage; no Caravaggio artist/detail present. Production deploy for f01a60f explicitly skipped due to exhausted credits.",
     "responsive": "Production unavailable for new artist; mobile/detail acceptance not passed"
   },
   "nextActions": [
@@ -711,6 +725,41 @@
         "leonardo-mnk-xii-209",
         "leonardo-bstgs-7779"
       ]
+    },
+    {
+      "category": "other",
+      "artist": "caravaggio",
+      "contentCommit": "f01a60f050aa65bd6e9e48e491bb16eae7871e73",
+      "completedAt": "2026-10-31 06:31:06 UTC",
+      "counts": {
+        "researched": {
+          "artists": 1,
+          "works": 3
+        },
+        "saved_to_repo": {
+          "artists": 1,
+          "works": 3
+        },
+        "committed": {
+          "artists": 1,
+          "works": 3
+        },
+        "deployment_verified": {
+          "artists": 0,
+          "works": 0
+        },
+        "live": {
+          "artists": 0,
+          "works": 0
+        }
+      },
+      "qualifiedRepresentativeWorks": 8,
+      "verifiedLiveRepresentativeWorks": 0,
+      "newCanonicalIds": [
+        "caravaggio-met-435844",
+        "caravaggio-met-437986",
+        "caravaggio-kimbell-ap-1987-06"
+      ]
     }
   ],
   "canonical_work_ids": [
@@ -1102,7 +1151,7 @@
     "caravaggio-met-437986",
     "caravaggio-kimbell-ap-1987-06"
   ],
-  "last_content_commit": "277411d09759a09ec457a6fc2bfdc5609b3236ca",
+  "last_content_commit": "f01a60f050aa65bd6e9e48e491bb16eae7871e73",
   "artist_delivery_standard": {
     "effectiveDate": "2026-10-31",
     "minimumRepresentativeWorks": 20,
